@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Cite the software version actually used. See LICENSING.md for component-specific rights."
+type: software
+title: "The Price of Finding a Certificate: Unsupported Pareto Points under Prefix Queries: Reproducibility Companion"
+version: "1.0.0"
+authors:
+  - family-names: Clim
+    given-names: Antonio
+    orcid: "https://orcid.org/0000-0003-4745-0431"
+abstract: "Exact-arithmetic checks, retained inputs, three editable figures and execution records for paid-prefix Pareto certification, including independent finite certificate optimisation, proof checks and explicit provenance migration."
+keywords:
+  - competitive analysis
+  - priced information
+  - Pareto certification
+  - prefix queries

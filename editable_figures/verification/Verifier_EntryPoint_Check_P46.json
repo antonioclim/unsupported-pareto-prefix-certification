@@ -1,0 +1,382 @@
+{
+  "schema": "p46-figure-verifier-entrypoint-check-v1",
+  "revision": "P46",
+  "status": "PASS",
+  "finished_at_utc": "2026-10-24T15:02:39.509372+00:00",
+  "test_count": 15,
+  "tests": [
+    {
+      "case": "check_figure_values.py -O",
+      "expected": "guard",
+      "returncode": 1,
+      "status": "PASS"
+    },
+    {
+      "case": "check_figure_values.py -OO",
+      "expected": "guard",
+      "returncode": 1,
+      "status": "PASS"
+    },
+    {
+      "case": "check_figure_values.py PYTHONOPTIMIZE=1",
+      "expected": "guard",
+      "returncode": 1,
+      "status": "PASS"
+    },
+    {
+      "case": "verify_odg.py -O",
+      "expected": "guard",
+      "returncode": 1,
+      "status": "PASS"
+    },
+    {
+      "case": "verify_odg.py -OO",
+      "expected": "guard",
+      "returncode": 1,
+      "status": "PASS"
+    },
+    {
+      "case": "verify_odg.py PYTHONOPTIMIZE=1",
+      "expected": "guard",
+      "returncode": 1,
+      "status": "PASS"
+    },
+    {
+      "case": "edit_roundtrip_probe.py -O",
+      "expected": "guard",
+      "returncode": 1,
+      "status": "PASS"
+    },
+    {
+      "case": "edit_roundtrip_probe.py -OO",
+      "expected": "guard",
+      "returncode": 1,
+      "status": "PASS"
+    },
+    {
+      "case": "edit_roundtrip_probe.py PYTHONOPTIMIZE=1",
+      "expected": "guard",
+      "returncode": 1,
+      "status": "PASS"
+    },
+    {
+      "case": "values correct normal",
+      "expected": "valid",
+      "returncode": 0,
+      "status": "PASS"
+    },
+    {
+      "case": "values altered normal",
+      "expected": "invalid_values",
+      "returncode": 1,
+      "status": "PASS"
+    },
+    {
+      "case": "values altered -O",
+      "expected": "guard",
+      "returncode": 1,
+      "status": "PASS"
+    },
+    {
+      "case": "values altered -OO",
+      "expected": "guard",
+      "returncode": 1,
+      "status": "PASS"
+    },
+    {
+      "case": "native ODG verification normal",
+      "expected": "valid",
+      "returncode": 0,
+      "status": "PASS"
+    },
+    {
+      "case": "native edit roundtrip normal",
+      "expected": "valid",
+      "returncode": 0,
+      "status": "PASS"
+    }
+  ],
+  "source_copies": [
+    {
+      "path": "04_Figures_Editable_ODG/source/check_figure_values.py",
+      "sha256": "86046ee321ec9311bbadbc56322c7f8b0f51f6d4528aa3162b2681f2824631ad"
+    },
+    {
+      "path": "02_GitHub_Kit/01_Repository_Files/editable_figures/source/check_figure_values.py",
+      "sha256": "86046ee321ec9311bbadbc56322c7f8b0f51f6d4528aa3162b2681f2824631ad"
+    },
+    {
+      "path": "02_GitHub_Kit/01_Repository_Files/figures/check_figure_values.py",
+      "sha256": "86046ee321ec9311bbadbc56322c7f8b0f51f6d4528aa3162b2681f2824631ad"
+    },
+    {
+      "path": "01_SICOMP_Submission_Kit/02_Editable_Sources/figures/check_figure_values.py",
+      "sha256": "86046ee321ec9311bbadbc56322c7f8b0f51f6d4528aa3162b2681f2824631ad"
+    },
+    {
+      "path": "04_Figures_Editable_ODG/source/verify_odg.py",
+      "sha256": "4ecd5c96d3065a0631aafdc7e9f09534ab9ab4cdedb1bc2e36bacda9c2c2ad74"
+    },
+    {
+      "path": "02_GitHub_Kit/01_Repository_Files/editable_figures/source/verify_odg.py",
+      "sha256": "4ecd5c96d3065a0631aafdc7e9f09534ab9ab4cdedb1bc2e36bacda9c2c2ad74"
+    },
+    {
+      "path": "04_Figures_Editable_ODG/source/edit_roundtrip_probe.py",
+      "sha256": "e871b811f5a53133e7b0bbf488be5d7afe01e07c9f612a70bd5cded815d441ae"
+    },
+    {
+      "path": "02_GitHub_Kit/01_Repository_Files/editable_figures/source/edit_roundtrip_probe.py",
+      "sha256": "e871b811f5a53133e7b0bbf488be5d7afe01e07c9f612a70bd5cded815d441ae"
+    }
+  ],
+  "native_structure_figures_match_retained_P44": true,
+  "native_edit_roundtrip_matches_retained_P44": true,
+  "normal_native_structure_replay": {
+    "schema": "sicomp-native-odg-verification-p44-v1",
+    "revision": "P44",
+    "finished_at_utc": "2026-10-24T15:02:32.827787+00:00",
+    "status": "PASS",
+    "figures": [
+      {
+        "figure": "Fig1",
+        "status": "PASS",
+        "canvas_inches": [
+          5,
+          6
+        ],
+        "native_text_boxes": 46,
+        "native_vector_shapes": 13,
+        "native_vector_counts": {
+          "line": 3,
+          "path": 0,
+          "polygon": 10,
+          "polyline": 0
+        },
+        "named_groups": 0,
+        "images_objects_ole_binary_data": 0,
+        "pictures_assets": 0,
+        "thumbnail_note": "An application preview thumbnail may exist; no image is placed on the drawing page.",
+        "exact_editable_text_runs_preserved": 46,
+        "nonwhitespace_rendered_glyphs_preserved": 584,
+        "maximum_roundtrip_geometry_coordinate_error_pt": 0.014173228346464839,
+        "minimum_exported_stroke_pt": 1.10548996925354,
+        "minimum_exported_font_pt": 8.503999710083008,
+        "text_spans_outside_page": 0,
+        "pdf_images": 0,
+        "odg_sha256": "f54a6ab2c7a5b39d97d82e7f391ed8671095be52461f38f96cbe02459597ccc3",
+        "pdf_sha256": "8325379c5ce7b281ff68d83a329604b4a3b947374dce51f9aa32ee18bb7c1aa1"
+      },
+      {
+        "figure": "Fig2",
+        "status": "PASS",
+        "canvas_inches": [
+          5,
+          6
+        ],
+        "native_text_boxes": 322,
+        "native_vector_shapes": 366,
+        "native_vector_counts": {
+          "line": 177,
+          "path": 49,
+          "polygon": 140,
+          "polyline": 0
+        },
+        "named_groups": 341,
+        "images_objects_ole_binary_data": 0,
+        "pictures_assets": 0,
+        "thumbnail_note": "An application preview thumbnail may exist; no image is placed on the drawing page.",
+        "exact_editable_text_runs_preserved": 322,
+        "nonwhitespace_rendered_glyphs_preserved": 378,
+        "maximum_roundtrip_geometry_coordinate_error_pt": 0.014173228346521682,
+        "minimum_exported_stroke_pt": 1.0204600095748901,
+        "minimum_exported_font_pt": 8.503999710083008,
+        "text_spans_outside_page": 0,
+        "pdf_images": 0,
+        "odg_sha256": "2211a8ab59bbdb7e37722a213d90f1a9321e3cd40d19b1ec2555b6c151fd1d62",
+        "pdf_sha256": "5d0b721d8853fd5e592fedd4bfad5a028c8fe3e3c06b8cc7dc5eff04b74bbd40"
+      },
+      {
+        "figure": "Fig3",
+        "status": "PASS",
+        "canvas_inches": [
+          5,
+          6
+        ],
+        "native_text_boxes": 98,
+        "native_vector_shapes": 47,
+        "native_vector_counts": {
+          "line": 30,
+          "path": 6,
+          "polygon": 11,
+          "polyline": 0
+        },
+        "named_groups": 116,
+        "images_objects_ole_binary_data": 0,
+        "pictures_assets": 0,
+        "thumbnail_note": "An application preview thumbnail may exist; no image is placed on the drawing page.",
+        "exact_editable_text_runs_preserved": 98,
+        "nonwhitespace_rendered_glyphs_preserved": 483,
+        "maximum_roundtrip_geometry_coordinate_error_pt": 0.01417322834647905,
+        "minimum_exported_stroke_pt": 1.0204600095748901,
+        "minimum_exported_font_pt": 8.503999710083008,
+        "text_spans_outside_page": 0,
+        "pdf_images": 0,
+        "odg_sha256": "d4025279cdc21e09f8d789a550e26b17cb28698f535bd06982b390a32e582e3a",
+        "pdf_sha256": "a8f607b24798c2aa287c8655ea623033af7ce0f652322fcc8180aff1aff61d80"
+      }
+    ],
+    "scope": [
+      "Native XML structure and original editable text run equality after LibreOffice ODG roundtrip.",
+      "No images, OLE or embedded graphic objects on the page.",
+      "One 5×6 in PDF page per figure, exported by reopening the ODG.",
+      "All stroked native PDF paths meet the 1 pt minimum at the final 5 inch width.",
+      "Rendered non-whitespace glyph inventory equals the input SVG; PDF text lies inside the page.",
+      "All native path/line bounding coordinates retained within 0.04 pt after office unit quantisation.",
+      "Fig3 headings remain single-line; both legend sample lines end at the intended point."
+    ],
+    "limits": [
+      "No claim of pixel-identical rendering across LibreOffice versions or platforms.",
+      "The original SVG and PDF differ slightly in multiline text metrics; ODG follows SVG positions.",
+      "Glyph inventory and bounds do not alone prove absence of every possible visual overlap: all three final figures were also visually inspected.",
+      "Desktop mouse/keyboard editing was not exercised; editability is established by native objects, editable text and the separate edit-and-reopen probe.",
+      "These checks validate figure representation and arithmetic inputs, not the manuscript theorems."
+    ]
+  },
+  "normal_edit_roundtrip_replay": {
+    "status": "PASS",
+    "revision": "P44",
+    "figures": [
+      {
+        "figure": "Fig1",
+        "status": "PASS",
+        "native_text_edited_and_reopened": "Fig1_0001_figure_text",
+        "native_line_colour_edited_and_reopened": "Fig1_0032_figure_line",
+        "method": "Temporary FODG edit -> LibreOffice ODG save -> LibreOffice FODG reopen; checked native object identity and changed values.",
+        "finished_figures_modified": false,
+        "new_pdfs_created": 0,
+        "limit": "Programmatic native-object edit; desktop GUI interaction was not exercised."
+      },
+      {
+        "figure": "Fig2",
+        "status": "PASS",
+        "native_text_edited_and_reopened": "Fig2_0016_text_1_text",
+        "native_line_colour_edited_and_reopened": "Fig2_0015_line2d_1_line",
+        "method": "Temporary FODG edit -> LibreOffice ODG save -> LibreOffice FODG reopen; checked native object identity and changed values.",
+        "finished_figures_modified": false,
+        "new_pdfs_created": 0,
+        "limit": "Programmatic native-object edit; desktop GUI interaction was not exercised."
+      },
+      {
+        "figure": "Fig3",
+        "status": "PASS",
+        "native_text_edited_and_reopened": "Fig3_0005_text_1_text",
+        "native_line_colour_edited_and_reopened": "Fig3_0004_line2d_1_line",
+        "method": "Temporary FODG edit -> LibreOffice ODG save -> LibreOffice FODG reopen; checked native object identity and changed values.",
+        "finished_figures_modified": false,
+        "new_pdfs_created": 0,
+        "limit": "Programmatic native-object edit; desktop GUI interaction was not exercised."
+      }
+    ],
+    "GUI_interaction_executed": false
+  },
+  "normal_exact_values_replay": {
+    "schema": "sicomp-figure-values-check-p44-v1",
+    "revision": "P44",
+    "status": "PASS",
+    "row_means_reconstructed": {
+      "U": {
+        "A": [
+          "3/4",
+          "1/4"
+        ],
+        "L": [
+          "5/12",
+          "5/12"
+        ],
+        "R": [
+          "1",
+          "0"
+        ]
+      },
+      "V": {
+        "A": [
+          "5/6",
+          "1/4"
+        ],
+        "L": [
+          "1/2",
+          "1/2"
+        ],
+        "R": [
+          "1",
+          "0"
+        ]
+      }
+    },
+    "prefix_route_mixture_checked": true,
+    "threshold_points_checked": 56,
+    "scope": "Independent arithmetic and semantic checks of exported constants, not theorem proofs"
+  },
+  "preserved_asset_and_retained_evidence_files": 54,
+  "preserved_file_hashes": {
+    "odg/Fig1_Editable.odg": "f54a6ab2c7a5b39d97d82e7f391ed8671095be52461f38f96cbe02459597ccc3",
+    "odg/Fig2_Editable.odg": "2211a8ab59bbdb7e37722a213d90f1a9321e3cd40d19b1ec2555b6c151fd1d62",
+    "odg/Fig3_Editable.odg": "d4025279cdc21e09f8d789a550e26b17cb28698f535bd06982b390a32e582e3a",
+    "fodg/Fig2_Editable.fodg": "f231e388efbc5a07ecea2605bc6dcc267ee90bcea37b693f8b52af77b2071626",
+    "fodg/Fig3_Editable.fodg": "dd1f79148835036b4a5f08ee487e448c857012a8a6c9b026e965fb20c371ce04",
+    "fodg/Fig1_Editable.fodg": "16c8f8f5454a3adfb1ba9c6e978dbe60355c03a113daa518505619063d94b2a7",
+    "native_exports/Fig3_Editable.png": "564ccc097d3b368ffff93482f90d32466dee3b58296a643380ba475f56853d94",
+    "native_exports/Fig1_Editable.pdf": "8325379c5ce7b281ff68d83a329604b4a3b947374dce51f9aa32ee18bb7c1aa1",
+    "native_exports/Fig1_Editable.png": "af05d0be0c14d38ad097414e5db0646713ea7e3be3eacb0cac97b0edb28d77ba",
+    "native_exports/Fig2_Editable.png": "35ab27c0b1d9a54c9086dab7d447da50dd01e96458dd4ed9f7c8eaf6d716f660",
+    "native_exports/Fig3_Editable.pdf": "a8f607b24798c2aa287c8655ea623033af7ce0f652322fcc8180aff1aff61d80",
+    "native_exports/Fig2_Editable.pdf": "5d0b721d8853fd5e592fedd4bfad5a028c8fe3e3c06b8cc7dc5eff04b74bbd40",
+    "reference_exports/Fig3.png": "bfe8ba2dc3638dc6e75e6a419ef38b2ad1d92453c6220a36e3e91a7ae89b905c",
+    "reference_exports/Fig3.pdf": "b2448c75e4b1541efbbcd84d17fdea9e6753ac71513da0bffcc13b3d31d7c13c",
+    "reference_exports/Fig1_Caption.txt": "3e04f1627696c577d5aa641c9859e116ad8efc129db4d11aacaea1bd89c0f1c4",
+    "reference_exports/Fig3.svg": "2d86a6aac61611295c02cd547d81492b75e6eea9b98f21636ef480bc4f0fd3f4",
+    "reference_exports/Fig2.svg": "1914380996b5f9f714dd5f47b18b81e90aec62c01802db2ab83243c1eb3a6540",
+    "reference_exports/Fig1.png": "af05d0be0c14d38ad097414e5db0646713ea7e3be3eacb0cac97b0edb28d77ba",
+    "reference_exports/Figure_Captions.txt": "ad9d941dfeed3eb4be758d2bbe6598a9701c18079235b58bd934db1b16979b84",
+    "reference_exports/Fig1.pdf": "fc84ddcaa3cc2efbb7bb83ea2ef7d4ea8e97051a8fc874b5cf2021d2db9ede36",
+    "reference_exports/Theorem_Figures_Exact_Values.json": "c70a5eded3209b2af5ba437cd1cfe59d95268bb057cfb117b53f1f0cd8b961f7",
+    "reference_exports/Fig1_Exact_Values.json": "dc31194e05b1d3b01204610f7ce16f669caa358158a9ecd6153c33c79fefbc82",
+    "reference_exports/Theorem_Figures_Build_Record.json": "079d27c7bb9d5be51e04a9d0aaec3f2f70865e4d42573cbcff980ef9b9496d8b",
+    "reference_exports/Fig2.pdf": "2004b14b08cf1d392f38162e0d7533d92081e289a67e7c1be064f824830e17df",
+    "reference_exports/Theorem_Figures_Captions.txt": "61848d8bf5318a8845413fd9fb8e6557e336a704d5aa0294e0417ff9e1a73d35",
+    "reference_exports/Figure_Exact_Values.json": "1bb6031bbb1c9da89b9edde69c2239aa02543cb14d21eb06830898d19fe62e4a",
+    "reference_exports/Fig2.png": "7f1e7a10648c233221b43b1e463ef5412527c38492471bba0a45bc6a6c93f66a",
+    "reference_exports/Fig1.svg": "54a24028a2c3b94c21960128d72de52aea85c26db3809b6406e3725a1bc0a3e2",
+    "reference_exports/Figure_Build_Record.json": "62ee8505aeae3093bcaff7db50747bfba92a13d562102d8293f6ac2de1d54d3b",
+    "values/Fig1_Caption.txt": "3e04f1627696c577d5aa641c9859e116ad8efc129db4d11aacaea1bd89c0f1c4",
+    "values/Figure_Captions.txt": "ad9d941dfeed3eb4be758d2bbe6598a9701c18079235b58bd934db1b16979b84",
+    "values/Theorem_Figures_Exact_Values.json": "c70a5eded3209b2af5ba437cd1cfe59d95268bb057cfb117b53f1f0cd8b961f7",
+    "values/Fig1_Exact_Values.json": "dc31194e05b1d3b01204610f7ce16f669caa358158a9ecd6153c33c79fefbc82",
+    "values/Theorem_Figures_Build_Record.json": "079d27c7bb9d5be51e04a9d0aaec3f2f70865e4d42573cbcff980ef9b9496d8b",
+    "values/Theorem_Figures_Captions.txt": "61848d8bf5318a8845413fd9fb8e6557e336a704d5aa0294e0417ff9e1a73d35",
+    "values/Figure_Exact_Values.json": "1bb6031bbb1c9da89b9edde69c2239aa02543cb14d21eb06830898d19fe62e4a",
+    "values/Figure_Build_Record.json": "62ee8505aeae3093bcaff7db50747bfba92a13d562102d8293f6ac2de1d54d3b",
+    "verification/Object_Inventory.json": "c299340079b36f3e4dd3c67396a02790a00a0015d51cf96dafdad642abb6f829",
+    "verification/Edit_Roundtrip_Probe.json": "72567fa72cb59b3703c4e5cf1cf6e8161978606629a2f3bf0f4c62a5aabc0562",
+    "verification/Native_ODG_Verification.json": "4d6c39172ae9b4420f1e2ca1c4f1e0e547b697ca46dbb9d5b994c095cd028c7f",
+    "verification/Visual_Inspection_P44.json": "b5b83bcfe2627e10dba8d2038e551390103947f97733c5c3a529d13481bc2caa",
+    "verification/Exact_Values_Check.json": "ebaeb750ad392ee70405a213b4ab3babda3b70638beaa8e1491f883b0ff4357b",
+    "verification/previews/Fig2_native_grayscale_150dpi.png": "b7f428d9dce32bc001d3c9a3e356c50fbf94c7c96afe6447b71ed2311269c409",
+    "verification/previews/Fig2_reference_grayscale_150dpi.png": "2b4cd1d969d30a7f12b1c96f97492a8ac61844de3469c3f711709724354663a4",
+    "verification/previews/Fig1_reference_grayscale_150dpi.png": "ce64817efcba00d38ef57a562dcc7370cbfa4e7083b9916b3206234f34021449",
+    "verification/previews/Fig2_reference_150dpi.png": "47042568990e63b0505c5c0bbd1ae4c24d6c7e9545a4d684980f9fa8bba6828e",
+    "verification/previews/Fig1_native_grayscale_150dpi.png": "ce64817efcba00d38ef57a562dcc7370cbfa4e7083b9916b3206234f34021449",
+    "verification/previews/Fig1_native_150dpi.png": "85cafeef34c858f504cb481f807a7065f7cd7c6653c15b3975f2e45b2797bbe6",
+    "verification/previews/Fig3_native_150dpi.png": "7bf1424541df25976876a54cb4b510448b2b1ec687ad433c99f7a19c8e019660",
+    "verification/previews/Fig3_native_grayscale_150dpi.png": "2959d880ef776e25ad98e7bc6dd3c242a22498b6a4d467671a10d32386e06815",
+    "verification/previews/Fig3_reference_150dpi.png": "2971e544409b75017ea6e936d6e00944bc54debeb7ef4e25d11b5dce48078aa6",
+    "verification/previews/Fig2_native_150dpi.png": "0f1367391924aca518364254bf66cadbce8eb3c2fc1c5d55e26c335904347d24",
+    "verification/previews/Fig1_reference_150dpi.png": "85cafeef34c858f504cb481f807a7065f7cd7c6653c15b3975f2e45b2797bbe6",
+    "verification/previews/Fig3_reference_grayscale_150dpi.png": "8c2a46da14f8595c122f23d408b4b6b192d4eb0991a256041d1293358a51a740"
+  },
+  "all_preserved_files_unchanged": true,
+  "external_actions": false,
+  "GUI_interaction_executed": false,
+  "scope": "Entry-point robustness, exact figure constants, native structure and a temporary LibreOffice edit/save/reopen. No theorem proof, external upload or GUI acceptance claim."
+}

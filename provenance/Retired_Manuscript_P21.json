@@ -1,0 +1,12 @@
+{
+  "schema": "p41-retired-manuscript-provenance-v1",
+  "path_in_legacy": "p21/article/Manuscript_Paid_Prefix_Certification_P21_v10.md",
+  "sha256": "58ce4a51a17d07f6572dcdcd65df256ec8af4e112935639346cc15b3dca84797",
+  "size_bytes": 107326,
+  "omitted_from_public_snapshot": true,
+  "scientific_use": "Original P23 checker included only this source digest; no manuscript content was used by its finite arithmetic.",
+  "original_retained": "Unchanged in the private P37 baseline and its original ZIP archives.",
+  "fresh_public_replay_verifies_source_bytes": false,
+  "public_replay_action": "Recompute ordinal quantities and verify the three remaining public proof inputs; retain this old digest as provenance only.",
+  "historical_records_preserved": true
+}

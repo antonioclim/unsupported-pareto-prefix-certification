@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "counts": {
+    "no_edge_partial_histories": 496,
+    "both_sides_missing": 214,
+    "all_L_observed": 141,
+    "all_R_observed": 141,
+    "negative_threshold_completions": 1984,
+    "embedded_unique_edge_archives": 1984,
+    "hard_integer_embeddings": 980
+  },
+  "python": "3.12.14",
+  "finished_at_utc": "2026-10-24T07:28:09.091216+00:00",
+  "script_sha256": "fb5af87ea61c8027505213fe72dace4bb49ef0b8afff0ed11dbff9d2cead312c",
+  "scope": "Finite exact-rational continuation/embedding checks only. No verification of universal Ramsey, minimax, private-state kernels or arbitrary-policy lower bound."
+}

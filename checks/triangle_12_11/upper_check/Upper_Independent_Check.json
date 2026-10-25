@@ -1,0 +1,656 @@
+{
+  "status": "PASS",
+  "checker": "independent Fraction collocation and exact sparse degree derivation; no producer/project imports",
+  "modes": {
+    "g": {
+      "status": "PASS",
+      "input_sha256": "a4f5625daf4c014c7eb774b03cde67eb0c2983d13bc5573948eb33770c303d30",
+      "independent_exact_degree": [
+        5,
+        3,
+        2
+      ],
+      "power_terms": 40,
+      "boxes": 18,
+      "coefficients": 1296,
+      "records": [
+        {
+          "root_g": [
+            "0",
+            "1/2"
+          ],
+          "path": "0",
+          "coefficients": 72,
+          "minimum": "1275/256"
+        },
+        {
+          "root_g": [
+            "0",
+            "1/2"
+          ],
+          "path": "1000",
+          "coefficients": 72,
+          "minimum": "145/64"
+        },
+        {
+          "root_g": [
+            "0",
+            "1/2"
+          ],
+          "path": "100100",
+          "coefficients": 72,
+          "minimum": "1/4"
+        },
+        {
+          "root_g": [
+            "0",
+            "1/2"
+          ],
+          "path": "100101",
+          "coefficients": 72,
+          "minimum": "1/2"
+        },
+        {
+          "root_g": [
+            "0",
+            "1/2"
+          ],
+          "path": "10011",
+          "coefficients": 72,
+          "minimum": "855/4096"
+        },
+        {
+          "root_g": [
+            "0",
+            "1/2"
+          ],
+          "path": "101",
+          "coefficients": 72,
+          "minimum": "1709/1280"
+        },
+        {
+          "root_g": [
+            "0",
+            "1/2"
+          ],
+          "path": "11",
+          "coefficients": 72,
+          "minimum": "0"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "000000",
+          "coefficients": 72,
+          "minimum": "24881/128000"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "000001",
+          "coefficients": 72,
+          "minimum": "767/1600"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "00001",
+          "coefficients": 72,
+          "minimum": "333/1600"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "000100",
+          "coefficients": 72,
+          "minimum": "3641/12800"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "000101",
+          "coefficients": 72,
+          "minimum": "7843/12800"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "00011",
+          "coefficients": 72,
+          "minimum": "5440565691/13107200000"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "001",
+          "coefficients": 72,
+          "minimum": "403/256"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "01",
+          "coefficients": 72,
+          "minimum": "0"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "100",
+          "coefficients": 72,
+          "minimum": "313/1600"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "101",
+          "coefficients": 72,
+          "minimum": "68621533/25600000"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "11",
+          "coefficients": 72,
+          "minimum": "19610829/25600000"
+        }
+      ]
+    },
+    "gtlow": {
+      "status": "PASS",
+      "input_sha256": "ae41da003277a039bfc0b7903fd2f9fd365dee678f7b7ab1811681e8170fbae2",
+      "independent_exact_degree": [
+        6,
+        4,
+        2
+      ],
+      "power_terms": 56,
+      "boxes": 4,
+      "coefficients": 420,
+      "records": [
+        {
+          "root_g": [
+            "0",
+            "2/5"
+          ],
+          "path": "0",
+          "coefficients": 105,
+          "minimum": "29883/6250"
+        },
+        {
+          "root_g": [
+            "0",
+            "2/5"
+          ],
+          "path": "100",
+          "coefficients": 105,
+          "minimum": "33/25"
+        },
+        {
+          "root_g": [
+            "0",
+            "2/5"
+          ],
+          "path": "101",
+          "coefficients": 105,
+          "minimum": "249181/125000"
+        },
+        {
+          "root_g": [
+            "0",
+            "2/5"
+          ],
+          "path": "11",
+          "coefficients": 105,
+          "minimum": "12159/62500"
+        }
+      ]
+    },
+    "gtcut": {
+      "status": "PASS",
+      "input_sha256": "8db54326f5baac5266dcdce44c9cb80f4987876dae772e2d4b284ba5fa93e60f",
+      "independent_exact_degree": [
+        5,
+        4,
+        2
+      ],
+      "power_terms": 71,
+      "boxes": 26,
+      "coefficients": 2340,
+      "records": [
+        {
+          "root_g": [
+            "2/5",
+            "1/2"
+          ],
+          "path": "000",
+          "coefficients": 90,
+          "minimum": "6237/20"
+        },
+        {
+          "root_g": [
+            "2/5",
+            "1/2"
+          ],
+          "path": "001",
+          "coefficients": 90,
+          "minimum": "9291733/320"
+        },
+        {
+          "root_g": [
+            "2/5",
+            "1/2"
+          ],
+          "path": "010",
+          "coefficients": 90,
+          "minimum": "48521/5"
+        },
+        {
+          "root_g": [
+            "2/5",
+            "1/2"
+          ],
+          "path": "01100",
+          "coefficients": 90,
+          "minimum": "106925343/12800"
+        },
+        {
+          "root_g": [
+            "2/5",
+            "1/2"
+          ],
+          "path": "01101",
+          "coefficients": 90,
+          "minimum": "2931599/1280"
+        },
+        {
+          "root_g": [
+            "2/5",
+            "1/2"
+          ],
+          "path": "01110",
+          "coefficients": 90,
+          "minimum": "97041287/8192"
+        },
+        {
+          "root_g": [
+            "2/5",
+            "1/2"
+          ],
+          "path": "01111",
+          "coefficients": 90,
+          "minimum": "23143/25"
+        },
+        {
+          "root_g": [
+            "2/5",
+            "1/2"
+          ],
+          "path": "100000",
+          "coefficients": 90,
+          "minimum": "11742969/1280"
+        },
+        {
+          "root_g": [
+            "2/5",
+            "1/2"
+          ],
+          "path": "100001",
+          "coefficients": 90,
+          "minimum": "16124787/1280"
+        },
+        {
+          "root_g": [
+            "2/5",
+            "1/2"
+          ],
+          "path": "10001",
+          "coefficients": 90,
+          "minimum": "1250700255/32768"
+        },
+        {
+          "root_g": [
+            "2/5",
+            "1/2"
+          ],
+          "path": "100100",
+          "coefficients": 90,
+          "minimum": "5000"
+        },
+        {
+          "root_g": [
+            "2/5",
+            "1/2"
+          ],
+          "path": "100101",
+          "coefficients": 90,
+          "minimum": "10000"
+        },
+        {
+          "root_g": [
+            "2/5",
+            "1/2"
+          ],
+          "path": "10011",
+          "coefficients": 90,
+          "minimum": "36299879/1024"
+        },
+        {
+          "root_g": [
+            "2/5",
+            "1/2"
+          ],
+          "path": "101",
+          "coefficients": 90,
+          "minimum": "38202"
+        },
+        {
+          "root_g": [
+            "2/5",
+            "1/2"
+          ],
+          "path": "11",
+          "coefficients": 90,
+          "minimum": "1836"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "000000",
+          "coefficients": 90,
+          "minimum": "64085/16"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "000001",
+          "coefficients": 90,
+          "minimum": "19475/2"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "00001",
+          "coefficients": 90,
+          "minimum": "112535418289/3276800"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "000100",
+          "coefficients": 90,
+          "minimum": "249091733/40960"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "000101",
+          "coefficients": 90,
+          "minimum": "536563159/40960"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "00011",
+          "coefficients": 90,
+          "minimum": "36447495155/1048576"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "001",
+          "coefficients": 90,
+          "minimum": "40000"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "01",
+          "coefficients": 90,
+          "minimum": "640507/32"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "100",
+          "coefficients": 90,
+          "minimum": "2814809/640"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "101",
+          "coefficients": 90,
+          "minimum": "2580991/40"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "11",
+          "coefficients": 90,
+          "minimum": "306296081/10240"
+        }
+      ]
+    },
+    "h": {
+      "status": "PASS",
+      "input_sha256": "e41237da441120a9a4a99d282c421836e69d5d039dbec1595610d0c4927a4422",
+      "independent_exact_degree": [
+        7,
+        3,
+        2
+      ],
+      "power_terms": 66,
+      "boxes": 4,
+      "coefficients": 384,
+      "records": [
+        {
+          "root_g": [
+            "2/5",
+            "1/2"
+          ],
+          "path": "0",
+          "coefficients": 96,
+          "minimum": "63501/100"
+        },
+        {
+          "root_g": [
+            "2/5",
+            "1/2"
+          ],
+          "path": "10",
+          "coefficients": 96,
+          "minimum": "26704929/28000"
+        },
+        {
+          "root_g": [
+            "2/5",
+            "1/2"
+          ],
+          "path": "11",
+          "coefficients": 96,
+          "minimum": "0"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "",
+          "coefficients": 96,
+          "minimum": "0"
+        }
+      ]
+    },
+    "high_h": {
+      "status": "PASS",
+      "input_sha256": "a0a758f10c2e5aa2f3093f61e7a7362f7213008f4f319f0958e93bfa7e0f030b",
+      "independent_exact_degree": [
+        7,
+        3,
+        2
+      ],
+      "power_terms": 66,
+      "boxes": 3,
+      "coefficients": 288,
+      "records": [
+        {
+          "root_g": [
+            "2/5",
+            "1/2"
+          ],
+          "path": "0",
+          "coefficients": 96,
+          "minimum": "162429/1600"
+        },
+        {
+          "root_g": [
+            "2/5",
+            "1/2"
+          ],
+          "path": "1",
+          "coefficients": 96,
+          "minimum": "0"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "",
+          "coefficients": 96,
+          "minimum": "0"
+        }
+      ]
+    },
+    "middlecut": {
+      "status": "PASS",
+      "input_sha256": "5115ac5d9d524f1a7f9e72dd59bbd76a7ade819f0f015f406cd192c9b4522c10",
+      "independent_exact_degree": [
+        7,
+        3,
+        0
+      ],
+      "power_terms": 25,
+      "boxes": 2,
+      "coefficients": 64,
+      "records": [
+        {
+          "root_g": [
+            "2/5",
+            "1/2"
+          ],
+          "path": "",
+          "coefficients": 32,
+          "minimum": "0"
+        },
+        {
+          "root_g": [
+            "1/2",
+            "13/20"
+          ],
+          "path": "",
+          "coefficients": 32,
+          "minimum": "0"
+        }
+      ]
+    },
+    "middlefull": {
+      "status": "PASS",
+      "input_sha256": "37b2c043ba28097c47b3ae77a3cba92229dd45957dcb6f918ea5584406ee5832",
+      "independent_exact_degree": [
+        7,
+        3,
+        0
+      ],
+      "power_terms": 19,
+      "boxes": 1,
+      "coefficients": 32,
+      "records": [
+        {
+          "root_g": [
+            "13/20",
+            "1"
+          ],
+          "path": "",
+          "coefficients": 32,
+          "minimum": "0"
+        }
+      ]
+    }
+  },
+  "negative_controls": [
+    {
+      "mutation": "wrong_minimum",
+      "status": "REJECTED",
+      "reason": "wrong minimum"
+    },
+    {
+      "mutation": "missing_box",
+      "status": "REJECTED",
+      "reason": "incomplete cover"
+    },
+    {
+      "mutation": "overlapping_box",
+      "status": "REJECTED",
+      "reason": "overlap"
+    },
+    {
+      "mutation": "underestimated_degree",
+      "status": "REJECTED",
+      "reason": "degree mismatch"
+    }
+  ],
+  "total_boxes": 58,
+  "total_coefficients": 4824,
+  "elapsed_seconds": 0.3619750619982369,
+  "script_sha256": "c52238ee4af720612e1ffcd1000d3c8ee15838438da31cae4a16e42c9dcf1054",
+  "limitations": [
+    "Analytic domain cover and remaining high-branch inequalities require the accompanying proof.",
+    "Exact certificate does not establish historical novelty."
+  ]
+}

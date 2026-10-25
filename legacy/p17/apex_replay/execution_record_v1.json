@@ -1,0 +1,47 @@
+{
+  "schema": "p17-apex-native-execution-v1",
+  "status": "PASS_FIRST_FROZEN_NATIVE_EXECUTION",
+  "completed_at_utc": "2026-10-23T05:53:10.313215+00:00",
+  "native_command": "python p17/apex_replay/apex_subcatalogue_replay_v1.py",
+  "exit_code": 0,
+  "source_sha256": "799f2a4448f021f6055d90296bf5dc716d64ae8b88710861e8a30b2811c2f21b",
+  "freeze_sha256": "27d2481eb95d937f9ed9ed56016f12b6221abaa5bb40e2eee41dfd102f5a54ec",
+  "results_sha256": "2e5c865844ab41dd9037f19ea550a20e3792d8cd9a955f92d159e71c63a55503",
+  "comparison_csv_sha256": "de42f61187ce3fdc18de5da382b8f11c1991fb578b2f33472d166077fc21694e",
+  "all_frozen_inputs_unchanged": true,
+  "failures_observed": [],
+  "task_count": 1536,
+  "prefix_states": 98304,
+  "policy_paths": 9216,
+  "coverage": {
+    "Crystal": {
+      "source_configurations_used": 16,
+      "source_trial_ids_used": 96,
+      "distinct_subcatalogue_candidate_block_tasks": 768
+    },
+    "RPL": {
+      "source_configurations_used": 36,
+      "source_trial_ids_used": 216,
+      "distinct_subcatalogue_candidate_block_tasks": 768
+    }
+  },
+  "adverse_result": {
+    "GOOD": 41,
+    "not_GOOD": 1495,
+    "all_positive_C_star": 9,
+    "all_positive_policies_cost": 9,
+    "positive_mixture_vs_greedy": {
+      "fewer": 0,
+      "equal": 41,
+      "more": 0
+    },
+    "positive_mixture_vs_census": "41ties;zeroimprovements"
+  },
+  "limits": [
+    "ReusedoldAPEXrows,notnewexperiments",
+    "No parameter tuning after observing this result",
+    "Full64prefix enumeration is finite on this declared sample",
+    "Positiveclass7/8 coverage absent in actualdata benchmark, not silently filled by synthetic examples",
+    "Allresults onclosed-square auditrelaxation;no exactphysicaldomainclaim"
+  ]
+}

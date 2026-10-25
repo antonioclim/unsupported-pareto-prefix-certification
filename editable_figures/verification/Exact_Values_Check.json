@@ -1,0 +1,38 @@
+{
+  "schema": "sicomp-figure-values-check-p44-v1",
+  "revision": "P44",
+  "status": "PASS",
+  "row_means_reconstructed": {
+    "U": {
+      "A": [
+        "3/4",
+        "1/4"
+      ],
+      "L": [
+        "5/12",
+        "5/12"
+      ],
+      "R": [
+        "1",
+        "0"
+      ]
+    },
+    "V": {
+      "A": [
+        "5/6",
+        "1/4"
+      ],
+      "L": [
+        "1/2",
+        "1/2"
+      ],
+      "R": [
+        "1",
+        "0"
+      ]
+    }
+  },
+  "prefix_route_mixture_checked": true,
+  "threshold_points_checked": 56,
+  "scope": "Independent arithmetic and semantic checks of exported constants, not theorem proofs"
+}

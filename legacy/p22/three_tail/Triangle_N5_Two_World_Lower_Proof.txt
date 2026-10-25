@@ -1,0 +1,132 @@
+P22 — Exact triangular five-row lower witness
+Date: 23 October 2026
+Status: analytic lower proof plus exact rational enumeration. Historical priority
+not assessed here. No global upper is proved in this note.
+
+Contract
+Three configurations A (candidate), L (northwest rival), R (southeast rival)
+have N=5 ordered whole rows. Independent unread rows range over the triangle
+0<=f<=c<=1. Both coordinates are minimised. GOOD means nondomination and
+unsupportedness by every nonzero nonnegative linear scalarisation; axes and
+ties count as support. Algorithms terminate and are zero-error on all legal
+inputs. Positive inputs are scored against their cheapest realised TRUE
+prefix certificate. No promise of membership in these two worlds is supplied.
+
+1. Fixed archives
+The following observations are common to both worlds:
+- Candidate rows 1–4: (79/80,1/8), four times.
+- L row 1: (51/100,51/100).
+- L rows 2–4: (13/50,13/50), three times.
+- All five R rows: (1,0).
+The differing final rows are:
+World A: candidate row 5=(0,0), L row 5=(13/50,13/50).
+World B: candidate row 5=(1,0), L row 5=(1,1).
+Both archives are fixed before algorithmic private randomness.
+
+The candidate lower corner after four rows is p=(79/100,1/10), and its
+upper corner is p+(1/5,1/5)=(99/100,3/10).
+The complete L point in A is (31/100,31/100).
+L's upper corner after four rows, in either world, is (229/500,229/500).
+This is also its complete point in B.
+The complete candidate point in B is (99/100,1/10).
+L's upper corner after one row is (451/500,451/500).
+
+2. Exact TRUE-prefix sets
+The P21 triangular feasibility theorem implies every TRUE prefix has at least
+four candidate observations. It therefore suffices to consider a=4 or a=5.
+
+World A:
+Every R prefix of length at most four has upper failure at least 1/5, whereas
+all L upper failures are at least 31/100. Candidate lower failure is 1/10
+at a=4 and a=5. Thus the failure axis supports the candidate lower corner
+until R is complete: P4 cannot be robust before j=5.
+Every L prefix of length at most four has upper coordinate sum at least
+2(229/500)=229/250, whereas the candidate lower sum is 89/100 and the
+complete R sum is 1. Equal weights therefore support the candidate lower
+corner until L is complete. Hence i=5 is necessary.
+At (a,i,j)=(4,5,5), robust P2 holds strictly: L failure 31/100 exceeds
+candidate upper failure 3/10, and R cost 1 exceeds candidate upper cost
+99/100. With weight 5/16 on L, the rival convex combination is
+(251/320,31/320), strictly coordinatewise below (79/100,1/10).
+Thus (4,5,5) is TRUE, and monotonicity also makes (5,5,5) TRUE.
+The complete TRUE-prefix set is exactly {(4,5,5),(5,5,5)}.
+Its unit-price minimum cost is 14.
+
+World B:
+At candidate prefix four, even full rival observations give points
+(229/500,229/500) and (1,0). Equal weights support the lower candidate
+(79/100,1/10), because 229/250>89/100 and 1>89/100.
+Thus a=5 is necessary. If R has at most four observations, both rival upper
+failures exceed candidate failure 1/10, so the failure axis supports it.
+Thus j=5 is necessary. With L unobserved, its lower corner (0,0) dominates
+the complete candidate, so i>=1 is necessary.
+At (5,1,5), P2 holds: L lower failure 51/500 exceeds candidate failure
+1/10, and R cost 1 exceeds candidate cost 99/100. Put weight 21/200 on
+L's upper corner (451/500,451/500). The combination with R=(1,0) is
+(98971/100000,9471/100000), strictly below (99/100,1/10).
+Hence (5,1,5) is TRUE. By monotonicity, precisely the states
+{(5,i,5):1<=i<=5} are TRUE. The unit-price minimum cost is 11.
+
+3. Arbitrary adaptive randomised algorithms
+The worlds agree until either candidate row 5 or L row 5 is acquired.
+No TRUE prefix precedes both distinguishing observations. Each algorithm
+correct on the whole legal class must acquire at least one of them almost
+surely on these positive worlds. Let q be the probability that candidate
+row 5 is acquired first. The same q applies on both fixed archives, since
+all prior histories, including arbitrary prefix interleavings and private
+randomness, have identical distributions.
+In A, every TRUE certificate already costs 14 and excludes candidate row 5
+only at its unique minimum. Acquiring that row first incurs a further cost
+one. Thus E[C(A)]>=14+q.
+In B, every TRUE certificate requires the candidate and all R rows plus
+at least L row 1. If L row 5 is acquired before candidate row 5, the prefix
+constraint forces all five L rows; the total cost is at least 15 rather
+than the minimum 11. Thus E[C(B)]>=15-4q.
+Consequently the worst-case ratio is at least
+ max{(14+q)/14,(15-4q)/11}.
+The minimum occurs at q=56/67 and equals 71/67.
+For a deterministic algorithm, q is zero or one; its lower is min(15/11,
+15/14)=15/14.
+These are lower bounds for the whole continuous triangular problem, not
+merely promised-family competitive values. A matching global upper must
+be supplied separately.
+
+4. Arbitrary fixed positive row prices (lower only)
+Allow any public fixed strictly positive row prices, independent of hidden
+values, and common compulsory information-free setup F>=0.
+Let W be F plus prices of candidate rows 1–4, L row 1 and all five R rows.
+Let x>0 be the price of candidate row 5, and y>0 the sum of L row prices 2–5.
+The exact comparator costs of A and B are W+y and W+x respectively.
+The same first-distinguishing-tail argument gives expected costs at least
+ W+y+q*x and W+x+(1-q)*y.
+Balancing yields
+ q=y(W+y)/[x(W+x)+y(W+y)],
+ R_randomised >= 1+xy/[x(W+x)+y(W+y)],
+ R_deterministic >= 1+min(x,y)/[W+max(x,y)].
+Intermediate L-tail observations may add costs; they cannot invalidate
+these lower bounds. At unit prices W=10,x=1,y=4, recovering 71/67 and15/14.
+For a common setup F, the unit-row lower bounds become
+ 1+4/(5F+67) and 1+1/(F+14).
+No weighted global upper is asserted by this note.
+
+5. Exact finite-alphabet witness
+All actual observations belong to the fixed six-symbol alphabet
+ {(0,0),(1,0),(1,1),(79/80,1/8),(51/100,51/100),(13/50,13/50)}.
+Both complete-vector endpoints are included. Independent completion from
+this known alphabet therefore preserves every robust TRUE state on these
+archives, by the endpoint-domain identity in the manuscript. The same
+lower values hold on this declared finite alphabet, its uniform 1/400
+triangular grid, and any triangular superset containing the six symbols.
+If the continuous-triangle upper71/67 and15/14 is independently proved,
+these lower witnesses and the same complete policies establish global
+exact equality on the six-symbol alphabet as well. No minimum-alphabet
+claim is made.
+
+6. Executed verification and limits
+check_triangle_n5_pair.py enumerated all216prefix triples in each fixed
+world (432states), using Fraction arithmetic and the exact support-interval
+corner test. It confirmed both entire TRUE-prefix sets, checked36weighted
+balancing cases and counted exactly six actual whole-row symbols.
+This finite computation checks these explicit archives and algebra; it is
+not exhaustive proof over continuous inputs, a global upper proof,
+external peer review, a formal proof assistant check or a priority audit.

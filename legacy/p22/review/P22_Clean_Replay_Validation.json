@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "jobs": [
+    {
+      "script": "structure/check_band_geometry.py",
+      "output": "structure/Band_Geometry_Exact_Check.json",
+      "exit_code": 0,
+      "elapsed_seconds": 5.762,
+      "byte_identical": true,
+      "reproduced_sha256": "d18eacccb7a0ede3ac6db5dcb3d6cd85924bf834b2ee8cc0ba4b737dc37c30f8",
+      "retained_sha256": "d18eacccb7a0ede3ac6db5dcb3d6cd85924bf834b2ee8cc0ba4b737dc37c30f8"
+    },
+    {
+      "script": "lower/check_nonvanishing_triangle.py",
+      "output": "lower/Nonvanishing_Triangular_Lower_Check.json",
+      "exit_code": 0,
+      "elapsed_seconds": 0.527,
+      "byte_identical": true,
+      "reproduced_sha256": "b2628d71d7a15c4368eaa5ff39807a62ff30dd44c58731061509956f0d7b8f84",
+      "retained_sha256": "b2628d71d7a15c4368eaa5ff39807a62ff30dd44c58731061509956f0d7b8f84"
+    },
+    {
+      "script": "upper/check_n5_upper.py",
+      "output": "upper/N5_Upper_Exact_Check.json",
+      "exit_code": 0,
+      "elapsed_seconds": 0.044,
+      "byte_identical": true,
+      "reproduced_sha256": "7983568ffda62e30cf7e31c114369d5bb4e88dd5b3b806ed5a7ffd7a05f5d5ed",
+      "retained_sha256": "7983568ffda62e30cf7e31c114369d5bb4e88dd5b3b806ed5a7ffd7a05f5d5ed"
+    },
+    {
+      "script": "three_tail/check_triangle_n5_pair.py",
+      "output": "three_tail/Triangle_N5_Two_World_Exact_Check.json",
+      "exit_code": 0,
+      "elapsed_seconds": 0.056,
+      "byte_identical": true,
+      "reproduced_sha256": "7ff1edcca9929042ca2b3347db55e175f73474dbc37ff1870d2a589da4b2cf78",
+      "retained_sha256": "7ff1edcca9929042ca2b3347db55e175f73474dbc37ff1870d2a589da4b2cf78"
+    },
+    {
+      "script": "review/check_band_independent.py",
+      "output": "review/Band_Independent_Checks.json",
+      "exit_code": 0,
+      "elapsed_seconds": 9.125,
+      "byte_identical": true,
+      "reproduced_sha256": "4464e224a3abd08fb8cc06e0a4df4eecd4b909e1c904a0f1f55122667d43223f",
+      "retained_sha256": "4464e224a3abd08fb8cc06e0a4df4eecd4b909e1c904a0f1f55122667d43223f"
+    },
+    {
+      "script": "review/check_n5_upper_independent.py",
+      "output": "review/N5_Upper_Independent_Check.json",
+      "exit_code": 0,
+      "elapsed_seconds": 0.057,
+      "byte_identical": true,
+      "reproduced_sha256": "3797e932b5683f49e423761093466af6adb701621b98b29ebf48122e95e6da83",
+      "retained_sha256": "3797e932b5683f49e423761093466af6adb701621b98b29ebf48122e95e6da83"
+    },
+    {
+      "script": "review/check_general_k_band_independent.py",
+      "output": "review/General_K_Band_Independent_Check.json",
+      "exit_code": 0,
+      "elapsed_seconds": 0.998,
+      "byte_identical": true,
+      "reproduced_sha256": "e2f9bdb577954cd2cb5ec48ef962faa856402a87beafe6e599064d619102d4af",
+      "retained_sha256": "e2f9bdb577954cd2cb5ec48ef962faa856402a87beafe6e599064d619102d4af"
+    },
+    {
+      "script": "review/check_n5_independent.py",
+      "output": "review/N5_Independent_Checks.json",
+      "exit_code": 0,
+      "elapsed_seconds": 0.065,
+      "byte_identical": true,
+      "reproduced_sha256": "bf00b5b64f011d970fd524cbc82c62648326802c1156c5df46a502cbac4202cf",
+      "retained_sha256": "bf00b5b64f011d970fd524cbc82c62648326802c1156c5df46a502cbac4202cf"
+    },
+    {
+      "script": "upper/check_long_chain_independent.py",
+      "output": "upper/Long_Chain_Independent_Check.json",
+      "exit_code": 0,
+      "elapsed_seconds": 0.295,
+      "byte_identical": true,
+      "reproduced_sha256": "b4abc6b7e1d10cfb151f4da732535e3908b5d64d1a626e348261bea02d5994cd",
+      "retained_sha256": "b4abc6b7e1d10cfb151f4da732535e3908b5d64d1a626e348261bea02d5994cd"
+    },
+    {
+      "script": "lower/check_fixed_alphabet_chain.py",
+      "output": "lower/Fixed_Alphabet_Constant_Overhead_Check.json",
+      "exit_code": 0,
+      "elapsed_seconds": 3.089,
+      "byte_identical": true,
+      "reproduced_sha256": "726842525d9e4d08fbb9dc3d5ee70219a4b45fd6400249c9c1f20e25bc589f51",
+      "retained_sha256": "726842525d9e4d08fbb9dc3d5ee70219a4b45fd6400249c9c1f20e25bc589f51"
+    },
+    {
+      "script": "upper/check_candidate_chain_independent.py",
+      "output": "upper/Candidate_Chain_Independent_Check.json",
+      "exit_code": 0,
+      "elapsed_seconds": 0.279,
+      "byte_identical": true,
+      "reproduced_sha256": "d993ba48ac0ee92611f63543f239b4518eb25f37f85d41bc5e5f579469f59ed9",
+      "retained_sha256": "d993ba48ac0ee92611f63543f239b4518eb25f37f85d41bc5e5f579469f59ed9"
+    }
+  ],
+  "program_count": 11,
+  "source_inputs_unchanged": true,
+  "source_sha256": {
+    "structure/Band_Domain_Theorems_P22.md": "910faf09054430a9fffb85ab0989692d88d1f3cf461c828f81be21c5797a834a",
+    "structure/check_band_geometry.py": "64458b49c3e90d60bde1f9d97477e53c58aba3b8fe4bfe2911df2139153d806b",
+    "lower/check_fixed_alphabet_chain.py": "9ee471b855cf596e1db78de0f7364fe496d9cd2d04c7234bdd6a6ed09f548904",
+    "lower/check_nonvanishing_triangle.py": "6dffffe36dc583a1ab5360e2db51dd80c83784e41259a27b5a3bea6f3708111e",
+    "lower/Fixed_Alphabet_Constant_Overhead_P22.md": "ae3ebb6788565a2256db5b46a8a7baf22de7c1447356a7d9437306c131f9a2fd",
+    "lower/Nonvanishing_Triangular_Lower_Bounds_P22.md": "5e8f3337fdc2456f6c81d9555073faa07b88d70027e9de50cb347dc7759db9bd",
+    "upper/N5_Upper_Proof.txt": "f39f19d0f20beb2d840ac9fea8eb978624e1f56d7a22d98d4838be185952948f",
+    "upper/check_n5_upper.py": "752a2cd08ed2b1eddf7bd75a113664f6b120e5861c711c1ba66ae13236633c2d",
+    "upper/check_long_chain_independent.py": "83886d04d7d0605f30ac421327eb6bc222a98ce425a7b21111b632cd876e99cd",
+    "upper/check_candidate_chain_independent.py": "29c656ae7cc5b989f475f4aa4aad0c6fef192af25a27c60f5ed15699b15f2a0a",
+    "three_tail/Triangle_N5_Two_World_Lower_Proof.txt": "20e75c984b81bb2830c17363283c75f6e8c7e788b148afce8853377399dfb0c0",
+    "three_tail/check_triangle_n5_pair.py": "427112211850513d69ee0f0e7f8fc2280f324cc1297660f1ddc9d24053d95ef6",
+    "review/Candidate_Chain_Independent_Review.txt": "01270673d5a08ae74c4823e426d92dfdbfd69a1f61cdf819d8046b6cf536e5cf",
+    "review/check_general_k_band_independent.py": "d4ba98ef6967aa411dcab4c26bd53d22d719f256a586a269279a0f35a243a385",
+    "review/check_n5_independent.py": "a2e848d56eda8307bf73f8e820feadf9037013e1a44580f643442e9abce387b4",
+    "review/N5_Upper_Independent_Review.txt": "1d69d5be839791be69a89bd98911a1605f8682a16a3ab09daf48674b961669b3",
+    "review/Long_Chain_Independent_Review.txt": "c7cf2c48e312b73473903f4bfa9b4b0ba0633afa31b23f015ae117853e9dd7d5",
+    "review/check_n5_upper_independent.py": "5e5364cd3b0e6d68395e59011cd26b0bfa5448f8b3aac0c3ee3baa318e768e70",
+    "review/General_K_Independent_Review.txt": "b57166fa229f0c662c0ef9b43ef5def92fd6ae0b34c2310b9ec4b05ea447f8aa",
+    "review/Band_and_N5_Independent_Review.txt": "71ec64b60f8b149d99efa3a1862beadb9461b81f6600b107d368d9674774d4cf",
+    "review/check_band_independent.py": "a2fd5da14b66af2614099f481cd904f2a65b2d2cc91472e65732bc8a8b95ec7c",
+    "review/Band_General_K_Crosscheck.txt": "13000a3dcba0d3a2945dfed45ccef12afc3be416b8967b9616b81be4d9ce3baf",
+    "general_k/Triangular_General_K_Embedding.txt": "1c23129acaa3eb6301b9369ea0ec407bd5e7cb51b6da1862beaebaca76ffe952"
+  },
+  "scope": "Own exact-arithmetic synthetic checks replayed, not continuous-domain exhaustive verification or external review."
+}

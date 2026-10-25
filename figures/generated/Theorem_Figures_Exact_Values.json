@@ -1,0 +1,250 @@
+{
+  "schema": "sicomp-analytic-figures-p44-v1",
+  "revision": "P44",
+  "scope": "Analytic theorem illustrations, not empirical observations",
+  "Fig2": {
+    "model": "T_d={(c,f):0<=f<=c<=1,c-f<=d}",
+    "domain": {
+      "N": "positive integers",
+      "d": "0<d<=1",
+      "displayed_N": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    "d_zero": "excluded: positive archive class is empty",
+    "K3": {
+      "zero_overhead": "d*(N-1)<=2",
+      "first_supercritical": "2<d*(N-1)<=3",
+      "prices": "arbitrary fixed positive row prices; common setup permitted"
+    },
+    "general_K": {
+      "K": "K>=3",
+      "equality": "0<d*N<=1",
+      "prices": "unit row prices; zero setup"
+    },
+    "boundaries": [
+      {
+        "N": 1,
+        "zero_overhead_upper": "1",
+        "first_supercritical_upper": "1",
+        "general_exact_upper": "1"
+      },
+      {
+        "N": 2,
+        "zero_overhead_upper": "1",
+        "first_supercritical_upper": "1",
+        "general_exact_upper": "1/2"
+      },
+      {
+        "N": 3,
+        "zero_overhead_upper": "1",
+        "first_supercritical_upper": "1",
+        "general_exact_upper": "1/3"
+      },
+      {
+        "N": 4,
+        "zero_overhead_upper": "2/3",
+        "first_supercritical_upper": "1",
+        "general_exact_upper": "1/4"
+      },
+      {
+        "N": 5,
+        "zero_overhead_upper": "1/2",
+        "first_supercritical_upper": "3/4",
+        "general_exact_upper": "1/5"
+      },
+      {
+        "N": 6,
+        "zero_overhead_upper": "2/5",
+        "first_supercritical_upper": "3/5",
+        "general_exact_upper": "1/6"
+      },
+      {
+        "N": 7,
+        "zero_overhead_upper": "1/3",
+        "first_supercritical_upper": "1/2",
+        "general_exact_upper": "1/7"
+      },
+      {
+        "N": 8,
+        "zero_overhead_upper": "2/7",
+        "first_supercritical_upper": "3/7",
+        "general_exact_upper": "1/8"
+      },
+      {
+        "N": 9,
+        "zero_overhead_upper": "1/4",
+        "first_supercritical_upper": "3/8",
+        "general_exact_upper": "1/9"
+      },
+      {
+        "N": 10,
+        "zero_overhead_upper": "2/9",
+        "first_supercritical_upper": "1/3",
+        "general_exact_upper": "1/10"
+      },
+      {
+        "N": 11,
+        "zero_overhead_upper": "1/5",
+        "first_supercritical_upper": "3/10",
+        "general_exact_upper": "1/11"
+      },
+      {
+        "N": 12,
+        "zero_overhead_upper": "2/11",
+        "first_supercritical_upper": "3/11",
+        "general_exact_upper": "1/12"
+      },
+      {
+        "N": 13,
+        "zero_overhead_upper": "1/6",
+        "first_supercritical_upper": "1/4",
+        "general_exact_upper": "1/13"
+      },
+      {
+        "N": 14,
+        "zero_overhead_upper": "2/13",
+        "first_supercritical_upper": "3/13",
+        "general_exact_upper": "1/14"
+      },
+      {
+        "N": 15,
+        "zero_overhead_upper": "1/7",
+        "first_supercritical_upper": "3/14",
+        "general_exact_upper": "1/15"
+      },
+      {
+        "N": 16,
+        "zero_overhead_upper": "2/15",
+        "first_supercritical_upper": "1/5",
+        "general_exact_upper": "1/16"
+      }
+    ],
+    "finite_marker": {
+      "N": 5,
+      "d": "1",
+      "randomised": "71/67",
+      "deterministic": "15/14",
+      "prices": "unit row prices; zero setup"
+    }
+  },
+  "Fig3": {
+    "alphabet": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "1",
+        "1"
+      ]
+    ],
+    "N": 12,
+    "q": 3,
+    "worlds": {
+      "U": {
+        "A": [
+          "3/4",
+          "1/4"
+        ],
+        "L": [
+          "5/12",
+          "5/12"
+        ],
+        "R": [
+          "1",
+          "0"
+        ]
+      },
+      "V": {
+        "A": [
+          "5/6",
+          "1/4"
+        ],
+        "L": [
+          "1/2",
+          "1/2"
+        ],
+        "R": [
+          "1",
+          "0"
+        ]
+      }
+    },
+    "candidate_vertical_gap_above_rival_chord": {
+      "U": "1/14",
+      "V": "1/12"
+    },
+    "bounds_scope": {
+      "domain": "continuous triangle T_1",
+      "K": 3,
+      "row_prices": "unit",
+      "setup": "0",
+      "meaning": "exact limit for randomised candidate-census policies; bounds on liminf and limsup for unrestricted policies, whose convergence is not proved"
+    },
+    "bounds": [
+      {
+        "policy_class": "randomised unrestricted",
+        "lower": "23/22",
+        "upper": "12/11"
+      },
+      {
+        "policy_class": "randomised candidate complete before TRUE on every positive archive",
+        "lower": "12/11",
+        "upper": "12/11"
+      },
+      {
+        "policy_class": "deterministic unrestricted",
+        "lower": "12/11",
+        "upper_expression": "3/(4*sqrt(2)-3)",
+        "upper_decimal_display": "1.129155"
+      }
+    ],
+    "candidate_complete_bound_gap": "0",
+    "candidate_census_asymptotic_limit": "12/11",
+    "unrestricted_randomised_bound_gap": "1/22",
+    "conditional_partial_candidate_probability": "At least 1/2 asymptotically on the specified hard family IF a valid policy sequence approaches the known lower bound 23/22",
+    "exact_global_limits": {
+      "randomised_candidate_census": "12/11",
+      "randomised_unrestricted": "open",
+      "deterministic_unrestricted": "open"
+    }
+  },
+  "captions": {
+    "Fig2": "Analytically established acquisition regimes on diagonal bands. Each separate column represents one integer archive length N; no values between columns are implied. The completion width satisfies 0<d<=1. For K=3, the zero-overhead and first-supercritical regions include their upper boundaries and hold for arbitrary fixed positive row prices and nonnegative common setup. The marked five-row triangular case has unit-price, zero-setup ratios 71/67 and 15/14. For K>=3 at unit prices and zero setup, 0<dN<=1 gives the exact unbounded-domain formula; outside this range the general comparison provides bounds. At d=0 the positive class is empty and no acquisition ratio is assigned.",
+    "Fig3": "A fixed alphabet and the cost of requiring complete candidate observation. (A) The raw symbols are (0,0), (1,0) and (1,1). The displayed mean vectors of the two hard worlds use N=12 and q=3. Diamonds and squares mark candidates, coloured circles mark left rivals, and the shared right rival is (1,0); the two lines join the rivals. (B) Lower and upper bounds for accumulation points of the optimal acquisition ratios as integer N grows, on the continuous triangle with K=3, unit row prices and zero setup. The middle row restricts policies to full candidate observation before TRUE on every positive archive and has the exact asymptotic limit 12/11. The unrestricted randomised interval is [23/22,12/11], of width 1/22. These are analytic results, not confidence intervals or measured performance. Convergence and the exact asymptotic constants for unrestricted policies remain open."
+  },
+  "proof_locations": {
+    "Fig2": "Main diagonal-band geometry and priced-transition results; finite five-row case in Supplementary Materials",
+    "Fig3": "Main fixed-alphabet hard family, candidate-census lower bound and sharp two-branch triangle policy; Supplement algebraic verification"
+  },
+  "display_contract": {
+    "width_inches": 5.0,
+    "height_inches": 6.0,
+    "minimum_declared_font_pt": 8.5,
+    "minimum_essential_stroke_pt": 1.0,
+    "discrete_N": "separate columns, never interpolated",
+    "PDF": "vector paths and embedded text fonts",
+    "SVG": "vector paths and text",
+    "PNG_dpi": 360
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "schema": "sicomp-native-odg-verification-p44-v1",
+  "revision": "P44",
+  "finished_at_utc": "2026-10-24T18:16:07.697812+00:00",
+  "status": "PASS",
+  "figures": [
+    {
+      "figure": "Fig1",
+      "status": "PASS",
+      "canvas_inches": [
+        5,
+        6
+      ],
+      "native_text_boxes": 46,
+      "native_vector_shapes": 13,
+      "native_vector_counts": {
+        "line": 3,
+        "path": 0,
+        "polygon": 10,
+        "polyline": 0
+      },
+      "named_groups": 0,
+      "images_objects_ole_binary_data": 0,
+      "pictures_assets": 0,
+      "thumbnail_note": "An application preview thumbnail may exist; no image is placed on the drawing page.",
+      "exact_editable_text_runs_preserved": 46,
+      "nonwhitespace_rendered_glyphs_preserved": 584,
+      "maximum_roundtrip_geometry_coordinate_error_pt": 0.014173228346464839,
+      "minimum_exported_stroke_pt": 1.10548996925354,
+      "minimum_exported_font_pt": 8.503999710083008,
+      "text_spans_outside_page": 0,
+      "pdf_images": 0,
+      "odg_sha256": "19b53a5bb78f4bd85e920f1856ad3c04f4b58647dd88a060e0819180712d3eae",
+      "pdf_sha256": "55b1210d4a3feabdb5b40bb4f8c015a55be4fe4c7733f0c91e6f9c6093ac8eb7"
+    },
+    {
+      "figure": "Fig2",
+      "status": "PASS",
+      "canvas_inches": [
+        5,
+        6
+      ],
+      "native_text_boxes": 322,
+      "native_vector_shapes": 366,
+      "native_vector_counts": {
+        "line": 177,
+        "path": 49,
+        "polygon": 140,
+        "polyline": 0
+      },
+      "named_groups": 341,
+      "images_objects_ole_binary_data": 0,
+      "pictures_assets": 0,
+      "thumbnail_note": "An application preview thumbnail may exist; no image is placed on the drawing page.",
+      "exact_editable_text_runs_preserved": 322,
+      "nonwhitespace_rendered_glyphs_preserved": 378,
+      "maximum_roundtrip_geometry_coordinate_error_pt": 0.014173228346521682,
+      "minimum_exported_stroke_pt": 1.0204600095748901,
+      "minimum_exported_font_pt": 8.503999710083008,
+      "text_spans_outside_page": 0,
+      "pdf_images": 0,
+      "odg_sha256": "e4f938898f5d06b537bfbea8d2ce1c9409b45d752202c71cd0f1a0b9e27c0b18",
+      "pdf_sha256": "beea5dc79cf58ed79f39de5eec4d406c07aea66ad5734ddf57c7f9e58642535a"
+    },
+    {
+      "figure": "Fig3",
+      "status": "PASS",
+      "canvas_inches": [
+        5,
+        6
+      ],
+      "native_text_boxes": 98,
+      "native_vector_shapes": 47,
+      "native_vector_counts": {
+        "line": 30,
+        "path": 6,
+        "polygon": 11,
+        "polyline": 0
+      },
+      "named_groups": 116,
+      "images_objects_ole_binary_data": 0,
+      "pictures_assets": 0,
+      "thumbnail_note": "An application preview thumbnail may exist; no image is placed on the drawing page.",
+      "exact_editable_text_runs_preserved": 98,
+      "nonwhitespace_rendered_glyphs_preserved": 483,
+      "maximum_roundtrip_geometry_coordinate_error_pt": 0.01417322834647905,
+      "minimum_exported_stroke_pt": 1.0204600095748901,
+      "minimum_exported_font_pt": 8.503999710083008,
+      "text_spans_outside_page": 0,
+      "pdf_images": 0,
+      "odg_sha256": "90a0c7b2c325040b18f3ba3e629976939e1aa5ed9a22c4dda476cd937ed152f0",
+      "pdf_sha256": "387d83e17b50edf45fcbe2c102881cf73e6fb0667730cb9c2f159ce318e43fb2"
+    }
+  ],
+  "scope": [
+    "Native XML structure and original editable text run equality after LibreOffice ODG roundtrip.",
+    "No images, OLE or embedded graphic objects on the page.",
+    "One 5×6 in PDF page per figure, exported by reopening the ODG.",
+    "All stroked native PDF paths meet the 1 pt minimum at the final 5 inch width.",
+    "Rendered non-whitespace glyph inventory equals the input SVG; PDF text lies inside the page.",
+    "All native path/line bounding coordinates retained within 0.04 pt after office unit quantisation.",
+    "Fig3 headings remain single-line; both legend sample lines end at the intended point."
+  ],
+  "limits": [
+    "No claim of pixel-identical rendering across LibreOffice versions or platforms.",
+    "The original SVG and PDF differ slightly in multiline text metrics; ODG follows SVG positions.",
+    "Glyph inventory and bounds do not alone prove absence of every possible visual overlap: all three final figures were also visually inspected.",
+    "Desktop mouse/keyboard editing was not exercised; editability is established by native objects, editable text and the separate edit-and-reopen probe.",
+    "These checks validate figure representation and arithmetic inputs, not the manuscript theorems."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "independent_code": true,
+  "exact_rational_arithmetic": true,
+  "hard_worlds": 2,
+  "prefix_states": 432,
+  "length_shapes": 125,
+  "minimal_feasible_shapes": [
+    [
+      4,
+      5,
+      5
+    ],
+    [
+      5,
+      1,
+      5
+    ],
+    [
+      5,
+      5,
+      3
+    ]
+  ],
+  "setup_values": [
+    "0",
+    "1/13",
+    "1/2",
+    "1",
+    "5",
+    "100",
+    "1000000"
+  ],
+  "policy_cost_envelope_checks": 77,
+  "randomised_optimum_at_zero_setup": "71/67",
+  "deterministic_optimum_at_zero_setup": "15/14",
+  "limits": "Hard archives and policy envelope arithmetic only; continuous-policy soundness checked analytically in separate review."
+}

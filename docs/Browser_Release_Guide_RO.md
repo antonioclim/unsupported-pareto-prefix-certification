@@ -1,0 +1,128 @@
+# GITHUB DIN BROWSER: REPOSITORY COMPLET ȘI VERSIUNE DRAFT
+Antonio Clim · P52 · pregătit la 25 octombrie 2026
+
+## CE OBȚII ȘI DE UNDE ÎNCEPI
+
+Ghid P52, pregătit la 25 octombrie 2026. Repository-ul există la https://github.com/antonioclim/unsupported-pareto-prefix-certification. Actualizezi fișierele pregătite și publici versiunea 1.0.0 cu arhiva completă atașată. Instrucțiunile de interfață păstrează data verificării documentare: 24 octombrie 2026. Ai nevoie de contul tău GitHub, un browser și funcția obișnuită de dezarhivare a calculatorului. Nu trebuie să instalezi Git, să deschizi un terminal sau să folosești GitHub Actions.
+
+La pregătirea P52, repository-ul GitHub este creat. DOI-ul versiunii, 10.5281/zenodo.23632859, este rezervat, iar release-ul și înregistrarea Zenodo nu sunt publicate. Rezervarea DOI nu dovedește publicarea. URL-ul release-ului, DOI-ul de concept și datele publicării se completează numai după confirmarea lor. Ziua de 25 octombrie 2026 este data pregătirii, nu o dată de publicare.
+
+| În kitul 02_GitHub_Kit | Rol |
+|---|---|
+| START_AICI_RO.txt | Punctul de pornire al kitului exterior. |
+| 01_Repository_Files/ | Repository-ul complet, plat: README.md și run_all_checks.py sunt direct aici. |
+| 02_Browser_Upload_Batches/ | Lot_01.zip, Lot_02.zip etc.; fiecare conține cel mult 90 de fișiere cu căile originale. |
+| 03_Release_Asset/unsupported-pareto-prefix-certification-v1.0.0.zip | Arhiva completă verificată; se atașează întreagă la release. Este identică payload-ului destinat Zenodo. |
+
+Dezarhivează mai întâi kitul exterior: în Windows, clic dreapta pe ZIP și Extract All / Extrage tot; pe macOS, dublu clic pe ZIP. Deschide acest HTML local cu dublu clic după extragerea kitului. Fișierul TXT cu același nume oferă aceiași pași. Nu încărca arhiva exterioară a kitului în repository. Un ZIP încărcat în fila Code rămâne un fișier ZIP: GitHub nu îl desface în fișierele sursă.
+
+## 1. DESCHIDE REPOSITORY-UL EXISTENT
+
+1. Deschide https://github.com/antonioclim/unsupported-pareto-prefix-certification. Dacă este necesar, autentifică-te în contul cu drept de scriere.
+2. Verifică owner-ul antonioclim și numele unsupported-pareto-prefix-certification. Folosește acest repository; nu crea un duplicat.
+3. Verifică ramura de lucru main și păstrează structura plată pregătită în kit. Fișierele README.md și run_all_checks.py vor fi la rădăcina repository-ului.
+4. Observă vizibilitatea curentă a repository-ului. Dacă este deja Public, nu este necesară schimbarea ei. Dacă este Private, pasul final arată trecerea la Public.
+
+Verificare: URL-ul și proiectul sunt cele indicate mai sus. Dacă există deja un tag v1.0.0, verifică ținta lui înaintea pregătirii release-ului; nu muta un tag publicat pentru a-l adapta altei stări.
+
+## 2. VERIFICĂ DEZACTIVAREA ACTIONS ÎNAINTE DE UPLOAD
+
+1. În repository, deschide Settings. Dacă fila nu încape în antet, caut-o în meniul cu file suplimentare.
+2. În bara laterală: Actions → General. La Actions permissions selectează Disable actions, apoi Save.
+3. Revino la Code. Nu configura un workflow din fila Actions. Kitul P52 nu conține workflow-uri GitHub Actions active și nu are nevoie de automatizări.
+
+Verificare: setarea salvată este Disable actions. Nu adăuga workflow-uri, tokenuri, secrete sau integrare automată Zenodo–GitHub; traseul folosește upload și release manual.
+
+## 3. ÎNCARCĂ TOATE FIȘIERELE, ÎN LOTURILE PREGĂTITE
+
+GitHub acceptă cel mult 100 de fișiere într-o încărcare web și cel mult 25 MiB pentru un fișier. Loturile pregătite au cel mult 90 de fișiere fiecare. Numărul exact de loturi și fișiere este în 02_Browser_Upload_Batches/START_AICI_LOTURI_RO.txt; folosește acel inventar final.
+
+1. Extrage Lot_01.zip într-un folder separat, de exemplu Lot_01. Deschide folderul rezultat. În interior trebuie să vezi fișierele și directoarele repository-ului, nu încă o arhivă.
+2. Afișează fișierele ascunse în managerul de fișiere: Windows — View → Show → Hidden items; macOS — Command + Shift + punct (.); Linux — Ctrl + H. În primul lot trebuie să fie vizibile .gitattributes și .gitignore.
+3. În GitHub, revino mereu la rădăcina repository-ului (fila Code, fără să intri într-un subfolder). Pentru primul lot, folosește uploading an existing file de pe pagina goală; ulterior Add file → Upload files.
+4. Selectează tot conținutul folderului Lot_01 și trage selecția în zona de upload. Selectezi și directoarele, nu numai fișierele de la primul nivel. Nu trage folderul Lot_01 în sine. Browserul trebuie să păstreze subdirectoarele.
+5. Verifică lista înainte de commit. Exemple corecte sunt README.md, checks/... și editable_figures/.... Exemple greșite sunt Lot_01/README.md, 01_Repository_Files/README.md sau un singur Lot_01.zip. Dacă vezi prefixul greșit, anulează încărcarea și repetă selecția.
+6. La Commit message copiază mesajul lotului din START_AICI_LOTURI_RO.txt. În acest repository, folosește ramura main conform regulilor existente. Apasă Commit changes și așteaptă finalizarea.
+7. Extrage separat Lot_02.zip și repetă exact procedura, revenind mai întâi la rădăcină. Continuă până ai încărcat fiecare lot din inventar. Un director comun mai multor loturi primește fișiere diferite; nu îl șterge între încărcări.
+
+Mesajul exact pentru fiecare commit este în START_AICI_LOTURI_RO.txt. Copiază-l de acolo, ca numărul loturilor să corespundă inventarului acestei livrări.
+
+Dacă browserul nu preia folderele sau nu păstrează căile, anulează acel upload înainte de commit și încearcă un browser desktop actual care permite drag-and-drop de directoare. Nu aplatiza structura. Nu încărca START_AICI_LOTURI_RO.txt, Inventar_Loturi_GitHub.json sau Lot_*.zip în repository.
+
+Pentru un fișier ascuns omis, încearcă încă o încărcare a fișierului original după activarea afișării lui. Ca alternativă web, Add file → Create new file permite numele exact .gitignore ori .gitattributes și lipirea conținutului original din 01_Repository_Files. Copierea manuală poate schimba octeți; verificarea arhivei descărcate, de la pasul următor, va detecta diferența.
+
+## 4. VERIFICĂ REPOSITORY-UL FĂRĂ COMENZI
+
+1. La rădăcină trebuie să vezi README.md, CITATION.cff, LICENSE, LICENSING.md, frozen_manifest.json, PACKAGE_MANIFEST_SHA256.json și run_all_checks.py. Deschide README.md și verifică titlul integral.
+2. Deschide checks/, legacy/, evidence/, figures/ și editable_figures/. În editable_figures/odg/ trebuie să existe Fig1_Editable.odg, Fig2_Editable.odg și Fig3_Editable.odg.
+3. Verifică .gitattributes și .gitignore la rădăcină. Nu trebuie să existe un director Lot_01, un director 01_Repository_Files sau un workflow activ sub .github/workflows/.
+4. În Code → Download ZIP descarcă arhiva repository-ului online. Păstreaz-o separat de arhiva furnizată în kit. Compararea exactă se face între fișierele și căile din ZIP-ul descărcat și manifestul pachetului P52; hashurile celor două containere ZIP nu trebuie să coincidă.
+
+Inspecția în browser confirmă căi și conținut vizibil, nu toate hash-urile. Compararea ZIP-ului verifică octeții fără să fie nevoie să rulezi tu cod. Arhiva generată automat de GitHub are alt ambalaj decât release asset-ul: hash-urile celor două ZIP-uri nu trebuie să fie egale; se compară fișierele din ele. Nicio verificare de upload nu reprezintă o nouă execuție a programelor științifice.
+
+## 5. PREGĂTEȘTE VERSIUNEA DRAFT ȘI ATAȘAMENTUL
+
+1. În repository, deschide Releases, apoi Draft a new release (la primul release poate apărea Create a new release).
+2. La Choose a tag introdu exact v1.0.0 și selectează Create new tag. La Target alege main, după încărcarea tuturor loturilor. Dacă v1.0.0 există deja, nu îl muta și nu îl șterge: vezi secțiunea pentru o versiune ulterioară.
+3. Copiază titlul de mai jos în Release title. Pentru Describe this release, deschide RELEASE_NOTES.md din 01_Repository_Files și copiază numai secțiunea curentă P52, până înaintea istoricului explicit; nu copia secțiunile istorice. Nu folosi Generate release notes pentru a inventa un rezumat din commit-urile de upload.
+4. În zona de atașamente/binaries, selectează din 03_Release_Asset/ fișierul unsupported-pareto-prefix-certification-v1.0.0.zip. Atașează ZIP-ul ca fișier; nu îl dezarhiva și nu îl înlocui cu arhiva exterioară a kitului GitHub.
+Un release asset poate avea sub 2 GiB; această limită este distinctă de 25 MiB pentru fișierele sursă încărcate în repository prin browser. Arhivele Source code (zip)/(tar.gz), generate automat de GitHub la tag, nu înlocuiesc atașamentul verificat din kit.
+
+5. Așteaptă terminarea upload-ului și verifică numele atașamentului. Copiază linia SHA-256 din inventarul final furnizat în kit dacă o adaugi descrierii; nu folosi un hash dintr-o revizie anterioară.
+6. Apasă Save draft pentru verificarea finală de la pasul 6. Vizibilitatea repository-ului și starea draftului sunt proprietăți diferite; un draft nu este un release publicat.
+
+Release title:
+```text
+v1.0.0 — The Price of Finding a Certificate: Reproducibility Companion
+```
+
+Descrierea canonică a release-ului este secțiunea curentă din RELEASE_NOTES.md. Dacă lucrezi direct în GitHub, deschide acel fișier și apasă Raw ca să copiezi textul cu formatarea Markdown. Verifică faptul că pasajul despre 12/11 este limitat la trei configurații pe triunghi, iar optimul nerestricționat nu este declarat închis.
+
+Metadatele sunt pregătite pentru versiunea 1.0.0 și tagul v1.0.0; P52 identifică revizia locală. Repository-ul existent și DOI-ul rezervat 10.5281/zenodo.23632859 sunt incluse în CITATION.cff și în metadatele active. Publică arhiva identificată prin suma de control a livrării finale verificate, fără modificarea fișierelor înghețate. Dacă se schimbă conținutul, arhiva, manifestele și loturile se regenerează înainte de publicare. Nu transforma DOI-ul rezervat în dovadă de publicare și nu deduce un DOI de concept dintr-un identificator numeric apropiat.
+
+## 6. MOMENTUL PUBLICĂRII: CE SE SCHIMBĂ
+
+Publicarea repository-ului, publicarea release-ului GitHub și publicarea înregistrării Zenodo sunt operații separate. La pregătirea acestui kit, repository-ul este creat, DOI-ul 10.5281/zenodo.23632859 este rezervat, iar release-ul și înregistrarea nu sunt publicate. Pașii de mai jos finalizează release-ul folosind pachetul verificat.
+
+Înainte să publici, confirmă că toate loturile acestui kit sunt pe main și că draftul conține atașamentul din 03_Release_Asset. Tagul nou v1.0.0 trebuie să indice această stare completă. Dacă ai deja un tag v1.0.0 pentru altă stare, nu îl muta automat: verifică situația și folosește o versiune ulterioară când este cazul. Schimbarea câmpului Target nu mută un tag existent.
+
+1. Dacă repository-ul este Private: Settings → General → Danger Zone → Change repository visibility → Change to public; citește dialogul și confirmă. Dacă este deja Public, sari această operație. Schimbarea vizibilității expune fișierele și istoricul; nu publică automat un draft release.
+2. Deschide draftul, verifică tagul v1.0.0, sursa main corectă, numele și identitatea atașamentului final. Dacă dorești publicarea versiunii, apasă Publish release. Dacă repository-ul este încă privat, release-ul nu devine accesibil publicului larg.
+3. Deschide URL-ul public într-o fereastră privată/incognito fără autentificare și verifică accesul. Copiază URL-ul real al repository-ului și al release-ului.
+
+Un repository devenit public poate fi copiat sau fork-uit. Revenirea ulterior la Private nu retrage copiile ori fork-urile publice. Dacă au existat execuții Actions anterior, istoricul și logurile lor pot deveni vizibile; traseul din acest kit le evită prin dezactivarea Actions înaintea încărcării. O versiune publicată, în special una cu release immutability activată, trebuie tratată ca o referință stabilă; nu presupune că atașamentele vor putea fi înlocuite.
+
+GitHub și Zenodo rămân separate: nu activa integrarea automată Zenodo–GitHub. Urmează ghidul Zenodo pentru publicarea manuală a aceleiași arhive în înregistrarea cu DOI rezervat 10.5281/zenodo.23632859. După publicare, păstrează URL-ul real al release-ului GitHub și confirmarea înregistrării Zenodo. DOI-ul de concept și datele publicării rămân necompletate până la confirmarea lor; nu le deduce din DOI-ul rezervat.
+
+## 7. PENTRU O VERSIUNE ULTERIOARĂ ȘI PENTRU PROBLEME
+
+Nu reutiliza v1.0.0 pentru o versiune modificată deja publicată. Pentru o corecție minoră pregătită și verificată, propunerea următoare este v1.0.1: tag v1.0.1, versiune de citare 1.0.1, atașament unsupported-pareto-prefix-certification-v1.0.1.zip. Aceste nume se modifică împreună numai după pregătirea acelei versiuni; nu redenumi doar arhiva veche.
+
+| Situație | Ce faci |
+|---|---|
+| Too many files | Anulezi acel upload; verifici că ai extras un singur Lot_XX.zip și nu ai selectat întregul repository. |
+| Căile încep cu Lot_XX/ | Anulezi înainte de commit; deschizi folderul local și tragi conținutul lui. |
+| Un fișier lipsește | Îl încarci din lotul corect, în calea originală; apoi descarci din nou ZIP-ul pentru verificare. |
+| Un upload s-a întrerupt | Verifici ce a ajuns în commit. Reiei lotul afectat, fără a șterge directoarele încărcate anterior. |
+| Butonul de commit este blocat | Citești mesajul privind drepturile sau regulile de branch; nu elimini reguli dintr-un repository instituțional fără acordul titularului. |
+| Ai publicat accidental | Oprești modificările, păstrezi URL-urile și spui exact ce a devenit public. Nu presupui că ștergerea retrage copiile deja făcute. |
+
+În cazul unei erori, păstrează mesajul și pasul afectat. O captură pentru asistență trebuie să excludă datele de autentificare, parolele și tokenurile. Pregătirea din browser nu cere rularea locală a scripturilor științifice.
+
+## SURSE OFICIALE ȘI LIMITELE VERIFICĂRII
+
+Instrucțiunile privind interfața și limitele păstrează verificarea documentară din 24 octombrie 2026. Actualizarea P52 din 25 octombrie consemnează repository-ul existent și DOI-ul rezervat; nu reprezintă o nouă verificare a tuturor interfețelor externe. Denumirile butoanelor se pot modifica. Confirmările efective de upload și publicare se păstrează separat de acest ghid.
+
+Încărcarea fișierelor: 100 de fișiere, 25 MiB/fișier, drag-and-drop de directoare
+https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
+Crearea unui repository
+https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository
+Dezactivarea GitHub Actions
+https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository
+Crearea și editarea unui release draft
+https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository?tool=webui
+Release assets și arhivele de surse generate de GitHub
+https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases
+Schimbarea vizibilității și consecințele ei
+https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility
+

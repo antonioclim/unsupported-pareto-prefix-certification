@@ -1,0 +1,20 @@
+{
+  "schema": "p41-native-converter-provenance-v1",
+  "sources": [
+    {
+      "path": "p37/04_Figures_Editable_ODG/source/build_editable_odg.py",
+      "sha256": "fb8a9bb002a31b24f992dbff8844432a6c00ae3a94bb87190ce527927f21c59e"
+    },
+    {
+      "path": "p40/figures/build_prefix_figure.py",
+      "sha256": "cc0f3e4e6e4eef1011e4fcea13908b5cd45f8200460a23e6213a1b819742f7fb"
+    }
+  ],
+  "current_files": {
+    "source/build_editable_odg.py": "3bfd214488071cca09dd866d9803f8f4eb22ad8d6fc2dc6a945540d2ecc79317",
+    "source/build_prefix_figure.py": "f0f72d6178f7c3895d16e8733edcb9bf021b16760a6d04b27971bc0bdd10e53b"
+  },
+  "changes": "Current Fig1/2/3 naming and figure-specific metadata; public output directory argument; shared existing native object converter. All figure constants retained.",
+  "licence": "BSD-3-Clause for covered author code; unchanged DejaVu terms remain separate",
+  "font_notice": "source/fonts/LICENSE_DEJAVU"
+}

@@ -1,0 +1,203 @@
+{
+  "schema": "p36-delivery-files-v1",
+  "kit": "04_Figures_Editable_ODG",
+  "hash_algorithm": "SHA-256",
+  "self_excluded": "PACKAGE_MANIFEST_SHA256.json",
+  "files": [
+    {
+      "path": "ARTICLE_METADATA.json",
+      "bytes": 683,
+      "sha256": "c4d46847f588666a5bf3704b3317e29a807f327bdf139395add7e1f5554924df"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 924,
+      "sha256": "e00b7d9d045a6dfdcf9bef7fab3458db85de1e3c956151d12d5f1a2c3b3129b5"
+    },
+    {
+      "path": "LICENSES/BSD-3-Clause.txt",
+      "bytes": 1520,
+      "sha256": "d4cf2c9cdc6d45ef81a689a51d760e507bbefb2c3397013732646887789d580c"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "LICENSE_SCOPE.json",
+      "bytes": 18717,
+      "sha256": "635ee5f9b124e18012549df5cc1ec2c94f5cd60ccc6b97b2b9ba2ecfd7db3be8"
+    },
+    {
+      "path": "LICENSING.md",
+      "bytes": 5637,
+      "sha256": "cb11f187d61f156d66713425d5a1fdf83fdd5d5f69f5add2f31990c6a3f135e7"
+    },
+    {
+      "path": "README_RO.txt",
+      "bytes": 11705,
+      "sha256": "cef9adcc03178d5eec54c813ae08ed0b6271e99f63f668a27a37c7f094c03629"
+    },
+    {
+      "path": "fodg/Fig1_Editable.fodg",
+      "bytes": 268994,
+      "sha256": "8ac7652e002f28a8b8b41100d99b37603b0516c78012603d5a8acd11fbec834f"
+    },
+    {
+      "path": "fodg/Fig2_Editable.fodg",
+      "bytes": 71589,
+      "sha256": "d25dfbda9da1deda58bb0178a29cfaa09e6298323e6bf1d066f7d291991ad7e6"
+    },
+    {
+      "path": "native_exports/Fig1_Editable.pdf",
+      "bytes": 97562,
+      "sha256": "4574249d9d97b45ffcbd6c51cca3e6b0233b9a49ecc7b3346fbcd00d61f5a0f9"
+    },
+    {
+      "path": "native_exports/Fig1_Editable.png",
+      "bytes": 264934,
+      "sha256": "f7788bbe853d04b6b2d35f42620134d12084a5c3b9f80fcc646db325ec124052"
+    },
+    {
+      "path": "native_exports/Fig2_Editable.pdf",
+      "bytes": 52297,
+      "sha256": "5594c9ec1362b4863efdbf05a721da140b11cb756aaac438749d57c05c496dbc"
+    },
+    {
+      "path": "native_exports/Fig2_Editable.png",
+      "bytes": 212664,
+      "sha256": "00fe6562deb07c1d5261eb0033561d20c97b85f632e5f909c6c5e0b987d8d1bd"
+    },
+    {
+      "path": "odg/Fig1_Editable.odg",
+      "bytes": 61438,
+      "sha256": "5f706b5baf53cabddb0d14274423a31c716af0c0a8c848719dcf84871dbe0647"
+    },
+    {
+      "path": "odg/Fig2_Editable.odg",
+      "bytes": 36650,
+      "sha256": "30582908b167e229abdb6b6d6e279f797ec7b47c87b89e5a493b02719e0f8489"
+    },
+    {
+      "path": "reference_exports/Fig1.pdf",
+      "bytes": 31471,
+      "sha256": "838ebc1c267e88458983b83ad49ff3bed24348f22f595537514fa5e628929dad"
+    },
+    {
+      "path": "reference_exports/Fig1.png",
+      "bytes": 236239,
+      "sha256": "7f1e7a10648c233221b43b1e463ef5412527c38492471bba0a45bc6a6c93f66a"
+    },
+    {
+      "path": "reference_exports/Fig1.svg",
+      "bytes": 80693,
+      "sha256": "1914380996b5f9f714dd5f47b18b81e90aec62c01802db2ab83243c1eb3a6540"
+    },
+    {
+      "path": "reference_exports/Fig2.pdf",
+      "bytes": 29313,
+      "sha256": "664ffa6fd1becf0a1b9adbf0338b7f523c35b7c88453501e225969b986ad5581"
+    },
+    {
+      "path": "reference_exports/Fig2.png",
+      "bytes": 285031,
+      "sha256": "b983c2e52588f6020cbd8bd27b18419dd1e45d8411a4d2ec881f95fce755bf4c"
+    },
+    {
+      "path": "reference_exports/Fig2.svg",
+      "bytes": 26669,
+      "sha256": "85d7659901e44d169efeebe87f1c9d59e8162500ae5c04dab6de1730c4bf86e7"
+    },
+    {
+      "path": "source/build_editable_odg.py",
+      "bytes": 17731,
+      "sha256": "fb8a9bb002a31b24f992dbff8844432a6c00ae3a94bb87190ce527927f21c59e"
+    },
+    {
+      "path": "source/check_figure_values.py",
+      "bytes": 3441,
+      "sha256": "52cc5a6efcb3a0357e8752d3cb8cec9abea5ec53225917570cca042e82f1536b"
+    },
+    {
+      "path": "source/edit_roundtrip_probe.py",
+      "bytes": 3100,
+      "sha256": "3b36dd276320a33b4a3cfb510ccec12c1fd34ae6bdc11442e87fb2f74b279c4c"
+    },
+    {
+      "path": "source/fonts/DejaVuSans-Bold.ttf",
+      "bytes": 704128,
+      "sha256": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+    },
+    {
+      "path": "source/fonts/DejaVuSans-BoldOblique.ttf",
+      "bytes": 641720,
+      "sha256": "6edf0283160186af451cbee71e7b845f2e4cabf264bb992ce668c83c25465e6f"
+    },
+    {
+      "path": "source/fonts/DejaVuSans-Oblique.ttf",
+      "bytes": 633840,
+      "sha256": "ccdf74b350f11fd3dd5774de50e5e6346a1a5da1f5b7d5fb83590665e97a5213"
+    },
+    {
+      "path": "source/fonts/DejaVuSans.ttf",
+      "bytes": 756072,
+      "sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22"
+    },
+    {
+      "path": "source/fonts/LICENSE_DEJAVU",
+      "bytes": 4816,
+      "sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+    },
+    {
+      "path": "source/make_figures.py",
+      "bytes": 17467,
+      "sha256": "4b6ef72e9d1ce0c3fe7af71245d9f9f3c2e996fb357234a58d5142d7fbe95178"
+    },
+    {
+      "path": "source/requirements_figures.txt",
+      "bytes": 62,
+      "sha256": "9252365a78b9f1efe03c8a2dbaf1a600baffc959dd3458f1d95b1b0cce8948ad"
+    },
+    {
+      "path": "source/verify_odg.py",
+      "bytes": 6178,
+      "sha256": "41c253d8f7f82740b81d31d24b21eee64577e6bcb5988998dcade88c1f296087"
+    },
+    {
+      "path": "values/Figure_Build_Record.json",
+      "bytes": 2190,
+      "sha256": "e0b0fc29519ac3a8a1a17280c21ed4ede3d9be3c7c9ad4eb77c7afb041b29c15"
+    },
+    {
+      "path": "values/Figure_Captions.txt",
+      "bytes": 1484,
+      "sha256": "e556c5ab6f5ac0fe22f7e7f96e04adef695903f547e656b774063d353fca3b4b"
+    },
+    {
+      "path": "values/Figure_Exact_Values.json",
+      "bytes": 7292,
+      "sha256": "bba5170e0537493b3dc24db927c0fa051968e09a0526c120590247ab12b6bee9"
+    },
+    {
+      "path": "verification/Edit_Roundtrip_Probe.json",
+      "bytes": 448,
+      "sha256": "be86773946c03b7ff28b9e2330ac4de0ec39542df1be24c0d66b1cd2bbf69d12"
+    },
+    {
+      "path": "verification/Exact_Values_Check.json",
+      "bytes": 525,
+      "sha256": "0bc10fc3adfca6c2aca218fb4896de3dd445af6a56c7bb55b095334debfed146"
+    },
+    {
+      "path": "verification/Native_ODG_Verification.json",
+      "bytes": 3172,
+      "sha256": "04ea192a8a9ef5a18bf648b8f57d02f25fd80dc3400d335f7a2f2dad82715a50"
+    },
+    {
+      "path": "verification/Object_Inventory.json",
+      "bytes": 121018,
+      "sha256": "1233afb69a9a209d7b385b87a7b38518081a963f4ed3e77a2077b377e0aa5e10"
+    }
+  ]
+}

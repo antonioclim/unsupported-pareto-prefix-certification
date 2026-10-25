@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "abstract_gap_threshold_screen_states_checked": 1573,
+  "candidate_census_policy_max_costs": {
+    "11": "11",
+    "12": "12",
+    "13": "27/2",
+    "14": "59/4",
+    "15": "15"
+  },
+  "deterministic_policy_max_costs": {
+    "11": "11",
+    "12": "12",
+    "13": "13",
+    "14": "15",
+    "15": "15"
+  },
+  "all_F_ge_0_symbolic_margins": {
+    "C11": {
+      "constant": "0",
+      "coefficient_F": "0",
+      "nonnegative_for_every_F_ge_0": true
+    },
+    "C12": {
+      "constant": "15",
+      "coefficient_F": "1",
+      "nonnegative_for_every_F_ge_0": true
+    },
+    "C13": {
+      "constant": "2",
+      "coefficient_F": "0",
+      "nonnegative_for_every_F_ge_0": true
+    },
+    "C14_no_partial": {
+      "constant": "3",
+      "coefficient_F": "0",
+      "nonnegative_for_every_F_ge_0": true
+    },
+    "C14_partial": {
+      "constant": "0",
+      "coefficient_F": "0",
+      "nonnegative_for_every_F_ge_0": true
+    },
+    "C15": {
+      "constant": "60",
+      "coefficient_F": "4",
+      "nonnegative_for_every_F_ge_0": true
+    }
+  },
+  "source_sha256": {
+    "p22/upper/N5_Upper_Proof.txt": "f39f19d0f20beb2d840ac9fea8eb978624e1f56d7a22d98d4838be185952948f",
+    "p22/three_tail/Triangle_N5_Two_World_Lower_Proof.txt": "20e75c984b81bb2830c17363283c75f6e8c7e788b148afce8853377399dfb0c0"
+  },
+  "scope": "Exact arithmetic check of an abstract overapproximation, not numerical sampling of the continuum or a formal proof assistant."
+}

@@ -1,0 +1,181 @@
+EXACT FIVE-ROW TRIANGULAR ACQUISITION: GLOBAL UPPER BOUNDS
+Working proof, 23 October 2026. This is a new internal research note, not a
+claim of historical priority, external peer review or formal verification.
+
+Model. There are three labelled configurations, designated candidate A and
+two rivals, each with N=5 ordered whole rows in T={(c,f):0<=f<=c<=1}.
+Unseen rows are independently completable. A query reveals the next row of
+one configuration and costs one. GOOD means Pareto nondomination and absence
+of any nonzero nonnegative supporting linear scalarisation; equality is
+support. Algorithms must terminate correctly on every legal input. Their
+positive-input cost is divided by the minimum realised TRUE-prefix cost.
+A fixed compulsory information-free setup F>=0 is added to both costs.
+
+The exact prefix-corner test and oriented triangular feasibility criterion
+are inherited from P21. No assertion below concerns noisy measurements or
+a more restrictive physical completion domain.
+
+1. FEASIBLE PREFIX SHAPES
+
+For candidate length a, northwest rival length i and southeast rival length
+j, write Z=i+2j+2a-20. A TRUE state of these lengths exists precisely when
+Z>0 and Z^2>4(10-a-i)(10-a-j). Among the 125 triples in {1,...,5}^3,
+the componentwise minimal feasible triples are exactly
+
+    (4,5,5), (5,1,5), (5,5,3).
+
+This finite algebraic reduction can also be checked as follows. The P21
+candidate bound gives a>=4. With a=4 the criterion forces i=j=5.
+With a=5, i,j<=4 gives its largest value at i=j=4, where Z^2=4 and
+4(10-a-i)(10-a-j)=4, so strict feasibility fails. Thus a rival is full.
+For j=5 every i>=1 is feasible. For i=5 feasibility reduces to j>5/2,
+so j>=3. These statements give the three minimal shapes without relying
+on the accompanying enumeration.
+
+Consequences: each TRUE prefix costs at least 11; a certificate that does
+not census the candidate must be precisely (4,5,5), costing 14. Every
+candidate-census certificate has a full rival. If its cost is 11 or 12,
+its northwest prefix has respectively one or two rows and its southeast
+rival is full. Costs 13 and 14 are treated separately below.
+
+2. GEOMETRIC SCREENING WITH A COMPLETE CANDIDATE
+
+After candidate census, let p=(p_c,p_f) and g=p_c-p_f. At any positive
+certificate the rival upper corners strictly cross p. The northwest one
+has cost below p_c and failure above p_f; the southeast one has cost above
+p_c and failure below p_f. The first P2-safe rival prefix is the first
+prefix whose lower corner does not dominate p. On a positive archive,
+every such screening query is compulsory in every candidate-census TRUE
+certificate. Its side is observable: the northwest lower failure exceeds
+p_f and the southeast lower cost exceeds p_c.
+
+If a safe corner is on neither required strict crossing side, or the two
+rivals are on the same side, the archive cannot be positive. The policy
+may use full census to decide all such cases. This is an all-input policy,
+not one promised a positive answer.
+
+The elementary P21 inequalities give, for a partial northwest prefix i,
+
+    g > 1-i/5,
+
+and for a partial southeast prefix j,
+
+    g < 2j/5-1.
+
+Hence:
+
+* if g<=1/5, every candidate-census certificate censuses the northwest;
+* if g>=3/5, every candidate-census certificate censuses the southeast;
+* if 1/5<g<=2/5, both rival prefixes are at least four;
+* if 2/5<g<3/5, northwest prefix is at least three and southeast at least
+  four.
+
+In an exterior branch, screen to the first safe prefixes, identify the
+two sides, complete the compulsory side, then extend the other side only
+until TRUE or census. This obtains the componentwise minimum candidate-
+census certificate, and is therefore exactly optimal within that class.
+
+3. POLICY A: CANDIDATE CENSUS
+
+First census A. Always use the exact robust TRUE test before taking a new
+row when a TRUE stop is possible, and use full census to decide any
+remaining negative archive.
+
+Exterior branches g<=1/5 and g>=3/5 use the exact policy just described.
+
+For 1/5<g<=2/5, acquire the first four rows of each labelled rival
+directly. The base (5,4,4), cost13, is compulsory and cannot itself be
+TRUE. Reveal the two remaining rows in a fair random order, stopping if
+the first completes a TRUE certificate. Every positive archive admitting
+a cost14 candidate-census certificate then has expected cost at most14.5.
+
+For 2/5<g<3/5, screen to the first safe prefixes, identify northwest and
+southeast, and raise them, if needed, to lengths three and four. All these
+rows are compulsory in every candidate-census certificate. If screening
+already censused a rival, that census is also compulsory, so extending the
+other rival only until TRUE gives the componentwise minimum certificate.
+Otherwise the northwest length is three or four and southeast length four.
+Independently choose:
+
+    probability 1/4: complete northwest first, test TRUE, then southeast;
+    probability 3/4: complete southeast first, then extend northwest only
+                     until TRUE.
+
+There is no possible TRUE state with both rivals partial, so completing
+the first selected side cannot skip a feasible early TRUE stop. For a
+cost13 candidate-census certificate, the only possibility in this branch
+is (5,3,5). Southeast-first costs13; northwest-first costs at most15.
+Thus its expected cost is at most13.5. For a cost14 certificate of type
+(5,4,5), the two respective bounds are14 and15, giving at most14.25.
+For type (5,5,4), they are15 and14, giving at most14.75. If more than one
+type is available these bounds only improve. Mandatory screening cases
+already handled have exact cost and therefore obey the same bounds.
+
+Policy A consequently satisfies the following bounds, where C* denotes
+row cost, excluding setup:
+
+    C*=11: A=11.
+    C*=12: A=12.
+    C*=13: E[A]<=27/2.
+    C*=14, no candidate-partial certificate: E[A]<=59/4.
+    C*=14, a candidate-partial certificate exists: A<=15.
+    C*=15: A=15.
+
+For the first two classes, the northwest prefix i<=2 requires g>3/5,
+so the exact exterior branch applies. For C*=13 the only non-exterior
+case is (5,3,5) in the last branch. All setup costs are paid once.
+
+4. POLICY B AND THE MIXTURE
+
+Policy B acquires four candidate rows and both rivals completely. Test
+TRUE at cost14; if false, reveal the last candidate row and decide by
+full census. Thus B costs14 whenever the candidate-partial certificate
+exists and otherwise15. The order within its prescribed base is immaterial.
+
+Let d=5F+67. Select Policy A before observations with probability
+
+    p=4(F+14)/d,
+
+and Policy B with probability 1-p=(F+11)/d. Since F>=0 these are legal.
+The target competitive ratio is
+
+    R=1+4/d.
+
+For C*=11, mixture overhead is 4(1-p)=4(F+11)/d, exactly R-1 times
+the denominator F+11. For a C*=14 archive admitting the candidate-
+partial certificate, overhead is at most p=4(F+14)/d, again equality.
+For the other classes the overhead numerators, after multiplying by d,
+are bounded by:
+
+    C*=12: 3(F+11) <= 4(F+12);
+    C*=13: d[2-(3/2)p] = 4F+50 < 4(F+13);
+    C*=14 without partial: d[1-p/4] = 4F+53 < 4(F+14);
+    C*=15: zero.
+
+These exhaustive classes prove the global upper bound
+
+    R_rand,T^*(3,5;F) <= 1+4/(5F+67).
+
+5. DETERMINISTIC UPPER
+
+Use Policy A alone. In the middle symmetric branch take either rival tail
+first deterministically. In the last branch always complete the southeast
+first. Every C*<=13 archive then costs exactly C*: the only uncertain
+cost13 type is (5,3,5), acquired first. Every C*=14 archive costs at most15,
+and C*=15 costs15. Therefore
+
+    R_det,T^*(3,5;F) <= 1+1/(F+14).
+
+The independent fixed-world construction supplied by the parallel lower-
+bound task matches both upper bounds. At F=0 the resulting values are
+71/67 and15/14. The present file establishes the global upper policies;
+it does not rely on the lower worlds for policy correctness.
+
+6. VERIFICATION SCOPE
+
+The proof covers the continuous triangular domain and all F>=0. The own
+stdlib checker verifies all125 length triples, the exhaustive certificate
+cost partition, the elementary policy cost envelopes and the exact rational
+mixture arithmetic for representative F. It is a finite arithmetic check,
+not exhaustive sampling of all numerical archives and not formal proof.
+The source and retained JSON report must accompany this proof.

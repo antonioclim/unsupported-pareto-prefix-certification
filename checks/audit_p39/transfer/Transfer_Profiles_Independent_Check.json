@@ -1,0 +1,163 @@
+{
+  "status": "PASS",
+  "counts": {
+    "models": 15481,
+    "certificate_equal_models": 5820,
+    "certificate_unequal_models": 9661,
+    "price_vectors_checked": 84151,
+    "comparator_checks": 35360,
+    "source_profile_count": 312411,
+    "target_profile_count": 200561,
+    "empty_certificate_models": 3959
+  },
+  "exhaustive_n2_counts": {
+    "models": 2013,
+    "certificate_equal_models": 1263,
+    "certificate_unequal_models": 750,
+    "price_vectors_checked": 6710,
+    "comparator_checks": 2592,
+    "source_profile_count": 6707,
+    "target_profile_count": 5421,
+    "empty_certificate_models": 1107
+  },
+  "scope": "Exact finite deterministic transcript-profile enumeration, certificate families and finite separating tariffs. Does not enumerate continuous random seeds, arbitrary real inputs or certify general analytic R5 by computation.",
+  "models_n2": "All 16 total Boolean predicates, every nonempty nested pair X subset Y subset {0,1}^2 with a positive X input, three possible posets on two labelled locations. Predicates differing outside Y may count as repeated restricted models.",
+  "models_n3": "All 16 symmetric total predicates, full Y={0,1}^3, all nonempty X with a positive input, four declared posets.",
+  "unit_price_counterexample": "All positive certificate minima one, but X deterministic optimum one and Y-valid positive optimum two; equal hard pair average lower bound 3/2.",
+  "examples": [
+    {
+      "n": 2,
+      "X": [
+        0
+      ],
+      "Y": [
+        0,
+        1
+      ],
+      "f": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "predecessor_masks": [
+        0,
+        0
+      ],
+      "positive_inputs": [
+        0
+      ],
+      "unextendible_positive_profile": [
+        []
+      ]
+    },
+    {
+      "n": 2,
+      "X": [
+        0
+      ],
+      "Y": [
+        0,
+        1
+      ],
+      "f": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "predecessor_masks": [
+        0,
+        1
+      ],
+      "positive_inputs": [
+        0
+      ],
+      "unextendible_positive_profile": [
+        []
+      ]
+    },
+    {
+      "n": 2,
+      "X": [
+        0
+      ],
+      "Y": [
+        0,
+        1
+      ],
+      "f": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "predecessor_masks": [
+        2,
+        0
+      ],
+      "positive_inputs": [
+        0
+      ],
+      "unextendible_positive_profile": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "n": 2,
+      "X": [
+        0
+      ],
+      "Y": [
+        0,
+        2
+      ],
+      "f": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "predecessor_masks": [
+        0,
+        0
+      ],
+      "positive_inputs": [
+        0
+      ],
+      "unextendible_positive_profile": [
+        []
+      ]
+    },
+    {
+      "n": 2,
+      "X": [
+        0
+      ],
+      "Y": [
+        0,
+        2
+      ],
+      "f": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "predecessor_masks": [
+        0,
+        1
+      ],
+      "positive_inputs": [
+        0
+      ],
+      "unextendible_positive_profile": [
+        []
+      ]
+    }
+  ],
+  "elapsed_seconds": 4.598536820994923,
+  "script_sha256": "22b9cd4bac3a67e96f5347e185af2a8b54e372512324644bfaf32c83b2a7ecd5"
+}

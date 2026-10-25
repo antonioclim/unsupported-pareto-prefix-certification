@@ -1,0 +1,252 @@
+{
+  "status": "PASS",
+  "independent_checker": "integer strict crossing determinant after P2",
+  "proof_sha256": "5e8f3337fdc2456f6c81d9555073faa07b88d70027e9de50cb347dc7759db9bd",
+  "cases": [
+    {
+      "x": 1,
+      "y": 1,
+      "q": 2,
+      "padding": 0,
+      "N": 10,
+      "prefix_states_checked": 2662,
+      "worlds": [
+        {
+          "winner": 1,
+          "TRUE_states": [
+            [
+              10,
+              10,
+              9
+            ],
+            [
+              10,
+              10,
+              10
+            ]
+          ],
+          "minimum_cost": 29
+        },
+        {
+          "winner": 2,
+          "TRUE_states": [
+            [
+              10,
+              9,
+              10
+            ],
+            [
+              10,
+              10,
+              10
+            ]
+          ],
+          "minimum_cost": 29
+        }
+      ]
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "q": 2,
+      "padding": 1,
+      "N": 11,
+      "prefix_states_checked": 3456,
+      "worlds": [
+        {
+          "winner": 1,
+          "TRUE_states": [
+            [
+              11,
+              11,
+              10
+            ],
+            [
+              11,
+              11,
+              11
+            ]
+          ],
+          "minimum_cost": 32
+        },
+        {
+          "winner": 2,
+          "TRUE_states": [
+            [
+              11,
+              10,
+              11
+            ],
+            [
+              11,
+              11,
+              11
+            ]
+          ],
+          "minimum_cost": 32
+        }
+      ]
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "q": 2,
+      "padding": 0,
+      "N": 20,
+      "prefix_states_checked": 18522,
+      "worlds": [
+        {
+          "winner": 1,
+          "TRUE_states": [
+            [
+              20,
+              20,
+              19
+            ],
+            [
+              20,
+              20,
+              20
+            ]
+          ],
+          "minimum_cost": 59
+        },
+        {
+          "winner": 2,
+          "TRUE_states": [
+            [
+              20,
+              13,
+              20
+            ],
+            [
+              20,
+              14,
+              20
+            ],
+            [
+              20,
+              15,
+              20
+            ],
+            [
+              20,
+              16,
+              20
+            ],
+            [
+              20,
+              17,
+              20
+            ],
+            [
+              20,
+              18,
+              20
+            ],
+            [
+              20,
+              19,
+              20
+            ],
+            [
+              20,
+              20,
+              20
+            ]
+          ],
+          "minimum_cost": 53
+        }
+      ]
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "q": 1,
+      "padding": 1,
+      "N": 30,
+      "prefix_states_checked": 59582,
+      "worlds": [
+        {
+          "winner": 1,
+          "TRUE_states": [
+            [
+              30,
+              30,
+              27
+            ],
+            [
+              30,
+              30,
+              28
+            ],
+            [
+              30,
+              30,
+              29
+            ],
+            [
+              30,
+              30,
+              30
+            ]
+          ],
+          "minimum_cost": 87
+        },
+        {
+          "winner": 2,
+          "TRUE_states": [
+            [
+              30,
+              22,
+              30
+            ],
+            [
+              30,
+              23,
+              30
+            ],
+            [
+              30,
+              24,
+              30
+            ],
+            [
+              30,
+              25,
+              30
+            ],
+            [
+              30,
+              26,
+              30
+            ],
+            [
+              30,
+              27,
+              30
+            ],
+            [
+              30,
+              28,
+              30
+            ],
+            [
+              30,
+              29,
+              30
+            ],
+            [
+              30,
+              30,
+              30
+            ]
+          ],
+          "minimum_cost": 82
+        }
+      ]
+    }
+  ],
+  "prefix_states_checked": 84222,
+  "scope": "Entire prefix grids of four rational two-world families; not all-parameter proof or formal verification."
+}

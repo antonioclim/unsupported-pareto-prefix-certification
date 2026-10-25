@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "bits": 3,
+  "function_restriction_cases": 58975,
+  "positive_instance_cases": 131072,
+  "certificate_preserving_cases": 10937,
+  "certificate_changing_cases": 48038,
+  "separating_tariffs": [
+    [
+      4,
+      4,
+      4
+    ],
+    [
+      1,
+      4,
+      4
+    ],
+    [
+      4,
+      1,
+      4
+    ],
+    [
+      1,
+      1,
+      4
+    ],
+    [
+      4,
+      4,
+      1
+    ],
+    [
+      1,
+      4,
+      1
+    ],
+    [
+      4,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1
+    ]
+  ],
+  "unit_price_counterexample": [
+    {
+      "input": [
+        0,
+        1,
+        1
+      ],
+      "unit_CX": 1,
+      "unit_CY": 1,
+      "weighted_CX": 1,
+      "weighted_CY": 4
+    },
+    {
+      "input": [
+        1,
+        0,
+        1
+      ],
+      "unit_CX": 1,
+      "unit_CY": 1,
+      "weighted_CX": 1,
+      "weighted_CY": 4
+    },
+    {
+      "input": [
+        1,
+        1,
+        1
+      ],
+      "unit_CX": 1,
+      "unit_CY": 1,
+      "weighted_CX": 1,
+      "weighted_CY": 4
+    }
+  ],
+  "scope": "finite certificate/price equivalence and explicit counterexample; not policy or infinite-input proof"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-24T07:59:49.543726+00:00",
+  "controls": [
+    {
+      "name": "existing_output_rejected_preserved",
+      "returncode": 1,
+      "stderr": "Output exists; preserve it and choose a fresh --output path.",
+      "sha256_unchanged": "c1dbdccde0cf85118ca446a3e2ca2c2ff91ab265163ddd908b6cf3feaba1a833"
+    },
+    {
+      "name": "optimised_mode_rejected",
+      "returncode": 1,
+      "stderr": "Run without -O; this demonstration requires ordinary Python mode.",
+      "no_output_created": true
+    }
+  ],
+  "scope": "Runner refusal controls, not new scientific verification"
+}

@@ -1,0 +1,13 @@
+# Local run output and Python environments
+results/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/

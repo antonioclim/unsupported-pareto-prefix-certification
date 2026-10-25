@@ -1,0 +1,1472 @@
+{
+  "status": "PASS",
+  "checker": "independent integer P2 and crossing determinant",
+  "prefix_states_checked": 130842,
+  "world_cases": [
+    {
+      "q": 3,
+      "padding": 0,
+      "N": 12,
+      "world": "A",
+      "TRUE_states": [
+        [
+          11,
+          12,
+          11
+        ],
+        [
+          11,
+          12,
+          12
+        ],
+        [
+          12,
+          12,
+          11
+        ],
+        [
+          12,
+          12,
+          12
+        ]
+      ],
+      "minimum_cost": 34
+    },
+    {
+      "q": 3,
+      "padding": 0,
+      "N": 12,
+      "world": "B",
+      "TRUE_states": [
+        [
+          12,
+          10,
+          11
+        ],
+        [
+          12,
+          10,
+          12
+        ],
+        [
+          12,
+          11,
+          11
+        ],
+        [
+          12,
+          11,
+          12
+        ],
+        [
+          12,
+          12,
+          11
+        ],
+        [
+          12,
+          12,
+          12
+        ]
+      ],
+      "minimum_cost": 33
+    },
+    {
+      "q": 3,
+      "padding": 1,
+      "N": 13,
+      "world": "A",
+      "TRUE_states": [
+        [
+          12,
+          13,
+          12
+        ],
+        [
+          12,
+          13,
+          13
+        ],
+        [
+          13,
+          13,
+          12
+        ],
+        [
+          13,
+          13,
+          13
+        ]
+      ],
+      "minimum_cost": 37
+    },
+    {
+      "q": 3,
+      "padding": 1,
+      "N": 13,
+      "world": "B",
+      "TRUE_states": [
+        [
+          13,
+          11,
+          12
+        ],
+        [
+          13,
+          11,
+          13
+        ],
+        [
+          13,
+          12,
+          12
+        ],
+        [
+          13,
+          12,
+          13
+        ],
+        [
+          13,
+          13,
+          12
+        ],
+        [
+          13,
+          13,
+          13
+        ]
+      ],
+      "minimum_cost": 36
+    },
+    {
+      "q": 3,
+      "padding": 3,
+      "N": 15,
+      "world": "A",
+      "TRUE_states": [
+        [
+          14,
+          15,
+          14
+        ],
+        [
+          14,
+          15,
+          15
+        ],
+        [
+          15,
+          15,
+          14
+        ],
+        [
+          15,
+          15,
+          15
+        ]
+      ],
+      "minimum_cost": 43
+    },
+    {
+      "q": 3,
+      "padding": 3,
+      "N": 15,
+      "world": "B",
+      "TRUE_states": [
+        [
+          15,
+          13,
+          14
+        ],
+        [
+          15,
+          13,
+          15
+        ],
+        [
+          15,
+          14,
+          14
+        ],
+        [
+          15,
+          14,
+          15
+        ],
+        [
+          15,
+          15,
+          14
+        ],
+        [
+          15,
+          15,
+          15
+        ]
+      ],
+      "minimum_cost": 42
+    },
+    {
+      "q": 4,
+      "padding": 0,
+      "N": 16,
+      "world": "A",
+      "TRUE_states": [
+        [
+          14,
+          16,
+          15
+        ],
+        [
+          14,
+          16,
+          16
+        ],
+        [
+          15,
+          16,
+          15
+        ],
+        [
+          15,
+          16,
+          16
+        ],
+        [
+          16,
+          16,
+          15
+        ],
+        [
+          16,
+          16,
+          16
+        ]
+      ],
+      "minimum_cost": 45
+    },
+    {
+      "q": 4,
+      "padding": 0,
+      "N": 16,
+      "world": "B",
+      "TRUE_states": [
+        [
+          16,
+          13,
+          15
+        ],
+        [
+          16,
+          13,
+          16
+        ],
+        [
+          16,
+          14,
+          15
+        ],
+        [
+          16,
+          14,
+          16
+        ],
+        [
+          16,
+          15,
+          15
+        ],
+        [
+          16,
+          15,
+          16
+        ],
+        [
+          16,
+          16,
+          15
+        ],
+        [
+          16,
+          16,
+          16
+        ]
+      ],
+      "minimum_cost": 44
+    },
+    {
+      "q": 5,
+      "padding": 2,
+      "N": 22,
+      "world": "A",
+      "TRUE_states": [
+        [
+          19,
+          22,
+          21
+        ],
+        [
+          19,
+          22,
+          22
+        ],
+        [
+          20,
+          22,
+          21
+        ],
+        [
+          20,
+          22,
+          22
+        ],
+        [
+          21,
+          22,
+          21
+        ],
+        [
+          21,
+          22,
+          22
+        ],
+        [
+          22,
+          22,
+          21
+        ],
+        [
+          22,
+          22,
+          22
+        ]
+      ],
+      "minimum_cost": 62
+    },
+    {
+      "q": 5,
+      "padding": 2,
+      "N": 22,
+      "world": "B",
+      "TRUE_states": [
+        [
+          22,
+          18,
+          21
+        ],
+        [
+          22,
+          18,
+          22
+        ],
+        [
+          22,
+          19,
+          21
+        ],
+        [
+          22,
+          19,
+          22
+        ],
+        [
+          22,
+          20,
+          21
+        ],
+        [
+          22,
+          20,
+          22
+        ],
+        [
+          22,
+          21,
+          21
+        ],
+        [
+          22,
+          21,
+          22
+        ],
+        [
+          22,
+          22,
+          21
+        ],
+        [
+          22,
+          22,
+          22
+        ]
+      ],
+      "minimum_cost": 61
+    },
+    {
+      "q": 8,
+      "padding": 1,
+      "N": 33,
+      "world": "A",
+      "TRUE_states": [
+        [
+          27,
+          33,
+          32
+        ],
+        [
+          27,
+          33,
+          33
+        ],
+        [
+          28,
+          33,
+          32
+        ],
+        [
+          28,
+          33,
+          33
+        ],
+        [
+          29,
+          33,
+          32
+        ],
+        [
+          29,
+          33,
+          33
+        ],
+        [
+          30,
+          33,
+          32
+        ],
+        [
+          30,
+          33,
+          33
+        ],
+        [
+          31,
+          33,
+          32
+        ],
+        [
+          31,
+          33,
+          33
+        ],
+        [
+          32,
+          33,
+          32
+        ],
+        [
+          32,
+          33,
+          33
+        ],
+        [
+          33,
+          33,
+          32
+        ],
+        [
+          33,
+          33,
+          33
+        ]
+      ],
+      "minimum_cost": 92
+    },
+    {
+      "q": 8,
+      "padding": 1,
+      "N": 33,
+      "world": "B",
+      "TRUE_states": [
+        [
+          33,
+          26,
+          32
+        ],
+        [
+          33,
+          26,
+          33
+        ],
+        [
+          33,
+          27,
+          32
+        ],
+        [
+          33,
+          27,
+          33
+        ],
+        [
+          33,
+          28,
+          32
+        ],
+        [
+          33,
+          28,
+          33
+        ],
+        [
+          33,
+          29,
+          32
+        ],
+        [
+          33,
+          29,
+          33
+        ],
+        [
+          33,
+          30,
+          32
+        ],
+        [
+          33,
+          30,
+          33
+        ],
+        [
+          33,
+          31,
+          32
+        ],
+        [
+          33,
+          31,
+          33
+        ],
+        [
+          33,
+          32,
+          32
+        ],
+        [
+          33,
+          32,
+          33
+        ],
+        [
+          33,
+          33,
+          32
+        ],
+        [
+          33,
+          33,
+          33
+        ]
+      ],
+      "minimum_cost": 91
+    }
+  ],
+  "q2_boundary_control": {
+    "B_8_7_7": false,
+    "B_8_7_8": true,
+    "interpretation": "q>=3 is necessary for the claimed SE threshold"
+  },
+  "balance_cases_checked": 148,
+  "balance": [
+    {
+      "q": 3,
+      "padding": 0,
+      "ratio": "103/101",
+      "candidate_first_probability": "68/101"
+    },
+    {
+      "q": 3,
+      "padding": 1,
+      "ratio": "56/55",
+      "candidate_first_probability": "37/55"
+    },
+    {
+      "q": 3,
+      "padding": 2,
+      "ratio": "121/119",
+      "candidate_first_probability": "80/119"
+    },
+    {
+      "q": 3,
+      "padding": 3,
+      "ratio": "65/64",
+      "candidate_first_probability": "43/64"
+    },
+    {
+      "q": 4,
+      "padding": 0,
+      "ratio": "229/223",
+      "candidate_first_probability": "135/223"
+    },
+    {
+      "q": 4,
+      "padding": 1,
+      "ratio": "122/119",
+      "candidate_first_probability": "72/119"
+    },
+    {
+      "q": 4,
+      "padding": 2,
+      "ratio": "259/253",
+      "candidate_first_probability": "153/253"
+    },
+    {
+      "q": 4,
+      "padding": 3,
+      "ratio": "137/134",
+      "candidate_first_probability": "81/134"
+    },
+    {
+      "q": 5,
+      "padding": 0,
+      "ratio": "401/389",
+      "candidate_first_probability": "224/389"
+    },
+    {
+      "q": 5,
+      "padding": 1,
+      "ratio": "211/205",
+      "candidate_first_probability": "118/205"
+    },
+    {
+      "q": 5,
+      "padding": 2,
+      "ratio": "443/431",
+      "candidate_first_probability": "248/431"
+    },
+    {
+      "q": 5,
+      "padding": 3,
+      "ratio": "116/113",
+      "candidate_first_probability": "65/113"
+    },
+    {
+      "q": 6,
+      "padding": 0,
+      "ratio": "619/599",
+      "candidate_first_probability": "335/599"
+    },
+    {
+      "q": 6,
+      "padding": 1,
+      "ratio": "323/313",
+      "candidate_first_probability": "175/313"
+    },
+    {
+      "q": 6,
+      "padding": 2,
+      "ratio": "673/653",
+      "candidate_first_probability": "365/653"
+    },
+    {
+      "q": 6,
+      "padding": 3,
+      "ratio": "35/34",
+      "candidate_first_probability": "19/34"
+    },
+    {
+      "q": 7,
+      "padding": 0,
+      "ratio": "883/853",
+      "candidate_first_probability": "468/853"
+    },
+    {
+      "q": 7,
+      "padding": 1,
+      "ratio": "458/443",
+      "candidate_first_probability": "243/443"
+    },
+    {
+      "q": 7,
+      "padding": 2,
+      "ratio": "949/919",
+      "candidate_first_probability": "504/919"
+    },
+    {
+      "q": 7,
+      "padding": 3,
+      "ratio": "491/476",
+      "candidate_first_probability": "261/476"
+    },
+    {
+      "q": 8,
+      "padding": 0,
+      "ratio": "1193/1151",
+      "candidate_first_probability": "623/1151"
+    },
+    {
+      "q": 8,
+      "padding": 1,
+      "ratio": "88/85",
+      "candidate_first_probability": "46/85"
+    },
+    {
+      "q": 8,
+      "padding": 2,
+      "ratio": "1271/1229",
+      "candidate_first_probability": "665/1229"
+    },
+    {
+      "q": 8,
+      "padding": 3,
+      "ratio": "655/634",
+      "candidate_first_probability": "343/634"
+    },
+    {
+      "q": 9,
+      "padding": 0,
+      "ratio": "1549/1493",
+      "candidate_first_probability": "800/1493"
+    },
+    {
+      "q": 9,
+      "padding": 1,
+      "ratio": "797/769",
+      "candidate_first_probability": "412/769"
+    },
+    {
+      "q": 9,
+      "padding": 2,
+      "ratio": "1639/1583",
+      "candidate_first_probability": "848/1583"
+    },
+    {
+      "q": 9,
+      "padding": 3,
+      "ratio": "421/407",
+      "candidate_first_probability": "218/407"
+    },
+    {
+      "q": 10,
+      "padding": 0,
+      "ratio": "1951/1879",
+      "candidate_first_probability": "999/1879"
+    },
+    {
+      "q": 10,
+      "padding": 1,
+      "ratio": "1001/965",
+      "candidate_first_probability": "513/965"
+    },
+    {
+      "q": 10,
+      "padding": 2,
+      "ratio": "2053/1981",
+      "candidate_first_probability": "1053/1981"
+    },
+    {
+      "q": 10,
+      "padding": 3,
+      "ratio": "263/254",
+      "candidate_first_probability": "135/254"
+    },
+    {
+      "q": 11,
+      "padding": 0,
+      "ratio": "2399/2309",
+      "candidate_first_probability": "1220/2309"
+    },
+    {
+      "q": 11,
+      "padding": 1,
+      "ratio": "1228/1183",
+      "candidate_first_probability": "625/1183"
+    },
+    {
+      "q": 11,
+      "padding": 2,
+      "ratio": "2513/2423",
+      "candidate_first_probability": "1280/2423"
+    },
+    {
+      "q": 11,
+      "padding": 3,
+      "ratio": "257/248",
+      "candidate_first_probability": "131/248"
+    },
+    {
+      "q": 12,
+      "padding": 0,
+      "ratio": "263/253",
+      "candidate_first_probability": "133/253"
+    },
+    {
+      "q": 12,
+      "padding": 1,
+      "ratio": "1478/1423",
+      "candidate_first_probability": "748/1423"
+    },
+    {
+      "q": 12,
+      "padding": 2,
+      "ratio": "3019/2909",
+      "candidate_first_probability": "1529/2909"
+    },
+    {
+      "q": 12,
+      "padding": 3,
+      "ratio": "1541/1486",
+      "candidate_first_probability": "781/1486"
+    },
+    {
+      "q": 13,
+      "padding": 0,
+      "ratio": "3433/3301",
+      "candidate_first_probability": "1728/3301"
+    },
+    {
+      "q": 13,
+      "padding": 1,
+      "ratio": "1751/1685",
+      "candidate_first_probability": "882/1685"
+    },
+    {
+      "q": 13,
+      "padding": 2,
+      "ratio": "3571/3439",
+      "candidate_first_probability": "1800/3439"
+    },
+    {
+      "q": 13,
+      "padding": 3,
+      "ratio": "910/877",
+      "candidate_first_probability": "459/877"
+    },
+    {
+      "q": 14,
+      "padding": 0,
+      "ratio": "4019/3863",
+      "candidate_first_probability": "2015/3863"
+    },
+    {
+      "q": 14,
+      "padding": 1,
+      "ratio": "2047/1969",
+      "candidate_first_probability": "1027/1969"
+    },
+    {
+      "q": 14,
+      "padding": 2,
+      "ratio": "4169/4013",
+      "candidate_first_probability": "2093/4013"
+    },
+    {
+      "q": 14,
+      "padding": 3,
+      "ratio": "1061/1022",
+      "candidate_first_probability": "533/1022"
+    },
+    {
+      "q": 15,
+      "padding": 0,
+      "ratio": "4651/4469",
+      "candidate_first_probability": "2324/4469"
+    },
+    {
+      "q": 15,
+      "padding": 1,
+      "ratio": "26/25",
+      "candidate_first_probability": "13/25"
+    },
+    {
+      "q": 15,
+      "padding": 2,
+      "ratio": "4813/4631",
+      "candidate_first_probability": "2408/4631"
+    },
+    {
+      "q": 15,
+      "padding": 3,
+      "ratio": "2447/2356",
+      "candidate_first_probability": "1225/2356"
+    },
+    {
+      "q": 16,
+      "padding": 0,
+      "ratio": "5329/5119",
+      "candidate_first_probability": "2655/5119"
+    },
+    {
+      "q": 16,
+      "padding": 1,
+      "ratio": "2708/2603",
+      "candidate_first_probability": "1350/2603"
+    },
+    {
+      "q": 16,
+      "padding": 2,
+      "ratio": "5503/5293",
+      "candidate_first_probability": "2745/5293"
+    },
+    {
+      "q": 16,
+      "padding": 3,
+      "ratio": "559/538",
+      "candidate_first_probability": "279/538"
+    },
+    {
+      "q": 17,
+      "padding": 0,
+      "ratio": "6053/5813",
+      "candidate_first_probability": "3008/5813"
+    },
+    {
+      "q": 17,
+      "padding": 1,
+      "ratio": "3073/2953",
+      "candidate_first_probability": "1528/2953"
+    },
+    {
+      "q": 17,
+      "padding": 2,
+      "ratio": "6239/5999",
+      "candidate_first_probability": "3104/5999"
+    },
+    {
+      "q": 17,
+      "padding": 3,
+      "ratio": "1583/1523",
+      "candidate_first_probability": "788/1523"
+    },
+    {
+      "q": 18,
+      "padding": 0,
+      "ratio": "6823/6551",
+      "candidate_first_probability": "3383/6551"
+    },
+    {
+      "q": 18,
+      "padding": 1,
+      "ratio": "3461/3325",
+      "candidate_first_probability": "1717/3325"
+    },
+    {
+      "q": 18,
+      "padding": 2,
+      "ratio": "413/397",
+      "candidate_first_probability": "205/397"
+    },
+    {
+      "q": 18,
+      "padding": 3,
+      "ratio": "445/428",
+      "candidate_first_probability": "221/428"
+    },
+    {
+      "q": 19,
+      "padding": 0,
+      "ratio": "7639/7333",
+      "candidate_first_probability": "3780/7333"
+    },
+    {
+      "q": 19,
+      "padding": 1,
+      "ratio": "3872/3719",
+      "candidate_first_probability": "1917/3719"
+    },
+    {
+      "q": 19,
+      "padding": 2,
+      "ratio": "7849/7543",
+      "candidate_first_probability": "3888/7543"
+    },
+    {
+      "q": 19,
+      "padding": 3,
+      "ratio": "3977/3824",
+      "candidate_first_probability": "1971/3824"
+    },
+    {
+      "q": 20,
+      "padding": 0,
+      "ratio": "8501/8159",
+      "candidate_first_probability": "4199/8159"
+    },
+    {
+      "q": 20,
+      "padding": 1,
+      "ratio": "4306/4135",
+      "candidate_first_probability": "2128/4135"
+    },
+    {
+      "q": 20,
+      "padding": 2,
+      "ratio": "8723/8381",
+      "candidate_first_probability": "4313/8381"
+    },
+    {
+      "q": 20,
+      "padding": 3,
+      "ratio": "4417/4246",
+      "candidate_first_probability": "2185/4246"
+    },
+    {
+      "q": 21,
+      "padding": 0,
+      "ratio": "9409/9029",
+      "candidate_first_probability": "4640/9029"
+    },
+    {
+      "q": 21,
+      "padding": 1,
+      "ratio": "4763/4573",
+      "candidate_first_probability": "2350/4573"
+    },
+    {
+      "q": 21,
+      "padding": 2,
+      "ratio": "9643/9263",
+      "candidate_first_probability": "4760/9263"
+    },
+    {
+      "q": 21,
+      "padding": 3,
+      "ratio": "488/469",
+      "candidate_first_probability": "241/469"
+    },
+    {
+      "q": 22,
+      "padding": 0,
+      "ratio": "10363/9943",
+      "candidate_first_probability": "5103/9943"
+    },
+    {
+      "q": 22,
+      "padding": 1,
+      "ratio": "749/719",
+      "candidate_first_probability": "369/719"
+    },
+    {
+      "q": 22,
+      "padding": 2,
+      "ratio": "10609/10189",
+      "candidate_first_probability": "5229/10189"
+    },
+    {
+      "q": 22,
+      "padding": 3,
+      "ratio": "2683/2578",
+      "candidate_first_probability": "1323/2578"
+    },
+    {
+      "q": 23,
+      "padding": 0,
+      "ratio": "1033/991",
+      "candidate_first_probability": "508/991"
+    },
+    {
+      "q": 23,
+      "padding": 1,
+      "ratio": "5746/5515",
+      "candidate_first_probability": "2827/5515"
+    },
+    {
+      "q": 23,
+      "padding": 2,
+      "ratio": "11621/11159",
+      "candidate_first_probability": "5720/11159"
+    },
+    {
+      "q": 23,
+      "padding": 3,
+      "ratio": "5875/5644",
+      "candidate_first_probability": "2893/5644"
+    },
+    {
+      "q": 24,
+      "padding": 0,
+      "ratio": "12409/11903",
+      "candidate_first_probability": "6095/11903"
+    },
+    {
+      "q": 24,
+      "padding": 1,
+      "ratio": "6272/6019",
+      "candidate_first_probability": "3082/6019"
+    },
+    {
+      "q": 24,
+      "padding": 2,
+      "ratio": "12679/12173",
+      "candidate_first_probability": "6233/12173"
+    },
+    {
+      "q": 24,
+      "padding": 3,
+      "ratio": "6407/6154",
+      "candidate_first_probability": "3151/6154"
+    },
+    {
+      "q": 25,
+      "padding": 0,
+      "ratio": "587/563",
+      "candidate_first_probability": "288/563"
+    },
+    {
+      "q": 25,
+      "padding": 1,
+      "ratio": "6821/6545",
+      "candidate_first_probability": "3348/6545"
+    },
+    {
+      "q": 25,
+      "padding": 2,
+      "ratio": "13783/13231",
+      "candidate_first_probability": "6768/13231"
+    },
+    {
+      "q": 25,
+      "padding": 3,
+      "ratio": "3481/3343",
+      "candidate_first_probability": "1710/3343"
+    },
+    {
+      "q": 26,
+      "padding": 0,
+      "ratio": "14639/14039",
+      "candidate_first_probability": "7175/14039"
+    },
+    {
+      "q": 26,
+      "padding": 1,
+      "ratio": "7393/7093",
+      "candidate_first_probability": "3625/7093"
+    },
+    {
+      "q": 26,
+      "padding": 2,
+      "ratio": "14933/14333",
+      "candidate_first_probability": "7325/14333"
+    },
+    {
+      "q": 26,
+      "padding": 3,
+      "ratio": "377/362",
+      "candidate_first_probability": "185/362"
+    },
+    {
+      "q": 27,
+      "padding": 0,
+      "ratio": "15823/15173",
+      "candidate_first_probability": "7748/15173"
+    },
+    {
+      "q": 27,
+      "padding": 1,
+      "ratio": "7988/7663",
+      "candidate_first_probability": "3913/7663"
+    },
+    {
+      "q": 27,
+      "padding": 2,
+      "ratio": "16129/15479",
+      "candidate_first_probability": "7904/15479"
+    },
+    {
+      "q": 27,
+      "padding": 3,
+      "ratio": "8141/7816",
+      "candidate_first_probability": "3991/7816"
+    },
+    {
+      "q": 28,
+      "padding": 0,
+      "ratio": "17053/16351",
+      "candidate_first_probability": "8343/16351"
+    },
+    {
+      "q": 28,
+      "padding": 1,
+      "ratio": "662/635",
+      "candidate_first_probability": "324/635"
+    },
+    {
+      "q": 28,
+      "padding": 2,
+      "ratio": "17371/16669",
+      "candidate_first_probability": "8505/16669"
+    },
+    {
+      "q": 28,
+      "padding": 3,
+      "ratio": "8765/8414",
+      "candidate_first_probability": "4293/8414"
+    },
+    {
+      "q": 29,
+      "padding": 0,
+      "ratio": "18329/17573",
+      "candidate_first_probability": "8960/17573"
+    },
+    {
+      "q": 29,
+      "padding": 1,
+      "ratio": "1321/1267",
+      "candidate_first_probability": "646/1267"
+    },
+    {
+      "q": 29,
+      "padding": 2,
+      "ratio": "18659/17903",
+      "candidate_first_probability": "9128/17903"
+    },
+    {
+      "q": 29,
+      "padding": 3,
+      "ratio": "4706/4517",
+      "candidate_first_probability": "2303/4517"
+    },
+    {
+      "q": 30,
+      "padding": 0,
+      "ratio": "19651/18839",
+      "candidate_first_probability": "9599/18839"
+    },
+    {
+      "q": 30,
+      "padding": 1,
+      "ratio": "9911/9505",
+      "candidate_first_probability": "4843/9505"
+    },
+    {
+      "q": 30,
+      "padding": 2,
+      "ratio": "19993/19181",
+      "candidate_first_probability": "9773/19181"
+    },
+    {
+      "q": 30,
+      "padding": 3,
+      "ratio": "5041/4838",
+      "candidate_first_probability": "2465/4838"
+    },
+    {
+      "q": 31,
+      "padding": 0,
+      "ratio": "21019/20149",
+      "candidate_first_probability": "10260/20149"
+    },
+    {
+      "q": 31,
+      "padding": 1,
+      "ratio": "10598/10163",
+      "candidate_first_probability": "5175/10163"
+    },
+    {
+      "q": 31,
+      "padding": 2,
+      "ratio": "737/707",
+      "candidate_first_probability": "360/707"
+    },
+    {
+      "q": 31,
+      "padding": 3,
+      "ratio": "2155/2068",
+      "candidate_first_probability": "1053/2068"
+    },
+    {
+      "q": 32,
+      "padding": 0,
+      "ratio": "22433/21503",
+      "candidate_first_probability": "10943/21503"
+    },
+    {
+      "q": 32,
+      "padding": 1,
+      "ratio": "11308/10843",
+      "candidate_first_probability": "5518/10843"
+    },
+    {
+      "q": 32,
+      "padding": 2,
+      "ratio": "22799/21869",
+      "candidate_first_probability": "11129/21869"
+    },
+    {
+      "q": 32,
+      "padding": 3,
+      "ratio": "11491/11026",
+      "candidate_first_probability": "5611/11026"
+    },
+    {
+      "q": 33,
+      "padding": 0,
+      "ratio": "23893/22901",
+      "candidate_first_probability": "11648/22901"
+    },
+    {
+      "q": 33,
+      "padding": 1,
+      "ratio": "12041/11545",
+      "candidate_first_probability": "5872/11545"
+    },
+    {
+      "q": 33,
+      "padding": 2,
+      "ratio": "24271/23279",
+      "candidate_first_probability": "11840/23279"
+    },
+    {
+      "q": 33,
+      "padding": 3,
+      "ratio": "6115/5867",
+      "candidate_first_probability": "2984/5867"
+    },
+    {
+      "q": 34,
+      "padding": 0,
+      "ratio": "2309/2213",
+      "candidate_first_probability": "1125/2213"
+    },
+    {
+      "q": 34,
+      "padding": 1,
+      "ratio": "12797/12269",
+      "candidate_first_probability": "6237/12269"
+    },
+    {
+      "q": 34,
+      "padding": 2,
+      "ratio": "25789/24733",
+      "candidate_first_probability": "12573/24733"
+    },
+    {
+      "q": 34,
+      "padding": 3,
+      "ratio": "812/779",
+      "candidate_first_probability": "396/779"
+    },
+    {
+      "q": 35,
+      "padding": 0,
+      "ratio": "26951/25829",
+      "candidate_first_probability": "13124/25829"
+    },
+    {
+      "q": 35,
+      "padding": 1,
+      "ratio": "13576/13015",
+      "candidate_first_probability": "6613/13015"
+    },
+    {
+      "q": 35,
+      "padding": 2,
+      "ratio": "1609/1543",
+      "candidate_first_probability": "784/1543"
+    },
+    {
+      "q": 35,
+      "padding": 3,
+      "ratio": "13777/13216",
+      "candidate_first_probability": "6715/13216"
+    },
+    {
+      "q": 36,
+      "padding": 0,
+      "ratio": "28549/27359",
+      "candidate_first_probability": "13895/27359"
+    },
+    {
+      "q": 36,
+      "padding": 1,
+      "ratio": "2054/1969",
+      "candidate_first_probability": "1000/1969"
+    },
+    {
+      "q": 36,
+      "padding": 2,
+      "ratio": "28963/27773",
+      "candidate_first_probability": "14105/27773"
+    },
+    {
+      "q": 36,
+      "padding": 3,
+      "ratio": "2917/2798",
+      "candidate_first_probability": "1421/2798"
+    },
+    {
+      "q": 37,
+      "padding": 0,
+      "ratio": "30193/28933",
+      "candidate_first_probability": "14688/28933"
+    },
+    {
+      "q": 37,
+      "padding": 1,
+      "ratio": "15203/14573",
+      "candidate_first_probability": "7398/14573"
+    },
+    {
+      "q": 37,
+      "padding": 2,
+      "ratio": "30619/29359",
+      "candidate_first_probability": "14904/29359"
+    },
+    {
+      "q": 37,
+      "padding": 3,
+      "ratio": "7708/7393",
+      "candidate_first_probability": "3753/7393"
+    },
+    {
+      "q": 38,
+      "padding": 0,
+      "ratio": "31883/30551",
+      "candidate_first_probability": "15503/30551"
+    },
+    {
+      "q": 38,
+      "padding": 1,
+      "ratio": "16051/15385",
+      "candidate_first_probability": "7807/15385"
+    },
+    {
+      "q": 38,
+      "padding": 2,
+      "ratio": "32321/30989",
+      "candidate_first_probability": "15725/30989"
+    },
+    {
+      "q": 38,
+      "padding": 3,
+      "ratio": "8135/7802",
+      "candidate_first_probability": "3959/7802"
+    },
+    {
+      "q": 39,
+      "padding": 0,
+      "ratio": "33619/32213",
+      "candidate_first_probability": "16340/32213"
+    },
+    {
+      "q": 39,
+      "padding": 1,
+      "ratio": "16922/16219",
+      "candidate_first_probability": "8227/16219"
+    },
+    {
+      "q": 39,
+      "padding": 2,
+      "ratio": "34069/32663",
+      "candidate_first_probability": "16568/32663"
+    },
+    {
+      "q": 39,
+      "padding": 3,
+      "ratio": "17147/16444",
+      "candidate_first_probability": "8341/16444"
+    }
+  ],
+  "scope": "Full prefix enumeration of six pairs, including leading-zero padding; does not prove universal parameters or historical novelty."
+}

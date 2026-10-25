@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-23",
+  "status": "ASSEMBLED_FROM_VERIFIED_FROZEN_INPUTS",
+  "assembly_scope": "No scientific programme is executed by assembly; a new wrapper/package smoke run is recorded separately.",
+  "P30_master_archive": {
+    "name": "P30_SICOMP_Audit_and_Strengthening.zip",
+    "bytes": 19014130,
+    "sha256": "d6d27d3fce78aea2f127f5129c9b2b7cbf3a8f35fa7de3b27ee56490d72b3457"
+  },
+  "P29_parent_archive": {
+    "name": "P29_SICOMP_Scientific_Consolidation.zip",
+    "bytes": 10632742,
+    "sha256": "2b617537eed1f00992af90167cbc2bffdbef8b4e0c8ade7a84982273d8f47df9"
+  },
+  "current_checker_sources": [
+    {
+      "path": "checks/upper/check_improved_upper.py",
+      "sha256": "cdc60a63b4080ac32aa2b09a2601df264b9fa0ced6b5cd4aee15bb9160eff2e6",
+      "byte_identical_to_P30": true
+    },
+    {
+      "path": "checks/upper/check_improved_upper_independent.py",
+      "sha256": "ff68841664a14be6e12a7514762bad8db904482d7ab3a2aa328ac4fb0be50631",
+      "byte_identical_to_P30": true
+    },
+    {
+      "path": "checks/ordinal/check_full_ordinal_game.py",
+      "sha256": "6139b6f97ea460295062e8bf1f0b444dc33f277fdd66900463a147e0af2a88c5",
+      "byte_identical_to_P30": true
+    },
+    {
+      "path": "checks/reductions/check_reduction_obstructions.py",
+      "sha256": "d0a07bcc3b21f5ce70c0f2f199e9b2584170cb299a1bb5c198e3d233c690343d",
+      "byte_identical_to_P30": true
+    },
+    {
+      "path": "checks/check_verifier_rejections.py",
+      "sha256": "80b453c81ae6c92f62f1e14575f9954f6696cfc754d253d369da5bae45f8a32a",
+      "byte_identical_to_P30": true
+    },
+    {
+      "path": "checks/candidate/check_candidate_census_obstruction.py",
+      "sha256": "b41e3734f161be541d979dec84b0c4491ba6817b44ee6a5e3b4395bb6dec1fe7",
+      "byte_identical_to_P30": true
+    },
+    {
+      "path": "checks/structure/check_finite_transfer.py",
+      "sha256": "4252a73a041dc6e88a3f3f3ef878bc1ce706f5c85dc9892277da0553df87d421",
+      "byte_identical_to_P30": true
+    }
+  ],
+  "legacy": {
+    "frozen_input_files": 88,
+    "added_original_manifest_guide_record": 3,
+    "all_original_hashes_match": true,
+    "structure_and_bytes_unchanged": true
+  },
+  "retained_execution_records": "P30 current checks and P24 legacy record keep their original names, measured environments and scopes.",
+  "new_blanket_licence_assigned": false,
+  "external_submission_performed": false,
+  "new_physical_measurements": 0,
+  "restrictions": "No use of finite checks as substitutes for universal proofs; no claim that archived execution equals new execution."
+}

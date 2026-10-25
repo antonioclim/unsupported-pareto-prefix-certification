@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "date": "2026-10-23",
+  "record": "https://repository.tugraz.at/records/3dhx0-2k125",
+  "version": "1.0",
+  "licence_evidence": "Byte-identical dataset README explicitly CC BY 4.0; retained component notice and legal text in historical companion",
+  "files": [
+    {
+      "name": "Crystal_results.json",
+      "bytes": 27901,
+      "md5": "1cf864e6df51173d36eb6a35060a40b5",
+      "sha256": "bc2c652f89a70d0723aec19cae1f2dba6d2b56523d5c0b54805520a8de072711",
+      "matches_current_official_record": true
+    },
+    {
+      "name": "RPL_results.json",
+      "bytes": 78910,
+      "md5": "5f1a4bde07abb6552d53524c2831ef9a",
+      "sha256": "c987d6583288e157139f8d6b0253c2adb91abee7642eee28fcf99db311f8f746",
+      "matches_current_official_record": true
+    },
+    {
+      "name": "README.md",
+      "bytes": 6358,
+      "md5": "cc8ff2a595af5703467de23ef77d0046",
+      "sha256": "d7bac309da77ea44d47d5ce248cf270ff6f1fc27a0733ea04580df89b084def5",
+      "matches_current_official_record": true
+    }
+  ],
+  "software_note": "MIT software record is separate; no new upstream software code included",
+  "scope": "Dataset files only; not blanket licensing of all archives."
+}

@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "semantic_checks": {
+    "status": "PASS",
+    "integer_N_boundaries": 16,
+    "worlds_checked": 2,
+    "method": "exact Fractions for thresholds, domination, chord gaps and support intervals; analytic radical converted only for plotting",
+    "scope": "checks displayed semantics, not universal theorem proofs"
+  },
+  "exports": [
+    {
+      "file": "Fig2.pdf",
+      "bytes": 31471,
+      "sha256": "2004b14b08cf1d392f38162e0d7533d92081e289a67e7c1be064f824830e17df"
+    },
+    {
+      "file": "Fig2.svg",
+      "bytes": 80693,
+      "sha256": "1914380996b5f9f714dd5f47b18b81e90aec62c01802db2ab83243c1eb3a6540"
+    },
+    {
+      "file": "Fig2.png",
+      "bytes": 236239,
+      "sha256": "7f1e7a10648c233221b43b1e463ef5412527c38492471bba0a45bc6a6c93f66a"
+    },
+    {
+      "file": "Fig3.pdf",
+      "bytes": 29313,
+      "sha256": "d84a0d71ad1d6c7ff67f7afd0220419407e6f49b9d78eb338558542b696670dc"
+    },
+    {
+      "file": "Fig3.svg",
+      "bytes": 26669,
+      "sha256": "85d7659901e44d169efeebe87f1c9d59e8162500ae5c04dab6de1730c4bf86e7"
+    },
+    {
+      "file": "Fig3.png",
+      "bytes": 285031,
+      "sha256": "b983c2e52588f6020cbd8bd27b18419dd1e45d8411a4d2ec881f95fce755bf4c"
+    }
+  ],
+  "font_records": [
+    {
+      "figure": "Fig2",
+      "minimum_font_pt": 8.5,
+      "canvas_inches": [
+        5.0,
+        6.0
+      ],
+      "visible_text_items": 44
+    },
+    {
+      "figure": "Fig3",
+      "minimum_font_pt": 8.5,
+      "canvas_inches": [
+        5.0,
+        6.0
+      ],
+      "visible_text_items": 32
+    }
+  ],
+  "script_sha256": "761c1e4c247fa10775ec4e34be71cf1d977c326c1858134c54bc49455494e7f8",
+  "values_sha256": "2a1dfee65766dc1fd5d0d8da4dc6b1b209874e07101410661da168e5211b25e8",
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.10.8",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39"
+  },
+  "reads_old_images": false,
+  "network_calls": false,
+  "new_measurements": false,
+  "scope": "generation and checks of figure semantics only; proofs remain analytic",
+  "final_insertion_requirement": "Insert at 5 inch width or greater, without a smaller height limit; smallest configured text is 8.5 pt at 5 inches."
+}

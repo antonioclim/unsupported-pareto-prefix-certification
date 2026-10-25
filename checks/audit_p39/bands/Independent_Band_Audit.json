@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "scope": "Independent finite rational corroboration only; no Ramsey/minimax or universal proof execution",
+  "counts": {
+    "finite_endpoint_TRUE_states": 382,
+    "finite_endpoint_partial_TRUE_states": 10,
+    "finite_endpoint_prefix_states": 73580,
+    "finite_endpoint_completion_evaluations": 73758,
+    "B2_parameter_triples": 96800,
+    "B2_legal_true_constructions": 1724,
+    "B2_equality_constructions_rejected": 92,
+    "B4_fixed_worlds": 106,
+    "B4_prefix_states": 74328,
+    "B5_exact_price_cases": 216,
+    "B3_unique_inversion_archives": 12,
+    "B3_prefix_states": 36504,
+    "supplementary_feasible_shapes_checked": 341,
+    "supplementary_hard_worlds": 8,
+    "supplementary_hard_world_prefix_states": 1932,
+    "B6_setup_affine_residuals": 6
+  },
+  "elapsed_seconds": 5.371197115993709,
+  "python": "3.12.14",
+  "script_sha256": "b2f3b4008ee46c07a1d85d61d9ab88c04c47c9d034a2723afc04940b04c2dcdb",
+  "manuscript_changed": false
+}

@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "scientific_programs_executed": 6,
+  "scientific_outputs_byte_identical": 6,
+  "jobs": [
+    {
+      "program": "theory/check_triangle_extension.py",
+      "output": "theory/Triangle_Extension_Exact_Check.json",
+      "program_sha256": "f7c90966f1b7b50e376b23327f50731370642c69aa31f5857a07afd7e25709b3",
+      "output_sha256": "b02d0b8fd375b040c686e34e1d98784112cd964c90932365d295cdbb1e24d450",
+      "returncode": 0,
+      "byte_identical": true,
+      "elapsed_seconds": 0.277921
+    },
+    {
+      "program": "review/check_triangle_n4_worlds.py",
+      "output": "review/Triangle_N4_Independent_World_Check.json",
+      "program_sha256": "99893e9195d97a60aa6018e4a029482d280b6c5684dc9616446110e476bedcd2",
+      "output_sha256": "d0d87724a00fdd25aaf030ab6586d73989072cacc95347ffda83451e81785bab",
+      "returncode": 0,
+      "byte_identical": true,
+      "elapsed_seconds": 0.043349
+    },
+    {
+      "program": "review/check_ordinal_worlds.py",
+      "output": "review/Ordinal_World_Enumeration.json",
+      "program_sha256": "0b0c80fac9ab2cc5d2005646f07a972befb105b7fa430f9a0500f9e78946c4fb",
+      "output_sha256": "122de7b3fa0d831ccf067c3d5095a8b2d0f14b42ce7d869e6af62f75ac5f6007",
+      "returncode": 0,
+      "byte_identical": true,
+      "elapsed_seconds": 1.285087
+    },
+    {
+      "program": "review/check_triangle_feasibility_construction.py",
+      "output": "review/Triangle_Feasibility_Construction_Check.json",
+      "program_sha256": "d904ede602d4767a5ac6e525f05e3c5e35780f8d124a18c57872d7400bf75bfa",
+      "output_sha256": "0167b196097a09ea9239de8e597cb03b3532eacdec9e4c281cbfa48e543c1ac7",
+      "returncode": 0,
+      "byte_identical": true,
+      "elapsed_seconds": 0.128163
+    },
+    {
+      "program": "review/check_dependent_domain_independent.py",
+      "output": "review/Dependent_Domain_Independent_Checks.json",
+      "program_sha256": "95c59dc8086f8195805ae23c92495388b8620bbeef0001f5b5149b3c2b6050d3",
+      "output_sha256": "fd58a50288752333e32c44ff40a59742d59ee53823b294ae073e9fea90e89fb1",
+      "returncode": 0,
+      "byte_identical": true,
+      "elapsed_seconds": 0.742598
+    },
+    {
+      "program": "practical/check_lipschitz_certificate.py",
+      "output": "practical/Lipschitz_Certificate_Checks.json",
+      "program_sha256": "c095f8624e6971fa7a538357a6f70e9700d93c0eb5adfa504d83e17331d75941",
+      "output_sha256": "334b4b072c766bde1b53e3aa1e4d3acbdad647c780e29d91acbe8dffc8cc8035",
+      "returncode": 0,
+      "byte_identical": true,
+      "elapsed_seconds": 13.594132
+    }
+  ],
+  "input_hashes": {
+    "theory/check_triangle_extension.py": "f7c90966f1b7b50e376b23327f50731370642c69aa31f5857a07afd7e25709b3",
+    "theory/Triangle_Extension_Exact_Check.json": "b02d0b8fd375b040c686e34e1d98784112cd964c90932365d295cdbb1e24d450",
+    "review/check_triangle_n4_worlds.py": "99893e9195d97a60aa6018e4a029482d280b6c5684dc9616446110e476bedcd2",
+    "review/Triangle_N4_Independent_World_Check.json": "d0d87724a00fdd25aaf030ab6586d73989072cacc95347ffda83451e81785bab",
+    "review/check_ordinal_worlds.py": "0b0c80fac9ab2cc5d2005646f07a972befb105b7fa430f9a0500f9e78946c4fb",
+    "review/Ordinal_World_Enumeration.json": "122de7b3fa0d831ccf067c3d5095a8b2d0f14b42ce7d869e6af62f75ac5f6007",
+    "review/check_triangle_feasibility_construction.py": "d904ede602d4767a5ac6e525f05e3c5e35780f8d124a18c57872d7400bf75bfa",
+    "review/Triangle_Feasibility_Construction_Check.json": "0167b196097a09ea9239de8e597cb03b3532eacdec9e4c281cbfa48e543c1ac7",
+    "review/check_dependent_domain_independent.py": "95c59dc8086f8195805ae23c92495388b8620bbeef0001f5b5149b3c2b6050d3",
+    "review/Dependent_Domain_Independent_Checks.json": "fd58a50288752333e32c44ff40a59742d59ee53823b294ae073e9fea90e89fb1",
+    "practical/check_lipschitz_certificate.py": "c095f8624e6971fa7a538357a6f70e9700d93c0eb5adfa504d83e17331d75941",
+    "practical/Lipschitz_Certificate_Checks.json": "334b4b072c766bde1b53e3aa1e4d3acbdad647c780e29d91acbe8dffc8cc8035",
+    "theory/triangle_four_rows_exact.md": "ed1d861df56d23669afa3ff44a8a9c933bf5de4b7c6b323592a747b77d419bb8"
+  },
+  "original_inputs_unchanged": true,
+  "scope": "New P21 finite exact checks; analytic universal proofs are not executed.",
+  "installs": false,
+  "network_calls": false,
+  "new_measurements": 0
+}

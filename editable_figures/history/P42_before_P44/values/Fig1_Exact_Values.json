@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "scope": "Exact arithmetic for the displayed route mixture. TRUE-prefix minima are separately verified by the P40 demonstrator and analytically in Supplement S1.6. This script alone is not an independent certificate optimiser.",
+  "prob_candidate_first": "16/23",
+  "expected_costs": {
+    "I": "200/23",
+    "II": "175/23"
+  },
+  "minimum_costs": {
+    "I": 8,
+    "II": 7
+  },
+  "common_prefix": [
+    2,
+    3,
+    1
+  ],
+  "rows_paid_common": 6,
+  "displayed_ratio": "25/23",
+  "script_sha256": "f0f72d6178f7c3895d16e8733edcb9bf021b16760a6d04b27971bc0bdd10e53b",
+  "native_images": 0
+}

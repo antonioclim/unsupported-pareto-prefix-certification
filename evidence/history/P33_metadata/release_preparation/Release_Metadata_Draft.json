@@ -1,0 +1,19 @@
+{
+  "status": "local-preparation-not-published",
+  "prepared_on": "2026-10-24",
+  "version": "P33-author-review",
+  "title": "The Cost of Certifying Unsupported Pareto Points from Prefix Observations: Reproducibility Companion",
+  "creators": [{"name": "Clim, Antonio", "orcid": "0000-0003-4745-0431", "affiliation": "Bucharest University of Economic Studies"}],
+  "description": "Exact-arithmetic verification programs, input records, figure generators and a theorem-to-evidence map for competitive query acquisition under robust prefix certificates. Wireless inputs are secondary analysis of APEX data; the package reports no new radio measurements.",
+  "keywords": ["competitive analysis", "priced information", "Pareto certification", "geometric uncertainty", "prefix queries"],
+  "related_source_data": [{"identifier": "10.3217/3dhx0-2k125", "scheme": "doi", "relation": "isDerivedFrom", "licence": "CC-BY-4.0"}],
+  "proposed_own_code_licence": "BSD-3-Clause (not yet adopted)",
+  "proposed_own_documentation_licence": "CC-BY-4.0 (not yet adopted)",
+  "public_repository": null,
+  "version_doi": null,
+  "concept_doi": null,
+  "release_date": null,
+  "component_notice_review": "Embedded_Rights_Inventory_P33.json records the static review; author-created material still has a pending licence decision.",
+  "requires_before_publication": ["author approval of actual payload and rights", "chosen destination and publication authorisation"],
+  "excluded_from_public_payload": ["cover letter", "author confirmations", "private audit reports", "SIAM class", "manuscript and supplement unless explicitly approved"]
+}

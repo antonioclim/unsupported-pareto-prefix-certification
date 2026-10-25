@@ -1,0 +1,565 @@
+{
+  "schema": "sicomp-synthetic-prefix-fixtures-v1",
+  "alphabet": [
+    [
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "7/8"
+    ],
+    [
+      "0",
+      "1"
+    ],
+    [
+      "3/8",
+      "0"
+    ],
+    [
+      "3/8",
+      "7/8"
+    ],
+    [
+      "3/8",
+      "1"
+    ],
+    [
+      "5/8",
+      "0"
+    ],
+    [
+      "5/8",
+      "7/8"
+    ],
+    [
+      "5/8",
+      "1"
+    ],
+    [
+      "7/8",
+      "0"
+    ],
+    [
+      "7/8",
+      "7/8"
+    ],
+    [
+      "7/8",
+      "1"
+    ],
+    [
+      "1",
+      "0"
+    ],
+    [
+      "1",
+      "7/8"
+    ],
+    [
+      "1",
+      "1"
+    ]
+  ],
+  "cases": {
+    "A": {
+      "description": "Published-in-manuscript fixed hard world A; expected comparator is not supplied to the solver.",
+      "archive": {
+        "candidate": [
+          [
+            "3/8",
+            "7/8"
+          ],
+          [
+            "3/8",
+            "7/8"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "left": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "7/8"
+          ]
+        ],
+        "right": [
+          [
+            "7/8",
+            "0"
+          ],
+          [
+            "5/8",
+            "0"
+          ],
+          [
+            "3/8",
+            "0"
+          ]
+        ]
+      },
+      "expected_answer": true
+    },
+    "D": {
+      "description": "Published-in-manuscript fixed hard world D.",
+      "archive": {
+        "candidate": [
+          [
+            "3/8",
+            "7/8"
+          ],
+          [
+            "3/8",
+            "7/8"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "left": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "7/8"
+          ]
+        ],
+        "right": [
+          [
+            "7/8",
+            "0"
+          ],
+          [
+            "5/8",
+            "0"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ]
+      },
+      "expected_answer": true
+    },
+    "new_positive_candidate_census": {
+      "description": "Designed positive archive with candidate-census minimum; not a physical measurement.",
+      "archive": {
+        "candidate": [
+          [
+            "5/8",
+            "7/8"
+          ],
+          [
+            "5/8",
+            "7/8"
+          ],
+          [
+            "5/8",
+            "7/8"
+          ]
+        ],
+        "left": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "right": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      "expected_answer": true
+    },
+    "new_positive_full_census": {
+      "description": "Designed shallow unsupported point requiring nine disclosures.",
+      "archive": {
+        "candidate": [
+          [
+            "5/8",
+            "1"
+          ],
+          [
+            "5/8",
+            "0"
+          ],
+          [
+            "7/8",
+            "0"
+          ]
+        ],
+        "left": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "right": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      "expected_answer": true
+    },
+    "negative_scalarisation_tie": {
+      "description": "Complete candidate lies on the rivals weighted-sum segment.",
+      "archive": {
+        "candidate": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "left": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "right": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      "expected_answer": false
+    },
+    "negative_dominated": {
+      "description": "Left rival strictly dominates candidate.",
+      "archive": {
+        "candidate": [
+          [
+            "7/8",
+            "7/8"
+          ],
+          [
+            "7/8",
+            "7/8"
+          ],
+          [
+            "7/8",
+            "7/8"
+          ]
+        ],
+        "left": [
+          [
+            "3/8",
+            "0"
+          ],
+          [
+            "3/8",
+            "0"
+          ],
+          [
+            "3/8",
+            "0"
+          ]
+        ],
+        "right": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      "expected_answer": false
+    },
+    "negative_axis_supported": {
+      "description": "Candidate is nondominated but supported on the cost axis.",
+      "archive": {
+        "candidate": [
+          [
+            "0",
+            "7/8"
+          ],
+          [
+            "0",
+            "7/8"
+          ],
+          [
+            "0",
+            "7/8"
+          ]
+        ],
+        "left": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "right": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      "expected_answer": false
+    },
+    "negative_all_equal": {
+      "description": "Every mean coincides; scalarisation ties count as support.",
+      "archive": {
+        "candidate": [
+          [
+            "5/8",
+            "7/8"
+          ],
+          [
+            "5/8",
+            "7/8"
+          ],
+          [
+            "5/8",
+            "7/8"
+          ]
+        ],
+        "left": [
+          [
+            "5/8",
+            "7/8"
+          ],
+          [
+            "5/8",
+            "7/8"
+          ],
+          [
+            "5/8",
+            "7/8"
+          ]
+        ],
+        "right": [
+          [
+            "5/8",
+            "7/8"
+          ],
+          [
+            "5/8",
+            "7/8"
+          ],
+          [
+            "5/8",
+            "7/8"
+          ]
+        ]
+      },
+      "expected_answer": false
+    },
+    "A_high_candidate_tail_price": {
+      "description": "Same A rows, public candidate-tail price25; exposes lack of arbitrary-tariff guarantee for unchanged unit-price policy.",
+      "archive": {
+        "candidate": [
+          [
+            "3/8",
+            "7/8"
+          ],
+          [
+            "3/8",
+            "7/8"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "left": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "7/8"
+          ]
+        ],
+        "right": [
+          [
+            "7/8",
+            "0"
+          ],
+          [
+            "5/8",
+            "0"
+          ],
+          [
+            "3/8",
+            "0"
+          ]
+        ]
+      },
+      "prices": {
+        "candidate": [
+          "1",
+          "1",
+          "25"
+        ],
+        "left": [
+          "1",
+          "1",
+          "1"
+        ],
+        "right": [
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      "expected_answer": true
+    },
+    "D_common_setup": {
+      "description": "Same D rows, common compulsory information-free setup10 paid in both accounts; unchanged unit-price mixture.",
+      "archive": {
+        "candidate": [
+          [
+            "3/8",
+            "7/8"
+          ],
+          [
+            "3/8",
+            "7/8"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "left": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "7/8"
+          ]
+        ],
+        "right": [
+          [
+            "7/8",
+            "0"
+          ],
+          [
+            "5/8",
+            "0"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ]
+      },
+      "setup": "10",
+      "expected_answer": true
+    }
+  }
+}

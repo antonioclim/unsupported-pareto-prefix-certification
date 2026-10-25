@@ -1,0 +1,61 @@
+{
+  "prepared_on": "2026-10-24",
+  "version": "1.0.0",
+  "title": "The Price of Finding a Certificate: Unsupported Pareto Points under Prefix Queries: Reproducibility Companion",
+  "creators": [
+    {
+      "name": "Clim, Antonio",
+      "orcid": "0000-0003-4745-0431",
+      "affiliation": "Bucharest University of Economic Studies"
+    }
+  ],
+  "description": "Exact-arithmetic verification programs, input records, figure generators and a theorem-to-evidence map for competitive query acquisition under robust prefix certificates. Wireless inputs are secondary analysis of APEX data; the package reports no new radio measurements.",
+  "keywords": [
+    "competitive analysis",
+    "priced information",
+    "Pareto certification",
+    "geometric uncertainty",
+    "prefix queries"
+  ],
+  "related_source_data": [
+    {
+      "identifier": "10.3217/3dhx0-2k125",
+      "scheme": "doi",
+      "relation": "isDerivedFrom",
+      "licence": "CC-BY-4.0"
+    }
+  ],
+  "public_repository": null,
+  "version_doi": null,
+  "concept_doi": null,
+  "release_date": null,
+  "component_notice_review": "Embedded_Rights_Inventory_P33.json and Licence_Component_Map.md retain historical rights evidence. The P35 adopted grant and current exact scope are in LICENSING.md and LICENSE_SCOPE.json.",
+  "excluded_from_public_payload": [
+    "current article and supplement",
+    "cover letter",
+    "author confirmations",
+    "private submission audit reports",
+    "SIAM class",
+    "retired private historical source"
+  ],
+  "scientific_snapshot": "P42 packaging update retaining P41 integrated exact checks",
+  "packaging_metadata_revision": "P42",
+  "licence_adoption_revision": "P35",
+  "author_code_licence": "BSD-3-Clause",
+  "author_documentation_tables_figures_licence": "CC-BY-4.0",
+  "governing_notice": "LICENSING.md",
+  "governing_scope": "LICENSE_SCOPE.json",
+  "proposed_first_public_tag": "v1.0.0",
+  "github_preparation_route": "Browser-only full-source uploads and a manual draft release",
+  "github_actions_workflows_included": false,
+  "automatic_zenodo_integration": false,
+  "sole_author": "Antonio Clim",
+  "specific_funding": null,
+  "conflicts_of_interest": "None declared",
+  "acknowledgements": null,
+  "retired_historical_source_provenance": "provenance/Retired_Manuscript_P21.json",
+  "local_preparation_revision": "P42",
+  "status_at_preparation": "local-preparation-not-published",
+  "assistant_external_submission_or_publication_authorised": false,
+  "manual_publication_route": "The author may publish this exact prepared archive using the browser guide. Actual repository/release URLs and an assigned DOI can be entered in hosting-service metadata; no return-to-chat or edit of frozen files is required."
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "revision": "P41",
+  "inspection": "All three native colour previews and all three manuscript-reference greyscale previews inspected at 750 \u00d7 900 pixels (5 \u00d7 6 in at 150 dpi).",
+  "observations": [
+    "Fig1 table cells, world labels, route costs and ratio readable; no collisions seen.",
+    "Fig2 separate columns and hatched regime remain distinguishable in greyscale.",
+    "Fig3 worlds distinguished by solid/dashed lines and diamond/square candidate marks in greyscale; narrow 3/8800 interval retained without widening.",
+    "All headings and complete bottom notes visible; no labels cut off."
+  ],
+  "GUI_interaction_executed": false,
+  "limitations": [
+    "Screen preview is not a physical printed proof.",
+    "No claim of identical cross-platform font rendering."
+  ],
+  "software": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5"
+}

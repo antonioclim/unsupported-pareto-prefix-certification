@@ -1,0 +1,588 @@
+{
+  "status": "PASS",
+  "scope": "Exact finite arithmetic checks of explicit witnesses and constructions; analytic continuum results require the accompanying proofs.",
+  "script_sha256": "f7c90966f1b7b50e376b23327f50731370642c69aa31f5857a07afd7e25709b3",
+  "proof_sha256": "ed1d861df56d23669afa3ff44a8a9c933bf5de4b7c6b323592a747b77d419bb8",
+  "hard_worlds": [
+    {
+      "N": 4,
+      "world": "A",
+      "true_states": [
+        [
+          4,
+          4,
+          3
+        ],
+        [
+          4,
+          4,
+          4
+        ]
+      ],
+      "minimum_certificate": 11
+    },
+    {
+      "N": 4,
+      "world": "B",
+      "true_states": [
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ]
+      ],
+      "minimum_certificate": 11
+    },
+    {
+      "N": 5,
+      "world": "A",
+      "true_states": [
+        [
+          5,
+          5,
+          4
+        ],
+        [
+          5,
+          5,
+          5
+        ]
+      ],
+      "minimum_certificate": 14
+    },
+    {
+      "N": 5,
+      "world": "B",
+      "true_states": [
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ]
+      ],
+      "minimum_certificate": 14
+    },
+    {
+      "N": 8,
+      "world": "A",
+      "true_states": [
+        [
+          8,
+          8,
+          7
+        ],
+        [
+          8,
+          8,
+          8
+        ]
+      ],
+      "minimum_certificate": 23
+    },
+    {
+      "N": 8,
+      "world": "B",
+      "true_states": [
+        [
+          8,
+          7,
+          8
+        ],
+        [
+          8,
+          8,
+          8
+        ]
+      ],
+      "minimum_certificate": 23
+    },
+    {
+      "N": 12,
+      "world": "A",
+      "true_states": [
+        [
+          12,
+          12,
+          11
+        ],
+        [
+          12,
+          12,
+          12
+        ]
+      ],
+      "minimum_certificate": 35
+    },
+    {
+      "N": 12,
+      "world": "B",
+      "true_states": [
+        [
+          12,
+          11,
+          12
+        ],
+        [
+          12,
+          12,
+          12
+        ]
+      ],
+      "minimum_certificate": 35
+    }
+  ],
+  "hard_world_prefix_states_checked": 6534,
+  "feasibility_integer_tuples_checked": 6084,
+  "feasible_tuples_constructed_and_verified": 189,
+  "candidate_minimum_checks": [
+    {
+      "N": 1,
+      "minimum_candidate_prefix": 1
+    },
+    {
+      "N": 2,
+      "minimum_candidate_prefix": 2
+    },
+    {
+      "N": 3,
+      "minimum_candidate_prefix": 3
+    },
+    {
+      "N": 4,
+      "minimum_candidate_prefix": 4
+    },
+    {
+      "N": 5,
+      "minimum_candidate_prefix": 4
+    },
+    {
+      "N": 6,
+      "minimum_candidate_prefix": 5
+    },
+    {
+      "N": 7,
+      "minimum_candidate_prefix": 6
+    },
+    {
+      "N": 8,
+      "minimum_candidate_prefix": 7
+    },
+    {
+      "N": 9,
+      "minimum_candidate_prefix": 7
+    },
+    {
+      "N": 10,
+      "minimum_candidate_prefix": 8
+    },
+    {
+      "N": 11,
+      "minimum_candidate_prefix": 9
+    },
+    {
+      "N": 12,
+      "minimum_candidate_prefix": 10
+    }
+  ],
+  "weighted_formula_cases": [
+    {
+      "W": "1",
+      "x": "1/100",
+      "y": "1/100",
+      "q": "1/2",
+      "randomised_ratio": "203/202",
+      "deterministic_ratio": "102/101"
+    },
+    {
+      "W": "1",
+      "x": "1/100",
+      "y": "1",
+      "q": "20000/20101",
+      "randomised_ratio": "20201/20101",
+      "deterministic_ratio": "201/200"
+    },
+    {
+      "W": "1",
+      "x": "1/100",
+      "y": "7/3",
+      "q": "700000/700909",
+      "randomised_ratio": "703009/700909",
+      "deterministic_ratio": "1003/1000"
+    },
+    {
+      "W": "1",
+      "x": "1/100",
+      "y": "100",
+      "q": "1000000/1000001",
+      "randomised_ratio": "101010101/101000101",
+      "deterministic_ratio": "10101/10100"
+    },
+    {
+      "W": "1",
+      "x": "1",
+      "y": "1/100",
+      "q": "101/20101",
+      "randomised_ratio": "20201/20101",
+      "deterministic_ratio": "201/200"
+    },
+    {
+      "W": "1",
+      "x": "1",
+      "y": "1",
+      "q": "1/2",
+      "randomised_ratio": "5/4",
+      "deterministic_ratio": "3/2"
+    },
+    {
+      "W": "1",
+      "x": "1",
+      "y": "7/3",
+      "q": "35/44",
+      "randomised_ratio": "109/88",
+      "deterministic_ratio": "13/10"
+    },
+    {
+      "W": "1",
+      "x": "1",
+      "y": "100",
+      "q": "5050/5051",
+      "randomised_ratio": "5101/5051",
+      "deterministic_ratio": "102/101"
+    },
+    {
+      "W": "1",
+      "x": "7/3",
+      "y": "1/100",
+      "q": "909/700909",
+      "randomised_ratio": "703009/700909",
+      "deterministic_ratio": "1003/1000"
+    },
+    {
+      "W": "1",
+      "x": "7/3",
+      "y": "1",
+      "q": "9/44",
+      "randomised_ratio": "109/88",
+      "deterministic_ratio": "13/10"
+    },
+    {
+      "W": "1",
+      "x": "7/3",
+      "y": "7/3",
+      "q": "1/2",
+      "randomised_ratio": "27/20",
+      "deterministic_ratio": "17/10"
+    },
+    {
+      "W": "1",
+      "x": "7/3",
+      "y": "100",
+      "q": "9090/9097",
+      "randomised_ratio": "9307/9097",
+      "deterministic_ratio": "310/303"
+    },
+    {
+      "W": "1",
+      "x": "100",
+      "y": "1/100",
+      "q": "1/1000001",
+      "randomised_ratio": "101010101/101000101",
+      "deterministic_ratio": "10101/10100"
+    },
+    {
+      "W": "1",
+      "x": "100",
+      "y": "1",
+      "q": "1/5051",
+      "randomised_ratio": "5101/5051",
+      "deterministic_ratio": "102/101"
+    },
+    {
+      "W": "1",
+      "x": "100",
+      "y": "7/3",
+      "q": "7/9097",
+      "randomised_ratio": "9307/9097",
+      "deterministic_ratio": "310/303"
+    },
+    {
+      "W": "1",
+      "x": "100",
+      "y": "100",
+      "q": "1/2",
+      "randomised_ratio": "151/101",
+      "deterministic_ratio": "201/101"
+    },
+    {
+      "W": "10",
+      "x": "1/100",
+      "y": "1/100",
+      "q": "1/2",
+      "randomised_ratio": "2003/2002",
+      "deterministic_ratio": "1002/1001"
+    },
+    {
+      "W": "10",
+      "x": "1/100",
+      "y": "1",
+      "q": "10000/10091",
+      "randomised_ratio": "111101/111001",
+      "deterministic_ratio": "1101/1100"
+    },
+    {
+      "W": "10",
+      "x": "1/100",
+      "y": "7/3",
+      "q": "370000/371287",
+      "randomised_ratio": "371587/371287",
+      "deterministic_ratio": "3703/3700"
+    },
+    {
+      "W": "10",
+      "x": "1/100",
+      "y": "100",
+      "q": "10000000/10000091",
+      "randomised_ratio": "110011001/110001001",
+      "deterministic_ratio": "11001/11000"
+    },
+    {
+      "W": "10",
+      "x": "1",
+      "y": "1/100",
+      "q": "91/10091",
+      "randomised_ratio": "111101/111001",
+      "deterministic_ratio": "1101/1100"
+    },
+    {
+      "W": "10",
+      "x": "1",
+      "y": "1",
+      "q": "1/2",
+      "randomised_ratio": "23/22",
+      "deterministic_ratio": "12/11"
+    },
+    {
+      "W": "10",
+      "x": "1",
+      "y": "7/3",
+      "q": "259/358",
+      "randomised_ratio": "379/358",
+      "deterministic_ratio": "40/37"
+    },
+    {
+      "W": "10",
+      "x": "1",
+      "y": "100",
+      "q": "1000/1001",
+      "randomised_ratio": "11111/11011",
+      "deterministic_ratio": "111/110"
+    },
+    {
+      "W": "10",
+      "x": "7/3",
+      "y": "1/100",
+      "q": "1287/371287",
+      "randomised_ratio": "371587/371287",
+      "deterministic_ratio": "3703/3700"
+    },
+    {
+      "W": "10",
+      "x": "7/3",
+      "y": "1",
+      "q": "99/358",
+      "randomised_ratio": "379/358",
+      "deterministic_ratio": "40/37"
+    },
+    {
+      "W": "10",
+      "x": "7/3",
+      "y": "7/3",
+      "q": "1/2",
+      "randomised_ratio": "81/74",
+      "deterministic_ratio": "44/37"
+    },
+    {
+      "W": "10",
+      "x": "7/3",
+      "y": "100",
+      "q": "99000/99259",
+      "randomised_ratio": "101359/99259",
+      "deterministic_ratio": "337/330"
+    },
+    {
+      "W": "10",
+      "x": "100",
+      "y": "1/100",
+      "q": "91/10000091",
+      "randomised_ratio": "110011001/110001001",
+      "deterministic_ratio": "11001/11000"
+    },
+    {
+      "W": "10",
+      "x": "100",
+      "y": "1",
+      "q": "1/1001",
+      "randomised_ratio": "11111/11011",
+      "deterministic_ratio": "111/110"
+    },
+    {
+      "W": "10",
+      "x": "100",
+      "y": "7/3",
+      "q": "259/99259",
+      "randomised_ratio": "101359/99259",
+      "deterministic_ratio": "337/330"
+    },
+    {
+      "W": "10",
+      "x": "100",
+      "y": "100",
+      "q": "1/2",
+      "randomised_ratio": "16/11",
+      "deterministic_ratio": "21/11"
+    },
+    {
+      "W": "100",
+      "x": "1/100",
+      "y": "1/100",
+      "q": "1/2",
+      "randomised_ratio": "20003/20002",
+      "deterministic_ratio": "10002/10001"
+    },
+    {
+      "W": "100",
+      "x": "1/100",
+      "y": "1",
+      "q": "1010000/1020001",
+      "randomised_ratio": "1020101/1020001",
+      "deterministic_ratio": "10101/10100"
+    },
+    {
+      "W": "100",
+      "x": "1/100",
+      "y": "7/3",
+      "q": "21490000/21580009",
+      "randomised_ratio": "21582109/21580009",
+      "deterministic_ratio": "30703/30700"
+    },
+    {
+      "W": "100",
+      "x": "1/100",
+      "y": "100",
+      "q": "200000000/200010001",
+      "randomised_ratio": "200020001/200010001",
+      "deterministic_ratio": "20001/20000"
+    },
+    {
+      "W": "100",
+      "x": "1",
+      "y": "1/100",
+      "q": "10001/1020001",
+      "randomised_ratio": "1020101/1020001",
+      "deterministic_ratio": "10101/10100"
+    },
+    {
+      "W": "100",
+      "x": "1",
+      "y": "1",
+      "q": "1/2",
+      "randomised_ratio": "203/202",
+      "deterministic_ratio": "102/101"
+    },
+    {
+      "W": "100",
+      "x": "1",
+      "y": "7/3",
+      "q": "2149/3058",
+      "randomised_ratio": "3079/3058",
+      "deterministic_ratio": "310/307"
+    },
+    {
+      "W": "100",
+      "x": "1",
+      "y": "100",
+      "q": "20000/20101",
+      "randomised_ratio": "20201/20101",
+      "deterministic_ratio": "201/200"
+    },
+    {
+      "W": "100",
+      "x": "7/3",
+      "y": "1/100",
+      "q": "90009/21580009",
+      "randomised_ratio": "21582109/21580009",
+      "deterministic_ratio": "30703/30700"
+    },
+    {
+      "W": "100",
+      "x": "7/3",
+      "y": "1",
+      "q": "909/3058",
+      "randomised_ratio": "3079/3058",
+      "deterministic_ratio": "310/307"
+    },
+    {
+      "W": "100",
+      "x": "7/3",
+      "y": "7/3",
+      "q": "1/2",
+      "randomised_ratio": "621/614",
+      "deterministic_ratio": "314/307"
+    },
+    {
+      "W": "100",
+      "x": "7/3",
+      "y": "100",
+      "q": "180000/182149",
+      "randomised_ratio": "184249/182149",
+      "deterministic_ratio": "607/600"
+    },
+    {
+      "W": "100",
+      "x": "100",
+      "y": "1/100",
+      "q": "10001/200010001",
+      "randomised_ratio": "200020001/200010001",
+      "deterministic_ratio": "20001/20000"
+    },
+    {
+      "W": "100",
+      "x": "100",
+      "y": "1",
+      "q": "101/20101",
+      "randomised_ratio": "20201/20101",
+      "deterministic_ratio": "201/200"
+    },
+    {
+      "W": "100",
+      "x": "100",
+      "y": "7/3",
+      "q": "2149/182149",
+      "randomised_ratio": "184249/182149",
+      "deterministic_ratio": "607/600"
+    },
+    {
+      "W": "100",
+      "x": "100",
+      "y": "100",
+      "q": "1/2",
+      "randomised_ratio": "5/4",
+      "deterministic_ratio": "3/2"
+    }
+  ],
+  "weighted_formula_cases_checked": 48,
+  "installs": false,
+  "network_access": false,
+  "external_scientific_code": false,
+  "new_measurements": 0
+}

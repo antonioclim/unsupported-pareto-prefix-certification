@@ -1,0 +1,168 @@
+{
+  "A": {
+    "answer": true,
+    "expected_queries": "200/23",
+    "expected_paid_cost": "200/23",
+    "ratio": "25/23",
+    "C_star": "8",
+    "minimum_prefixes": [
+      [
+        2,
+        3,
+        3
+      ]
+    ],
+    "branch_costs": {
+      "A_LR": "9",
+      "A_RL": "9",
+      "B": "8"
+    }
+  },
+  "D": {
+    "answer": true,
+    "expected_queries": "175/23",
+    "expected_paid_cost": "175/23",
+    "ratio": "25/23",
+    "C_star": "7",
+    "minimum_prefixes": [
+      [
+        3,
+        3,
+        1
+      ]
+    ],
+    "branch_costs": {
+      "A_LR": "7",
+      "A_RL": "7",
+      "B": "9"
+    }
+  },
+  "new_positive_candidate_census": {
+    "answer": true,
+    "expected_queries": "191/23",
+    "expected_paid_cost": "191/23",
+    "ratio": "191/184",
+    "C_star": "8",
+    "minimum_prefixes": [
+      [
+        3,
+        3,
+        2
+      ]
+    ],
+    "branch_costs": {
+      "A_LR": "8",
+      "A_RL": "8",
+      "B": "9"
+    }
+  },
+  "new_positive_full_census": {
+    "answer": true,
+    "expected_queries": "9",
+    "expected_paid_cost": "9",
+    "ratio": "1",
+    "C_star": "9",
+    "minimum_prefixes": [
+      [
+        3,
+        3,
+        3
+      ]
+    ],
+    "branch_costs": {
+      "A_LR": "9",
+      "A_RL": "9",
+      "B": "9"
+    }
+  },
+  "negative_scalarisation_tie": {
+    "answer": false,
+    "expected_queries": "9",
+    "expected_paid_cost": "9",
+    "ratio": null,
+    "C_star": null,
+    "minimum_prefixes": [],
+    "branch_costs": {
+      "A_LR": "9",
+      "A_RL": "9",
+      "B": "9"
+    }
+  },
+  "negative_dominated": {
+    "answer": false,
+    "expected_queries": "9",
+    "expected_paid_cost": "9",
+    "ratio": null,
+    "C_star": null,
+    "minimum_prefixes": [],
+    "branch_costs": {
+      "A_LR": "9",
+      "A_RL": "9",
+      "B": "9"
+    }
+  },
+  "negative_axis_supported": {
+    "answer": false,
+    "expected_queries": "9",
+    "expected_paid_cost": "9",
+    "ratio": null,
+    "C_star": null,
+    "minimum_prefixes": [],
+    "branch_costs": {
+      "A_LR": "9",
+      "A_RL": "9",
+      "B": "9"
+    }
+  },
+  "negative_all_equal": {
+    "answer": false,
+    "expected_queries": "9",
+    "expected_paid_cost": "9",
+    "ratio": null,
+    "C_star": null,
+    "minimum_prefixes": [],
+    "branch_costs": {
+      "A_LR": "9",
+      "A_RL": "9",
+      "B": "9"
+    }
+  },
+  "A_high_candidate_tail_price": {
+    "answer": true,
+    "expected_queries": "200/23",
+    "expected_paid_cost": "584/23",
+    "ratio": "73/23",
+    "C_star": "8",
+    "minimum_prefixes": [
+      [
+        2,
+        3,
+        3
+      ]
+    ],
+    "branch_costs": {
+      "A_LR": "33",
+      "A_RL": "33",
+      "B": "8"
+    }
+  },
+  "D_common_setup": {
+    "answer": true,
+    "expected_queries": "175/23",
+    "expected_paid_cost": "405/23",
+    "ratio": "405/391",
+    "C_star": "17",
+    "minimum_prefixes": [
+      [
+        3,
+        3,
+        1
+      ]
+    ],
+    "branch_costs": {
+      "A_LR": "17",
+      "A_RL": "17",
+      "B": "19"
+    }
+  }
+}

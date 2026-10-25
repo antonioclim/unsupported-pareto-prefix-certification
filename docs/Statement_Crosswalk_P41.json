@@ -1,0 +1,312 @@
+{
+  "schema": "p41-statement-crosswalk-v1",
+  "formal_statements": {
+    "Main_Manuscript": [
+      {
+        "type": "Theorem",
+        "historical_label": "1",
+        "title": "endpoint criterion",
+        "line_at_review": 66,
+        "old_declaration": "**Theorem 1 (endpoint criterion).**",
+        "new_reference": "Theorem 1"
+      },
+      {
+        "type": "Lemma",
+        "historical_label": "B1.1",
+        "title": "strict witness pair",
+        "line_at_review": 72,
+        "old_declaration": "**Lemma B1.1 (strict witness pair).**",
+        "new_reference": "Lemma 2"
+      },
+      {
+        "type": "Theorem",
+        "historical_label": "A",
+        "title": "exact unbounded acquisition",
+        "line_at_review": 97,
+        "old_declaration": "**Theorem A (exact unbounded acquisition).**",
+        "new_reference": "Theorem 3"
+      },
+      {
+        "type": "Corollary",
+        "historical_label": "A4",
+        "title": "joint scaling and the gain from randomisation",
+        "line_at_review": 117,
+        "old_declaration": "**Corollary A4 (joint scaling and the gain from randomisation).**",
+        "new_reference": "Corollary 4"
+      },
+      {
+        "type": "Lemma",
+        "historical_label": "A1",
+        "title": null,
+        "line_at_review": 220,
+        "old_declaration": "**Lemma A1.**",
+        "new_reference": "Lemma 5"
+      },
+      {
+        "type": "Lemma",
+        "historical_label": "A2",
+        "title": null,
+        "line_at_review": 264,
+        "old_declaration": "**Lemma A2.**",
+        "new_reference": "Lemma 6"
+      },
+      {
+        "type": "Lemma",
+        "historical_label": null,
+        "title": "compression of paid prefixes",
+        "line_at_review": 337,
+        "old_declaration": "**Lemma (compression of paid prefixes).**",
+        "new_reference": "Lemma 7"
+      },
+      {
+        "type": "Proposition",
+        "historical_label": "A3",
+        "title": "finite rational hard distributions",
+        "line_at_review": 375,
+        "old_declaration": "**Proposition A3 (finite rational hard distributions).**",
+        "new_reference": "Proposition 8"
+      },
+      {
+        "type": "Theorem",
+        "historical_label": "B2",
+        "title": "exact oriented feasibility",
+        "line_at_review": 455,
+        "old_declaration": "**Theorem B2 (exact oriented feasibility).**",
+        "new_reference": "Theorem 9"
+      },
+      {
+        "type": "Corollary",
+        "historical_label": "B2.1",
+        "title": "sharp candidate observation law",
+        "line_at_review": 532,
+        "old_declaration": "**Corollary B2.1 (sharp candidate observation law).**",
+        "new_reference": "Corollary 10"
+      },
+      {
+        "type": "Corollary",
+        "historical_label": "B2.2",
+        "title": "sharp minimum unit-price certificate",
+        "line_at_review": 542,
+        "old_declaration": "**Corollary B2.2 (sharp minimum unit-price certificate).**",
+        "new_reference": "Corollary 11"
+      },
+      {
+        "type": "Theorem",
+        "historical_label": "B3",
+        "title": "general bounds and narrow-band equality",
+        "line_at_review": 558,
+        "old_declaration": "**Theorem B3 (general bounds and narrow-band equality).**",
+        "new_reference": "Theorem 12"
+      },
+      {
+        "type": "Theorem",
+        "historical_label": "B4",
+        "title": "three-configuration boundary",
+        "line_at_review": 648,
+        "old_declaration": "**Theorem B4 (three-configuration boundary).**",
+        "new_reference": "Theorem 13"
+      },
+      {
+        "type": "Lemma",
+        "historical_label": "B4.1",
+        "title": "fixed worlds above the boundary",
+        "line_at_review": 666,
+        "old_declaration": "**Lemma B4.1 (fixed worlds above the boundary).**",
+        "new_reference": "Lemma 14"
+      },
+      {
+        "type": "Theorem",
+        "historical_label": "B5",
+        "title": null,
+        "line_at_review": 720,
+        "old_declaration": "**Theorem B5.**",
+        "new_reference": "Theorem 15"
+      },
+      {
+        "type": "Theorem",
+        "historical_label": "C2",
+        "title": null,
+        "line_at_review": 775,
+        "old_declaration": "**Theorem C2.**",
+        "new_reference": "Theorem 16"
+      },
+      {
+        "type": "Theorem",
+        "historical_label": "C3c",
+        "title": null,
+        "line_at_review": 834,
+        "old_declaration": "**Theorem C3c.**",
+        "new_reference": "Theorem 17"
+      },
+      {
+        "type": "Corollary",
+        "historical_label": "C3d",
+        "title": "necessary partial observation",
+        "line_at_review": 870,
+        "old_declaration": "**Corollary C3d (necessary partial observation).**",
+        "new_reference": "Corollary 18"
+      },
+      {
+        "type": "Theorem",
+        "historical_label": "C3a",
+        "title": null,
+        "line_at_review": 977,
+        "old_declaration": "**Theorem C3a.**",
+        "new_reference": "Theorem 19"
+      },
+      {
+        "type": "Proposition",
+        "historical_label": null,
+        "title": "constructive implementation",
+        "line_at_review": 1122,
+        "old_declaration": "**Proposition (constructive implementation).**",
+        "new_reference": "Proposition 20"
+      },
+      {
+        "type": "Proposition",
+        "historical_label": "R5",
+        "title": "positive-certificate transfer criterion",
+        "line_at_review": 1144,
+        "old_declaration": "**Proposition R5 (positive-certificate transfer criterion).**",
+        "new_reference": "Proposition 21"
+      },
+      {
+        "type": "Proposition",
+        "historical_label": "R1",
+        "title": "endpoint policy extension",
+        "line_at_review": 1170,
+        "old_declaration": "**Proposition R1 (endpoint policy extension).**",
+        "new_reference": "Proposition 22"
+      }
+    ],
+    "Supplementary_Materials": [
+      {
+        "type": "Theorem",
+        "historical_label": "Q1",
+        "title": null,
+        "line_at_review": 247,
+        "old_declaration": "**Theorem Q1.**",
+        "new_reference": "Theorem S1"
+      },
+      {
+        "type": "Theorem",
+        "historical_label": "B6",
+        "title": null,
+        "line_at_review": 309,
+        "old_declaration": "**Theorem B6.**",
+        "new_reference": "Theorem S2"
+      },
+      {
+        "type": "Theorem",
+        "historical_label": "C1",
+        "title": null,
+        "line_at_review": 429,
+        "old_declaration": "**Theorem C1.**",
+        "new_reference": "Theorem S3"
+      },
+      {
+        "type": "Theorem",
+        "historical_label": "C4",
+        "title": null,
+        "line_at_review": 449,
+        "old_declaration": "**Theorem C4.**",
+        "new_reference": "Theorem S4"
+      },
+      {
+        "type": "Theorem",
+        "historical_label": "C5",
+        "title": null,
+        "line_at_review": 498,
+        "old_declaration": "**Theorem C5.**",
+        "new_reference": "Theorem S5"
+      },
+      {
+        "type": "Proposition",
+        "historical_label": "C3b",
+        "title": null,
+        "line_at_review": 663,
+        "old_declaration": "**Proposition C3b.**",
+        "new_reference": "Proposition S6"
+      },
+      {
+        "type": "Proposition",
+        "historical_label": "E1",
+        "title": null,
+        "line_at_review": 729,
+        "old_declaration": "**Proposition E1.**",
+        "new_reference": "Proposition S7"
+      },
+      {
+        "type": "Lemma",
+        "historical_label": "P1",
+        "title": "Faithful legal prefetch",
+        "line_at_review": 775,
+        "old_declaration": "**Lemma P1 (Faithful legal prefetch).**",
+        "new_reference": "Lemma S8"
+      }
+    ]
+  },
+  "supplementary_examples": [
+    {
+      "historical": "Example P2",
+      "current": "Example S9"
+    },
+    {
+      "historical": "Example P3",
+      "current": "Example S10"
+    }
+  ],
+  "historical_section_aliases": [
+    "### 3.1. Exact ratios [A1]",
+    "### 3.2. Joint positive certificates [A2]",
+    "### 3.3. Matching randomised upper bound [A3]",
+    "### 3.4. Lower-bound target and ordinal game [A4]",
+    "### 3.5. Adaptive numerical policies and Ramsey restriction [A5]",
+    "### 3.6. A fixed rational archive embedding [A6]",
+    "### 3.7. Compression of arbitrary partial-prefix interleavings [A7]",
+    "### 3.8. Taking the input supremum and the precision limit [A8]",
+    "### 3.9. Matching deterministic bound [A9]",
+    "### 4.1. Exact oriented feasibility and sharp observation laws [B2]",
+    "### 4.2. The general-catalogue bridge and exact narrow bands [B3]",
+    "### 4.3. The exact zero-overhead boundary [B4]",
+    "### 4.4. Exact priced acquisition in the first supercritical interval [B5]",
+    "### 5.1. Persistent overhead from two fixed worlds [C3]",
+    "### 5.2. The cost of requiring full candidate observation [C4.5]",
+    "### 6.1. Screening and the two continuations [C4]",
+    "### 6.2. A deterministic threshold policy [C4.1]",
+    "### 6.3. The randomised bound and its exact positivity certificate [C4.3]",
+    "### 7.1. Positive-certificate transfer with precedence constraints [R5]",
+    "### 7.2. Endpoint domains and a common positive evaluation set [R1]"
+  ],
+  "heading_alias_collisions": [
+    {
+      "heading_alias": "[A3]",
+      "meaning": "Section 3.3 randomised upper proof",
+      "different_formal_statement": "Proposition A3 is finite hard distributions in Section 3.8, becoming Proposition 8"
+    },
+    {
+      "heading_alias": "[A4]",
+      "meaning": "Section 3.4 ordinal lower game",
+      "different_formal_statement": "Corollary A4 is joint scaling in Section 3.1, becoming Corollary 4"
+    },
+    {
+      "heading_alias": "[C3]",
+      "meaning": "Section 5.1 fixed worlds",
+      "different_formal_statement": "Theorem C2 becomes Theorem 16"
+    },
+    {
+      "heading_alias": "[C4.5]",
+      "meaning": "Section 5.2 candidate-observation restriction",
+      "different_formal_statement": "Contains Theorem C3c and Corollary C3d, becoming Theorem 17 and Corollary 18"
+    },
+    {
+      "heading_alias": "[C4.3]",
+      "meaning": "Section 6.3 uniform randomised upper proof",
+      "different_formal_statement": "Theorem C3a becomes Theorem 19"
+    }
+  ],
+  "equation_tags_changed": false,
+  "scientific_checker_identifiers_changed": false,
+  "math_display_sequences_unchanged": true,
+  "shared_bibliography_entries": 39
+}

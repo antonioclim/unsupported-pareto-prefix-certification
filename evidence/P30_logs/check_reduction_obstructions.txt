@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "arithmetic": "fractions.Fraction; no floating point",
+  "support_test": "exact closed interval intersection, including axes and ties",
+  "same_pareto_labels_different_good": {
+    "K": 3,
+    "N": 4,
+    "prefix": [
+      4,
+      3,
+      3
+    ],
+    "means": [
+      [
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "0",
+          "5/8"
+        ],
+        [
+          "5/8",
+          "0"
+        ]
+      ],
+      [
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/4",
+          "7/8"
+        ],
+        [
+          "7/8",
+          "1/4"
+        ]
+      ]
+    ],
+    "GOOD": [
+      true,
+      false
+    ],
+    "scope": "two exact completions; universal Pareto-label invariance follows analytically from rectangle separation"
+  },
+  "same_means_different_prefix_cost": {
+    "K": 3,
+    "N": 3,
+    "prefix_states_examined": 128,
+    "original": {
+      "cost": 8,
+      "minimisers": [
+        [
+          3,
+          2,
+          3
+        ]
+      ],
+      "true_states": 2
+    },
+    "reordered": {
+      "cost": 7,
+      "minimisers": [
+        [
+          3,
+          1,
+          3
+        ]
+      ],
+      "true_states": 3
+    }
+  },
+  "limit": "Checks only the two claimed simple-reduction obstructions; not a universal non-reducibility result.",
+  "script_sha256": "d0a07bcc3b21f5ce70c0f2f199e9b2584170cb299a1bb5c198e3d233c690343d"
+}

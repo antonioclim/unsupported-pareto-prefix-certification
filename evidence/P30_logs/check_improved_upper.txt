@@ -1,0 +1,4 @@
+{"degrees": [5, 3, 2], "polynomial_terms": 40, "leaf_count": 12, "max_depth": 6, "status": "PASS", "excess": "11/120", "endpoint": 0}
+{"degrees": [6, 4, 2], "polynomial_terms": 56, "leaf_count": 20, "max_depth": 7, "status": "PASS", "excess": "11/120", "endpoint": 1}
+{"degrees": [5, 3, 2], "polynomial_terms": 40, "leaf_count": 12, "max_depth": 6, "status": "PASS", "excess": "73/800", "endpoint": 0}
+{"degrees": [6, 4, 2], "polynomial_terms": 56, "leaf_count": 36, "max_depth": 16, "status": "PASS", "excess": "73/800", "endpoint": 1}

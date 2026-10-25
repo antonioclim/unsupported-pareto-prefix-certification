@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "all_oriented_triples": 90000,
+  "feasible_constructed": 1556,
+  "max_N": 24,
+  "minimum_constructed_strict_determinant": "1/4608",
+  "epsilon": "[Z^2-4(2N-a-i)(2N-a-j)]/(8Nj)",
+  "scope": "Finite constructive arithmetic checks; universal iff criterion requires analytic proof.",
+  "counts": [
+    {
+      "N": 1,
+      "all_oriented_triples": 1,
+      "feasible_constructed": 1
+    },
+    {
+      "N": 2,
+      "all_oriented_triples": 8,
+      "feasible_constructed": 2
+    },
+    {
+      "N": 3,
+      "all_oriented_triples": 27,
+      "feasible_constructed": 4
+    },
+    {
+      "N": 4,
+      "all_oriented_triples": 64,
+      "feasible_constructed": 5
+    },
+    {
+      "N": 5,
+      "all_oriented_triples": 125,
+      "feasible_constructed": 8
+    },
+    {
+      "N": 6,
+      "all_oriented_triples": 216,
+      "feasible_constructed": 11
+    },
+    {
+      "N": 7,
+      "all_oriented_triples": 343,
+      "feasible_constructed": 15
+    },
+    {
+      "N": 8,
+      "all_oriented_triples": 512,
+      "feasible_constructed": 18
+    },
+    {
+      "N": 9,
+      "all_oriented_triples": 729,
+      "feasible_constructed": 22
+    },
+    {
+      "N": 10,
+      "all_oriented_triples": 1000,
+      "feasible_constructed": 27
+    },
+    {
+      "N": 11,
+      "all_oriented_triples": 1331,
+      "feasible_constructed": 35
+    },
+    {
+      "N": 12,
+      "all_oriented_triples": 1728,
+      "feasible_constructed": 41
+    },
+    {
+      "N": 13,
+      "all_oriented_triples": 2197,
+      "feasible_constructed": 48
+    },
+    {
+      "N": 14,
+      "all_oriented_triples": 2744,
+      "feasible_constructed": 56
+    },
+    {
+      "N": 15,
+      "all_oriented_triples": 3375,
+      "feasible_constructed": 67
+    },
+    {
+      "N": 16,
+      "all_oriented_triples": 4096,
+      "feasible_constructed": 77
+    },
+    {
+      "N": 17,
+      "all_oriented_triples": 4913,
+      "feasible_constructed": 88
+    },
+    {
+      "N": 18,
+      "all_oriented_triples": 5832,
+      "feasible_constructed": 100
+    },
+    {
+      "N": 19,
+      "all_oriented_triples": 6859,
+      "feasible_constructed": 114
+    },
+    {
+      "N": 20,
+      "all_oriented_triples": 8000,
+      "feasible_constructed": 128
+    },
+    {
+      "N": 21,
+      "all_oriented_triples": 9261,
+      "feasible_constructed": 146
+    },
+    {
+      "N": 22,
+      "all_oriented_triples": 10648,
+      "feasible_constructed": 162
+    },
+    {
+      "N": 23,
+      "all_oriented_triples": 12167,
+      "feasible_constructed": 181
+    },
+    {
+      "N": 24,
+      "all_oriented_triples": 13824,
+      "feasible_constructed": 200
+    }
+  ]
+}

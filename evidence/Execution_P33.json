@@ -1,0 +1,639 @@
+{
+  "schema": "p33-review-companion-replay-v1",
+  "status": "PASS",
+  "run_id": "50afe7cf-8eac-4b65-9320-8ae2ba626869",
+  "started_at_utc": "2026-10-24T04:15:03.827296+00:00",
+  "finished_at_utc": "2026-10-24T04:15:40.910552+00:00",
+  "phase": "completed",
+  "mode": "current_and_legacy",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "assertions_enabled": true,
+  "frozen_files_verified": 125,
+  "frozen_manifest_sha256": "e624cfd226da402c02be6ef44e508f72a84457985ea89ab932647051de82fc6b",
+  "current_checker_entries_executed": 7,
+  "current_scientific_checks_executed": 6,
+  "current_malformed_certificate_controls_executed": 1,
+  "executions": [
+    {
+      "script": "upper/check_improved_upper.py",
+      "output": "upper/Improved_Upper_Exact_Certificate.json",
+      "comparison": "exact_bytes",
+      "source_sha256": "cdc60a63b4080ac32aa2b09a2601df264b9fa0ced6b5cd4aee15bb9160eff2e6",
+      "returncode": 0,
+      "stdout": "{\"degrees\": [5, 3, 2], \"polynomial_terms\": 40, \"leaf_count\": 12, \"max_depth\": 6, \"status\": \"PASS\", \"excess\": \"11/120\", \"endpoint\": 0}\n{\"degrees\": [6, 4, 2], \"polynomial_terms\": 56, \"leaf_count\": 20, \"max_depth\": 7, \"status\": \"PASS\", \"excess\": \"11/120\", \"endpoint\": 1}\n{\"degrees\": [5, 3, 2], \"polynomial_terms\": 40, \"leaf_count\": 12, \"max_depth\": 6, \"status\": \"PASS\", \"excess\": \"73/800\", \"endpoint\": 0}\n{\"degrees\": [6, 4, 2], \"polynomial_terms\": 56, \"leaf_count\": 36, \"max_depth\": 16, \"status\": \"PASS\", \"excess\": \"73/800\", \"endpoint\": 1}\n",
+      "stderr": "",
+      "expected_output_sha256": "70fcc2008ac615012fc9f7da25193636d76560d5fba4200eec63160df765d50f",
+      "reproduced_output_sha256": "70fcc2008ac615012fc9f7da25193636d76560d5fba4200eec63160df765d50f",
+      "scientific_output_matches": true,
+      "status": "PASS",
+      "elapsed_seconds": 0.1048
+    },
+    {
+      "script": "upper/check_improved_upper_independent.py",
+      "output": "upper/Improved_Upper_Independent_Check.json",
+      "comparison": "exact_bytes",
+      "source_sha256": "ff68841664a14be6e12a7514762bad8db904482d7ab3a2aa328ac4fb0be50631",
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"method\": \"Exact tensor Bernstein collocation inversion from unexpanded formula\",\n  \"results\": [\n    {\n      \"endpoint\": 0,\n      \"status\": \"PASS\",\n      \"boxes\": 12,\n      \"coefficients\": 864,\n      \"minimum_coefficient\": \"513/64000\"\n    },\n    {\n      \"endpoint\": 1,\n      \"status\": \"PASS\",\n      \"boxes\": 36,\n      \"coefficients\": 3780,\n      \"minimum_coefficient\": \"5556089682873/17592186044416000\"\n    }\n  ],\n  \"total_coefficients\": 4644,\n  \"input_sha256\": \"70fcc2008ac615012fc9f7da25193636d76560d5fba4200eec63160df765d50f\",\n  \"script_sha256\": \"ff68841664a14be6e12a7514762bad8db904482d7ab3a2aa328ac4fb0be50631\"\n}\n",
+      "stderr": "",
+      "expected_output_sha256": "dac81243e40223c7a9a4ed16f80ccd817316d74c5afba87ef1d8138063902f48",
+      "reproduced_output_sha256": "dac81243e40223c7a9a4ed16f80ccd817316d74c5afba87ef1d8138063902f48",
+      "scientific_output_matches": true,
+      "status": "PASS",
+      "elapsed_seconds": 0.4225
+    },
+    {
+      "script": "ordinal/check_full_ordinal_game.py",
+      "output": "ordinal/full_ordinal_game_results.json",
+      "comparison": "exact_bytes",
+      "source_sha256": "6139b6f97ea460295062e8bf1f0b444dc33f277fdd66900463a147e0af2a88c5",
+      "returncode": 0,
+      "stdout": "{\n  \"method\": \"Exact posterior dynamic programme over all label/rank assignments and all next-label actions; no recurrence A3 used.\",\n  \"ordinal_cases\": [\n    {\n      \"m\": 1,\n      \"n\": 1,\n      \"worlds\": 1,\n      \"query_observation\": \"full relative order\",\n      \"optimal_expected_queries\": \"2\",\n      \"q_formula\": \"2\",\n      \"matches_formula\": true,\n      \"posterior_states\": 4,\n      \"remaining_value_constant_at_fixed_counts\": true\n    },\n    {\n      \"m\": 1,\n      \"n\": 2,\n      \"worlds\": 2,\n      \"query_observation\": \"full relative order\",\n      \"optimal_expected_queries\": \"5/2\",\n      \"q_formula\": \"5/2\",\n      \"matches_formula\": true,\n      \"posterior_states\": 12,\n      \"remaining_value_constant_at_fixed_counts\": true\n    },\n    {\n      \"m\": 1,\n      \"n\": 3,\n      \"worlds\": 6,\n      \"query_observation\": \"full relative order\",\n      \"optimal_expected_queries\": \"3\",\n      \"q_formula\": \"3\",\n      \"matches_formula\": true,\n      \"posterior_states\": 41,\n      \"remaining_value_constant_at_fixed_counts\": true\n    },\n    {\n      \"m\": 1,\n      \"n\": 4,\n      \"worlds\": 24,\n      \"query_observation\": \"full relative order\",\n      \"optimal_expected_queries\": \"7/2\",\n      \"q_formula\": \"7/2\",\n      \"matches_formula\": true,\n      \"posterior_states\": 170,\n      \"remaining_value_constant_at_fixed_counts\": true\n    },\n    {\n      \"m\": 2,\n      \"n\": 2,\n      \"worlds\": 4,\n      \"query_observation\": \"full relative order\",\n      \"optimal_expected_queries\": \"13/4\",\n      \"q_formula\": \"13/4\",\n      \"matches_formula\": true,\n      \"posterior_states\": 37,\n      \"remaining_value_constant_at_fixed_counts\": true\n    },\n    {\n      \"m\": 2,\n      \"n\": 3,\n      \"worlds\": 12,\n      \"query_observation\": \"full relative order\",\n      \"optimal_expected_queries\": \"23/6\",\n      \"q_formula\": \"23/6\",\n      \"matches_formula\": true,\n      \"posterior_states\": 128,\n      \"remaining_value_constant_at_fixed_counts\": true\n    },\n    {\n      \"m\": 2,\n      \"n\": 4,\n      \"worlds\": 48,\n      \"query_observation\": \"full relative order\",\n      \"optimal_expected_queries\": \"35/8\",\n      \"q_formula\": \"35/8\",\n      \"matches_formula\": true,\n      \"posterior_states\": 533,\n      \"remaining_value_constant_at_fixed_counts\": true\n    },\n    {\n      \"m\": 3,\n      \"n\": 3,\n      \"worlds\": 36,\n      \"query_observation\": \"full relative order\",\n      \"optimal_expected_queries\": \"41/9\",\n      \"q_formula\": \"41/9\",\n      \"matches_formula\": true,\n      \"posterior_states\": 445,\n      \"remaining_value_constant_at_fixed_counts\": true\n    },\n    {\n      \"m\": 3,\n      \"n\": 4,\n      \"worlds\": 144,\n      \"query_observation\": \"full relative order\",\n      \"optimal_expected_queries\": \"31/6\",\n      \"q_formula\": \"31/6\",\n      \"matches_formula\": true,\n      \"posterior_states\": 1856,\n      \"remaining_value_constant_at_fixed_counts\": true\n    }\n  ],\n  \"numeric_comparisons\": [\n    {\n      \"m\": 2,\n      \"n\": 2,\n      \"worlds\": 4,\n      \"query_observation\": \"exact known ranks\",\n      \"optimal_expected_queries\": \"3\",\n      \"q_formula\": \"13/4\",\n      \"matches_formula\": false,\n      \"posterior_states\": 49,\n      \"remaining_value_constant_at_fixed_counts\": false\n    },\n    {\n      \"m\": 3,\n      \"n\": 3,\n      \"worlds\": 36,\n      \"query_observation\": \"exact known ranks\",\n      \"optimal_expected_queries\": \"4\",\n      \"q_formula\": \"41/9\",\n      \"matches_formula\": false,\n      \"posterior_states\": 1156,\n      \"remaining_value_constant_at_fixed_counts\": false\n    }\n  ],\n  \"scope_limit\": \"Finite ordinal checks do not prove the general theorem, Ramsey lemma, arbitrary-real kernel measurability or archive compression. Numeric comparisons are promised fixed-rank games and are not a counterexample to the manuscript lower bound.\"\n}\n",
+      "stderr": "",
+      "expected_output_sha256": "c3d8238eafc831cadd1b5609bad0811df6acea0624f8fcdc61ee2576b660b09b",
+      "reproduced_output_sha256": "c3d8238eafc831cadd1b5609bad0811df6acea0624f8fcdc61ee2576b660b09b",
+      "scientific_output_matches": true,
+      "status": "PASS",
+      "elapsed_seconds": 0.1356
+    },
+    {
+      "script": "reductions/check_reduction_obstructions.py",
+      "output": "reductions/Reduction_Obstructions_Exact_Check.json",
+      "comparison": "exact_bytes",
+      "source_sha256": "d0a07bcc3b21f5ce70c0f2f199e9b2584170cb299a1bb5c198e3d233c690343d",
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"arithmetic\": \"fractions.Fraction; no floating point\",\n  \"support_test\": \"exact closed interval intersection, including axes and ties\",\n  \"same_pareto_labels_different_good\": {\n    \"K\": 3,\n    \"N\": 4,\n    \"prefix\": [\n      4,\n      3,\n      3\n    ],\n    \"means\": [\n      [\n        [\n          \"1/2\",\n          \"1/2\"\n        ],\n        [\n          \"0\",\n          \"5/8\"\n        ],\n        [\n          \"5/8\",\n          \"0\"\n        ]\n      ],\n      [\n        [\n          \"1/2\",\n          \"1/2\"\n        ],\n        [\n          \"1/4\",\n          \"7/8\"\n        ],\n        [\n          \"7/8\",\n          \"1/4\"\n        ]\n      ]\n    ],\n    \"GOOD\": [\n      true,\n      false\n    ],\n    \"scope\": \"two exact completions; universal Pareto-label invariance follows analytically from rectangle separation\"\n  },\n  \"same_means_different_prefix_cost\": {\n    \"K\": 3,\n    \"N\": 3,\n    \"prefix_states_examined\": 128,\n    \"original\": {\n      \"cost\": 8,\n      \"minimisers\": [\n        [\n          3,\n          2,\n          3\n        ]\n      ],\n      \"true_states\": 2\n    },\n    \"reordered\": {\n      \"cost\": 7,\n      \"minimisers\": [\n        [\n          3,\n          1,\n          3\n        ]\n      ],\n      \"true_states\": 3\n    }\n  },\n  \"limit\": \"Checks only the two claimed simple-reduction obstructions; not a universal non-reducibility result.\",\n  \"script_sha256\": \"d0a07bcc3b21f5ce70c0f2f199e9b2584170cb299a1bb5c198e3d233c690343d\"\n}\n",
+      "stderr": "",
+      "expected_output_sha256": "d017b49aaa8ac7f2a7f6cd6578af360403261d6b081136001721315ffece232a",
+      "reproduced_output_sha256": "d017b49aaa8ac7f2a7f6cd6578af360403261d6b081136001721315ffece232a",
+      "scientific_output_matches": true,
+      "status": "PASS",
+      "elapsed_seconds": 0.0401
+    },
+    {
+      "script": "check_verifier_rejections.py",
+      "output": "Verifier_Rejection_Check.json",
+      "comparison": "exact_bytes",
+      "source_sha256": "80b453c81ae6c92f62f1e14575f9954f6696cfc754d253d369da5bae45f8a32a",
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"mutations\": [\n    {\n      \"mutation\": \"duplicate_endpoint\",\n      \"rejected\": true,\n      \"reason\": \"AssertionError: Missing or duplicate endpoint\"\n    },\n    {\n      \"mutation\": \"understate_degree\",\n      \"rejected\": true,\n      \"reason\": \"AssertionError: Invalid polynomial degree bounds\"\n    },\n    {\n      \"mutation\": \"omit_box\",\n      \"rejected\": true,\n      \"reason\": \"AssertionError\"\n    },\n    {\n      \"mutation\": \"falsify_minimum\",\n      \"rejected\": true,\n      \"reason\": \"AssertionError\"\n    }\n  ],\n  \"scope\": \"Four malformed algebraic certificates rejected. No universal proof or analytic reduction is checked here.\"\n}\n",
+      "stderr": "",
+      "expected_output_sha256": "31c7ada702abdb71f7277262c03db0008b216dc25dec6478016b2302a12db178",
+      "reproduced_output_sha256": "31c7ada702abdb71f7277262c03db0008b216dc25dec6478016b2302a12db178",
+      "scientific_output_matches": true,
+      "status": "PASS",
+      "elapsed_seconds": 0.229
+    },
+    {
+      "script": "candidate/check_candidate_census_obstruction.py",
+      "output": "candidate/Candidate_Census_Exact_Check.json",
+      "comparison": "scientific_json",
+      "source_sha256": "b41e3734f161be541d979dec84b0c4491ba6817b44ee6a5e3b4395bb6dec1fe7",
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"cases\": [\n    {\n      \"q\": 3,\n      \"padding\": 0,\n      \"N\": 12,\n      \"prefix_states\": 2197,\n      \"true_states\": 4,\n      \"certificate_cost\": 34,\n      \"candidate_census_certificate_cost\": 35,\n      \"NW_first_cost\": 35,\n      \"SE_first_cost\": 36,\n      \"mixing_probability\": \"5/9\",\n      \"mixed_expected_cost\": \"320/9\",\n      \"mixed_ratio\": \"160/153\",\n      \"candidate_census_ratio\": \"35/34\"\n    },\n    {\n      \"q\": 3,\n      \"padding\": 1,\n      \"N\": 13,\n      \"prefix_states\": 2744,\n      \"true_states\": 4,\n      \"certificate_cost\": 37,\n      \"candidate_census_certificate_cost\": 38,\n      \"NW_first_cost\": 38,\n      \"SE_first_cost\": 39,\n      \"mixing_probability\": \"15/29\",\n      \"mixed_expected_cost\": \"1117/29\",\n      \"mixed_ratio\": \"1117/1073\",\n      \"candidate_census_ratio\": \"38/37\"\n    },\n    {\n      \"q\": 3,\n      \"padding\": 2,\n      \"N\": 14,\n      \"prefix_states\": 3375,\n      \"true_states\": 4,\n      \"certificate_cost\": 40,\n      \"candidate_census_certificate_cost\": 41,\n      \"NW_first_cost\": 41,\n      \"SE_first_cost\": 42,\n      \"mixing_probability\": \"15/31\",\n      \"mixed_expected_cost\": \"1286/31\",\n      \"mixed_ratio\": \"643/620\",\n      \"candidate_census_ratio\": \"41/40\"\n    },\n    {\n      \"q\": 3,\n      \"padding\": 3,\n      \"N\": 15,\n      \"prefix_states\": 4096,\n      \"true_states\": 4,\n      \"certificate_cost\": 43,\n      \"candidate_census_certificate_cost\": 44,\n      \"NW_first_cost\": 44,\n      \"SE_first_cost\": 45,\n      \"mixing_probability\": \"5/11\",\n      \"mixed_expected_cost\": \"489/11\",\n      \"mixed_ratio\": \"489/473\",\n      \"candidate_census_ratio\": \"44/43\"\n    },\n    {\n      \"q\": 5,\n      \"padding\": 0,\n      \"N\": 20,\n      \"prefix_states\": 9261,\n      \"true_states\": 8,\n      \"certificate_cost\": 56,\n      \"candidate_census_certificate_cost\": 59,\n      \"NW_first_cost\": 59,\n      \"SE_first_cost\": 60,\n      \"mixing_probability\": \"5/9\",\n      \"mixed_expected_cost\": \"536/9\",\n      \"mixed_ratio\": \"67/63\",\n      \"candidate_census_ratio\": \"59/56\"\n    },\n    {\n      \"q\": 8,\n      \"padding\": 0,\n      \"N\": 32,\n      \"prefix_states\": 35937,\n      \"true_states\": 14,\n      \"certificate_cost\": 89,\n      \"candidate_census_certificate_cost\": 95,\n      \"NW_first_cost\": 95,\n      \"SE_first_cost\": 96,\n      \"mixing_probability\": \"5/9\",\n      \"mixed_expected_cost\": \"860/9\",\n      \"mixed_ratio\": \"860/801\",\n      \"candidate_census_ratio\": \"95/89\"\n    },\n    {\n      \"q\": 16,\n      \"padding\": 0,\n      \"N\": 64,\n      \"prefix_states\": 274625,\n      \"true_states\": 30,\n      \"certificate_cost\": 177,\n      \"candidate_census_certificate_cost\": 191,\n      \"NW_first_cost\": 191,\n      \"SE_first_cost\": 192,\n      \"mixing_probability\": \"5/9\",\n      \"mixed_expected_cost\": \"1724/9\",\n      \"mixed_ratio\": \"1724/1593\",\n      \"candidate_census_ratio\": \"191/177\"\n    }\n  ],\n  \"total_prefix_states\": 332235,\n  \"priced_cases\": [\n    {\n      \"final_candidate_price\": \"1/2\",\n      \"certificate_cost\": \"34\",\n      \"candidate_census_cost\": \"69/2\",\n      \"ratio\": \"69/68\"\n    },\n    {\n      \"final_candidate_price\": \"34\",\n      \"certificate_cost\": \"34\",\n      \"candidate_census_cost\": \"68\",\n      \"ratio\": \"2\"\n    },\n    {\n      \"final_candidate_price\": \"10000\",\n      \"certificate_cost\": \"34\",\n      \"candidate_census_cost\": \"10034\",\n      \"ratio\": \"5017/17\"\n    }\n  ],\n  \"priced_prefix_states\": 2197,\n  \"adverse_control\": \"q=1 full archive is not GOOD; positivity assertion would fail\",\n  \"elapsed_seconds\": 0.43100746699929005,\n  \"python_version\": \"3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]\",\n  \"command\": \"python3 check_candidate_census_obstruction.py\",\n  \"scope\": \"Finite exact checks. Universal proof is separate.\",\n  \"script_sha256\": \"b41e3734f161be541d979dec84b0c4491ba6817b44ee6a5e3b4395bb6dec1fe7\"\n}\n",
+      "stderr": "",
+      "metadata_excluded_from_comparison": [
+        "elapsed_seconds",
+        "python_version"
+      ],
+      "expected_output_sha256": "904937e9387e6a06865fe4dc6def85143442c1348592c53b6b1a6b6f9b9c450e",
+      "reproduced_output_sha256": "1409e54db092f6980942ab089e7b3a66a3f4c3b41f69f5844130d78f9d275667",
+      "scientific_output_matches": true,
+      "status": "PASS",
+      "elapsed_seconds": 0.4697
+    },
+    {
+      "script": "structure/check_finite_transfer.py",
+      "output": "structure/finite_transfer_check.json",
+      "comparison": "exact_bytes_from_stdout",
+      "source_sha256": "4252a73a041dc6e88a3f3f3ef878bc1ce706f5c85dc9892277da0553df87d421",
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"bits\": 3,\n  \"function_restriction_cases\": 58975,\n  \"positive_instance_cases\": 131072,\n  \"certificate_preserving_cases\": 10937,\n  \"certificate_changing_cases\": 48038,\n  \"separating_tariffs\": [\n    [\n      4,\n      4,\n      4\n    ],\n    [\n      1,\n      4,\n      4\n    ],\n    [\n      4,\n      1,\n      4\n    ],\n    [\n      1,\n      1,\n      4\n    ],\n    [\n      4,\n      4,\n      1\n    ],\n    [\n      1,\n      4,\n      1\n    ],\n    [\n      4,\n      1,\n      1\n    ],\n    [\n      1,\n      1,\n      1\n    ]\n  ],\n  \"unit_price_counterexample\": [\n    {\n      \"input\": [\n        0,\n        1,\n        1\n      ],\n      \"unit_CX\": 1,\n      \"unit_CY\": 1,\n      \"weighted_CX\": 1,\n      \"weighted_CY\": 4\n    },\n    {\n      \"input\": [\n        1,\n        0,\n        1\n      ],\n      \"unit_CX\": 1,\n      \"unit_CY\": 1,\n      \"weighted_CX\": 1,\n      \"weighted_CY\": 4\n    },\n    {\n      \"input\": [\n        1,\n        1,\n        1\n      ],\n      \"unit_CX\": 1,\n      \"unit_CY\": 1,\n      \"weighted_CX\": 1,\n      \"weighted_CY\": 4\n    }\n  ],\n  \"scope\": \"finite certificate/price equivalence and explicit counterexample; not policy or infinite-input proof\"\n}\n",
+      "stderr": "",
+      "expected_output_sha256": "5624d36ea3a5ac2518d26bb51009560deafc19ed8c67e16b91a9d0035fff6929",
+      "reproduced_output_sha256": "5624d36ea3a5ac2518d26bb51009560deafc19ed8c67e16b91a9d0035fff6929",
+      "scientific_output_matches": true,
+      "status": "PASS",
+      "elapsed_seconds": 0.7598
+    }
+  ],
+  "legacy_executed": true,
+  "legacy": {
+    "schema": "p33-clean-legacy-replay-validation-v1",
+    "status": "PASS",
+    "run_id": "5aa668b5-d2e5-474b-8f85-3d99dc126cb5",
+    "started_at_utc": "2026-10-24T04:15:06.100512+00:00",
+    "finished_at_utc": "2026-10-24T04:15:40.877682+00:00",
+    "selected_scientific_program_count": 26,
+    "scientific_programs_executed": 26,
+    "selected_scientific_output_count": 27,
+    "scientific_outputs_byte_identical": 27,
+    "stages": [
+      {
+        "id": "P21",
+        "entrypoint": "p21/reproduce_p21.py",
+        "declared_program_count": 6,
+        "declared_output_count": 6,
+        "exit_code": 0,
+        "earlier_replayer_source_inputs_unchanged": true,
+        "status": "PASS",
+        "programs_executed": 6,
+        "outputs_byte_identical": 6,
+        "elapsed_seconds": 17.395,
+        "jobs": [
+          {
+            "script": "p21/theory/check_triangle_extension.py",
+            "outputs": [
+              {
+                "path": "p21/theory/Triangle_Extension_Exact_Check.json",
+                "sha256": "b02d0b8fd375b040c686e34e1d98784112cd964c90932365d295cdbb1e24d450",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p21/review/check_triangle_n4_worlds.py",
+            "outputs": [
+              {
+                "path": "p21/review/Triangle_N4_Independent_World_Check.json",
+                "sha256": "d0d87724a00fdd25aaf030ab6586d73989072cacc95347ffda83451e81785bab",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p21/review/check_ordinal_worlds.py",
+            "outputs": [
+              {
+                "path": "p21/review/Ordinal_World_Enumeration.json",
+                "sha256": "122de7b3fa0d831ccf067c3d5095a8b2d0f14b42ce7d869e6af62f75ac5f6007",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p21/review/check_triangle_feasibility_construction.py",
+            "outputs": [
+              {
+                "path": "p21/review/Triangle_Feasibility_Construction_Check.json",
+                "sha256": "0167b196097a09ea9239de8e597cb03b3532eacdec9e4c281cbfa48e543c1ac7",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p21/review/check_dependent_domain_independent.py",
+            "outputs": [
+              {
+                "path": "p21/review/Dependent_Domain_Independent_Checks.json",
+                "sha256": "fd58a50288752333e32c44ff40a59742d59ee53823b294ae073e9fea90e89fb1",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p21/practical/check_lipschitz_certificate.py",
+            "outputs": [
+              {
+                "path": "p21/practical/Lipschitz_Certificate_Checks.json",
+                "sha256": "334b4b072c766bde1b53e3aa1e4d3acbdad647c780e29d91acbe8dffc8cc8035",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          }
+        ]
+      },
+      {
+        "id": "P22",
+        "entrypoint": "p22/reproduce_p22.py",
+        "declared_program_count": 11,
+        "declared_output_count": 11,
+        "exit_code": 0,
+        "earlier_replayer_source_inputs_unchanged": true,
+        "status": "PASS",
+        "programs_executed": 11,
+        "outputs_byte_identical": 11,
+        "elapsed_seconds": 7.975,
+        "jobs": [
+          {
+            "script": "p22/structure/check_band_geometry.py",
+            "outputs": [
+              {
+                "path": "p22/structure/Band_Geometry_Exact_Check.json",
+                "sha256": "d18eacccb7a0ede3ac6db5dcb3d6cd85924bf834b2ee8cc0ba4b737dc37c30f8",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p22/lower/check_nonvanishing_triangle.py",
+            "outputs": [
+              {
+                "path": "p22/lower/Nonvanishing_Triangular_Lower_Check.json",
+                "sha256": "b2628d71d7a15c4368eaa5ff39807a62ff30dd44c58731061509956f0d7b8f84",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p22/upper/check_n5_upper.py",
+            "outputs": [
+              {
+                "path": "p22/upper/N5_Upper_Exact_Check.json",
+                "sha256": "7983568ffda62e30cf7e31c114369d5bb4e88dd5b3b806ed5a7ffd7a05f5d5ed",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p22/three_tail/check_triangle_n5_pair.py",
+            "outputs": [
+              {
+                "path": "p22/three_tail/Triangle_N5_Two_World_Exact_Check.json",
+                "sha256": "7ff1edcca9929042ca2b3347db55e175f73474dbc37ff1870d2a589da4b2cf78",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p22/review/check_band_independent.py",
+            "outputs": [
+              {
+                "path": "p22/review/Band_Independent_Checks.json",
+                "sha256": "4464e224a3abd08fb8cc06e0a4df4eecd4b909e1c904a0f1f55122667d43223f",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p22/review/check_n5_upper_independent.py",
+            "outputs": [
+              {
+                "path": "p22/review/N5_Upper_Independent_Check.json",
+                "sha256": "3797e932b5683f49e423761093466af6adb701621b98b29ebf48122e95e6da83",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p22/review/check_general_k_band_independent.py",
+            "outputs": [
+              {
+                "path": "p22/review/General_K_Band_Independent_Check.json",
+                "sha256": "e2f9bdb577954cd2cb5ec48ef962faa856402a87beafe6e599064d619102d4af",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p22/review/check_n5_independent.py",
+            "outputs": [
+              {
+                "path": "p22/review/N5_Independent_Checks.json",
+                "sha256": "bf00b5b64f011d970fd524cbc82c62648326802c1156c5df46a502cbac4202cf",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p22/upper/check_long_chain_independent.py",
+            "outputs": [
+              {
+                "path": "p22/upper/Long_Chain_Independent_Check.json",
+                "sha256": "b4abc6b7e1d10cfb151f4da732535e3908b5d64d1a626e348261bea02d5994cd",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p22/lower/check_fixed_alphabet_chain.py",
+            "outputs": [
+              {
+                "path": "p22/lower/Fixed_Alphabet_Constant_Overhead_Check.json",
+                "sha256": "726842525d9e4d08fbb9dc3d5ee70219a4b45fd6400249c9c1f20e25bc589f51",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p22/upper/check_candidate_chain_independent.py",
+            "outputs": [
+              {
+                "path": "p22/upper/Candidate_Chain_Independent_Check.json",
+                "sha256": "d993ba48ac0ee92611f63543f239b4518eb25f37f85d41bc5e5f579469f59ed9",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          }
+        ]
+      },
+      {
+        "id": "P23",
+        "entrypoint": "p23/reproduce_p23.py",
+        "declared_program_count": 8,
+        "declared_output_count": 8,
+        "exit_code": 0,
+        "earlier_replayer_source_inputs_unchanged": true,
+        "status": "PASS",
+        "programs_executed": 8,
+        "outputs_byte_identical": 8,
+        "elapsed_seconds": 2.273,
+        "jobs": [
+          {
+            "script": "p23/lower/check_minimal_alphabet.py",
+            "outputs": [
+              {
+                "path": "p23/lower/Minimal_Alphabet_Exact_Check.json",
+                "sha256": "a9dc81ec757c47014d319a36f36cdbcf9752f3e87d77d70907af042d5c41dc40",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p23/lower/check_collinear_family_barrier.py",
+            "outputs": [
+              {
+                "path": "p23/lower/Collinear_Family_Barrier_Exact_Check.json",
+                "sha256": "8782f63f441986ee5d7c937dae7b9587b104035db1ebedc15e719c7bc0e83c8d",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p23/upper/check_universal_upper.py",
+            "outputs": [
+              {
+                "path": "p23/upper/Universal_Upper_Exact_Check.json",
+                "sha256": "bdd6765099ac8a039059a2627bc716c53d0bb7da8fb67f710612a87c4ba30eae",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p23/finite/check_n6_exact.py",
+            "outputs": [
+              {
+                "path": "p23/finite/N6_Exact_Check.json",
+                "sha256": "4d3ab1a4ec393f28f8d9d04e976305604500ecb5a2ad3afec8491871c764174f",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p23/foundation/check_ordinal_foundation.py",
+            "outputs": [
+              {
+                "path": "p23/foundation/Ordinal_Foundation_Exact_Check.json",
+                "sha256": "6c591e303f36ae6566dddc63eb3593f1b35fe991577234fb59028568ab2b4bfc",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p23/foundation/check_three_symbol_independent.py",
+            "outputs": [
+              {
+                "path": "p23/foundation/Three_Symbol_Independent_Check.json",
+                "sha256": "2943460a1009bd9c1d29a925096e96598c9b7b36a59e8e08fe7d489f7d7a7c21",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p23/review/check_n6_independent.py",
+            "outputs": [
+              {
+                "path": "p23/review/N6_Independent_Check.json",
+                "sha256": "c4090b21a3e34babe0a80c4affb6ed1718f1a78f73b9bc22fe3080d876fd87fa",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          },
+          {
+            "script": "p23/review/check_universal_upper_independent.py",
+            "outputs": [
+              {
+                "path": "p23/review/Universal_Upper_Independent_Check.json",
+                "sha256": "098a346e7e0905d4e0d930eda1f9fda5afe95ac790a9d4d1c2b394c9dc4cd052",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          }
+        ]
+      },
+      {
+        "id": "P17_WIRELESS",
+        "entrypoint": "p17/apex_replay/apex_subcatalogue_replay_v1.py",
+        "declared_program_count": 1,
+        "declared_output_count": 2,
+        "outputs_absent_before_execution": true,
+        "exit_code": 0,
+        "wireless_evidence": {
+          "all_source_rows": 312,
+          "task_count": 1536,
+          "prefix_states": 98304,
+          "policy_paths": 9216,
+          "summary": {
+            "tasks": 1536,
+            "positive_tasks": 41,
+            "negative_tasks": 1495,
+            "certificate_histogram": {
+              "9": 41
+            },
+            "positive_cost_sums": {
+              "mixture": "369",
+              "det": "369",
+              "greedy": "369",
+              "census": "369"
+            },
+            "positive_mixture_vs_det": {
+              "fewer": 0,
+              "equal": 41,
+              "more": 0
+            },
+            "positive_mixture_vs_greedy": {
+              "fewer": 0,
+              "equal": 41,
+              "more": 0
+            },
+            "max_positive_ratios": {
+              "mixture": "1",
+              "det": "1",
+              "greedy": "1",
+              "census": "1"
+            }
+          },
+          "new_physical_measurements": 0
+        },
+        "status": "PASS",
+        "programs_executed": 1,
+        "outputs_byte_identical": 2,
+        "elapsed_seconds": 7.081,
+        "jobs": [
+          {
+            "script": "p17/apex_replay/apex_subcatalogue_replay_v1.py",
+            "outputs": [
+              {
+                "path": "p17/apex_replay/results_v1.json",
+                "sha256": "2e5c865844ab41dd9037f19ea550a20e3792d8cd9a955f92d159e71c63a55503",
+                "byte_identical": true
+              },
+              {
+                "path": "p17/apex_replay/comparison_v1.csv",
+                "sha256": "de42f61187ce3fdc18de5da382b8f11c1991fb578b2f33472d166077fc21694e",
+                "byte_identical": true
+              }
+            ],
+            "status": "PASS"
+          }
+        ]
+      }
+    ],
+    "input_file_count_verified": 88,
+    "input_manifest_sha256": "52969ce69d0a03a8279a268fdcc1594a0809d454e7229fbad5719fb5ecdef430",
+    "orchestrator_sha256": "1d176945cda8b64293e24d8d5085edb365884025cfc347a2b28e750c8ff10167",
+    "original_inputs_and_retained_outputs_unchanged": true,
+    "input_manifest_unchanged": true,
+    "input_sha256": {
+      "p17/apex_replay/ARTIFACT_MANIFEST_v1.json": "d29a80b32d61f764d2e11b9d56a0940514ccb52764e9aad42f87fff5d2fbe1a1",
+      "p17/apex_replay/FREEZE_v1.json": "27d2481eb95d937f9ed9ed56016f12b6221abaa5bb40e2eee41dfd102f5a54ec",
+      "p17/apex_replay/PROTOCOL_v1.txt": "dc496dfcfbdac43960feb1d6e5ced11247b54ffbabc82bd4c4cf1d0087c37d4b",
+      "p17/apex_replay/README.txt": "cdc072b84b406601d60a285cbaa087bd2202084ddf70e0ad3f691ebb43249462",
+      "p17/apex_replay/apex_subcatalogue_replay_v1.py": "799f2a4448f021f6055d90296bf5dc716d64ae8b88710861e8a30b2811c2f21b",
+      "p17/apex_replay/comparison_v1.csv": "de42f61187ce3fdc18de5da382b8f11c1991fb578b2f33472d166077fc21694e",
+      "p17/apex_replay/execution_record_v1.json": "8369b1f79494fab278cf2a9603e4275db2213e090f64134921eaf2e05ab86fc3",
+      "p17/apex_replay/fixtures_v1.json": "fd89f6d4c0ae02fed74f02e930484f8815c180db005f9e2e4e2c19e22ee11e17",
+      "p17/apex_replay/results_v1.json": "2e5c865844ab41dd9037f19ea550a20e3792d8cd9a955f92d159e71c63a55503",
+      "p20/output/Research_Companion_Paid_Prefix_v1.zip": "3eb2fd0998b70a8f9bfbdedaf86d3c95840a93f83dadc1550214a25880186944",
+      "p20/review/RESEARCH_COMPANION_REPLAY_VALIDATION_v1.json": "2eedfc7a6817e67da13c1e4ddf6de3655702ba8950332bbc4b8e2c3bbffb9341",
+      "p21/article/Manuscript_Paid_Prefix_Certification_P21_v10.md": "58ce4a51a17d07f6572dcdcd65df256ec8af4e112935639346cc15b3dca84797",
+      "p21/practical/Lipschitz_Certificate_Checks.json": "334b4b072c766bde1b53e3aa1e4d3acbdad647c780e29d91acbe8dffc8cc8035",
+      "p21/practical/check_lipschitz_certificate.py": "c095f8624e6971fa7a538357a6f70e9700d93c0eb5adfa504d83e17331d75941",
+      "p21/reproduce_p21.py": "cb2c74011346d7961f47ccca1d8d61fb71701e5acde65b8097c32bbfb80c317e",
+      "p21/review/Dependent_Domain_Independent_Checks.json": "fd58a50288752333e32c44ff40a59742d59ee53823b294ae073e9fea90e89fb1",
+      "p21/review/Ordinal_World_Enumeration.json": "122de7b3fa0d831ccf067c3d5095a8b2d0f14b42ce7d869e6af62f75ac5f6007",
+      "p21/review/P21_Clean_Replay_Validation.json": "97cea4583abb9150481b75d500b1c5f12bd2975dae2c48cb7d520e8cfb388f89",
+      "p21/review/Triangle_Feasibility_Construction_Check.json": "0167b196097a09ea9239de8e597cb03b3532eacdec9e4c281cbfa48e543c1ac7",
+      "p21/review/Triangle_N4_Independent_World_Check.json": "d0d87724a00fdd25aaf030ab6586d73989072cacc95347ffda83451e81785bab",
+      "p21/review/check_dependent_domain_independent.py": "95c59dc8086f8195805ae23c92495388b8620bbeef0001f5b5149b3c2b6050d3",
+      "p21/review/check_ordinal_worlds.py": "0b0c80fac9ab2cc5d2005646f07a972befb105b7fa430f9a0500f9e78946c4fb",
+      "p21/review/check_triangle_feasibility_construction.py": "d904ede602d4767a5ac6e525f05e3c5e35780f8d124a18c57872d7400bf75bfa",
+      "p21/review/check_triangle_n4_worlds.py": "99893e9195d97a60aa6018e4a029482d280b6c5684dc9616446110e476bedcd2",
+      "p21/theory/Triangle_Extension_Exact_Check.json": "b02d0b8fd375b040c686e34e1d98784112cd964c90932365d295cdbb1e24d450",
+      "p21/theory/check_triangle_extension.py": "f7c90966f1b7b50e376b23327f50731370642c69aa31f5857a07afd7e25709b3",
+      "p21/theory/triangle_four_rows_exact.md": "ed1d861df56d23669afa3ff44a8a9c933bf5de4b7c6b323592a747b77d419bb8",
+      "p22/general_k/Triangular_General_K_Embedding.txt": "1c23129acaa3eb6301b9369ea0ec407bd5e7cb51b6da1862beaebaca76ffe952",
+      "p22/lower/Fixed_Alphabet_Constant_Overhead_Check.json": "726842525d9e4d08fbb9dc3d5ee70219a4b45fd6400249c9c1f20e25bc589f51",
+      "p22/lower/Fixed_Alphabet_Constant_Overhead_P22.md": "ae3ebb6788565a2256db5b46a8a7baf22de7c1447356a7d9437306c131f9a2fd",
+      "p22/lower/Nonvanishing_Triangular_Lower_Bounds_P22.md": "5e8f3337fdc2456f6c81d9555073faa07b88d70027e9de50cb347dc7759db9bd",
+      "p22/lower/Nonvanishing_Triangular_Lower_Check.json": "b2628d71d7a15c4368eaa5ff39807a62ff30dd44c58731061509956f0d7b8f84",
+      "p22/lower/check_fixed_alphabet_chain.py": "9ee471b855cf596e1db78de0f7364fe496d9cd2d04c7234bdd6a6ed09f548904",
+      "p22/lower/check_nonvanishing_triangle.py": "6dffffe36dc583a1ab5360e2db51dd80c83784e41259a27b5a3bea6f3708111e",
+      "p22/reproduce_p22.py": "1c90058642dcca1e82691c5876f7f54ed122a3a4d0ca0bd5f31a69456d23d790",
+      "p22/review/Band_Independent_Checks.json": "4464e224a3abd08fb8cc06e0a4df4eecd4b909e1c904a0f1f55122667d43223f",
+      "p22/review/General_K_Band_Independent_Check.json": "e2f9bdb577954cd2cb5ec48ef962faa856402a87beafe6e599064d619102d4af",
+      "p22/review/N5_Independent_Checks.json": "bf00b5b64f011d970fd524cbc82c62648326802c1156c5df46a502cbac4202cf",
+      "p22/review/N5_Upper_Independent_Check.json": "3797e932b5683f49e423761093466af6adb701621b98b29ebf48122e95e6da83",
+      "p22/review/P22_Clean_Replay_Validation.json": "640254cd10f98fae43f5a02cad3cdfcf5367a0843fef4e5badaf63fd448eb82c",
+      "p22/review/check_band_independent.py": "a2fd5da14b66af2614099f481cd904f2a65b2d2cc91472e65732bc8a8b95ec7c",
+      "p22/review/check_general_k_band_independent.py": "d4ba98ef6967aa411dcab4c26bd53d22d719f256a586a269279a0f35a243a385",
+      "p22/review/check_n5_independent.py": "a2e848d56eda8307bf73f8e820feadf9037013e1a44580f643442e9abce387b4",
+      "p22/review/check_n5_upper_independent.py": "5e5364cd3b0e6d68395e59011cd26b0bfa5448f8b3aac0c3ee3baa318e768e70",
+      "p22/structure/Band_Domain_Theorems_P22.md": "910faf09054430a9fffb85ab0989692d88d1f3cf461c828f81be21c5797a834a",
+      "p22/structure/Band_Geometry_Exact_Check.json": "d18eacccb7a0ede3ac6db5dcb3d6cd85924bf834b2ee8cc0ba4b737dc37c30f8",
+      "p22/structure/check_band_geometry.py": "64458b49c3e90d60bde1f9d97477e53c58aba3b8fe4bfe2911df2139153d806b",
+      "p22/three_tail/Triangle_N5_Two_World_Exact_Check.json": "7ff1edcca9929042ca2b3347db55e175f73474dbc37ff1870d2a589da4b2cf78",
+      "p22/three_tail/Triangle_N5_Two_World_Lower_Proof.txt": "20e75c984b81bb2830c17363283c75f6e8c7e788b148afce8853377399dfb0c0",
+      "p22/three_tail/check_triangle_n5_pair.py": "427112211850513d69ee0f0e7f8fc2280f324cc1297660f1ddc9d24053d95ef6",
+      "p22/upper/Candidate_Chain_Independent_Check.json": "d993ba48ac0ee92611f63543f239b4518eb25f37f85d41bc5e5f579469f59ed9",
+      "p22/upper/Long_Chain_Independent_Check.json": "b4abc6b7e1d10cfb151f4da732535e3908b5d64d1a626e348261bea02d5994cd",
+      "p22/upper/N5_Upper_Exact_Check.json": "7983568ffda62e30cf7e31c114369d5bb4e88dd5b3b806ed5a7ffd7a05f5d5ed",
+      "p22/upper/N5_Upper_Proof.txt": "f39f19d0f20beb2d840ac9fea8eb978624e1f56d7a22d98d4838be185952948f",
+      "p22/upper/check_candidate_chain_independent.py": "29c656ae7cc5b989f475f4aa4aad0c6fef192af25a27c60f5ed15699b15f2a0a",
+      "p22/upper/check_long_chain_independent.py": "83886d04d7d0605f30ac421327eb6bc222a98ce425a7b21111b632cd876e99cd",
+      "p22/upper/check_n5_upper.py": "752a2cd08ed2b1eddf7bd75a113664f6b120e5861c711c1ba66ae13236633c2d",
+      "p23/finite/N6_Deterministic_Exact_and_Randomised_Lower_P23.md": "035cef34b606d3379424d7557cf56787463f76cea441f8a9e64600fdd7d4d0e5",
+      "p23/finite/N6_Exact_Check.json": "4d3ab1a4ec393f28f8d9d04e976305604500ecb5a2ad3afec8491871c764174f",
+      "p23/finite/check_n6_exact.py": "36d42af4ad368a0d5489fe5dc1bf36b3d7867d16c5ff92f9bffd5772a7c977f1",
+      "p23/foundation/Foundational_Audit_P23.txt": "5f2f0172516bb9f16cc6ac58eed7c3bf5fb403929b4556addb3e24116ab4a918",
+      "p23/foundation/Ordinal_Foundation_Exact_Check.json": "6c591e303f36ae6566dddc63eb3593f1b35fe991577234fb59028568ab2b4bfc",
+      "p23/foundation/P21_Corrected_Continuation_Paragraph.txt": "a9379cd7fd0651abca471e7e1a85688ff003ca5a682784a3493c100ff9e90753",
+      "p23/foundation/Three_Symbol_Independent_Check.json": "2943460a1009bd9c1d29a925096e96598c9b7b36a59e8e08fe7d489f7d7a7c21",
+      "p23/foundation/check_ordinal_foundation.py": "ec3421175ce1844525108b1cc1e4aad6641f18498d0b64c984bd1e63b3e4ed7a",
+      "p23/foundation/check_three_symbol_independent.py": "dd064b896cffc07014239af4864bfde1d0e8edd4a00a603ee8ed99b6db1e8d09",
+      "p23/lower/Collinear_Family_Barrier_Exact_Check.json": "8782f63f441986ee5d7c937dae7b9587b104035db1ebedc15e719c7bc0e83c8d",
+      "p23/lower/Collinear_Two_Chain_Family_Barrier_P23.md": "3d2bdd33185179dc63370291b9370e17d9b86a9657d043dd9fdb54b4e61fc7de",
+      "p23/lower/Minimal_Alphabet_Exact_Check.json": "a9dc81ec757c47014d319a36f36cdbcf9752f3e87d77d70907af042d5c41dc40",
+      "p23/lower/Minimal_Alphabet_Persistent_Overhead_P23.md": "929cdee4ffe664b5182f30589e94a229aa317d89538d18cd368adc4ac7deae76",
+      "p23/lower/check_collinear_family_barrier.py": "ab4d80b6542eeec9bcf7af0ba21a3ecb0ba1a81e33a7c112b47a9d431435b74a",
+      "p23/lower/check_minimal_alphabet.py": "ca1e935659152008045fe4d553ecd263e8f9c0eb2ba7dde7a2daba04720c09d1",
+      "p23/reproduce_p23.py": "b09343d9deade4b2dc2b05972cb63cd7876f0c938686e604bc8395c9a749c85d",
+      "p23/review/N6_Independent_Check.json": "c4090b21a3e34babe0a80c4affb6ed1718f1a78f73b9bc22fe3080d876fd87fa",
+      "p23/review/P23_Clean_Replay_Validation.json": "dfbb7b64752cbb72625f7faeef42eca590bc5675f08156c719ab242615f9ebcf",
+      "p23/review/Universal_Upper_Independent_Check.json": "098a346e7e0905d4e0d930eda1f9fda5afe95ac790a9d4d1c2b394c9dc4cd052",
+      "p23/review/check_n6_independent.py": "ff586fb4961ff381d77ef44f5d61f1f5b3e933ba0581fc902c5c9a566868a597",
+      "p23/review/check_universal_upper_independent.py": "4a419f86a3f3a23ef1f20249f9914eebaf76fbafb069a5777c24d758ea6904e7",
+      "p23/upper/Universal_Triangle_Upper_Bounds_P23.md": "3a546b72ce133d7fbd27e044efdb6aaa198114c69529d3f07a04acc340611e93",
+      "p23/upper/Universal_Upper_Exact_Check.json": "bdd6765099ac8a039059a2627bc716c53d0bb7da8fb67f710612a87c4ba30eae",
+      "p23/upper/check_universal_upper.py": "229509fbef9c6fa01c52aa706c81a86dea7ecb61c6a50b998c8bf02fca1fc2c9",
+      "p24/reproduce_p24.py": "69155701b1cfa13d0186c44e2c2dab485c2431dd271ecd9316992321d075c968",
+      "p24/reproducibility/build_replay_manifest.py": "363851d448c4c55fc1520ee1a60c12917a85e59453a8b9726bdc08f50c13260b",
+      "p9/licence/THIRD_PARTY_APEX.txt": "53ab4cc0e4a7fe1589618af58bf25888239c6c2f74f55ab2a5584e6fb4e105d0",
+      "p9/licence/apex_dataset/Crystal_results.json": "bc2c652f89a70d0723aec19cae1f2dba6d2b56523d5c0b54805520a8de072711",
+      "p9/licence/apex_dataset/README.md": "d7bac309da77ea44d47d5ce248cf270ff6f1fc27a0733ea04580df89b084def5",
+      "p9/licence/apex_dataset/RPL_results.json": "c987d6583288e157139f8d6b0253c2adb91abee7642eee28fcf99db311f8f746",
+      "p9/licence/ccby4_legalcode.txt": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    "python_version": "3.12.14",
+    "platform_system": "Linux",
+    "total_elapsed_seconds": 34.777,
+    "network_calls": false,
+    "installs": false,
+    "external_project_code_executions": 0,
+    "new_physical_measurements": 0,
+    "selection": "All six P21, eleven P22 and eight P23 canonical replay jobs, plus the single preserved-data P17 APEX subcatalogue replay.",
+    "retained_history_scope": "The P20 companion and its 31-job/35-output execution record are preserved, not reexecuted by P24. The selected P17 wireless job was included in that earlier history and is explicitly reexecuted here.",
+    "legacy_p24_source_preserved": true,
+    "wireless_outputs_verified_absent_before_producer": true,
+    "limitations": [
+      "Finite enumerations do not execute infinite Ramsey arguments or exhaust every continuous archive.",
+      "The two P23 universal-upper programs verify exact continuous Bernstein certificates conditional on the analytic reduction.",
+      "The wireless stage is an exact secondary replay of unchanged archived trial summaries, not a new radio measurement or original-framework execution.",
+      "New manuscript and supplement source bindings are separate from these frozen proof/checker inputs."
+    ],
+    "captured_stdout": "{\"id\": \"P21\", \"status\": \"PASS\", \"programs_executed\": 6, \"outputs_byte_identical\": 6, \"elapsed_seconds\": 17.395}\n{\"id\": \"P22\", \"status\": \"PASS\", \"programs_executed\": 11, \"outputs_byte_identical\": 11, \"elapsed_seconds\": 7.975}\n{\"id\": \"P23\", \"status\": \"PASS\", \"programs_executed\": 8, \"outputs_byte_identical\": 8, \"elapsed_seconds\": 2.273}\n{\"id\": \"P17_WIRELESS\", \"status\": \"PASS\", \"programs_executed\": 1, \"outputs_byte_identical\": 2, \"elapsed_seconds\": 7.081}\n{\"status\": \"PASS\", \"scientific_programs_executed\": 26, \"scientific_outputs_byte_identical\": 27, \"original_inputs_and_retained_outputs_unchanged\": true, \"total_elapsed_seconds\": 34.777}\n"
+  },
+  "frozen_files_unchanged": true,
+  "frozen_manifest_unchanged": true,
+  "total_elapsed_seconds": 37.0833,
+  "network_calls": false,
+  "installs": false,
+  "new_physical_measurements": 0,
+  "scope": "Exact computational corroboration of the declared cases and algebraic certificate; universal analytic proofs, scientific priority and external review are not executed."
+}

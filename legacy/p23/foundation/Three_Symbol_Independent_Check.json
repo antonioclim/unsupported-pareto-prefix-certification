@@ -1,0 +1,276 @@
+{
+  "status": "PASS",
+  "proof_sha256": "929cdee4ffe664b5182f30589e94a229aa317d89538d18cd368adc4ac7deae76",
+  "script_sha256": "dd064b896cffc07014239af4864bfde1d0e8edd4a00a603ee8ed99b6db1e8d09",
+  "method": "Independent Fraction-valued corner arrays and intersection of closed supporting-weight intervals; no producer imports.",
+  "worlds": [
+    {
+      "q": 3,
+      "padding": 0,
+      "N": 12,
+      "world": "U",
+      "all_prefix_states": 2197,
+      "positive_states": 4,
+      "least_TRUE_prefix": [
+        11,
+        12,
+        11
+      ],
+      "minimum_cost": 34
+    },
+    {
+      "q": 3,
+      "padding": 0,
+      "N": 12,
+      "world": "V",
+      "all_prefix_states": 2197,
+      "positive_states": 6,
+      "least_TRUE_prefix": [
+        12,
+        10,
+        11
+      ],
+      "minimum_cost": 33
+    },
+    {
+      "q": 3,
+      "padding": 1,
+      "N": 13,
+      "world": "U",
+      "all_prefix_states": 2744,
+      "positive_states": 4,
+      "least_TRUE_prefix": [
+        12,
+        13,
+        12
+      ],
+      "minimum_cost": 37
+    },
+    {
+      "q": 3,
+      "padding": 1,
+      "N": 13,
+      "world": "V",
+      "all_prefix_states": 2744,
+      "positive_states": 6,
+      "least_TRUE_prefix": [
+        13,
+        11,
+        12
+      ],
+      "minimum_cost": 36
+    },
+    {
+      "q": 3,
+      "padding": 2,
+      "N": 14,
+      "world": "U",
+      "all_prefix_states": 3375,
+      "positive_states": 4,
+      "least_TRUE_prefix": [
+        13,
+        14,
+        13
+      ],
+      "minimum_cost": 40
+    },
+    {
+      "q": 3,
+      "padding": 2,
+      "N": 14,
+      "world": "V",
+      "all_prefix_states": 3375,
+      "positive_states": 6,
+      "least_TRUE_prefix": [
+        14,
+        12,
+        13
+      ],
+      "minimum_cost": 39
+    },
+    {
+      "q": 3,
+      "padding": 3,
+      "N": 15,
+      "world": "U",
+      "all_prefix_states": 4096,
+      "positive_states": 4,
+      "least_TRUE_prefix": [
+        14,
+        15,
+        14
+      ],
+      "minimum_cost": 43
+    },
+    {
+      "q": 3,
+      "padding": 3,
+      "N": 15,
+      "world": "V",
+      "all_prefix_states": 4096,
+      "positive_states": 6,
+      "least_TRUE_prefix": [
+        15,
+        13,
+        14
+      ],
+      "minimum_cost": 42
+    },
+    {
+      "q": 4,
+      "padding": 0,
+      "N": 16,
+      "world": "U",
+      "all_prefix_states": 4913,
+      "positive_states": 6,
+      "least_TRUE_prefix": [
+        14,
+        16,
+        15
+      ],
+      "minimum_cost": 45
+    },
+    {
+      "q": 4,
+      "padding": 0,
+      "N": 16,
+      "world": "V",
+      "all_prefix_states": 4913,
+      "positive_states": 8,
+      "least_TRUE_prefix": [
+        16,
+        13,
+        15
+      ],
+      "minimum_cost": 44
+    },
+    {
+      "q": 4,
+      "padding": 3,
+      "N": 19,
+      "world": "U",
+      "all_prefix_states": 8000,
+      "positive_states": 6,
+      "least_TRUE_prefix": [
+        17,
+        19,
+        18
+      ],
+      "minimum_cost": 54
+    },
+    {
+      "q": 4,
+      "padding": 3,
+      "N": 19,
+      "world": "V",
+      "all_prefix_states": 8000,
+      "positive_states": 8,
+      "least_TRUE_prefix": [
+        19,
+        16,
+        18
+      ],
+      "minimum_cost": 53
+    },
+    {
+      "q": 6,
+      "padding": 0,
+      "N": 24,
+      "world": "U",
+      "all_prefix_states": 15625,
+      "positive_states": 10,
+      "least_TRUE_prefix": [
+        20,
+        24,
+        23
+      ],
+      "minimum_cost": 67
+    },
+    {
+      "q": 6,
+      "padding": 0,
+      "N": 24,
+      "world": "V",
+      "all_prefix_states": 15625,
+      "positive_states": 12,
+      "least_TRUE_prefix": [
+        24,
+        19,
+        23
+      ],
+      "minimum_cost": 66
+    },
+    {
+      "q": 8,
+      "padding": 2,
+      "N": 34,
+      "world": "U",
+      "all_prefix_states": 42875,
+      "positive_states": 14,
+      "least_TRUE_prefix": [
+        28,
+        34,
+        33
+      ],
+      "minimum_cost": 95
+    },
+    {
+      "q": 8,
+      "padding": 2,
+      "N": 34,
+      "world": "V",
+      "all_prefix_states": 42875,
+      "positive_states": 16,
+      "least_TRUE_prefix": [
+        34,
+        27,
+        33
+      ],
+      "minimum_cost": 94
+    }
+  ],
+  "world_count": 16,
+  "fully_enumerated_prefix_states": 167650,
+  "priced_pair_cases": 27,
+  "two_symbol_no_GOOD_cases": 4500,
+  "complete_lattice_checks": [
+    {
+      "N": 1,
+      "attainable_means": 3,
+      "all_ordered_mean_triples": 27,
+      "GOOD_triples": 0
+    },
+    {
+      "N": 2,
+      "attainable_means": 6,
+      "all_ordered_mean_triples": 216,
+      "GOOD_triples": 0
+    },
+    {
+      "N": 3,
+      "attainable_means": 10,
+      "all_ordered_mean_triples": 1000,
+      "GOOD_triples": 0
+    },
+    {
+      "N": 4,
+      "attainable_means": 15,
+      "all_ordered_mean_triples": 3375,
+      "GOOD_triples": 0
+    },
+    {
+      "N": 5,
+      "attainable_means": 21,
+      "all_ordered_mean_triples": 9261,
+      "GOOD_triples": 4
+    }
+  ],
+  "N5_maximal_proper_prefix_obstructions": 24,
+  "N5_all_positive_triples": 4,
+  "padded_positive_checks": 96,
+  "q2_negative_control": {
+    "8_7_7": false,
+    "8_7_8": true
+  },
+  "scope": "Finite corroboration of explicit archives and arithmetic. The all-N, minimality and algorithm quantifiers are reviewed analytically in a separate report; no continuum enumeration or formal proof."
+}

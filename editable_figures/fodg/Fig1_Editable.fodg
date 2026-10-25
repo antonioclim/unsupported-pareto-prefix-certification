@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.graphics">
+  <office:meta>
+    <dc:title>Fig1 — native editable analytic figure</dc:title>
+    <dc:creator>Antonio Clim</dc:creator>
+    <dc:description>Exact prefix-acquisition illustration from Supplement S1.6; no empirical data.</dc:description>
+    <meta:generator>build_editable_odg.py (native OpenDocument conversion)</meta:generator>
+  </office:meta>
+  <office:styles>
+    <draw:hatch draw:name="Exact_regime_hatch" draw:display-name="Exact regime diagonal hatch" draw:style="single" draw:color="#8b9aaa" draw:distance="0.19956125cm" draw:rotation="450"/>
+  </office:styles>
+  <office:automatic-styles>
+    <style:page-layout style:name="PageLayout">
+      <style:page-layout-properties fo:page-width="12.70000000cm" fo:page-height="15.24000000cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:margin-left="0cm" fo:margin-right="0cm" style:print-orientation="portrait"/>
+    </style:page-layout>
+    <style:style style:name="PageStyle" style:family="drawing-page">
+      <style:drawing-page-properties draw:fill="solid" draw:fill-color="#ffffff" draw:background-size="full"/>
+    </style:style>
+    <style:style style:name="p1" style:family="paragraph">
+      <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:text-indent="0cm" fo:text-align="start" fo:line-height="100%" fo:keep-together="always"/>
+      <style:text-properties fo:font-family="DejaVu Sans" fo:font-size="10pt" fo:color="#000000" fo:font-weight="bold" fo:font-style="normal" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+    </style:style>
+    <style:style style:name="gr2" style:family="graphic">
+      <style:graphic-properties draw:fill="none" draw:stroke="none" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:textarea-vertical-align="top" fo:wrap-option="no-wrap" fo:padding-left="0cm" fo:padding-right="0cm" fo:padding-top="0cm" fo:padding-bottom="0cm"/>
+    </style:style>
+    <style:style style:name="p3" style:family="paragraph">
+      <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:text-indent="0cm" fo:text-align="start" fo:line-height="100%" fo:keep-together="always"/>
+      <style:text-properties fo:font-family="DejaVu Sans" fo:font-size="9pt" fo:color="#000000" fo:font-weight="normal" fo:font-style="normal" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+    </style:style>
+    <style:style style:name="p4" style:family="paragraph">
+      <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:text-indent="0cm" fo:text-align="start" fo:line-height="100%" fo:keep-together="always"/>
+      <style:text-properties fo:font-family="DejaVu Sans" fo:font-size="8.5pt" fo:color="#000000" fo:font-weight="bold" fo:font-style="normal" style:font-size-asian="8.5pt" style:font-size-complex="8.5pt"/>
+    </style:style>
+    <style:style style:name="gr5" style:family="graphic">
+      <style:graphic-properties draw:fill="solid" draw:fill-color="#e0e6eb" draw:stroke="solid" svg:stroke-color="#333333" svg:stroke-width="0.039cm" draw:stroke-linejoin="round" svg:stroke-linecap="butt"/>
+    </style:style>
+    <style:style style:name="p6" style:family="paragraph">
+      <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:text-indent="0cm" fo:text-align="start" fo:line-height="100%" fo:keep-together="always"/>
+      <style:text-properties fo:font-family="DejaVu Sans" fo:font-size="8.5pt" fo:color="#000000" fo:font-weight="normal" fo:font-style="normal" style:font-size-asian="8.5pt" style:font-size-complex="8.5pt"/>
+    </style:style>
+    <style:style style:name="gr7" style:family="graphic">
+      <style:graphic-properties draw:fill="solid" draw:fill-color="#ffffff" draw:stroke="solid" svg:stroke-color="#333333" svg:stroke-width="0.039cm" draw:stroke-linejoin="round" svg:stroke-linecap="butt"/>
+    </style:style>
+    <style:style style:name="p8" style:family="paragraph">
+      <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:text-indent="0cm" fo:text-align="start" fo:line-height="100%" fo:keep-together="always"/>
+      <style:text-properties fo:font-family="DejaVu Sans" fo:font-size="9pt" fo:color="#000000" fo:font-weight="bold" fo:font-style="normal" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+    </style:style>
+    <style:style style:name="gr9" style:family="graphic">
+      <style:graphic-properties draw:fill="none" draw:stroke="solid" svg:stroke-color="#333333" svg:stroke-width="0.039cm" draw:stroke-linejoin="round" svg:stroke-linecap="butt"/>
+    </style:style>
+    <style:style style:name="gr10" style:family="graphic">
+      <style:graphic-properties draw:fill="solid" draw:fill-color="#eef1f4" draw:stroke="solid" svg:stroke-color="#333333" svg:stroke-width="0.039cm" draw:stroke-linejoin="round" svg:stroke-linecap="butt"/>
+    </style:style>
+  </office:automatic-styles>
+  <office:master-styles>
+    <style:master-page style:name="Default" style:page-layout-name="PageLayout" draw:style-name="PageStyle"/>
+    <draw:layer-set>
+      <draw:layer draw:name="Figure content"/>
+      <draw:layer draw:name="Editable labels"/>
+      <draw:layer draw:name="Analytic marks"/>
+    </draw:layer-set>
+  </office:master-styles>
+  <office:body>
+    <office:drawing>
+      <draw:page draw:name="Fig1" draw:master-page-name="Default" draw:style-name="PageStyle">
+        <draw:frame draw:name="Fig1_0001_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="10.80712122cm" svg:height="0.47625000cm" svg:x="0.42333333cm" svg:y="0.27093333cm">
+          <draw:text-box>
+            <text:p text:style-name="p1">(a)<text:s text:c="1"/>Same<text:s text:c="1"/>observations;<text:s text:c="1"/>different<text:s text:c="1"/>cheapest<text:s text:c="1"/>certificates</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0002_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="6.90679909cm" svg:height="0.42862500cm" svg:x="0.42333333cm" svg:y="0.86825667cm">
+          <draw:text-box>
+            <text:p text:style-name="p3">Shared<text:s text:c="1"/>prefix<text:s text:c="1"/>b<text:s text:c="1"/>=<text:s text:c="1"/>(2,<text:s text:c="1"/>3,<text:s text:c="1"/>1):<text:s text:c="1"/>six<text:s text:c="1"/>paid<text:s text:c="1"/>records</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0003_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="1.52887274cm" svg:height="0.40481250cm" svg:x="2.88681363cm" svg:y="1.44914056cm">
+          <draw:text-box>
+            <text:p text:style-name="p4">Record<text:s text:c="1"/>1</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0004_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="1.52887274cm" svg:height="0.40481250cm" svg:x="6.13236918cm" svg:y="1.44914056cm">
+          <draw:text-box>
+            <text:p text:style-name="p4">Record<text:s text:c="1"/>2</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0005_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="1.52887274cm" svg:height="0.40481250cm" svg:x="9.37792474cm" svg:y="1.44914056cm">
+          <draw:text-box>
+            <text:p text:style-name="p4">Record<text:s text:c="1"/>3</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0006_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="0.30830022cm" svg:height="0.47625000cm" svg:x="1.09821100cm" svg:y="2.49343333cm">
+          <draw:text-box>
+            <text:p text:style-name="p1">A</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:path draw:name="Fig1_0007_figure_path" draw:style-name="gr5" draw:layer="Analytic marks" svg:x="2.15194444cm" svg:y="2.22250000cm" svg:width="2.96333333cm" svg:height="0.88194444cm" svg:viewBox="0 0 8400 2500" svg:d="M 0 0 L 8400 0 L 8400 2500 L 0 2500 Z"/>
+        <draw:frame draw:name="Fig1_0008_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="1.42505686cm" svg:height="0.40481250cm" svg:x="2.93872157cm" svg:y="2.50747389cm">
+          <draw:text-box>
+            <text:p text:style-name="p6">(3/8,<text:s text:c="1"/>7/8)</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:path draw:name="Fig1_0009_figure_path" draw:style-name="gr5" draw:layer="Analytic marks" svg:x="5.39750000cm" svg:y="2.22250000cm" svg:width="2.96333333cm" svg:height="0.88194444cm" svg:viewBox="0 0 8400 2500" svg:d="M 0 0 L 8400 0 L 8400 2500 L 0 2500 Z"/>
+        <draw:frame draw:name="Fig1_0010_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="1.42505686cm" svg:height="0.40481250cm" svg:x="6.18427713cm" svg:y="2.50747389cm">
+          <draw:text-box>
+            <text:p text:style-name="p6">(3/8,<text:s text:c="1"/>7/8)</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:path draw:name="Fig1_0011_figure_path" draw:style-name="gr7" draw:layer="Analytic marks" svg:x="8.64305556cm" svg:y="2.22250000cm" svg:width="2.96333333cm" svg:height="0.88194444cm" svg:viewBox="0 0 8400 2500" svg:d="M 0 0 L 8400 0 L 8400 2500 L 0 2500 Z"/>
+        <draw:frame draw:name="Fig1_0012_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="1.09065109cm" svg:height="0.40481250cm" svg:x="9.59703557cm" svg:y="2.50747389cm">
+          <draw:text-box>
+            <text:p text:style-name="p6">unread</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0013_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="0.26006888cm" svg:height="0.47625000cm" svg:x="1.12232667cm" svg:y="3.65760000cm">
+          <draw:text-box>
+            <text:p text:style-name="p1">L</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:path draw:name="Fig1_0014_figure_path" draw:style-name="gr5" draw:layer="Analytic marks" svg:x="2.15194444cm" svg:y="3.38666667cm" svg:width="2.96333333cm" svg:height="0.88194444cm" svg:viewBox="0 0 8400 2500" svg:d="M 0 0 L 8400 0 L 8400 2500 L 0 2500 Z"/>
+        <draw:frame draw:name="Fig1_0015_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="0.84144115cm" svg:height="0.40481250cm" svg:x="3.23052943cm" svg:y="3.67164056cm">
+          <draw:text-box>
+            <text:p text:style-name="p6">(0,<text:s text:c="1"/>1)</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:path draw:name="Fig1_0016_figure_path" draw:style-name="gr5" draw:layer="Analytic marks" svg:x="5.39750000cm" svg:y="3.38666667cm" svg:width="2.96333333cm" svg:height="0.88194444cm" svg:viewBox="0 0 8400 2500" svg:d="M 0 0 L 8400 0 L 8400 2500 L 0 2500 Z"/>
+        <draw:frame draw:name="Fig1_0017_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="0.84144115cm" svg:height="0.40481250cm" svg:x="6.47608498cm" svg:y="3.67164056cm">
+          <draw:text-box>
+            <text:p text:style-name="p6">(0,<text:s text:c="1"/>1)</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:path draw:name="Fig1_0018_figure_path" draw:style-name="gr5" draw:layer="Analytic marks" svg:x="8.64305556cm" svg:y="3.38666667cm" svg:width="2.96333333cm" svg:height="0.88194444cm" svg:viewBox="0 0 8400 2500" svg:d="M 0 0 L 8400 0 L 8400 2500 L 0 2500 Z"/>
+        <draw:frame draw:name="Fig1_0019_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="1.13324900cm" svg:height="0.40481250cm" svg:x="9.57573661cm" svg:y="3.67164056cm">
+          <draw:text-box>
+            <text:p text:style-name="p6">(0,<text:s text:c="1"/>7/8)</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0020_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="0.30692218cm" svg:height="0.47625000cm" svg:x="1.09890002cm" svg:y="4.82176667cm">
+          <draw:text-box>
+            <text:p text:style-name="p1">R</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:path draw:name="Fig1_0021_figure_path" draw:style-name="gr5" draw:layer="Analytic marks" svg:x="2.15194444cm" svg:y="4.55083333cm" svg:width="2.96333333cm" svg:height="0.88194444cm" svg:viewBox="0 0 8400 2500" svg:d="M 0 0 L 8400 0 L 8400 2500 L 0 2500 Z"/>
+        <draw:frame draw:name="Fig1_0022_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="1.13324900cm" svg:height="0.40481250cm" svg:x="3.08462550cm" svg:y="4.83580722cm">
+          <draw:text-box>
+            <text:p text:style-name="p6">(7/8,<text:s text:c="1"/>0)</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:path draw:name="Fig1_0023_figure_path" draw:style-name="gr7" draw:layer="Analytic marks" svg:x="5.39750000cm" svg:y="4.55083333cm" svg:width="2.96333333cm" svg:height="0.88194444cm" svg:viewBox="0 0 8400 2500" svg:d="M 0 0 L 8400 0 L 8400 2500 L 0 2500 Z"/>
+        <draw:frame draw:name="Fig1_0024_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="1.09065109cm" svg:height="0.40481250cm" svg:x="6.35148001cm" svg:y="4.83580722cm">
+          <draw:text-box>
+            <text:p text:style-name="p6">unread</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:path draw:name="Fig1_0025_figure_path" draw:style-name="gr7" draw:layer="Analytic marks" svg:x="8.64305556cm" svg:y="4.55083333cm" svg:width="2.96333333cm" svg:height="0.88194444cm" svg:viewBox="0 0 8400 2500" svg:d="M 0 0 L 8400 0 L 8400 2500 L 0 2500 Z"/>
+        <draw:frame draw:name="Fig1_0026_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="1.09065109cm" svg:height="0.40481250cm" svg:x="9.59703557cm" svg:y="4.83580722cm">
+          <draw:text-box>
+            <text:p text:style-name="p6">unread</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0027_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="8.90358194cm" svg:height="0.42862500cm" svg:x="0.42333333cm" svg:y="5.84242333cm">
+          <draw:text-box>
+            <text:p text:style-name="p8">Two<text:s text:c="1"/>compatible<text:s text:c="1"/>archives<text:s text:c="1"/>(hidden<text:s text:c="1"/>from<text:s text:c="1"/>the<text:s text:c="1"/>policy)</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0028_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="1.02666602cm" svg:height="0.40481250cm" svg:x="0.42333333cm" svg:y="6.42330722cm">
+          <draw:text-box>
+            <text:p text:style-name="p4">World</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0029_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="1.78232153cm" svg:height="0.40481250cm" svg:x="2.36361111cm" svg:y="6.42330722cm">
+          <draw:text-box>
+            <text:p text:style-name="p4">A<text:s text:c="1"/>record<text:s text:c="1"/>3</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0030_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="2.38658576cm" svg:height="0.40481250cm" svg:x="5.57388889cm" svg:y="6.42330722cm">
+          <draw:text-box>
+            <text:p text:style-name="p4">R<text:s text:c="1"/>records<text:s text:c="1"/>2,<text:s text:c="1"/>3</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0031_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="1.91013733cm" svg:height="0.40481250cm" svg:x="10.05416667cm" svg:y="6.42330722cm">
+          <draw:text-box>
+            <text:p text:style-name="p4">Minimum<text:s text:c="1"/>b</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:line draw:name="Fig1_0032_figure_line" draw:style-name="gr9" draw:layer="Analytic marks" svg:x1="0.42333333cm" svg:y1="6.94972222cm" svg:x2="12.27666667cm" svg:y2="6.94972222cm"/>
+        <draw:frame draw:name="Fig1_0033_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="0.12371476cm" svg:height="0.40481250cm" svg:x="0.42333333cm" svg:y="7.16414056cm">
+          <draw:text-box>
+            <text:p text:style-name="p6">I</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0034_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="0.84144115cm" svg:height="0.40481250cm" svg:x="2.36361111cm" svg:y="7.16414056cm">
+          <draw:text-box>
+            <text:p text:style-name="p6">(0,<text:s text:c="1"/>0)</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0035_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="2.42185252cm" svg:height="0.40481250cm" svg:x="5.57388889cm" svg:y="7.16414056cm">
+          <draw:text-box>
+            <text:p text:style-name="p6">(5/8,<text:s text:c="1"/>0),<text:s text:c="1"/>(3/8,<text:s text:c="1"/>0)</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0036_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="1.22285456cm" svg:height="0.40481250cm" svg:x="10.05416667cm" svg:y="7.16414056cm">
+          <draw:text-box>
+            <text:p text:style-name="p6">(2,<text:s text:c="1"/>3,<text:s text:c="1"/>3)</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0037_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="0.21215174cm" svg:height="0.40481250cm" svg:x="0.42333333cm" svg:y="7.79914056cm">
+          <draw:text-box>
+            <text:p text:style-name="p6">II</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0038_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="0.84144115cm" svg:height="0.40481250cm" svg:x="2.36361111cm" svg:y="7.79914056cm">
+          <draw:text-box>
+            <text:p text:style-name="p6">(0,<text:s text:c="1"/>1)</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0039_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="2.13004466cm" svg:height="0.40481250cm" svg:x="5.57388889cm" svg:y="7.79914056cm">
+          <draw:text-box>
+            <text:p text:style-name="p6">(5/8,<text:s text:c="1"/>0),<text:s text:c="1"/>(1,<text:s text:c="1"/>1)</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0040_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="1.22285456cm" svg:height="0.40481250cm" svg:x="10.05416667cm" svg:y="7.79914056cm">
+          <draw:text-box>
+            <text:p text:style-name="p6">(3,<text:s text:c="1"/>3,<text:s text:c="1"/>1)</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0041_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="10.86500985cm" svg:height="0.47625000cm" svg:x="0.42333333cm" svg:y="8.49065556cm">
+          <draw:text-box>
+            <text:p text:style-name="p1">(b)<text:s text:c="1"/>Buying<text:s text:c="1"/>the<text:s text:c="1"/>wrong<text:s text:c="1"/>tail<text:s text:c="1"/>adds<text:s text:c="1"/>avoidable<text:s text:c="1"/>observations</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0042_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="3.80711163cm" svg:height="0.40481250cm" svg:x="0.42333333cm" svg:y="9.13969611cm">
+          <draw:text-box>
+            <text:p text:style-name="p4">Next<text:s text:c="1"/>acquisition<text:s text:c="1"/>route</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0043_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="1.24263216cm" svg:height="0.40481250cm" svg:x="8.18048947cm" svg:y="9.13969611cm">
+          <draw:text-box>
+            <text:p text:style-name="p4">World<text:s text:c="1"/>I</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0044_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="1.35420365cm" svg:height="0.40481250cm" svg:x="10.45303707cm" svg:y="9.13969611cm">
+          <draw:text-box>
+            <text:p text:style-name="p4">World<text:s text:c="1"/>II</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:line draw:name="Fig1_0045_figure_line" draw:style-name="gr9" draw:layer="Analytic marks" svg:x1="0.42333333cm" svg:y1="9.66611111cm" svg:x2="12.27666667cm" svg:y2="9.66611111cm"/>
+        <draw:frame draw:name="Fig1_0046_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="2.81280195cm" svg:height="0.40481250cm" svg:x="0.42333333cm" svg:y="9.95108500cm">
+          <draw:text-box>
+            <text:p text:style-name="p6">Candidate<text:s text:c="1"/>tail<text:s text:c="1"/>first</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0047_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="0.23728164cm" svg:height="0.42862500cm" svg:x="8.68316474cm" svg:y="9.93464556cm">
+          <draw:text-box>
+            <text:p text:style-name="p3">9</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0048_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="0.23728164cm" svg:height="0.42862500cm" svg:x="11.01149807cm" svg:y="9.93464556cm">
+          <draw:text-box>
+            <text:p text:style-name="p3">7</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0049_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="4.74446975cm" svg:height="0.40481250cm" svg:x="0.42333333cm" svg:y="10.65664056cm">
+          <draw:text-box>
+            <text:p text:style-name="p6">Right<text:s text:c="1"/>tail<text:s text:c="1"/>first<text:s text:c="1"/>(records<text:s text:c="1"/>2<text:s text:c="1"/>and<text:s text:c="1"/>3)</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0050_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="0.23728164cm" svg:height="0.42862500cm" svg:x="8.68316474cm" svg:y="10.64020111cm">
+          <draw:text-box>
+            <text:p text:style-name="p3">8</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0051_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="0.23728164cm" svg:height="0.42862500cm" svg:x="11.01149807cm" svg:y="10.64020111cm">
+          <draw:text-box>
+            <text:p text:style-name="p3">9</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0052_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="4.64167912cm" svg:height="0.40481250cm" svg:x="0.42333333cm" svg:y="11.50330722cm">
+          <draw:text-box>
+            <text:p text:style-name="p4">Cheapest<text:s text:c="1"/>realised<text:s text:c="1"/>prefix<text:s text:c="1"/>C*</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0053_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="0.25619384cm" svg:height="0.42862500cm" svg:x="8.67370864cm" svg:y="11.48686778cm">
+          <draw:text-box>
+            <text:p text:style-name="p8">8</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0054_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="0.25619384cm" svg:height="0.42862500cm" svg:x="11.00204197cm" svg:y="11.48686778cm">
+          <draw:text-box>
+            <text:p text:style-name="p8">7</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:line draw:name="Fig1_0055_figure_line" draw:style-name="gr9" draw:layer="Analytic marks" svg:x1="0.42333333cm" svg:y1="11.21833333cm" svg:x2="12.27666667cm" svg:y2="11.21833333cm"/>
+        <draw:path draw:name="Fig1_0056_figure_path" draw:style-name="gr10" draw:layer="Analytic marks" svg:x="0.42333333cm" svg:y="12.34722222cm" svg:width="11.85333333cm" svg:height="1.65805556cm" svg:viewBox="0 0 33600 4700" svg:d="M 0 0 L 33600 0 L 33600 4700 L 0 4700 Z"/>
+        <draw:frame draw:name="Fig1_0057_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="7.88848043cm" svg:height="0.40481250cm" svg:x="2.42339868cm" svg:y="12.66747389cm">
+          <draw:text-box>
+            <text:p text:style-name="p6">Mix<text:s text:c="1"/>the<text:s text:c="1"/>two<text:s text:c="1"/>routes<text:s text:c="1"/>with<text:s text:c="1"/>probabilities<text:s text:c="1"/>16/23<text:s text:c="1"/>and<text:s text:c="1"/>7/23</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0058_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="7.44536398cm" svg:height="0.42862500cm" svg:x="2.64495690cm" svg:y="13.28603444cm">
+          <draw:text-box>
+            <text:p text:style-name="p8">Expected<text:s text:c="1"/>cost<text:s text:c="1"/>/<text:s text:c="1"/>C*<text:s text:c="1"/>=<text:s text:c="1"/>25/23<text:s text:c="1"/>in<text:s text:c="1"/>both<text:s text:c="1"/>worlds</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:name="Fig1_0059_figure_text" draw:style-name="gr2" draw:layer="Editable labels" svg:width="9.18852166cm" svg:height="0.40481250cm" svg:x="0.42333333cm" svg:y="14.39608500cm">
+          <draw:text-box>
+            <text:p text:style-name="p6">All<text:s text:c="1"/>costs<text:s text:c="1"/>count<text:s text:c="1"/>whole<text:s text:c="1"/>records.<text:s text:c="1"/>World<text:s text:c="1"/>labels<text:s text:c="1"/>are<text:s text:c="1"/>retrospective.</text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+    </office:drawing>
+  </office:body>
+</office:document>

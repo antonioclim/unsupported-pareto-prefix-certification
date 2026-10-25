@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "figures": [
+    {
+      "figure": "Fig1",
+      "status": "PASS",
+      "canvas_inches": [
+        5,
+        6
+      ],
+      "native_text_boxes": 46,
+      "native_vector_shapes": 13,
+      "native_vector_counts": {
+        "line": 3,
+        "path": 0,
+        "polygon": 10,
+        "polyline": 0
+      },
+      "named_groups": 0,
+      "images_objects_ole_binary_data": 0,
+      "pictures_assets": 0,
+      "thumbnail_note": "An application preview thumbnail may exist; no image is placed on the drawing page.",
+      "exact_editable_text_runs_preserved": 46,
+      "nonwhitespace_rendered_glyphs_preserved": 584,
+      "maximum_roundtrip_geometry_coordinate_error_pt": 0.014173228346464839,
+      "minimum_exported_font_pt": 8.503999710083008,
+      "text_spans_outside_page": 0,
+      "pdf_images": 0,
+      "odg_sha256": "5cf226b05e05e6a428ac9050ba916055cfc3bc60b00c20fcb558fa0c11046d67",
+      "pdf_sha256": "8ef1116945fb68b7eef02c38162e517be296660a6fbe0062aa178016d89345b5"
+    },
+    {
+      "figure": "Fig2",
+      "status": "PASS",
+      "canvas_inches": [
+        5,
+        6
+      ],
+      "native_text_boxes": 322,
+      "native_vector_shapes": 366,
+      "native_vector_counts": {
+        "line": 177,
+        "path": 49,
+        "polygon": 140,
+        "polyline": 0
+      },
+      "named_groups": 341,
+      "images_objects_ole_binary_data": 0,
+      "pictures_assets": 0,
+      "thumbnail_note": "An application preview thumbnail may exist; no image is placed on the drawing page.",
+      "exact_editable_text_runs_preserved": 322,
+      "nonwhitespace_rendered_glyphs_preserved": 378,
+      "maximum_roundtrip_geometry_coordinate_error_pt": 0.014173228346521682,
+      "minimum_exported_font_pt": 8.503999710083008,
+      "text_spans_outside_page": 0,
+      "pdf_images": 0,
+      "odg_sha256": "25ffbaf00f17aa60b31b9f76023aa5ea2571a89799b700c4741ba313f8240e9d",
+      "pdf_sha256": "6a206942cb684c38f324a33c1393a6a9ab060f1bceb9b8876d7fbdaf649f2bcc"
+    },
+    {
+      "figure": "Fig3",
+      "status": "PASS",
+      "canvas_inches": [
+        5,
+        6
+      ],
+      "native_text_boxes": 98,
+      "native_vector_shapes": 50,
+      "native_vector_counts": {
+        "line": 34,
+        "path": 6,
+        "polygon": 10,
+        "polyline": 0
+      },
+      "named_groups": 117,
+      "images_objects_ole_binary_data": 0,
+      "pictures_assets": 0,
+      "thumbnail_note": "An application preview thumbnail may exist; no image is placed on the drawing page.",
+      "exact_editable_text_runs_preserved": 98,
+      "nonwhitespace_rendered_glyphs_preserved": 498,
+      "maximum_roundtrip_geometry_coordinate_error_pt": 0.01417322834647905,
+      "minimum_exported_font_pt": 8.503999710083008,
+      "text_spans_outside_page": 0,
+      "pdf_images": 0,
+      "odg_sha256": "6889b585c22ebe770838e4007912521a065522bfa23bc98728fa6cfbdd22928d",
+      "pdf_sha256": "b24d6d6f20005bb6008e12e151bab8908ed232df9886c1250ce34f2231422b6c"
+    }
+  ],
+  "scope": [
+    "Native XML structure and original editable text run equality after LibreOffice ODG roundtrip.",
+    "No images, OLE or embedded graphic objects on the page.",
+    "One 5×6 in PDF page per figure, exported by reopening the ODG.",
+    "Rendered non-whitespace glyph inventory equals the input SVG; PDF text lies inside the page.",
+    "All native path/line bounding coordinates retained within 0.04 pt after office unit quantisation.",
+    "Fig3 headings remain single-line; both legend sample lines end at the intended point."
+  ],
+  "limits": [
+    "No claim of pixel-identical rendering across LibreOffice versions or platforms.",
+    "The original SVG and PDF differ slightly in multiline text metrics; ODG follows SVG positions.",
+    "Glyph inventory and bounds do not alone prove absence of every possible visual overlap: all three final figures were also visually inspected.",
+    "Desktop mouse/keyboard editing was not exercised; editability is established by native objects, editable text and the separate edit-and-reopen probe.",
+    "These checks validate figure representation and arithmetic inputs, not the manuscript theorems."
+  ]
+}

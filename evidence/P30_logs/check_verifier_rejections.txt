@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "mutations": [
+    {
+      "mutation": "duplicate_endpoint",
+      "rejected": true,
+      "reason": "AssertionError: Missing or duplicate endpoint"
+    },
+    {
+      "mutation": "understate_degree",
+      "rejected": true,
+      "reason": "AssertionError: Invalid polynomial degree bounds"
+    },
+    {
+      "mutation": "omit_box",
+      "rejected": true,
+      "reason": "AssertionError"
+    },
+    {
+      "mutation": "falsify_minimum",
+      "rejected": true,
+      "reason": "AssertionError"
+    }
+  ],
+  "scope": "Four malformed algebraic certificates rejected. No universal proof or analytic reduction is checked here."
+}

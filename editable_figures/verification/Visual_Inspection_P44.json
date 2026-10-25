@@ -1,0 +1,52 @@
+{
+  "schema": "p44-figure-visual-inspection-v1",
+  "revision": "P44",
+  "status": "PASS",
+  "inspected_at_utc": "2026-10-24T13:38:48.252090+00:00",
+  "method": "Rendered images inspected visually in colour and greyscale; native XML and PDF checks reported separately.",
+  "files_inspected": [
+    {
+      "path": "verification/previews/Fig1_native_150dpi.png",
+      "sha256": "85cafeef34c858f504cb481f807a7065f7cd7c6653c15b3975f2e45b2797bbe6"
+    },
+    {
+      "path": "verification/previews/Fig1_native_grayscale_150dpi.png",
+      "sha256": "ce64817efcba00d38ef57a562dcc7370cbfa4e7083b9916b3206234f34021449"
+    },
+    {
+      "path": "verification/previews/Fig2_native_150dpi.png",
+      "sha256": "0f1367391924aca518364254bf66cadbce8eb3c2fc1c5d55e26c335904347d24"
+    },
+    {
+      "path": "verification/previews/Fig2_native_grayscale_150dpi.png",
+      "sha256": "b7f428d9dce32bc001d3c9a3e356c50fbf94c7c96afe6447b71ed2311269c409"
+    },
+    {
+      "path": "verification/previews/Fig3_native_150dpi.png",
+      "sha256": "7bf1424541df25976876a54cb4b510448b2b1ec687ad433c99f7a19c8e019660"
+    },
+    {
+      "path": "verification/previews/Fig3_native_grayscale_150dpi.png",
+      "sha256": "2959d880ef776e25ad98e7bc6dd3c242a22498b6a4d467671a10d32386e06815"
+    },
+    {
+      "path": "verification/previews/Fig2_reference_150dpi.png",
+      "sha256": "47042568990e63b0505c5c0bbd1ae4c24d6c7e9545a4d684980f9fa8bba6828e"
+    },
+    {
+      "path": "reference_exports/Fig3.png",
+      "sha256": "bfe8ba2dc3638dc6e75e6a419ef38b2ad1d92453c6220a36e3e91a7ae89b905c"
+    }
+  ],
+  "findings": [
+    "Fig1 table cells and cost rows align; the 1.1 pt nominal outlines remain legible.",
+    "Fig2 discrete columns, hatching, five-row annotation and legends remain readable; reference PDF/SVG/PNG are byte-identical to P42.",
+    "Fig3 distinguishes the exact candidate-census point at 12/11 from the unrestricted interval 23/22 to 12/11; gap 1/22 and open convergence statement are legible.",
+    "No visible clipping, title wrapping, overlapping labels or misaligned legend line samples in inspected exports.",
+    "The shapes and line styles remain distinguishable in greyscale."
+  ],
+  "limits": [
+    "Visual review is not a proof of the mathematical results.",
+    "No desktop GUI editing was performed; separate native-object roundtrip probe establishes tested text/line edits."
+  ]
+}

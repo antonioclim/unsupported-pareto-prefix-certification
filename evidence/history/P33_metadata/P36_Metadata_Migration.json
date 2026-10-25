@@ -1,0 +1,56 @@
+{
+  "schema": "p36-metadata-only-migration-v1",
+  "new_article_title": "The Price of Finding a Certificate: Unsupported Pareto Points under Prefix Queries",
+  "local_candidate_version": "P36-local-candidate",
+  "scientific_snapshot": "P33-author-review",
+  "historical_source_manifest_sha256": "d45d60d85d9e628080e24c5b70f87a6bcf09cf72f7e35b0e7824dd77ba46f1cf",
+  "original_manifest_entries": 144,
+  "original_paths_changed": 5,
+  "original_paths_unchanged": 139,
+  "changed_metadata": [
+    {
+      "path": "CITATION.cff",
+      "historical_copy": "evidence/history/P33_metadata/CITATION.cff",
+      "before_sha256": "d65cbef5e830aa9f649663d3dac765bf3aa1b1e5b0d051d643b33e20e5e69ef7",
+      "after_sha256": "0e2be052238c82d8df2131b88ee57e00fbb73788db72733c6a50cd174b604f96",
+      "before_bytes": 792,
+      "after_bytes": 891
+    },
+    {
+      "path": "README.txt",
+      "historical_copy": "evidence/history/P33_metadata/README.txt",
+      "before_sha256": "de618904f0b7fed0d3389725fcbf65390dad2cdd32e97adcafa73c90072862ab",
+      "after_sha256": "42a9e79712bec3b6978be949fce21e489642002ba4b1432e8e8cfd0a31349e0b",
+      "before_bytes": 6843,
+      "after_bytes": 8220
+    },
+    {
+      "path": "release_preparation/CITATION.cff",
+      "historical_copy": "evidence/history/P33_metadata/release_preparation/CITATION.cff",
+      "before_sha256": "d65cbef5e830aa9f649663d3dac765bf3aa1b1e5b0d051d643b33e20e5e69ef7",
+      "after_sha256": "0e2be052238c82d8df2131b88ee57e00fbb73788db72733c6a50cd174b604f96",
+      "before_bytes": 792,
+      "after_bytes": 891
+    },
+    {
+      "path": "release_preparation/Release_Metadata_Draft.json",
+      "historical_copy": "evidence/history/P33_metadata/release_preparation/Release_Metadata_Draft.json",
+      "before_sha256": "5da2ee6d68e341bb73499f5411979ee58fb481e181210c3c78de26fe4eff8af3",
+      "after_sha256": "ffee7bb2e605c26cbbfbf944edb5a56aae67cbecbdd82732405bba28545beea3",
+      "before_bytes": 1617,
+      "after_bytes": 2210
+    },
+    {
+      "path": "release_preparation/Licence_Component_Map.md",
+      "historical_copy": "evidence/history/P33_metadata/release_preparation/Licence_Component_Map.md",
+      "before_sha256": "a4afe28c3ccccfda7dbbdcb73c52b33186adb3b6bb93b6438753ecd2b505863a",
+      "after_sha256": "df0088f2cd8026edc8de08ca721b84ccfeab1db29e112a54c04425f6624b2040",
+      "before_bytes": 3051,
+      "after_bytes": 3348
+    }
+  ],
+  "scientific_checker_input_output_changes": 0,
+  "runner_changed": false,
+  "publication_created": false,
+  "original_snapshot_reconstruction": "For each original manifest row, use historical_copy for the five listed changed paths and the unchanged current path for every other row."
+}

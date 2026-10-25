@@ -1,0 +1,1 @@
+Historical P45 execution and input manifest. These describe the preceding snapshot, not the current P46 sources. The original P45 delivery and private audit baseline retain its changed source versions. Use results/Full_Local_P46.json and the root frozen_manifest.json for the current execution.

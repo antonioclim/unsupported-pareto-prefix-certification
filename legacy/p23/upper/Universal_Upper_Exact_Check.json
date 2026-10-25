@@ -1,0 +1,304 @@
+{
+  "status": "PASS",
+  "polynomial_certificates": [
+    {
+      "degrees": [
+        5,
+        3,
+        2
+      ],
+      "polynomial_terms": 40,
+      "leaf_count": 2,
+      "max_depth": 1,
+      "leaves": [
+        {
+          "path": [
+            [
+              0,
+              0
+            ]
+          ],
+          "minimum_coefficient": "109/2400"
+        },
+        {
+          "path": [
+            [
+              0,
+              1
+            ]
+          ],
+          "minimum_coefficient": "27/320"
+        }
+      ],
+      "status": "PASS",
+      "excess": "1/10",
+      "endpoint": 0
+    },
+    {
+      "degrees": [
+        6,
+        4,
+        2
+      ],
+      "polynomial_terms": 56,
+      "leaf_count": 3,
+      "max_depth": 2,
+      "leaves": [
+        {
+          "path": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_coefficient": "509/7680"
+        },
+        {
+          "path": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "minimum_coefficient": "307/11520"
+        },
+        {
+          "path": [
+            [
+              0,
+              1
+            ]
+          ],
+          "minimum_coefficient": "33/640"
+        }
+      ],
+      "status": "PASS",
+      "excess": "1/10",
+      "endpoint": 1
+    },
+    {
+      "degrees": [
+        5,
+        3,
+        2
+      ],
+      "polynomial_terms": 40,
+      "leaf_count": 4,
+      "max_depth": 3,
+      "leaves": [
+        {
+          "path": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_coefficient": "1409/20480"
+        },
+        {
+          "path": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "minimum_coefficient": "969/20480"
+        },
+        {
+          "path": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "minimum_coefficient": "143/15360"
+        },
+        {
+          "path": [
+            [
+              0,
+              1
+            ]
+          ],
+          "minimum_coefficient": "27/1024"
+        }
+      ],
+      "status": "PASS",
+      "excess": "3/32",
+      "endpoint": 0
+    },
+    {
+      "degrees": [
+        6,
+        4,
+        2
+      ],
+      "polynomial_terms": 56,
+      "leaf_count": 7,
+      "max_depth": 5,
+      "leaves": [
+        {
+          "path": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_coefficient": "1/128"
+        },
+        {
+          "path": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_coefficient": "53/2048"
+        },
+        {
+          "path": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "minimum_coefficient": "86967/1048576"
+        },
+        {
+          "path": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_coefficient": "2261/3145728"
+        },
+        {
+          "path": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "minimum_coefficient": "725/1572864"
+        },
+        {
+          "path": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_coefficient": "7/128"
+        },
+        {
+          "path": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "minimum_coefficient": "9/1024"
+        }
+      ],
+      "status": "PASS",
+      "excess": "3/32",
+      "endpoint": 1
+    }
+  ],
+  "script_sha256": "229509fbef9c6fa01c52aa706c81a86dea7ecb61c6a50b998c8bf02fca1fc2c9",
+  "proof_sha256": "3a546b72ce133d7fbd27e044efdb6aaa198114c69529d3f07a04acc340611e93",
+  "scope": "Exact rational Bernstein certificates over the continuous parameter cube, not sample extrapolation or external formal verification."
+}

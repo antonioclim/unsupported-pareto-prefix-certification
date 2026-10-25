@@ -1,0 +1,225 @@
+P23 — HOSTILE FOUNDATIONAL AUDIT
+23 October 2026. Internal analytic review; no external peer review or formal
+verification. Prior P21/P22 sources were not changed.
+
+VERDICT
+
+No counterexample or theorem-level gap was found in the inherited ordinal
+game, adaptive Ramsey reduction, bounded-band embedding, band certificate
+geometry or P22 five-symbol lower construction. One precise prose defect
+was found in the compatible-positive-completion paragraph of P21 Appendix
+A.3. A separate author-ready replacement repairs it without changing any
+result. This is not a claim that every possible error has been excluded.
+
+INSPECTED SOURCES
+
+The full P21 manuscript source was read, including all four appendices and
+references, in bounded text windows. The detailed analytic audit concentrated
+on Appendix A, endpoint Theorem 5 and their uses by P22. The full P22 general-K
+embedding note, band-domain proof note and fixed-alphabet proof note were
+read. Source hashes are recorded in Ordinal_Foundation_Exact_Check.json.
+This audit does not reverify the cited publications or physical data. The
+separate literature task is investigating the closest Ramsey antecedents.
+
+1. THE ORDINAL POSTERIOR IS VALID
+
+An adaptive policy may use the relative order of all queried values, including
+orders within a side. Under the uniform rank-to-label assignment, a specified
+within-L observed ordering has probability 1/a! for every a-subset of L ranks;
+the analogous factor is 1/b! on R. Conditioning on the complete observed
+ordinal history therefore leaves rank subsets uniform subject to not having
+both good ranks. A policy's action probabilities are constant across worlds
+producing that same history, so adaptivity does not introduce a hidden
+likelihood distinction within that conditional class.
+
+The conditional success probabilities b/(mn-ab) and a/(mn-ab) are correct.
+The displayed Bellman recurrence follows after multiplication by mn-ab.
+The balanced path maximises the prefix product at every time, respecting
+side capacities, and therefore minimises its entire sum of survival
+probabilities. This is an optimality proof for the adaptive ordinal game,
+not merely a comparison between preselected schedules.
+
+Independent finite execution: 133 labelled rank worlds; 53,701 compatible
+world/history pairs; 27,255 posterior classes; 33,431 next-label probability
+checks. Histories include all within-side orders for the eight recorded
+splits. The Bellman value matched the formula on all 225 splits with
+1<=m,n<=15, using 18,225 states. The balanced split maximised the formula for
+all 79 total-label counts from 2 through 80. All checks used Fraction and
+integer arithmetic and passed. These finite checks do not prove the
+infinite Ramsey step.
+
+2. CAUSAL RANDOMISED KERNELS AND RAMSEY QUANTIFIERS
+
+Private randomness can retain hidden internal state. Conditioning on the
+completed labelled history integrates over that state. Because every
+uncompleted prefix row in the embedding is fixed independently of hidden
+thresholds, the event of reaching a given completed history depends only on
+the values in that history, not on unqueried thresholds. Thus the behavioural
+kernel is causal. Worlds with identical revealed history induce identical
+events in the space of random tapes and identical conditional action laws.
+
+The colouring includes every label sequence and every no-edge value-order
+assignment for a fixed subset size. It is finite for each finite k and eta.
+Successive homogeneous restrictions for d=1,...,k-1 are legitimate because
+restriction of an already homogeneous set preserves its homogeneity.
+Using an actual representative probability vector, rather than a rounded
+vector, preserves normalisation and forbidden queried-label coordinates.
+Per-coordinate errors below eta imply total variation <=k*eta/2. At most k
+coupled decisions and a query-count range [0,k] give the stated expectation
+error <=k^3*eta/2.
+
+Unreachable histories do not require a physical conditional simulation.
+Arbitrary distributions there remain admissible; homogeneity still bounds
+their difference to corresponding reachable representatives on a common
+coupling path. If the coupling diverges, the bounded-horizon error already
+accounts for all subsequent behaviour.
+
+The valid quantifier is: for each policy and each epsilon>0, choose a finite
+numeric set and then a fixed input before private randomness is realised.
+No one finite prior works uniformly for all numeric policies by this proof.
+Letting epsilon decrease is done inside the supremum over inputs; exact
+attainment or a uniform bounded bit length does not follow. P21 and P22
+state those limitations. No adversary is selected separately for each
+random tape.
+
+3. AN EXPLICIT CORRECTION TO POSITIVE CONTINUATIONS
+
+P21 Appendix A.3 says that if one good endpoint is observed its missing
+opposite can be inserted "between the observed extremes". That interval is
+wrong when one side is exhausted: a missing R needs to lie ABOVE the smallest
+observed L, and a missing L BELOW the largest observed R. The ambient dense
+rationals permit both repairs. The complete replacement and all cases appear
+in P21_Corrected_Continuation_Paragraph.txt. Observed ranks and the selected
+integer set S are not modified; legal completions may use values outside S.
+The correction makes explicit what the proof needs, rather than weakening
+the all-input correctness requirement.
+
+4. FINITE-TRANSCRIPT SOUNDNESS LEMMA
+
+Lemma. Consider a causal randomised evaluator of a Boolean predicate on a
+fixed finite table. A query reveals the next unread row of a selected group.
+Assume zero-error correctness on every legal fixed input. For each fixed
+input I, with probability one every terminating TRUE answer is based on a
+transcript that forces TRUE over all legal completions. The analogous claim
+holds for FALSE. Exact real-valued rows are allowed.
+
+Proof. For fixed I there are finitely many query-label sequences without
+repeated rows, since at most KN rows can be revealed. Hence there are only
+finitely many possible observed transcripts h on I. If a noncertifying h
+preceded a TRUE declaration with positive probability, select one legal
+FALSE completion J agreeing on all revealed rows of h. For each private
+random tape producing h and that declaration on I, causality produces the
+same queries, revealed values, internal transitions and declaration on J.
+The positive-probability error event therefore also occurs on the single
+fixed input J, contradicting zero-error correctness. Each noncertifying
+transcript has zero such probability; their finite union has probability
+zero. The argument also works for countably many finite transcripts if
+redundant queries are retained. No union over an uncountable family of
+input-dependent random null sets is needed. QED.
+
+This elementary clarification explains why geometric certificate necessity
+can be charged almost surely for randomised algorithms. It is not presented
+as a historical novelty claim. Usual measurability of the algorithm's
+random events is part of speaking of its probabilities and expectations.
+
+5. COMPRESSION AND COMPULSORY PAYMENTS
+
+In the unbounded and bounded hard embeddings, candidate census and one row
+from every rival are compulsory on each positive fixed archive. A completed
+rival purchases its remaining N-1 distinct rows. Charging H in advance is
+therefore only an accounting device: those rows are not supplied free to the
+actual algorithm and are disjoint from each charged tail. Interleaving or
+prefetch cannot erase these eventual payments. Stopping the compressed
+process at the first observed inversion only reduces its completion count.
+
+At no-edge completed histories, the corrected dense rational continuation
+excludes an early FALSE declaration. A compatible supported completion
+excludes early TRUE. Almost-sure termination on the compatible positive
+input forces a next completion. These facts justify the next-label kernel
+without assuming that the original policy completes one group at a time.
+
+6. ENDPOINTS AND THE BAND EMBEDDING
+
+The endpoint theorem needs the entire vectors (0,0) and (1,1), legal in each
+missing row, and independent choice of missing rows. It does not need the
+intervening rectangle to be attainable. The robust-P2 counterexample uses
+candidate upper and rival lower endpoints; the supporting-weight
+counterexample uses candidate lower and all rival upper endpoints. Both
+constructions remain legal for the bands and the finite alphabets actually
+specified. Equal complete vectors are P2-safe; ties for scalarisation remain
+support. The proofs keep those conventions distinct.
+
+P22 scales every actual embedding row by d but does not scale the legal
+completion endpoints to (d,d). The retained legal completion (1,1) is what
+forces candidate and rival census. This distinction is essential and is
+explicit in the proof. Both supporting thresholds invert to the embedded
+hidden scalar, so the fixed monotone mapping preserves the strict inversion.
+Every early raw row is independent of the hidden scalar. The comparator
+therefore remains exactly D, not merely at most D. For irrational d the
+scaled coordinates may be irrational; P22 correctly limits its rational-
+precision claim. For d=0 there are no positive inputs and no ratio is assigned.
+
+7. CERTIFICATE BRIDGE AND BAND LAW
+
+The necessary crossing pair exists in two objectives because supporting
+weight sets are intervals. Robust P2 supplies strict escape-coordinate
+inequalities, not weak ones. Those inequalities produce the exact band
+feasibility condition. The supplied construction has positive determinant
+and legal observed row values, with explicit strict slack. Completing only
+the candidate and its two witnesses preserves P2 and strict unsupportedness,
+so the additive bridge C_d*<=C_U*<=C_d*+ceil(dN)-1 is justified.
+
+For dN<=1, ceil(dN)-1=0. The two comparators coincide on every positive band
+archive, not just on the hard family. Thus the unbounded upper and embedded
+lower truly match. For shared archives across endpoint-containing bands,
+the TRUE-prefix sets are the same; the global minimax ratio changes because
+the admissible archive class and public policy information change.
+
+8. FIXED-ALPHABET P22 LOWER
+
+The five-symbol set contains both endpoints, so its TRUE-prefix sets agree
+with the continuous triangle on those actual archives. The necessity proofs
+use legal corner completions and strict determinant failures. Every TRUE
+prefix includes the claimed common base. The two worlds remain identical
+until one of the two terminal rows, even if a policy interleaves partial
+tails or reads the common R rows first. Whichever terminal is read first
+therefore has the same distribution in both worlds. The lower expectation
+inequalities charge only compulsory rows plus a genuinely wasted tail.
+Their price-balanced solution gives an exact restricted-pair game and a
+global lower bound, not a global optimum.
+
+Zero-prefix padding preserves all corners after the padding by common
+positive scaling. Prefixes inside padding are excluded by extending them
+monotonically to its end and using the unpadded exact prefix classification.
+This supports the all-N liminf, rather than only an N=4q subsequence. The
+q>=3 boundary and counterexample to a naive q=2 extension must remain.
+
+9. DEPENDENCY LEDGER FOR CONSOLIDATION
+
+Claim: P21 general unbounded randomised optimum.
+Dependencies: joint certificate structure; balanced policy upper; ordinal
+posterior and Bellman lemma; causal Ramsey lemma with corrected positive
+continuation; fixed archive embedding; compulsory-cost compression.
+Status: no theorem-level defect found; one completion sentence corrected.
+
+Claim: P22 exact all-K,N narrow-band regime.
+Dependencies: endpoint TRUE equivalence; exact band feasibility and sharp
+minimum certificate; comparator bridge; inherited randomised lemma and new
+bounded embedding; separate deterministic adversary.
+Status: no defect found under stated public d, exact rows and independence.
+
+Claim: P22 general three-configuration width frontier.
+Dependencies: candidate observation threshold; observable gap and mandatory
+screening policy; explicit opposite-final-row worlds.
+Status: analytic recalc found no defect; this audit did not rerun its existing
+large geometric suite.
+
+Claim: P22 fixed-alphabet nonvanishing limits.
+Dependencies: endpoint TRUE equivalence; exact two-world prefix lists;
+terminal-chain indistinguishability; padding to all sufficiently large N.
+Status: no defect found; no Ramsey or increasing coordinate precision needed.
+
+Still not established: historical priority; external acceptance; formal
+proof-assistant verification; uniform finite-precision general-K Ramsey
+attainment; complete broad-band finite-parameter minimax values; physical
+radio or IoT usefulness. This audit does not resolve those questions.

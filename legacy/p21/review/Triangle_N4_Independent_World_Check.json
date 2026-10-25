@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "states_evaluated": 250,
+  "worlds": {
+    "A": {
+      "TRUE_prefixes": [
+        [
+          4,
+          4,
+          3
+        ],
+        [
+          4,
+          4,
+          4
+        ]
+      ],
+      "minimum_cost": 11
+    },
+    "B": {
+      "TRUE_prefixes": [
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ]
+      ],
+      "minimum_cost": 11
+    }
+  },
+  "randomised_lower_ratio": "23/22",
+  "deterministic_lower_ratio": "12/11",
+  "scope": "Verifies explicit two fixed archives; global upper is analytic, not finite enumeration."
+}

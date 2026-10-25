@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "method": "Exact tensor Bernstein collocation inversion from unexpanded formula",
+  "results": [
+    {
+      "endpoint": 0,
+      "status": "PASS",
+      "boxes": 12,
+      "coefficients": 864,
+      "minimum_coefficient": "513/64000"
+    },
+    {
+      "endpoint": 1,
+      "status": "PASS",
+      "boxes": 36,
+      "coefficients": 3780,
+      "minimum_coefficient": "5556089682873/17592186044416000"
+    }
+  ],
+  "total_coefficients": 4644,
+  "input_sha256": "70fcc2008ac615012fc9f7da25193636d76560d5fba4200eec63160df765d50f",
+  "script_sha256": "ff68841664a14be6e12a7514762bad8db904482d7ab3a2aa328ac4fb0be50631"
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "p49-figure-visual-inspection-v1",
+  "revision": "P49",
+  "status": "PASS",
+  "inspected_at_utc": "2026-10-24T18:19:56.088907+00:00",
+  "method": "All12 current reference/native colour/greyscale page previews inspected at150dpi,750x900pixels.",
+  "files_inspected": [
+    {
+      "path": "verification/previews/Fig1_native_150dpi.png",
+      "sha256": "9e56b7d0b04fc59cde2b2ea56dae29f59b847cd3cc77b55e37c3154d24a02ef2"
+    },
+    {
+      "path": "verification/previews/Fig1_native_grayscale_150dpi.png",
+      "sha256": "8ffa2f6e278b2ba42a4c7784ef7841d6350f99f6a713359103da384c24dbaa21"
+    },
+    {
+      "path": "verification/previews/Fig1_reference_150dpi.png",
+      "sha256": "9e56b7d0b04fc59cde2b2ea56dae29f59b847cd3cc77b55e37c3154d24a02ef2"
+    },
+    {
+      "path": "verification/previews/Fig1_reference_grayscale_150dpi.png",
+      "sha256": "8ffa2f6e278b2ba42a4c7784ef7841d6350f99f6a713359103da384c24dbaa21"
+    },
+    {
+      "path": "verification/previews/Fig2_native_150dpi.png",
+      "sha256": "0f1367391924aca518364254bf66cadbce8eb3c2fc1c5d55e26c335904347d24"
+    },
+    {
+      "path": "verification/previews/Fig2_native_grayscale_150dpi.png",
+      "sha256": "b7f428d9dce32bc001d3c9a3e356c50fbf94c7c96afe6447b71ed2311269c409"
+    },
+    {
+      "path": "verification/previews/Fig2_reference_150dpi.png",
+      "sha256": "47042568990e63b0505c5c0bbd1ae4c24d6c7e9545a4d684980f9fa8bba6828e"
+    },
+    {
+      "path": "verification/previews/Fig2_reference_grayscale_150dpi.png",
+      "sha256": "2b4cd1d969d30a7f12b1c96f97492a8ac61844de3469c3f711709724354663a4"
+    },
+    {
+      "path": "verification/previews/Fig3_native_150dpi.png",
+      "sha256": "ab9f680198fa71985d1e22b56814b9108f9eb85c09cf948c887fdbbc09f11698"
+    },
+    {
+      "path": "verification/previews/Fig3_native_grayscale_150dpi.png",
+      "sha256": "a01477118dee64b7fd6dd01a6a5ebc3157d3b4dc2cd481f08d99ffc9499cb41e"
+    },
+    {
+      "path": "verification/previews/Fig3_reference_150dpi.png",
+      "sha256": "c1939fa04cd13eaeed4a2ee4488b88fd4df9d8f4f66286b885a2f6be1b894ab0"
+    },
+    {
+      "path": "verification/previews/Fig3_reference_grayscale_150dpi.png",
+      "sha256": "545b1159f8c6e68144062f55f4092350bd1cf66ec9ba11719cff8893ff8a6550"
+    }
+  ],
+  "findings": [
+    "All figure text pure black in extracted final reference/native PDF spans.",
+    "No clipping, wrapping of headings, overlapping labels or lost line samples seen.",
+    "WorldU/V distinguished by diamond/square markers and solid/dashed curves; region bands use hatching and separate shades.",
+    "All final5x6in reference/native exports remain vector and have stroked paths>=1pt.",
+    "All nontext graphical drawing dictionaries and text inventories remain identical to their P48 PDFs."
+  ],
+  "limits": [
+    "Screen render review, not a physical print proof.",
+    "Desktop GUI editing not exercised; separate programmatic edit/save/reopen probe passed for all3figures.",
+    "This is not a proof of the mathematical results."
+  ]
+}

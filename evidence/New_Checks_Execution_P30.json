@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "assertions_enabled": true,
+  "executions": [
+    {
+      "script": "candidate/check_candidate_census_obstruction.py",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "candidate/check_candidate_census_obstruction.py"
+      ],
+      "sha256": "b41e3734f161be541d979dec84b0c4491ba6817b44ee6a5e3b4395bb6dec1fe7",
+      "returncode": 0,
+      "seconds": 0.514,
+      "log": "logs/check_candidate_census_obstruction.txt"
+    },
+    {
+      "script": "structure/check_finite_transfer.py",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "structure/check_finite_transfer.py"
+      ],
+      "sha256": "4252a73a041dc6e88a3f3f3ef878bc1ce706f5c85dc9892277da0553df87d421",
+      "returncode": 0,
+      "seconds": 0.7174,
+      "log": "logs/check_finite_transfer.txt"
+    }
+  ],
+  "total_seconds": 1.2314,
+  "scope": "Finite corroboration of P30 additions; no execution of an infinite proof or Ramsey enumeration."
+}

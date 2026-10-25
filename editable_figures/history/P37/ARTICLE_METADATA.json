@@ -1,0 +1,15 @@
+{
+  "schema": "p36-figure-article-metadata-v1",
+  "article_title": "The Price of Finding a Certificate: Unsupported Pareto Points under Prefix Queries",
+  "author": "Antonio Clim",
+  "ORCID": "https://orcid.org/0000-0003-4745-0431",
+  "article_running_title": "Certifying Unsupported Pareto Points",
+  "revision": "P36",
+  "scientific_figure_version": "P33",
+  "native_editable_version": "P34",
+  "licence_adoption_version": "P35",
+  "figure_assets_modified_in_P36": false,
+  "article_doi": null,
+  "publication_status": "Prepared locally; not submitted or published",
+  "figure_titles": "Figure-specific descriptive titles retained; no obsolete article title in figure metadata."
+}

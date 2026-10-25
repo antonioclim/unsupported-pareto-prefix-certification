@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "method": "independent exact sparse polynomial arithmetic and rational Bernstein collocation; no SymPy or producer imports",
+  "identities": {
+    "G_g_expansion": "PASS",
+    "G_gt_expansion": "PASS",
+    "G_gt_far_endpoint": "PASS",
+    "quadratic_Bernstein": "PASS",
+    "P_delta_decomposition": "PASS",
+    "C_low_g_remainder": "PASS",
+    "C_global_remainder": "PASS",
+    "discriminant_expansion": "PASS",
+    "discriminant_Bernstein_coefficients": "PASS"
+  },
+  "discriminant_coefficients": [
+    "539951/15625",
+    "653387/18750",
+    "6526313/187500",
+    "1720069/50000",
+    "1007879/30000",
+    "9707/300",
+    "613/20"
+  ],
+  "discriminant_minimum": "613/20",
+  "large_g_lower_bound": "359/200",
+  "script_sha256": "b2a572107cfdd20b4048f69b51d0c62aa7889dae6f2fd629f6bd4d9d24405acf",
+  "scope": "Polynomial identities and displayed constants; range inequalities and domain coverage are supplied in Main Section 6, Theorem 19."
+}

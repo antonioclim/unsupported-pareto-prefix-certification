@@ -1,0 +1,430 @@
+{
+  "schema": "manuscript-results-map-v3",
+  "purpose": "Reader-facing map by named result; historical directory names are preserved input identities, not required reading order.",
+  "proof_documents": [
+    "Main manuscript (separate submission document)",
+    "Supplementary Materials (separate submission document)"
+  ],
+  "proof_status": "Mathematical proofs are read, not executed. Exact polynomial identities and Bernstein coefficients are computational proof steps after the analytic domain reduction. Finite catalogue enumeration is corroboration of declared cases and does not prove all-size statements. The current uniform triangle bound is 12/11; 873/800 and 35/32 certificates remain unchanged historical controls.",
+  "commands_run_from": "Directory containing run_all_checks.py",
+  "input_rule": "All listed scripts, data, support texts and expected outputs are hash-bound by frozen_manifest.json. Program-defined finite cases and exact formulas are embedded in the checker source where no separate input is listed.",
+  "additional_selected_checks": "The retained P24 manifest declares 26 historical programs and 27 outputs. The public adapter reproduces 26 outputs byte-for-byte and one with scientifically identical content and explicitly migrated provenance. Ten added audit/demo checks run through run_all_checks.py. Together with six core scientific programs, the full replay executes 42 scientific program entries and one separately counted malformed-certificate control.",
+  "results": [
+    {
+      "id": "exact-acquisition",
+      "result": "Exact acquisition value and ordinal reduction",
+      "proof_location": "Main Section 3, complete proof A2–A9 and finite-prior argument",
+      "checks": [
+        "checks/ordinal/check_full_ordinal_game.py"
+      ],
+      "inputs": [],
+      "outputs": [
+        "checks/ordinal/full_ordinal_game_results.json"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "Nine finite ordinal games solved by posterior dynamic programming. The all-size reduction, Ramsey argument and measurable-kernel argument remain analytic proofs."
+    },
+    {
+      "id": "band-geometry",
+      "result": "Diagonal-band geometry and priced transitions",
+      "proof_location": "Main: Diagonal-band geometry and priced transitions (Section 4)",
+      "checks": [
+        "legacy/p22/structure/check_band_geometry.py",
+        "legacy/p22/review/check_band_independent.py",
+        "legacy/p22/review/check_general_k_band_independent.py"
+      ],
+      "inputs": [
+        "legacy/p22/structure/Band_Domain_Theorems_P22.md",
+        "legacy/p22/general_k/Triangular_General_K_Embedding.txt"
+      ],
+      "outputs": [
+        "legacy/p22/structure/Band_Geometry_Exact_Check.json",
+        "legacy/p22/review/Band_Independent_Checks.json",
+        "legacy/p22/review/General_K_Band_Independent_Check.json"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "Exact finite geometry and transition corroboration. The general formula and feasibility claims are proved analytically in the current manuscript."
+    },
+    {
+      "id": "fixed-alphabet",
+      "result": "Fixed-alphabet persistent overhead and minimal alphabet",
+      "proof_location": "Main Section 5 (persistent overhead); Supplementary Section S2.3 (minimal alphabet)",
+      "checks": [
+        "legacy/p22/lower/check_fixed_alphabet_chain.py",
+        "legacy/p23/lower/check_minimal_alphabet.py",
+        "legacy/p23/foundation/check_three_symbol_independent.py"
+      ],
+      "inputs": [
+        "legacy/p22/lower/Fixed_Alphabet_Constant_Overhead_P22.md",
+        "legacy/p23/lower/Minimal_Alphabet_Persistent_Overhead_P23.md"
+      ],
+      "outputs": [
+        "legacy/p22/lower/Fixed_Alphabet_Constant_Overhead_Check.json",
+        "legacy/p23/lower/Minimal_Alphabet_Exact_Check.json",
+        "legacy/p23/foundation/Three_Symbol_Independent_Check.json"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "Finite witnesses and exact rational recurrence checks; the all-length family statement and its limiting ratio require the analytic proof."
+    },
+    {
+      "id": "candidate-barrier",
+      "result": "Candidate-observation obstruction and priced counterexample",
+      "proof_location": "Main Theorem 17 and the matching upper in Theorem 19 (candidate-census class)",
+      "checks": [
+        "checks/candidate/check_candidate_census_obstruction.py"
+      ],
+      "inputs": [],
+      "outputs": [
+        "checks/candidate/Candidate_Census_Exact_Check.json"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "332,235 finite prefix states and 2,197 priced prefix states corroborate the candidate-census obstruction; runtime metadata alone may differ. The q=1 adverse control is negative. The analytic all-length lower construction and current 12/11 upper establish the exact asymptotic optimum only for policies completing the candidate before TRUE; unrestricted policies retain the interval [23/22, 12/11]."
+    },
+    {
+      "id": "uniform-triangle-12-11",
+      "result": "Current uniform 12/11 triangle policy and exact candidate-census asymptote",
+      "proof_location": "Main Theorem 19 and its full Section 6 proof; lower construction in Theorem 17",
+      "checks": [
+        "checks/triangle_12_11/upper_check/verify_upper_certificate.py",
+        "checks/triangle_12_11/upper_check/verify_high_analytic.py"
+      ],
+      "inputs": [
+        "checks/triangle_12_11/upper_check/low_g_bernstein.json",
+        "checks/triangle_12_11/upper_check/low_gtlow_bernstein.json",
+        "checks/triangle_12_11/upper_check/low_gtcut_bernstein.json",
+        "checks/triangle_12_11/upper_check/low_h_bernstein.json",
+        "checks/triangle_12_11/upper_primary/high_h_bernstein.json",
+        "checks/triangle_12_11/upper_primary/high_middlecut_bernstein.json",
+        "checks/triangle_12_11/upper_primary/high_middlefull_bernstein.json"
+      ],
+      "outputs": [
+        "checks/triangle_12_11/upper_check/Upper_Independent_Check.json",
+        "checks/triangle_12_11/upper_check/High_Analytic_Independent_Check.json"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "The independent standard-library certificate verifier derives polynomial degrees, verifies the rational domain boxes, prefix-free full coverage, and all 4,824 coefficients on 58 boxes; it rejects four malformed certificates. The companion analytic checker verifies nine named algebraic/coefficient identities and seven exact univariate coefficients. These are algebraic proof steps conditional on the written analytic reduction and full domain argument, not a sampling grid. The theorem is for K=3, every N, unit row prices, and permits a common nonnegative information-free setup charge. The candidate-census asymptotic equality is at zero setup; the unrestricted asymptotic interval [23/22,12/11] and gap 1/22 remain open.",
+      "optional_producers": [
+        "checks/triangle_12_11/upper_check/low_bernstein.py",
+        "checks/triangle_12_11/upper_primary/high_bernstein.py",
+        "checks/triangle_12_11/upper_primary/check_high_identities.py"
+      ],
+      "producer_requirements": "checks/triangle_12_11/upper_check/requirements_upper_producer.txt",
+      "producer_scope": "Optional construction uses SymPy 1.14.0. Producers are not imported or executed by the full standard-library replay and dependencies are not bundled.",
+      "comparison_runtime_fields": {
+        "Upper_Independent_Check.json": [
+          "elapsed_seconds"
+        ],
+        "High_Analytic_Independent_Check.json": []
+      }
+    },
+    {
+      "id": "public-constant-blocks",
+      "result": "Public constant-block dependence and sharp comparator distortion",
+      "proof_location": "Supplementary Proposition S11 and its analytic proof; main Section 9 discussion",
+      "checks": [
+        "checks/public_blocks/check_public_blocks.py"
+      ],
+      "inputs": [],
+      "outputs": [
+        "checks/public_blocks/Public_Block_Dependence_Check.json"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "Independent truth-table intersection and finite-alphabet completion enumeration verify 1,329,000 prefix states over 11 partition families and 7,140 exact price/setup comparisons. The explicit sharp-family negative predecessor completions are checked for N=1,...,30. The general certificate identity TRUE_D(b)=TRUE_Q(R(b)), unit-price factor m, weighted factor rho_B(w), and all-size sharpness are proved analytically. Public consecutive constant blocks and independent block values are assumptions; statistical correlation does not imply them.",
+      "comparison_runtime_fields": [
+        "elapsed_seconds",
+        "finished_at_utc"
+      ]
+    },
+    {
+      "id": "historical-uniform-policy-873-800",
+      "result": "Historical 873/800 triangle policy certificate",
+      "proof_location": "Supplementary Section S3.2 (retained earlier policy and certificate)",
+      "checks": [
+        "checks/upper/check_improved_upper.py",
+        "checks/upper/check_improved_upper_independent.py"
+      ],
+      "inputs": [],
+      "outputs": [
+        "checks/upper/Improved_Upper_Exact_Certificate.json",
+        "checks/upper/Improved_Upper_Independent_Check.json"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "Retained exact rational positivity across 48 boxes and 4,644 coefficients for the earlier 873/800 rule. Both historical checker sources and retained outputs are unchanged. This is not the current 12/11 certificate."
+    },
+    {
+      "id": "certificate-rejection",
+      "result": "Malformed-certificate rejection control",
+      "proof_location": "Companion validation control for the historical 873/800 triangle certificate",
+      "checks": [
+        "checks/check_verifier_rejections.py"
+      ],
+      "inputs": [
+        "checks/upper/Improved_Upper_Exact_Certificate.json",
+        "checks/upper/check_improved_upper_independent.py"
+      ],
+      "outputs": [
+        "checks/Verifier_Rejection_Check.json"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "Four malformed historical algebraic certificates must be rejected. This entry is separate from the 42 scientific program entries. The current 12/11 checker additionally includes four inline malformed-certificate rejection tests.",
+      "certificate_producer": "checks/upper/check_improved_upper.py",
+      "producer_scope": "Provenance of the unmodified source certificate; not executed by this rejection control."
+    },
+    {
+      "id": "policy-transfer",
+      "result": "Certificate-preserving policy transfer",
+      "proof_location": "Main: Certificate-preserving policy transfer (Section 7)",
+      "checks": [
+        "checks/structure/check_finite_transfer.py"
+      ],
+      "inputs": [],
+      "outputs": [
+        "checks/structure/finite_transfer_check.json"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "Three-bit finite model: 58,975 function/restriction cases, 131,072 positive instances, 10,937 certificate-preserving cases and 48,038 certificate-changing cases. Does not execute the general policy theorem."
+    },
+    {
+      "id": "reduction-obstructions",
+      "result": "Obstructions to two simple reductions",
+      "proof_location": "Main Section 8 (comparison); Supplementary Section S4.3 (explicit constructions)",
+      "checks": [
+        "checks/reductions/check_reduction_obstructions.py"
+      ],
+      "inputs": [],
+      "outputs": [
+        "checks/reductions/Reduction_Obstructions_Exact_Check.json"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "128 exact prefix states for the two stated simple-reduction examples. This is not a universal non-reducibility theorem."
+    },
+    {
+      "id": "wireless-secondary",
+      "result": "Secondary APEX fixed-subcatalogue replay",
+      "proof_location": "Main Section 9 and Supplementary Section S5.4",
+      "checks": [
+        "legacy/p17/apex_replay/apex_subcatalogue_replay_v1.py"
+      ],
+      "inputs": [
+        "legacy/p17/apex_replay/FREEZE_v1.json",
+        "legacy/p17/apex_replay/PROTOCOL_v1.txt",
+        "legacy/p9/licence/apex_dataset/Crystal_results.json",
+        "legacy/p9/licence/apex_dataset/RPL_results.json"
+      ],
+      "outputs": [
+        "legacy/p17/apex_replay/results_v1.json",
+        "legacy/p17/apex_replay/comparison_v1.csv"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "312 source rows, 1,536 overlapping tasks, 98,304 prefix states and 9,216 policy paths. All 41 positive tasks require nine observations; no disclosure saving is observed. Both outputs are regenerated from absent files. No new physical trial or full-framework execution."
+    },
+    {
+      "id": "finite-triangle",
+      "result": "Four-, five- and six-row triangle cases",
+      "proof_location": "Supplementary Sections S2.1, S2.2 and S2.4",
+      "checks": [
+        "legacy/p21/review/check_triangle_n4_worlds.py",
+        "legacy/p22/three_tail/check_triangle_n5_pair.py",
+        "legacy/p22/upper/check_n5_upper.py",
+        "legacy/p22/review/check_n5_upper_independent.py",
+        "legacy/p22/review/check_n5_independent.py",
+        "legacy/p23/finite/check_n6_exact.py",
+        "legacy/p23/review/check_n6_independent.py"
+      ],
+      "inputs": [],
+      "outputs": [
+        "legacy/p21/review/Triangle_N4_Independent_World_Check.json",
+        "legacy/p22/three_tail/Triangle_N5_Two_World_Exact_Check.json",
+        "legacy/p22/upper/N5_Upper_Exact_Check.json",
+        "legacy/p22/review/N5_Upper_Independent_Check.json",
+        "legacy/p22/review/N5_Independent_Checks.json",
+        "legacy/p23/finite/N6_Exact_Check.json",
+        "legacy/p23/review/N6_Independent_Check.json"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "Exact declared finite cases and policy controls; the N=6 randomised result is an interval, not an exact optimum."
+    },
+    {
+      "id": "restricted-chain",
+      "result": "Restricted two-chain family barrier",
+      "proof_location": "Supplementary Section S2.5",
+      "checks": [
+        "legacy/p23/lower/check_collinear_family_barrier.py"
+      ],
+      "inputs": [],
+      "outputs": [
+        "legacy/p23/lower/Collinear_Family_Barrier_Exact_Check.json"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "Exact controls for the explicitly restricted family; no upper bound on all admissible lower-bound constructions."
+    },
+    {
+      "id": "earlier-upper",
+      "result": "Earlier 35/32 policy and adverse threshold controls",
+      "proof_location": "Supplementary Sections S3.1 and S3.3",
+      "checks": [
+        "legacy/p23/upper/check_universal_upper.py",
+        "legacy/p23/review/check_universal_upper_independent.py"
+      ],
+      "inputs": [],
+      "outputs": [
+        "legacy/p23/upper/Universal_Upper_Exact_Check.json",
+        "legacy/p23/review/Universal_Upper_Independent_Check.json"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "Retained earlier 35/32 certificate and adverse controls. The current uniform triangle bound is 12/11; the later historical 873/800 certificate is also retained unchanged."
+    },
+    {
+      "id": "completion-controls",
+      "result": "Completion-domain and Lipschitz controls",
+      "proof_location": "Supplementary Sections S5.3–S5.4",
+      "checks": [
+        "legacy/p21/review/check_dependent_domain_independent.py",
+        "legacy/p21/practical/check_lipschitz_certificate.py"
+      ],
+      "inputs": [],
+      "outputs": [
+        "legacy/p21/review/Dependent_Domain_Independent_Checks.json",
+        "legacy/p21/practical/Lipschitz_Certificate_Checks.json"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "Finite declared model-boundary controls; no noise, dependence or hardware generalisation."
+    },
+    {
+      "id": "retained-earlier-cases",
+      "result": "Square cases, setup and earlier adverse replay",
+      "proof_location": "Supplementary Sections S1, S4, S5.2 and S5.4; archive guide in S6.2",
+      "checks": [],
+      "inputs": [
+        "legacy/p20/output/Research_Companion_Paid_Prefix_v1.zip"
+      ],
+      "outputs": [],
+      "command": "Historical evidence only: nested programs are not additional executions of the principal command.",
+      "scope": "Explicit nested paths and failed/corrected coverage histories are listed in Supplementary Section S6.2. Preserved evidence is distinguished from fresh execution."
+    },
+    {
+      "id": "figures",
+      "result": "Analytic manuscript figures",
+      "proof_location": "Main figure captions and the associated exact constructions",
+      "checks": [
+        "figures/rebuild_figures.py",
+        "figures/check_figure_values.py"
+      ],
+      "inputs": [],
+      "outputs": [
+        "results/regenerated_figures/Figure_Exact_Values.json",
+        "results/regenerated_figures/Fig1.pdf",
+        "results/regenerated_figures/Fig2.pdf",
+        "results/regenerated_figures/Fig3.pdf"
+      ],
+      "command": "python3 figures/rebuild_figures.py --output-dir results/regenerated_figures\npython3 figures/check_figure_values.py results/regenerated_figures/Figure_Exact_Values.json",
+      "scope": "Rebuilds all three figures. Optional plotting dependencies are in figures/requirements-figures.txt; LibreOffice (soffice) is also required for Figure 1. Exact constants, three policy classes, integer-N domains and geometry are checked separately; images do not measure performance."
+    },
+    {
+      "id": "continuations",
+      "result": "Positive/negative continuations and integer embeddings",
+      "proof_location": "Main numerical lower-bound and compres­sion argument",
+      "checks": [
+        "checks/audit_p39/ramsey/check_ramsey_continuations.py"
+      ],
+      "inputs": [],
+      "outputs": [
+        "checks/audit_p39/ramsey/Ramsey_Continuation_Check.json"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "Finite exact continuation constructions; does not execute Ramsey or minimax."
+    },
+    {
+      "id": "band-audit",
+      "result": "Independent endpoint and diagonal-band audit",
+      "proof_location": "Main endpoint criterion and band theorems",
+      "checks": [
+        "checks/audit_p39/bands/independent_band_audit.py"
+      ],
+      "inputs": [],
+      "outputs": [
+        "checks/audit_p39/bands/Independent_Band_Audit.json"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "Exact finite states and legal constructions, including strict boundaries and positive candidate-partial cases."
+    },
+    {
+      "id": "bernstein-projection",
+      "result": "Archive-state projection for the analytic upper reduction",
+      "proof_location": "Main uniform-policy proof",
+      "checks": [
+        "checks/audit_p39/bernstein/check_analytic_reduction.py"
+      ],
+      "inputs": [],
+      "outputs": [
+        "checks/audit_p39/bernstein/Analytic_Reduction_Finite_Check.json"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "Synthetic finite archive states and cube points; separate from coefficient replay and analytic domain-coverage proof."
+    },
+    {
+      "id": "transfer-profiles",
+      "result": "Certificate and positive-transcript transfer profiles",
+      "proof_location": "Main certificate-preserving transfer criterion",
+      "checks": [
+        "checks/audit_p39/transfer/check_transfer_profiles.py"
+      ],
+      "inputs": [],
+      "outputs": [
+        "checks/audit_p39/transfer/Transfer_Profiles_Independent_Check.json"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "Finite deterministic transcript-profile enumeration with precedence; no exhaustive treatment of continuous random seeds."
+    },
+    {
+      "id": "extremal-verifier",
+      "result": "Slope-extrema implementation criterion",
+      "proof_location": "Constructive implementation discussion",
+      "checks": [
+        "checks/audit_p39/extremal/check_extremal_verifier.py"
+      ],
+      "inputs": [],
+      "outputs": [
+        "checks/audit_p39/extremal/Extremal_Verifier_Check_P39.json"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "168000 complete rational catalogues; verifies finite agreement of two predicates, not acquisition ratios."
+    },
+    {
+      "id": "independent-prefix-demo",
+      "result": "Paid-prefix service and independently computed comparator",
+      "proof_location": "Supplement synthetic disclosure demonstrator",
+      "checks": [
+        "checks/prefix_demo/run_demo.py"
+      ],
+      "inputs": [
+        "checks/prefix_demo/fixtures.json",
+        "checks/prefix_demo/prefix_service.py",
+        "checks/prefix_demo/independent_comparator.py"
+      ],
+      "outputs": [
+        "checks/prefix_demo/results/Demo_Execution_P44.json"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "10syntheticcases,30exactbranches,640prefixes; finite completion enumeration computes C*. Four negative cases and adverse tariff behaviour retained."
+    },
+    {
+      "id": "certificate-utility",
+      "result": "Failure of adaptive submodularity for the naive certificate indicator",
+      "proof_location": "Information-economics discussion",
+      "checks": [
+        "checks/economics/check_certificate_utility.py"
+      ],
+      "inputs": [],
+      "outputs": [
+        "checks/economics/Certificate_Utility_Check.json"
+      ],
+      "command": "python3 run_all_checks.py --record results/Full_Local_P52.json",
+      "scope": "125complete finite archives; marginal0versus1/5 counterexample for this reward only; not a general non-reducibility result."
+    }
+  ],
+  "retired_source_provenance": "provenance/Retired_Manuscript_P21.json",
+  "provenance_adapter": "checks/ordinal/check_ordinal_foundation_public.py",
+  "editorial_statement_crosswalk": "docs/Statement_Crosswalk_P41.json",
+  "historical_result_identifiers_retained": true
+}

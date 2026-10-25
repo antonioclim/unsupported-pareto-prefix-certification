@@ -1,0 +1,186 @@
+{
+  "status": "PASS",
+  "proof_sha256": "035cef34b606d3379424d7557cf56787463f76cea441f8a9e64600fdd7d4d0e5",
+  "script_sha256": "ff586fb4961ff381d77ef44f5d61f1f5b3e933ba0581fc902c5c9a566868a597",
+  "worlds": [
+    {
+      "world": "U",
+      "states_checked": 343,
+      "true_states": [
+        [
+          5,
+          5,
+          6
+        ],
+        [
+          5,
+          6,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ]
+      ],
+      "minimum_row_cost": 16
+    },
+    {
+      "world": "V",
+      "states_checked": 343,
+      "true_states": [
+        [
+          6,
+          2,
+          6
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ]
+      ],
+      "minimum_row_cost": 14
+    },
+    {
+      "world": "A",
+      "states_checked": 343,
+      "true_states": [
+        [
+          5,
+          6,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ]
+      ],
+      "minimum_row_cost": 17
+    },
+    {
+      "world": "B",
+      "states_checked": 343,
+      "true_states": [
+        [
+          6,
+          1,
+          6
+        ],
+        [
+          6,
+          2,
+          6
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ]
+      ],
+      "minimum_row_cost": 13
+    }
+  ],
+  "all_prefix_states": 1372,
+  "prefix_shape_triples": 216,
+  "minimal_shapes": [
+    [
+      5,
+      5,
+      6
+    ],
+    [
+      6,
+      1,
+      6
+    ],
+    [
+      6,
+      5,
+      5
+    ],
+    [
+      6,
+      6,
+      4
+    ]
+  ],
+  "all_F_upper_envelope": [
+    {
+      "comparator": 13,
+      "policy_cost_bound": 13,
+      "affine_F_coefficient": -1,
+      "affine_constant": -13
+    },
+    {
+      "comparator": 14,
+      "policy_cost_bound": 14,
+      "affine_F_coefficient": -1,
+      "affine_constant": -14
+    },
+    {
+      "comparator": 15,
+      "policy_cost_bound": 15,
+      "affine_F_coefficient": -1,
+      "affine_constant": -15
+    },
+    {
+      "comparator": 16,
+      "policy_cost_bound": 17,
+      "affine_F_coefficient": 0,
+      "affine_constant": 0
+    },
+    {
+      "comparator": 17,
+      "policy_cost_bound": 18,
+      "affine_F_coefficient": 0,
+      "affine_constant": -1
+    },
+    {
+      "comparator": 18,
+      "policy_cost_bound": 18,
+      "affine_F_coefficient": -1,
+      "affine_constant": -18
+    }
+  ],
+  "exact_gap_cases": 121,
+  "exact_setup_cases": 104,
+  "global_randomised_exactness_claimed": false,
+  "scope": "Independent finite exact checks and all-F affine envelope; universal policy validity is analytically reviewed separately."
+}

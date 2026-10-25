@@ -1,0 +1,157 @@
+{
+  "schema": "p49-figure-text-colour-conformance-v1",
+  "revision": "P49",
+  "status": "PASS",
+  "checked_at_utc": "2026-10-24T18:19:56.087354+00:00",
+  "changes": [
+    "Fig1 text#111111 changed to#000000.",
+    "Fig3 U/V text labels changed from curve colours to#000000.",
+    "Graphical curve/marker/fill colours, positions, scientific values and caption text preserved."
+  ],
+  "exact_values_and_captions_comparison_to_P48": [
+    {
+      "file": "Fig1_Caption.txt",
+      "bytes_identical": true,
+      "scientific_values_and_captions_identical": true,
+      "permitted_difference": null
+    },
+    {
+      "file": "Fig1_Exact_Values.json",
+      "bytes_identical": false,
+      "scientific_values_and_captions_identical": true,
+      "permitted_difference": "generator script_sha256 only"
+    },
+    {
+      "file": "Figure_Captions.txt",
+      "bytes_identical": true,
+      "scientific_values_and_captions_identical": true,
+      "permitted_difference": null
+    },
+    {
+      "file": "Figure_Exact_Values.json",
+      "bytes_identical": false,
+      "scientific_values_and_captions_identical": true,
+      "permitted_difference": "generator script_sha256 only"
+    },
+    {
+      "file": "Theorem_Figures_Captions.txt",
+      "bytes_identical": true,
+      "scientific_values_and_captions_identical": true,
+      "permitted_difference": null
+    },
+    {
+      "file": "Theorem_Figures_Exact_Values.json",
+      "bytes_identical": true,
+      "scientific_values_and_captions_identical": true,
+      "permitted_difference": null
+    }
+  ],
+  "exports": [
+    {
+      "path": "reference_exports/Fig1.pdf",
+      "sha256": "d9d986db6e85978098a88692d6dcf7c48044537f8280ed2a927ce116da9dfe84",
+      "all_text_pure_black": true,
+      "text_span_count": 46,
+      "minimum_stroke_pt": 1.10548996925354,
+      "minimum_font_pt": 8.503999710083008,
+      "canvas_pt": [
+        0.0,
+        0.0,
+        360.0,
+        432.0
+      ],
+      "raster_images": 0,
+      "text_inventory_identical_to_P48": true,
+      "nontext_drawing_geometry_and_colours_identical_to_P48": true
+    },
+    {
+      "path": "native_exports/Fig1_Editable.pdf",
+      "sha256": "55b1210d4a3feabdb5b40bb4f8c015a55be4fe4c7733f0c91e6f9c6093ac8eb7",
+      "all_text_pure_black": true,
+      "text_span_count": 46,
+      "minimum_stroke_pt": 1.10548996925354,
+      "minimum_font_pt": 8.503999710083008,
+      "canvas_pt": [
+        0.0,
+        0.0,
+        360.0,
+        432.0
+      ],
+      "raster_images": 0,
+      "text_inventory_identical_to_P48": true,
+      "nontext_drawing_geometry_and_colours_identical_to_P48": true
+    },
+    {
+      "path": "reference_exports/Fig2.pdf",
+      "sha256": "2004b14b08cf1d392f38162e0d7533d92081e289a67e7c1be064f824830e17df",
+      "all_text_pure_black": true,
+      "text_span_count": 70,
+      "minimum_stroke_pt": 1.0,
+      "minimum_font_pt": 8.5,
+      "canvas_pt": [
+        0.0,
+        0.0,
+        360.0,
+        432.0
+      ],
+      "raster_images": 0,
+      "text_inventory_identical_to_P48": true,
+      "nontext_drawing_geometry_and_colours_identical_to_P48": true
+    },
+    {
+      "path": "native_exports/Fig2_Editable.pdf",
+      "sha256": "beea5dc79cf58ed79f39de5eec4d406c07aea66ad5734ddf57c7f9e58642535a",
+      "all_text_pure_black": true,
+      "text_span_count": 66,
+      "minimum_stroke_pt": 1.0204600095748901,
+      "minimum_font_pt": 8.503999710083008,
+      "canvas_pt": [
+        0.0,
+        0.0,
+        360.0,
+        432.0
+      ],
+      "raster_images": 0,
+      "text_inventory_identical_to_P48": true,
+      "nontext_drawing_geometry_and_colours_identical_to_P48": true
+    },
+    {
+      "path": "reference_exports/Fig3.pdf",
+      "sha256": "2d7341d8a64c2860ab1f7284dfe61272df64f41c26b34fa416c26132c90b7dc5",
+      "all_text_pure_black": true,
+      "text_span_count": 46,
+      "minimum_stroke_pt": 1.0,
+      "minimum_font_pt": 8.5,
+      "canvas_pt": [
+        0.0,
+        0.0,
+        360.0,
+        432.0
+      ],
+      "raster_images": 0,
+      "text_inventory_identical_to_P48": true,
+      "nontext_drawing_geometry_and_colours_identical_to_P48": true
+    },
+    {
+      "path": "native_exports/Fig3_Editable.pdf",
+      "sha256": "387d83e17b50edf45fcbe2c102881cf73e6fb0667730cb9c2f159ce318e43fb2",
+      "all_text_pure_black": true,
+      "text_span_count": 46,
+      "minimum_stroke_pt": 1.0204600095748901,
+      "minimum_font_pt": 8.503999710083008,
+      "canvas_pt": [
+        0.0,
+        0.0,
+        360.0,
+        432.0
+      ],
+      "raster_images": 0,
+      "text_inventory_identical_to_P48": true,
+      "nontext_drawing_geometry_and_colours_identical_to_P48": true
+    }
+  ],
+  "native_odg_structure": "Native_ODG_Verification.json",
+  "native_edit_roundtrip": "Edit_Roundtrip_Probe.json",
+  "scope": "Formatting, representation and arithmetic preservation. Not a new mathematical theorem validation.",
+  "main_manuscript_insertion_pending_at_this_figure_check": true
+}

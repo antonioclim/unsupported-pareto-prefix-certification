@@ -1,0 +1,129 @@
+{
+  "method": "Exact posterior dynamic programme over all label/rank assignments and all next-label actions; no recurrence A3 used.",
+  "ordinal_cases": [
+    {
+      "m": 1,
+      "n": 1,
+      "worlds": 1,
+      "query_observation": "full relative order",
+      "optimal_expected_queries": "2",
+      "q_formula": "2",
+      "matches_formula": true,
+      "posterior_states": 4,
+      "remaining_value_constant_at_fixed_counts": true
+    },
+    {
+      "m": 1,
+      "n": 2,
+      "worlds": 2,
+      "query_observation": "full relative order",
+      "optimal_expected_queries": "5/2",
+      "q_formula": "5/2",
+      "matches_formula": true,
+      "posterior_states": 12,
+      "remaining_value_constant_at_fixed_counts": true
+    },
+    {
+      "m": 1,
+      "n": 3,
+      "worlds": 6,
+      "query_observation": "full relative order",
+      "optimal_expected_queries": "3",
+      "q_formula": "3",
+      "matches_formula": true,
+      "posterior_states": 41,
+      "remaining_value_constant_at_fixed_counts": true
+    },
+    {
+      "m": 1,
+      "n": 4,
+      "worlds": 24,
+      "query_observation": "full relative order",
+      "optimal_expected_queries": "7/2",
+      "q_formula": "7/2",
+      "matches_formula": true,
+      "posterior_states": 170,
+      "remaining_value_constant_at_fixed_counts": true
+    },
+    {
+      "m": 2,
+      "n": 2,
+      "worlds": 4,
+      "query_observation": "full relative order",
+      "optimal_expected_queries": "13/4",
+      "q_formula": "13/4",
+      "matches_formula": true,
+      "posterior_states": 37,
+      "remaining_value_constant_at_fixed_counts": true
+    },
+    {
+      "m": 2,
+      "n": 3,
+      "worlds": 12,
+      "query_observation": "full relative order",
+      "optimal_expected_queries": "23/6",
+      "q_formula": "23/6",
+      "matches_formula": true,
+      "posterior_states": 128,
+      "remaining_value_constant_at_fixed_counts": true
+    },
+    {
+      "m": 2,
+      "n": 4,
+      "worlds": 48,
+      "query_observation": "full relative order",
+      "optimal_expected_queries": "35/8",
+      "q_formula": "35/8",
+      "matches_formula": true,
+      "posterior_states": 533,
+      "remaining_value_constant_at_fixed_counts": true
+    },
+    {
+      "m": 3,
+      "n": 3,
+      "worlds": 36,
+      "query_observation": "full relative order",
+      "optimal_expected_queries": "41/9",
+      "q_formula": "41/9",
+      "matches_formula": true,
+      "posterior_states": 445,
+      "remaining_value_constant_at_fixed_counts": true
+    },
+    {
+      "m": 3,
+      "n": 4,
+      "worlds": 144,
+      "query_observation": "full relative order",
+      "optimal_expected_queries": "31/6",
+      "q_formula": "31/6",
+      "matches_formula": true,
+      "posterior_states": 1856,
+      "remaining_value_constant_at_fixed_counts": true
+    }
+  ],
+  "numeric_comparisons": [
+    {
+      "m": 2,
+      "n": 2,
+      "worlds": 4,
+      "query_observation": "exact known ranks",
+      "optimal_expected_queries": "3",
+      "q_formula": "13/4",
+      "matches_formula": false,
+      "posterior_states": 49,
+      "remaining_value_constant_at_fixed_counts": false
+    },
+    {
+      "m": 3,
+      "n": 3,
+      "worlds": 36,
+      "query_observation": "exact known ranks",
+      "optimal_expected_queries": "4",
+      "q_formula": "41/9",
+      "matches_formula": false,
+      "posterior_states": 1156,
+      "remaining_value_constant_at_fixed_counts": false
+    }
+  ],
+  "scope_limit": "Finite ordinal checks do not prove the general theorem, Ramsey lemma, arbitrary-real kernel measurability or archive compression. Numeric comparisons are promised fixed-rank games and are not a counterexample to the manuscript lower bound."
+}

@@ -1,0 +1,677 @@
+{
+  "status": "PASS",
+  "scope": "Exact synthetic mathematical checks only",
+  "source_sha256": "c095f8624e6971fa7a538357a6f70e9700d93c0eb5adfa504d83e17331d75941",
+  "finite_domains": [
+    {
+      "domain": "square",
+      "rows": 2,
+      "coordinate_denominator": 2,
+      "alphabet": 9,
+      "legal_group_sequences": 49,
+      "complete_archives": 117649,
+      "positive_archives": 464,
+      "prefix_states": 205379,
+      "robust_true_states": 472,
+      "exact_completion_and_corner_agreement": true
+    },
+    {
+      "domain": "triangle",
+      "rows": 2,
+      "coordinate_denominator": 2,
+      "alphabet": 6,
+      "legal_group_sequences": 26,
+      "complete_archives": 17576,
+      "positive_archives": 0,
+      "prefix_states": 35937,
+      "robust_true_states": 0,
+      "exact_completion_and_corner_agreement": true
+    },
+    {
+      "domain": "triangle",
+      "rows": 2,
+      "coordinate_denominator": 4,
+      "alphabet": 15,
+      "legal_group_sequences": 87,
+      "complete_archives": 658503,
+      "positive_archives": 992,
+      "prefix_states": 1092727,
+      "robust_true_states": 1008,
+      "exact_completion_and_corner_agreement": true
+    }
+  ],
+  "separation": [
+    {
+      "N": 1,
+      "square_certificate": 3,
+      "square_argmin": [
+        1,
+        1,
+        1
+      ],
+      "smooth_certificate": 3,
+      "ratio": "1"
+    },
+    {
+      "N": 2,
+      "square_certificate": 6,
+      "square_argmin": [
+        2,
+        2,
+        2
+      ],
+      "smooth_certificate": 3,
+      "ratio": "2"
+    },
+    {
+      "N": 3,
+      "square_certificate": 9,
+      "square_argmin": [
+        3,
+        3,
+        3
+      ],
+      "smooth_certificate": 3,
+      "ratio": "3"
+    },
+    {
+      "N": 4,
+      "square_certificate": 11,
+      "square_argmin": [
+        4,
+        3,
+        4
+      ],
+      "smooth_certificate": 3,
+      "ratio": "11/3"
+    },
+    {
+      "N": 5,
+      "square_certificate": 14,
+      "square_argmin": [
+        5,
+        4,
+        5
+      ],
+      "smooth_certificate": 3,
+      "ratio": "14/3"
+    },
+    {
+      "N": 6,
+      "square_certificate": 16,
+      "square_argmin": [
+        6,
+        5,
+        5
+      ],
+      "smooth_certificate": 3,
+      "ratio": "16/3"
+    },
+    {
+      "N": 7,
+      "square_certificate": 19,
+      "square_argmin": [
+        7,
+        5,
+        7
+      ],
+      "smooth_certificate": 3,
+      "ratio": "19/3"
+    },
+    {
+      "N": 8,
+      "square_certificate": 21,
+      "square_argmin": [
+        8,
+        6,
+        7
+      ],
+      "smooth_certificate": 3,
+      "ratio": "7"
+    },
+    {
+      "N": 9,
+      "square_certificate": 24,
+      "square_argmin": [
+        9,
+        7,
+        8
+      ],
+      "smooth_certificate": 3,
+      "ratio": "8"
+    },
+    {
+      "N": 10,
+      "square_certificate": 27,
+      "square_argmin": [
+        10,
+        7,
+        10
+      ],
+      "smooth_certificate": 3,
+      "ratio": "9"
+    },
+    {
+      "N": 11,
+      "square_certificate": 29,
+      "square_argmin": [
+        11,
+        8,
+        10
+      ],
+      "smooth_certificate": 3,
+      "ratio": "29/3"
+    },
+    {
+      "N": 12,
+      "square_certificate": 32,
+      "square_argmin": [
+        12,
+        9,
+        11
+      ],
+      "smooth_certificate": 3,
+      "ratio": "32/3"
+    },
+    {
+      "N": 13,
+      "square_certificate": 34,
+      "square_argmin": [
+        13,
+        10,
+        11
+      ],
+      "smooth_certificate": 3,
+      "ratio": "34/3"
+    },
+    {
+      "N": 14,
+      "square_certificate": 37,
+      "square_argmin": [
+        14,
+        10,
+        13
+      ],
+      "smooth_certificate": 3,
+      "ratio": "37/3"
+    },
+    {
+      "N": 15,
+      "square_certificate": 40,
+      "square_argmin": [
+        15,
+        11,
+        14
+      ],
+      "smooth_certificate": 3,
+      "ratio": "40/3"
+    },
+    {
+      "N": 16,
+      "square_certificate": 42,
+      "square_argmin": [
+        16,
+        12,
+        14
+      ],
+      "smooth_certificate": 3,
+      "ratio": "14"
+    },
+    {
+      "N": 17,
+      "square_certificate": 45,
+      "square_argmin": [
+        17,
+        12,
+        16
+      ],
+      "smooth_certificate": 3,
+      "ratio": "15"
+    },
+    {
+      "N": 18,
+      "square_certificate": 47,
+      "square_argmin": [
+        18,
+        14,
+        15
+      ],
+      "smooth_certificate": 3,
+      "ratio": "47/3"
+    },
+    {
+      "N": 19,
+      "square_certificate": 50,
+      "square_argmin": [
+        19,
+        14,
+        17
+      ],
+      "smooth_certificate": 3,
+      "ratio": "50/3"
+    },
+    {
+      "N": 20,
+      "square_certificate": 53,
+      "square_argmin": [
+        20,
+        14,
+        19
+      ],
+      "smooth_certificate": 3,
+      "ratio": "53/3"
+    },
+    {
+      "N": 21,
+      "square_certificate": 55,
+      "square_argmin": [
+        21,
+        16,
+        18
+      ],
+      "smooth_certificate": 3,
+      "ratio": "55/3"
+    },
+    {
+      "N": 22,
+      "square_certificate": 58,
+      "square_argmin": [
+        22,
+        16,
+        20
+      ],
+      "smooth_certificate": 3,
+      "ratio": "58/3"
+    },
+    {
+      "N": 23,
+      "square_certificate": 60,
+      "square_argmin": [
+        23,
+        18,
+        19
+      ],
+      "smooth_certificate": 3,
+      "ratio": "20"
+    },
+    {
+      "N": 24,
+      "square_certificate": 63,
+      "square_argmin": [
+        24,
+        18,
+        21
+      ],
+      "smooth_certificate": 3,
+      "ratio": "21"
+    },
+    {
+      "N": 25,
+      "square_certificate": 66,
+      "square_argmin": [
+        25,
+        18,
+        23
+      ],
+      "smooth_certificate": 3,
+      "ratio": "22"
+    },
+    {
+      "N": 26,
+      "square_certificate": 68,
+      "square_argmin": [
+        26,
+        19,
+        23
+      ],
+      "smooth_certificate": 3,
+      "ratio": "68/3"
+    },
+    {
+      "N": 27,
+      "square_certificate": 71,
+      "square_argmin": [
+        27,
+        20,
+        24
+      ],
+      "smooth_certificate": 3,
+      "ratio": "71/3"
+    },
+    {
+      "N": 28,
+      "square_certificate": 73,
+      "square_argmin": [
+        28,
+        22,
+        23
+      ],
+      "smooth_certificate": 3,
+      "ratio": "73/3"
+    },
+    {
+      "N": 29,
+      "square_certificate": 76,
+      "square_argmin": [
+        29,
+        21,
+        26
+      ],
+      "smooth_certificate": 3,
+      "ratio": "76/3"
+    },
+    {
+      "N": 30,
+      "square_certificate": 79,
+      "square_argmin": [
+        30,
+        22,
+        27
+      ],
+      "smooth_certificate": 3,
+      "ratio": "79/3"
+    },
+    {
+      "N": 31,
+      "square_certificate": 81,
+      "square_argmin": [
+        31,
+        23,
+        27
+      ],
+      "smooth_certificate": 3,
+      "ratio": "27"
+    },
+    {
+      "N": 32,
+      "square_certificate": 84,
+      "square_argmin": [
+        32,
+        23,
+        29
+      ],
+      "smooth_certificate": 3,
+      "ratio": "28"
+    },
+    {
+      "N": 33,
+      "square_certificate": 86,
+      "square_argmin": [
+        33,
+        25,
+        28
+      ],
+      "smooth_certificate": 3,
+      "ratio": "86/3"
+    },
+    {
+      "N": 34,
+      "square_certificate": 89,
+      "square_argmin": [
+        34,
+        25,
+        30
+      ],
+      "smooth_certificate": 3,
+      "ratio": "89/3"
+    },
+    {
+      "N": 35,
+      "square_certificate": 92,
+      "square_argmin": [
+        35,
+        25,
+        32
+      ],
+      "smooth_certificate": 3,
+      "ratio": "92/3"
+    },
+    {
+      "N": 36,
+      "square_certificate": 94,
+      "square_argmin": [
+        36,
+        27,
+        31
+      ],
+      "smooth_certificate": 3,
+      "ratio": "94/3"
+    },
+    {
+      "N": 37,
+      "square_certificate": 97,
+      "square_argmin": [
+        37,
+        27,
+        33
+      ],
+      "smooth_certificate": 3,
+      "ratio": "97/3"
+    },
+    {
+      "N": 38,
+      "square_certificate": 99,
+      "square_argmin": [
+        38,
+        29,
+        32
+      ],
+      "smooth_certificate": 3,
+      "ratio": "33"
+    },
+    {
+      "N": 39,
+      "square_certificate": 102,
+      "square_argmin": [
+        39,
+        29,
+        34
+      ],
+      "smooth_certificate": 3,
+      "ratio": "34"
+    },
+    {
+      "N": 40,
+      "square_certificate": 105,
+      "square_argmin": [
+        40,
+        29,
+        36
+      ],
+      "smooth_certificate": 3,
+      "ratio": "35"
+    },
+    {
+      "N": 64,
+      "square_certificate": 167,
+      "square_argmin": [
+        64,
+        48,
+        55
+      ],
+      "smooth_certificate": 3,
+      "ratio": "167/3"
+    },
+    {
+      "N": 100,
+      "square_certificate": 261,
+      "square_argmin": [
+        100,
+        75,
+        86
+      ],
+      "smooth_certificate": 3,
+      "ratio": "87"
+    },
+    {
+      "N": 121,
+      "square_certificate": 315,
+      "square_argmin": [
+        121,
+        93,
+        101
+      ],
+      "smooth_certificate": 3,
+      "ratio": "105"
+    },
+    {
+      "N": 200,
+      "square_certificate": 521,
+      "square_argmin": [
+        200,
+        152,
+        169
+      ],
+      "smooth_certificate": 3,
+      "ratio": "521/3"
+    }
+  ],
+  "measurement_margin": {
+    "parameter_checks": [
+      {
+        "kappa": "0",
+        "epsilon": "0",
+        "robust_true": true
+      },
+      {
+        "kappa": "0",
+        "epsilon": "1/100",
+        "robust_true": true
+      },
+      {
+        "kappa": "0",
+        "epsilon": "1/60",
+        "robust_true": true
+      },
+      {
+        "kappa": "0",
+        "epsilon": "1/50",
+        "robust_true": true
+      },
+      {
+        "kappa": "0",
+        "epsilon": "1/10",
+        "robust_true": false
+      },
+      {
+        "kappa": "1/50",
+        "epsilon": "0",
+        "robust_true": true
+      },
+      {
+        "kappa": "1/50",
+        "epsilon": "1/100",
+        "robust_true": true
+      },
+      {
+        "kappa": "1/50",
+        "epsilon": "1/60",
+        "robust_true": true
+      },
+      {
+        "kappa": "1/50",
+        "epsilon": "1/50",
+        "robust_true": true
+      },
+      {
+        "kappa": "1/50",
+        "epsilon": "1/10",
+        "robust_true": false
+      },
+      {
+        "kappa": "1/10",
+        "epsilon": "0",
+        "robust_true": true
+      },
+      {
+        "kappa": "1/10",
+        "epsilon": "1/100",
+        "robust_true": true
+      },
+      {
+        "kappa": "1/10",
+        "epsilon": "1/60",
+        "robust_true": false
+      },
+      {
+        "kappa": "1/10",
+        "epsilon": "1/50",
+        "robust_true": false
+      },
+      {
+        "kappa": "1/10",
+        "epsilon": "1/10",
+        "robust_true": false
+      },
+      {
+        "kappa": "2/15",
+        "epsilon": "0",
+        "robust_true": false
+      },
+      {
+        "kappa": "2/15",
+        "epsilon": "1/100",
+        "robust_true": false
+      },
+      {
+        "kappa": "2/15",
+        "epsilon": "1/60",
+        "robust_true": false
+      },
+      {
+        "kappa": "2/15",
+        "epsilon": "1/50",
+        "robust_true": false
+      },
+      {
+        "kappa": "2/15",
+        "epsilon": "1/10",
+        "robust_true": false
+      },
+      {
+        "kappa": "1/5",
+        "epsilon": "0",
+        "robust_true": false
+      },
+      {
+        "kappa": "1/5",
+        "epsilon": "1/100",
+        "robust_true": false
+      },
+      {
+        "kappa": "1/5",
+        "epsilon": "1/60",
+        "robust_true": false
+      },
+      {
+        "kappa": "1/5",
+        "epsilon": "1/50",
+        "robust_true": false
+      },
+      {
+        "kappa": "1/5",
+        "epsilon": "1/10",
+        "robust_true": false
+      }
+    ],
+    "sharp_false_completion": {
+      "N": 11,
+      "kappa": "2/15",
+      "means": [
+        [
+          "8/15",
+          "8/15"
+        ],
+        [
+          "1/15",
+          "1"
+        ],
+        [
+          "1",
+          "1/15"
+        ]
+      ],
+      "supported_at_equal_weights": true
+    }
+  }
+}

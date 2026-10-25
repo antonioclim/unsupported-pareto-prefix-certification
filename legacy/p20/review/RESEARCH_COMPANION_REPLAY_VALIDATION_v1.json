@@ -1,0 +1,643 @@
+{
+  "schema": "exact-acquisition-clean-replay-validation-v1",
+  "administrative_only": false,
+  "manifest_sha256": "8ce4dffbf80dd9437f041b613b68b8d48788951d14e7932f92c9926a38e6d0fd",
+  "runner_sha256": "e2c1b7100fd8198ae51632f449e3e11a1c6a2fe6be0f40f537e7fd3fbdcec497",
+  "release_source_freeze_sha256": "f1a9ce7384902352cc8330921c03eeecd79eda5764271345e7386ce78b8923c2",
+  "release_source_freeze_entries_verified": 3,
+  "manifest_files_verified": 244,
+  "historical_scientific_freeze_entries_verified": 133,
+  "historical_sources_and_inputs_unchanged": true,
+  "P12_historical_main_executed": false,
+  "new_physical_measurements": 0,
+  "external_project_code_executions": 0,
+  "network_or_installs": false,
+  "status": "PASS_CLEAN_RESEARCH_COMPANION_ISOLATED_REPLAY",
+  "scientific_jobs_executed": 31,
+  "scientific_outputs_regenerated": 35,
+  "byte_identical_outputs": 30,
+  "scientific_content_equal_outputs": 35,
+  "outputs_with_declared_metadata_changes": 5,
+  "results": [
+    {
+      "id": "J01",
+      "script": "p13/theory/upper_balanced_check_v1.py",
+      "source_sha256": "0824663a812f070eddf866db0f1e0147da359c91725cf2c92d61218ffe467153",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 0.2003,
+      "outputs": [
+        {
+          "path": "p13/theory/upper_balanced_results_v1.json",
+          "retained_sha256": "c15d2caf14d43cc036144c1c6f028c587910cf6bca216ae31976e48b9ae0fc30",
+          "regenerated_sha256": "91d3f235390d33afb9aad235e47d5a16894b10d4fbe5c727789d81c7b0c868c6",
+          "byte_identical": false,
+          "metadata_fields_permitted": [
+            "elapsed_seconds"
+          ],
+          "metadata_fields_changed": [
+            "elapsed_seconds"
+          ],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J02",
+      "script": "p13/theory/upper_heterogeneous_adverse_check_v1.py",
+      "source_sha256": "98ef2e767a88c384df27cb862875991874a91072dae0656127b3dbc8e79e9756",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 0.0356,
+      "outputs": [
+        {
+          "path": "p13/theory/upper_heterogeneous_adverse_results_v1.json",
+          "retained_sha256": "2350191df351f5ed1d57f56505d2769165669a08b025d5081cefdc033b020cb2",
+          "regenerated_sha256": "2350191df351f5ed1d57f56505d2769165669a08b025d5081cefdc033b020cb2",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J03",
+      "script": "p13/theory/lower_shift23_game_v1.py",
+      "source_sha256": "43672a228e566ddfa197acdd4ef503b71f120e04a1b5ad75ae4c2fc5d5e5b08e",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 0.9655,
+      "outputs": [
+        {
+          "path": "p13/theory/lower_shift23_game_v1.json",
+          "retained_sha256": "9e124a5f82d1567f2b9200ab3560fd73158b95e4db8a1b3035adeb70f5e3258d",
+          "regenerated_sha256": "6bc7de10bf2e477d036651e138204a5c38665d90b4dc9812e0fa95fa4207a24c",
+          "byte_identical": false,
+          "metadata_fields_permitted": [
+            "elapsed_seconds"
+          ],
+          "metadata_fields_changed": [
+            "elapsed_seconds"
+          ],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J04",
+      "script": "p13/theory/lower_order_dp_v1.py",
+      "source_sha256": "d62ef2cd3236938746afb9a04673fcb100cd123d354c539e142eca310c723de2",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 1.6263,
+      "outputs": [
+        {
+          "path": "p13/theory/lower_order_dp_v1.json",
+          "retained_sha256": "4cf1803579a81997fff160ab2fc870ad18a8d96dd0b4e0c665f2c8d1725e289c",
+          "regenerated_sha256": "4cf1803579a81997fff160ab2fc870ad18a8d96dd0b4e0c665f2c8d1725e289c",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J05",
+      "script": "p13/theory/lower_embedding_check_v1.py",
+      "source_sha256": "df171a3464cc088fc34f6672e98475f4eb31802dbde8aafa313b3d8f86508660",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 5.5733,
+      "outputs": [
+        {
+          "path": "p13/theory/lower_embedding_check_v1.json",
+          "retained_sha256": "29788c005a48dd3e2eb90d98a1b35601693adf890cd893ec1a6366901ba12660",
+          "regenerated_sha256": "29788c005a48dd3e2eb90d98a1b35601693adf890cd893ec1a6366901ba12660",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J06",
+      "script": "p13/theory/bounded_comparator_independent_check.py",
+      "source_sha256": "fd750be008719416a889246c012d0682e2545a58bd7b5abe77f9503d0a8d3219",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 1.0162,
+      "outputs": [
+        {
+          "path": "p13/theory/bounded_comparator_independent_check.json",
+          "retained_sha256": "53949ec9b37c346f6d6caae126cde5f6c47389a4a9e50b4fc49b0baf01f2bd12",
+          "regenerated_sha256": "577a2b023cd8b9ae041b9e3e6278930ed5e028e2616206688c9caabb58f08687",
+          "byte_identical": false,
+          "metadata_fields_permitted": [
+            "elapsed_seconds"
+          ],
+          "metadata_fields_changed": [
+            "elapsed_seconds"
+          ],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J07",
+      "script": "p13/analysis/bounded_comparator_v1.py",
+      "source_sha256": "7999433549aceb951f903d86068175583745863b061ee92b11e1e1a3020fcf88",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 0.0422,
+      "outputs": [
+        {
+          "path": "p13/analysis/bounded_comparator_results_v1.json",
+          "retained_sha256": "2f7c6cac1dfaab46969bfeefa02f7dc450a1851c7f5e7d451b84221acd713f49",
+          "regenerated_sha256": "2f7c6cac1dfaab46969bfeefa02f7dc450a1851c7f5e7d451b84221acd713f49",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J08",
+      "script": "p13/analysis/check_bounded_comparator_independent_v1.py",
+      "source_sha256": "b4fba5080d42dc153d459dc601fdd1502abf34e47b5b9aaecb3aaad05a96ecb9",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 0.1338,
+      "outputs": [
+        {
+          "path": "p13/analysis/bounded_comparator_check_v1.json",
+          "retained_sha256": "b135ef49a858b9158a7e52f2af765b3f363ef6da4564306a961c1415e449db58",
+          "regenerated_sha256": "b135ef49a858b9158a7e52f2af765b3f363ef6da4564306a961c1415e449db58",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J09",
+      "script": "p13/analysis/check_bounded_comparator_grid_v1.py",
+      "source_sha256": "beb6130b51bb9d519c0a7b40dfb96450201d5c2bfdc645f71af23a8a1c5fda9f",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 1.4509,
+      "outputs": [
+        {
+          "path": "p13/analysis/bounded_comparator_grid_check_v1.json",
+          "retained_sha256": "98856c0d63e922e441706fbe7bfe289b494656ad7bc49d89cbd636e024ae7490",
+          "regenerated_sha256": "98856c0d63e922e441706fbe7bfe289b494656ad7bc49d89cbd636e024ae7490",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J10",
+      "script": "p14/analysis/check_bounded_bridge_v1.py",
+      "source_sha256": "058176ce8759840f871c506bd2d5462e18e810080017339d6d3c68a255619308",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 0.397,
+      "outputs": [
+        {
+          "path": "p14/analysis/bounded_bridge_check_v1.json",
+          "retained_sha256": "9abd37af22464e90edf5366250752a811fbc22e4d6c7116a59e4e23d6b8ebd30",
+          "regenerated_sha256": "9abd37af22464e90edf5366250752a811fbc22e4d6c7116a59e4e23d6b8ebd30",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J11",
+      "script": "p14/analysis/finite_precision_check_v1.py",
+      "source_sha256": "778a08c138f8b9ac90ecc37a6afa74b978ee9aebc0ac68afbb3b70efdac325da",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 2.4367,
+      "outputs": [
+        {
+          "path": "p14/analysis/finite_precision_results_v1.json",
+          "retained_sha256": "4c9d19613ae5e2c05e876875b38ea9e5ecf6ff5e9a6fce2aab379e2bf1c758c2",
+          "regenerated_sha256": "4c9d19613ae5e2c05e876875b38ea9e5ecf6ff5e9a6fce2aab379e2bf1c758c2",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J12",
+      "script": "p14/theory/lower_bounded_check_v1.py",
+      "source_sha256": "fa685f1c6115683b77dc6a2c684dea817c83585e4b67a73065d9754b41b84afd",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 0.7479,
+      "outputs": [
+        {
+          "path": "p14/theory/lower_bounded_check_v1.json",
+          "retained_sha256": "18f496f735c2cb2b2fd7fd07d8f7b4e9d4b066f4703fa0cbc701720f9e44194d",
+          "regenerated_sha256": "18f496f735c2cb2b2fd7fd07d8f7b4e9d4b066f4703fa0cbc701720f9e44194d",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J13",
+      "script": "p14/theory/lower_k3n2_check_v1.py",
+      "source_sha256": "e983356c829d286fadec514d5cd5dcb0254683ac5f114fc6b4284d28e3a1d13a",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 0.5904,
+      "outputs": [
+        {
+          "path": "p14/theory/lower_k3n2_check_v1.json",
+          "retained_sha256": "ca542851c922905f71c58f4f0bc08d30d3230b62126490c49ff5e4aaa5c9f967",
+          "regenerated_sha256": "ca542851c922905f71c58f4f0bc08d30d3230b62126490c49ff5e4aaa5c9f967",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J14",
+      "script": "p14/theory/lower_n2_dichotomy_check_v1.py",
+      "source_sha256": "cf8bffcb71f3caef36b023cb616877e25031b8d5e3846d7db62eb28940f9f21b",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 0.1732,
+      "outputs": [
+        {
+          "path": "p14/theory/lower_n2_dichotomy_check_v1.json",
+          "retained_sha256": "f721380c73ff7fff3dfa28f2d0918ec81a10a107cbcfca51e4de760cc6bf73e3",
+          "regenerated_sha256": "f721380c73ff7fff3dfa28f2d0918ec81a10a107cbcfca51e4de760cc6bf73e3",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J15",
+      "script": "p14/theory/lower_k3n3_check_v1.py",
+      "source_sha256": "8a31efb7ded72111a75e6cdf875283f0620b211aeeb26a4c91dc0703abfc1c99",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 0.057,
+      "outputs": [
+        {
+          "path": "p14/theory/lower_k3n3_check_v1.json",
+          "retained_sha256": "543833082d4707e28869a5e7f8d493ddebfe85ed841003e064cde1ef0ad6c286",
+          "regenerated_sha256": "543833082d4707e28869a5e7f8d493ddebfe85ed841003e064cde1ef0ad6c286",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J16",
+      "script": "p14/applied/transform_sensitivity_v1.py",
+      "source_sha256": "0ba4c061fa1969f729362fe71fd5773eb8822477d4ba83772fd16cac81e1661d",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 0.1523,
+      "outputs": [
+        {
+          "path": "p14/applied/transform_sensitivity_results_v1.json",
+          "retained_sha256": "c8a4487de3b4ac82ae987b0aca68f9e101898b35c4719b8b48f61ad57dd3c928",
+          "regenerated_sha256": "4c07811ab8cfb1c1cf16b2d1180a5292fbb2cd0362e9bf0aee54116a4c461ed9",
+          "byte_identical": false,
+          "metadata_fields_permitted": [
+            "elapsed_seconds"
+          ],
+          "metadata_fields_changed": [
+            "elapsed_seconds"
+          ],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J17",
+      "script": "p14/applied/check_transform_sensitivity_v1.py",
+      "source_sha256": "f5cdc2e8b4b5a5f8f793e2fe5da6f5a81e68e22435415c5a45ee406b6b2a43db",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 0.1298,
+      "outputs": [
+        {
+          "path": "p14/applied/check_transform_sensitivity_results_v1.json",
+          "retained_sha256": "4adaf0993633895bae3d7a7b8b96841b2b8c021e9f2be1619c7368ffb1eb7993",
+          "regenerated_sha256": "519244a47fdff3108d1a0ff9ac3702dc469f791840e1a6ff94b1cd813e3ad94d",
+          "byte_identical": false,
+          "metadata_fields_permitted": [
+            "producer_result_sha256"
+          ],
+          "metadata_fields_changed": [
+            "producer_result_sha256"
+          ],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J18",
+      "script": "p15/theory_lower/threeway_k3n3_check_v1.py",
+      "source_sha256": "b57c1d3fa8292b76dd62d3ef355a5ad16e3e91f19e5e83762a859baf78fe2f9a",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 0.0446,
+      "outputs": [
+        {
+          "path": "p15/theory_lower/threeway_k3n3_check_v1.json",
+          "retained_sha256": "41525b641fe0f6802faa0284d498dbca35eb0d0ad0721444940a0155d2b0d3d2",
+          "regenerated_sha256": "41525b641fe0f6802faa0284d498dbca35eb0d0ad0721444940a0155d2b0d3d2",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J19",
+      "script": "p15/theory_lower/twoworld25_k3n3_check_v1.py",
+      "source_sha256": "062e6734c3ed5e10d8c42f73c1baf1d142f9a3ae568e168b786b445e080bf8e7",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 0.0404,
+      "outputs": [
+        {
+          "path": "p15/theory_lower/twoworld25_k3n3_check_v1.json",
+          "retained_sha256": "c0e681be13c31aa2534f5a2faf6a56ed02b4d16178da43df2a15ad634900da00",
+          "regenerated_sha256": "c0e681be13c31aa2534f5a2faf6a56ed02b4d16178da43df2a15ad634900da00",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J20",
+      "script": "p15/analysis/independent_k3n3_check_v2.py",
+      "source_sha256": "166cf5be56a5e2e0115ca91ecc1d3b8cb48c2f7351bd6d938b95afd3d0c3fe62",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 4.2023,
+      "outputs": [
+        {
+          "path": "p15/analysis/independent_k3n3_results_v2.json",
+          "retained_sha256": "f2e51b5a3c19e585128561fcb813a34f49a99731719b2f02e62b3e4066a0a06b",
+          "regenerated_sha256": "f2e51b5a3c19e585128561fcb813a34f49a99731719b2f02e62b3e4066a0a06b",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J21",
+      "script": "p15/applied/semantic_bridge_check_v1.py",
+      "source_sha256": "6a052544b55e878a37b7b03425968f62a02b17299040b2d6800bc19e76f11a5d",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 0.638,
+      "outputs": [
+        {
+          "path": "p15/applied/semantic_bridge_results_v1.json",
+          "retained_sha256": "c0b5bbee93ecbf80b5c4e37647da34ae3aae31a09b4b0ff2655fd2d37c186267",
+          "regenerated_sha256": "c0b5bbee93ecbf80b5c4e37647da34ae3aae31a09b4b0ff2655fd2d37c186267",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J22",
+      "script": "p16/precision_upper/endpoint_transfer_check_v1.py",
+      "source_sha256": "2bbc80341223c0b1aace47bb7cf05a105a5a282521113f0ff78b9d81984dc255",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 5.8159,
+      "outputs": [
+        {
+          "path": "p16/precision_upper/endpoint_transfer_results_v1.json",
+          "retained_sha256": "88dc0e9e3c4c8f619dbd620547c94bc99507208d1a03050654b714a0be7531bd",
+          "regenerated_sha256": "88dc0e9e3c4c8f619dbd620547c94bc99507208d1a03050654b714a0be7531bd",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J23",
+      "script": "p16/precision_lower/dyadic_exact_check_v1.py",
+      "source_sha256": "258cb5f2272313c3f509ce9101d6f0dc8dea974fa2a9e56ee198d925daeae6f6",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 0.0538,
+      "outputs": [
+        {
+          "path": "p16/precision_lower/dyadic_exact_check_v1.json",
+          "retained_sha256": "9cc30ea067ace84d9f4386291124a6b097329e27e54cbcd956b7b3ff42932915",
+          "regenerated_sha256": "9cc30ea067ace84d9f4386291124a6b097329e27e54cbcd956b7b3ff42932915",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        },
+        {
+          "path": "p16/precision_lower/dyadic_negative_completions_v1.json",
+          "retained_sha256": "0aa3111197c49b1e3ba955226c289cbd484afd73ddbde596c912611323dbfa17",
+          "regenerated_sha256": "0aa3111197c49b1e3ba955226c289cbd484afd73ddbde596c912611323dbfa17",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J24",
+      "script": "p16/analysis/independent_finite_check_v1.py",
+      "source_sha256": "571bb9f99c890ab4976fb1c52f025e7789f9c0d779620caaefb0e9d97893bb0d",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 0.4737,
+      "outputs": [
+        {
+          "path": "p16/analysis/results_v1.json",
+          "retained_sha256": "56416886b7539283e715ca96cfc10defaef10dd0bb74d6f566f9ea83def3599e",
+          "regenerated_sha256": "56416886b7539283e715ca96cfc10defaef10dd0bb74d6f566f9ea83def3599e",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J25",
+      "script": "p16/applied_codec/coded_prefix_simulator_v2.py",
+      "source_sha256": "2e58d42763f441612451aa05206a769e1a1398d7eee39186166b78bd9b2bd8cf",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 0.0535,
+      "outputs": [
+        {
+          "path": "p16/applied_codec/coded_prefix_results_v2.json",
+          "retained_sha256": "a646f6929c4fe8722bc165058c672fdf5ca37e9da2dd6eda9b1a281c9ad991d2",
+          "regenerated_sha256": "a646f6929c4fe8722bc165058c672fdf5ca37e9da2dd6eda9b1a281c9ad991d2",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J26",
+      "script": "p17/domain_transfer/joint_domain_check_v1.py",
+      "source_sha256": "2c296139a82f9e4ef26ed463f473af16b07494f18698410b5cd1cea357d1837e",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 6.294,
+      "outputs": [
+        {
+          "path": "p17/domain_transfer/joint_domain_results_v1.json",
+          "retained_sha256": "8cc6a7ab4bcbae524cdb622c760bf39c82b1a7779b5c1e6aea4aab786afe7808",
+          "regenerated_sha256": "8cc6a7ab4bcbae524cdb622c760bf39c82b1a7779b5c1e6aea4aab786afe7808",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J27",
+      "script": "p17/triangle_lower/triangle_exact_check_v1.py",
+      "source_sha256": "b90793bbe720fb008d9e454de56a1cd6c7fc4dcd51177a8b17037c7530d56f41",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 1.2427,
+      "outputs": [
+        {
+          "path": "p17/triangle_lower/triangle_exact_check_v1.json",
+          "retained_sha256": "37bba54c7b97b6a43c7b18d9743e9849744154af73686851f8bf462eb5e42d88",
+          "regenerated_sha256": "37bba54c7b97b6a43c7b18d9743e9849744154af73686851f8bf462eb5e42d88",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        },
+        {
+          "path": "p17/triangle_lower/triangle_negative_completions_v1.json",
+          "retained_sha256": "7c49d744cd8fd55b5045fc04612fc2ea613426066eb118d2babe1c4e3fa25c3f",
+          "regenerated_sha256": "7c49d744cd8fd55b5045fc04612fc2ea613426066eb118d2babe1c4e3fa25c3f",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J28",
+      "script": "p17/setup_cost/setup_cost_check_v1.py",
+      "source_sha256": "1885d0229cc15dde9a5ae0b725c352f1e1491e29e87a7bc9738a8c07b5889076",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 0.0557,
+      "outputs": [
+        {
+          "path": "p17/setup_cost/results_v1.json",
+          "retained_sha256": "dcdbbdf8a94b6e834ac6ef508d4e4480d227750d5afa984d53879dac09c899f2",
+          "regenerated_sha256": "dcdbbdf8a94b6e834ac6ef508d4e4480d227750d5afa984d53879dac09c899f2",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J29",
+      "script": "p17/applied_replay/small_catalogue_replay_v1.py",
+      "source_sha256": "137c427fc54d9ea43b04146247e45aae6629e1ded20652ea28e60a8afcd57b20",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 1.1158,
+      "outputs": [
+        {
+          "path": "p17/applied_replay/small_catalogue_results_v1.json",
+          "retained_sha256": "59814bab4d61445efd0a4014fde43151ef17819039482adb47f1f6a85320a902",
+          "regenerated_sha256": "59814bab4d61445efd0a4014fde43151ef17819039482adb47f1f6a85320a902",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        },
+        {
+          "path": "p17/applied_replay/small_catalogue_comparison_v1.csv",
+          "retained_sha256": "b3a9cf74e045d69eefd85d4683565f94d83a0e7caed75fde2a0270e6ec53eb2d",
+          "regenerated_sha256": "b3a9cf74e045d69eefd85d4683565f94d83a0e7caed75fde2a0270e6ec53eb2d",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J30",
+      "script": "p17/apex_replay/apex_subcatalogue_replay_v1.py",
+      "source_sha256": "799f2a4448f021f6055d90296bf5dc716d64ae8b88710861e8a30b2811c2f21b",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 5.3178,
+      "outputs": [
+        {
+          "path": "p17/apex_replay/results_v1.json",
+          "retained_sha256": "2e5c865844ab41dd9037f19ea550a20e3792d8cd9a955f92d159e71c63a55503",
+          "regenerated_sha256": "2e5c865844ab41dd9037f19ea550a20e3792d8cd9a955f92d159e71c63a55503",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        },
+        {
+          "path": "p17/apex_replay/comparison_v1.csv",
+          "retained_sha256": "de42f61187ce3fdc18de5da382b8f11c1991fb578b2f33472d166077fc21694e",
+          "regenerated_sha256": "de42f61187ce3fdc18de5da382b8f11c1991fb578b2f33472d166077fc21694e",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    },
+    {
+      "id": "J31",
+      "script": "p18/priority_lp/minmax_prefix_comparator_checker_v1.txt",
+      "source_sha256": "86568e97a304f5838f4694805e839955d1f2c6332e05856bb48d7150f228f204",
+      "exit_code": 0,
+      "replay_elapsed_seconds": 0.0805,
+      "outputs": [
+        {
+          "path": "p18/priority_lp/minmax_prefix_comparator_results_v1.json",
+          "retained_sha256": "fe96a4820674963ab2454e77eab9c2f3969c2f30e18253a17e14037b401dbb14",
+          "regenerated_sha256": "fe96a4820674963ab2454e77eab9c2f3969c2f30e18253a17e14037b401dbb14",
+          "byte_identical": true,
+          "metadata_fields_permitted": [],
+          "metadata_fields_changed": [],
+          "scientific_content_equal": true
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Finite controls do not execute the infinite Ramsey proof or establish historical priority.",
+    "P12 original historical main retains private administrative ZIP/report anchors and is not part of this clean automatic replay.",
+    "Only top-level elapsed_seconds and one verified regenerated-producer hash may vary where explicitly predeclared; raw retained outputs are preserved.",
+    "No data acquisition, physical wireless experiment, external research software or public deposition is performed."
+  ]
+}

@@ -1,0 +1,45 @@
+APEX THIRD-PARTY DATA AND SOFTWARE: COMPONENT-SPECIFIC NOTICE
+Prepared 22 October 2026. No endorsement is implied.
+
+DATA INCLUDED IN THIS DOSSIER
+Mohamed Hydher, M. H. (2026). APEX Dataset: Testbed Traces and Evaluation
+Results (Version 1.0). Graz University of Technology.
+https://doi.org/10.3217/3dhx0-2k125
+Dataset licence: Creative Commons Attribution 4.0 International.
+https://creativecommons.org/licenses/by/4.0/
+The dataset record's rights metadata AND accompanying README explicitly
+identify CC BY 4.0. This grant is separate from the software MIT licence.
+
+Original Crystal_results.json and RPL_results.json are reproduced unchanged.
+Their hashes match both the current archival MD5 entries and the SHA256 bytes
+recovered from Git LFS in P8. Dataset README.md is reproduced unchanged.
+The original files contain 96 and 216 recorded testbed trial summaries.
+
+CHANGES IN THE PRESENT ANALYSIS
+Our scripts sort configurations/rows, calculate exact rational finite means,
+derive failure=1-reliability, form deterministic partial-sum bounds and create
+computational reveal transcripts and geometric certificates. Those outputs
+are new secondary analyses/extractions of the cited CC BY 4.0 data. They do not
+represent newly measured radio experiments. Retain this attribution, the source
+DOI, licence link and description of changes with downstream copies/adaptations
+of the source material. No additional restrictions are imposed on the upstream
+licensed material. This notice is not a blanket licence for every dossier file.
+
+ASSOCIATED SOFTWARE, NOT EXECUTED
+The separate software record is:
+Mohamed Hydher, M. H. (2026). APEX: Automated Parameter Exploration for Low-Power
+Wireless Protocols (Software) (Version 1.0.0). Graz University of Technology.
+https://doi.org/10.3217/ckwaw-z8h92
+It supplies MIT. The repository's inspected commit is
+5c32d0d1bad92d13f3e260a3ef24bdfe3f865fb2.
+An exact repository MIT licence copy accompanies the licensing evidence.
+The downloaded software ZIP was inspected statically; its firmware/binaries
+and framework source are excluded from the P9 distributable. No external
+project code, testbed API, credentials or hardware was executed/accessed.
+
+SCIENTIFIC ARTICLE, CITED SEPARATELY
+APEX: Automated Parameter Exploration for Low-Power Wireless Protocols.
+ACM Transactions on Sensor Networks 21(6), Article 59 (2025).
+https://doi.org/10.1145/3770918
+No article PDF or original article figure is included in P9. Permission for
+the dataset is not inferred from the article's publication/access status.

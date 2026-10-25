@@ -1,0 +1,4 @@
+# Optional presentation dependencies; exact figure-value checks use only Python stdlib.
+# Versions used for the byte-for-byte P33 replay:
+matplotlib==3.10.8
+numpy==2.3.5

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "old": "P37 Fig1",
+      "new": "P41 Fig2",
+      "PDF_render_at_144dpi_identical": true
+    },
+    {
+      "old": "P37 Fig2",
+      "new": "P41 Fig3",
+      "PDF_render_at_144dpi_identical": true
+    }
+  ]
+}

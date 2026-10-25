@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "parameter_cases": 47424,
+  "maximum_randomised_restricted_pair_ratio": "23/22",
+  "maximum_deterministic_restricted_pair_ratio": "12/11",
+  "equality_skeletons": [
+    [
+      "1/4",
+      "1/4",
+      "1/2",
+      "3/4",
+      "1/4"
+    ]
+  ],
+  "script_sha256": "ab4d80b6542eeec9bcf7af0ba21a3ecb0ba1a81e33a7c112b47a9d431435b74a",
+  "proof_sha256": "3d2bdd33185179dc63370291b9370e17d9b86a9657d043dd9fdb54b4e61fc7de",
+  "global_acquisition_optimality_claimed": false,
+  "scope": "Finite exact rational grid corroboration; the universal restricted-family proof is analytic."
+}

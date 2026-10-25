@@ -1,0 +1,5508 @@
+[
+  {
+    "figure": "Fig1",
+    "source_svg_sha256": "3362f06567a3aef051d7ac3a71c931b3a63a2963552828d491ea6bfc42ba54a1",
+    "native_counts": {
+      "text": 46,
+      "path": 10,
+      "line": 3
+    },
+    "objects": [
+      {
+        "name": "Fig1_0001_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "(a) Same observations; different cheapest certificates",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig1_0002_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "Shared prefix b = (2, 3, 1): six paid records",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig1_0003_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "Record 1",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0004_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "Record 2",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0005_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "Record 3",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0006_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "A",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig1_0007_figure_path",
+        "kind": "path",
+        "source_id": "figure"
+      },
+      {
+        "name": "Fig1_0008_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "(3/8, 7/8)",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0009_figure_path",
+        "kind": "path",
+        "source_id": "figure"
+      },
+      {
+        "name": "Fig1_0010_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "(3/8, 7/8)",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0011_figure_path",
+        "kind": "path",
+        "source_id": "figure"
+      },
+      {
+        "name": "Fig1_0012_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "unread",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0013_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "L",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig1_0014_figure_path",
+        "kind": "path",
+        "source_id": "figure"
+      },
+      {
+        "name": "Fig1_0015_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "(0, 1)",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0016_figure_path",
+        "kind": "path",
+        "source_id": "figure"
+      },
+      {
+        "name": "Fig1_0017_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "(0, 1)",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0018_figure_path",
+        "kind": "path",
+        "source_id": "figure"
+      },
+      {
+        "name": "Fig1_0019_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "(0, 7/8)",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0020_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "R",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig1_0021_figure_path",
+        "kind": "path",
+        "source_id": "figure"
+      },
+      {
+        "name": "Fig1_0022_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "(7/8, 0)",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0023_figure_path",
+        "kind": "path",
+        "source_id": "figure"
+      },
+      {
+        "name": "Fig1_0024_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "unread",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0025_figure_path",
+        "kind": "path",
+        "source_id": "figure"
+      },
+      {
+        "name": "Fig1_0026_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "unread",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0027_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "Two compatible archives (hidden from the policy)",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig1_0028_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "World",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0029_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "A record 3",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0030_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "R records 2, 3",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0031_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "Minimum b",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0032_figure_line",
+        "kind": "line",
+        "source_id": "figure"
+      },
+      {
+        "name": "Fig1_0033_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "I",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0034_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "(0, 0)",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0035_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "(5/8, 0), (3/8, 0)",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0036_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "(2, 3, 3)",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0037_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "II",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0038_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "(0, 1)",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0039_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "(5/8, 0), (1, 1)",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0040_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "(3, 3, 1)",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0041_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "(b) Buying the wrong tail adds avoidable observations",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig1_0042_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "Next acquisition route",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0043_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "World I",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0044_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "World II",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0045_figure_line",
+        "kind": "line",
+        "source_id": "figure"
+      },
+      {
+        "name": "Fig1_0046_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "Candidate tail first",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0047_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "9",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig1_0048_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "7",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig1_0049_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "Right tail first (records 2 and 3)",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0050_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "8",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig1_0051_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "9",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig1_0052_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "Cheapest realised prefix C*",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0053_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "8",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig1_0054_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "7",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig1_0055_figure_line",
+        "kind": "line",
+        "source_id": "figure"
+      },
+      {
+        "name": "Fig1_0056_figure_path",
+        "kind": "path",
+        "source_id": "figure"
+      },
+      {
+        "name": "Fig1_0057_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "Mix the two routes with probabilities 16/23 and 7/23",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig1_0058_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "Expected cost / C* = 25/23 in both worlds",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig1_0059_figure_text",
+        "kind": "text",
+        "source_id": "figure",
+        "text": "All costs count whole records. World labels are retrospective.",
+        "font_pt": 8.5
+      }
+    ],
+    "skipped_invisible_original_paths": [],
+    "embedded_images": 0,
+    "canvas_points": [
+      360,
+      432
+    ],
+    "all_text_native_editable": true,
+    "conversion_notes": [
+      "Native ODF paths/lines; separate shape for each original marker.",
+      "Native editable text frames, including separately editable math glyph runs grouped by source label.",
+      "Separate native 1 pt hatch lines for exact-regime bands; each line can be edited.",
+      "Native dash and opacity styles; no raster/image/SVG embedding.",
+      "Minor font metric, hatch endpoint, antialiasing and stroke placement differences may occur across office versions."
+    ]
+  },
+  {
+    "figure": "Fig2",
+    "source_svg_sha256": "1914380996b5f9f714dd5f47b18b81e90aec62c01802db2ab83243c1eb3a6540",
+    "native_counts": {
+      "group": 341,
+      "path": 189,
+      "line": 58,
+      "text": 322,
+      "hatch_line": 119
+    },
+    "objects": [
+      {
+        "name": "Fig2_0001_patch_1_path",
+        "kind": "path",
+        "source_id": "patch_1"
+      },
+      {
+        "name": "Fig2_0002_patch_2_path",
+        "kind": "path",
+        "source_id": "patch_2"
+      },
+      {
+        "name": "Fig2_0003_patch_7_path",
+        "kind": "path",
+        "source_id": "patch_7"
+      },
+      {
+        "name": "Fig2_0004_patch_8_path",
+        "kind": "path",
+        "source_id": "patch_8"
+      },
+      {
+        "name": "Fig2_0005_patch_9_path",
+        "kind": "path",
+        "source_id": "patch_9"
+      },
+      {
+        "name": "Fig2_0006_patch_10_path",
+        "kind": "path",
+        "source_id": "patch_10"
+      },
+      {
+        "name": "Fig2_0007_patch_11_path",
+        "kind": "path",
+        "source_id": "patch_11"
+      },
+      {
+        "name": "Fig2_0008_patch_12_path",
+        "kind": "path",
+        "source_id": "patch_12"
+      },
+      {
+        "name": "Fig2_0009_patch_13_path",
+        "kind": "path",
+        "source_id": "patch_13"
+      },
+      {
+        "name": "Fig2_0010_patch_14_path",
+        "kind": "path",
+        "source_id": "patch_14"
+      },
+      {
+        "name": "Fig2_0011_patch_15_path",
+        "kind": "path",
+        "source_id": "patch_15"
+      },
+      {
+        "name": "Fig2_0012_patch_16_path",
+        "kind": "path",
+        "source_id": "patch_16"
+      },
+      {
+        "name": "Fig2_0013_patch_17_path",
+        "kind": "path",
+        "source_id": "patch_17"
+      },
+      {
+        "name": "Fig2_0014_patch_18_path",
+        "kind": "path",
+        "source_id": "patch_18"
+      },
+      {
+        "name": "Fig2_0015_line2d_1_line",
+        "kind": "line",
+        "source_id": "line2d_1"
+      },
+      {
+        "name": "Fig2_0016_text_1_text",
+        "kind": "text",
+        "source_id": "text_1",
+        "text": "1",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0017_line2d_2_line",
+        "kind": "line",
+        "source_id": "line2d_2"
+      },
+      {
+        "name": "Fig2_0018_text_2_text",
+        "kind": "text",
+        "source_id": "text_2",
+        "text": "2",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0019_line2d_3_line",
+        "kind": "line",
+        "source_id": "line2d_3"
+      },
+      {
+        "name": "Fig2_0020_text_3_text",
+        "kind": "text",
+        "source_id": "text_3",
+        "text": "3",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0021_line2d_4_line",
+        "kind": "line",
+        "source_id": "line2d_4"
+      },
+      {
+        "name": "Fig2_0022_text_4_text",
+        "kind": "text",
+        "source_id": "text_4",
+        "text": "4",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0023_line2d_5_line",
+        "kind": "line",
+        "source_id": "line2d_5"
+      },
+      {
+        "name": "Fig2_0024_text_5_text",
+        "kind": "text",
+        "source_id": "text_5",
+        "text": "5",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0025_line2d_6_line",
+        "kind": "line",
+        "source_id": "line2d_6"
+      },
+      {
+        "name": "Fig2_0026_text_6_text",
+        "kind": "text",
+        "source_id": "text_6",
+        "text": "6",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0027_line2d_7_line",
+        "kind": "line",
+        "source_id": "line2d_7"
+      },
+      {
+        "name": "Fig2_0028_text_7_text",
+        "kind": "text",
+        "source_id": "text_7",
+        "text": "8",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0029_line2d_8_line",
+        "kind": "line",
+        "source_id": "line2d_8"
+      },
+      {
+        "name": "Fig2_0030_text_8_text",
+        "kind": "text",
+        "source_id": "text_8",
+        "text": "10",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0031_line2d_9_line",
+        "kind": "line",
+        "source_id": "line2d_9"
+      },
+      {
+        "name": "Fig2_0032_text_9_text",
+        "kind": "text",
+        "source_id": "text_9",
+        "text": "12",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0033_line2d_10_line",
+        "kind": "line",
+        "source_id": "line2d_10"
+      },
+      {
+        "name": "Fig2_0034_text_10_text",
+        "kind": "text",
+        "source_id": "text_10",
+        "text": "14",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0035_line2d_11_line",
+        "kind": "line",
+        "source_id": "line2d_11"
+      },
+      {
+        "name": "Fig2_0036_text_11_text",
+        "kind": "text",
+        "source_id": "text_11",
+        "text": "16",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0037_line2d_12_line",
+        "kind": "line",
+        "source_id": "line2d_12"
+      },
+      {
+        "name": "Fig2_0038_line2d_13_line",
+        "kind": "line",
+        "source_id": "line2d_13"
+      },
+      {
+        "name": "Fig2_0039_line2d_14_line",
+        "kind": "line",
+        "source_id": "line2d_14"
+      },
+      {
+        "name": "Fig2_0040_line2d_15_line",
+        "kind": "line",
+        "source_id": "line2d_15"
+      },
+      {
+        "name": "Fig2_0041_line2d_16_line",
+        "kind": "line",
+        "source_id": "line2d_16"
+      },
+      {
+        "name": "Fig2_0042_line2d_17_line",
+        "kind": "line",
+        "source_id": "line2d_17"
+      },
+      {
+        "name": "Fig2_0043_line2d_18_line",
+        "kind": "line",
+        "source_id": "line2d_18"
+      },
+      {
+        "name": "Fig2_0044_text_12_text",
+        "kind": "text",
+        "source_id": "text_12",
+        "text": "0",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0045_line2d_19_line",
+        "kind": "line",
+        "source_id": "line2d_19"
+      },
+      {
+        "name": "Fig2_0046_line2d_20_line",
+        "kind": "line",
+        "source_id": "line2d_20"
+      },
+      {
+        "name": "Fig2_0047_text_13_text",
+        "kind": "text",
+        "source_id": "text_13",
+        "text": ".25",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0048_line2d_21_line",
+        "kind": "line",
+        "source_id": "line2d_21"
+      },
+      {
+        "name": "Fig2_0049_line2d_22_line",
+        "kind": "line",
+        "source_id": "line2d_22"
+      },
+      {
+        "name": "Fig2_0050_text_14_text",
+        "kind": "text",
+        "source_id": "text_14",
+        "text": ".50",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0051_line2d_23_line",
+        "kind": "line",
+        "source_id": "line2d_23"
+      },
+      {
+        "name": "Fig2_0052_line2d_24_line",
+        "kind": "line",
+        "source_id": "line2d_24"
+      },
+      {
+        "name": "Fig2_0053_text_15_text",
+        "kind": "text",
+        "source_id": "text_15",
+        "text": ".75",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0054_line2d_25_line",
+        "kind": "line",
+        "source_id": "line2d_25"
+      },
+      {
+        "name": "Fig2_0055_line2d_26_line",
+        "kind": "line",
+        "source_id": "line2d_26"
+      },
+      {
+        "name": "Fig2_0056_text_16_text",
+        "kind": "text",
+        "source_id": "text_16",
+        "text": "1",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0057_text_17_text",
+        "kind": "text",
+        "source_id": "text_17",
+        "text": "B",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0058_text_17_text",
+        "kind": "text",
+        "source_id": "text_17",
+        "text": "a",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0059_text_17_text",
+        "kind": "text",
+        "source_id": "text_17",
+        "text": "n",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0060_text_17_text",
+        "kind": "text",
+        "source_id": "text_17",
+        "text": "d",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0061_text_17_text",
+        "kind": "text",
+        "source_id": "text_17",
+        "text": " ",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0062_text_17_text",
+        "kind": "text",
+        "source_id": "text_17",
+        "text": "w",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0063_text_17_text",
+        "kind": "text",
+        "source_id": "text_17",
+        "text": "i",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0064_text_17_text",
+        "kind": "text",
+        "source_id": "text_17",
+        "text": "d",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0065_text_17_text",
+        "kind": "text",
+        "source_id": "text_17",
+        "text": "t",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0066_text_17_text",
+        "kind": "text",
+        "source_id": "text_17",
+        "text": "h",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0067_text_17_text",
+        "kind": "text",
+        "source_id": "text_17",
+        "text": " ",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0068_text_17_text",
+        "kind": "text",
+        "source_id": "text_17",
+        "text": "d",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0069_patch_19_path",
+        "kind": "path",
+        "source_id": "patch_19"
+      },
+      {
+        "name": "Fig2_0070_patch_20_path",
+        "kind": "path",
+        "source_id": "patch_20"
+      },
+      {
+        "name": "Fig2_0071_patch_21_path",
+        "kind": "path",
+        "source_id": "patch_21"
+      },
+      {
+        "name": "Fig2_0072_patch_22_path",
+        "kind": "path",
+        "source_id": "patch_22"
+      },
+      {
+        "name": "Fig2_0073_patch_23_path",
+        "kind": "path",
+        "source_id": "patch_23"
+      },
+      {
+        "name": "Fig2_0074_patch_24_path",
+        "kind": "path",
+        "source_id": "patch_24"
+      },
+      {
+        "name": "Fig2_0075_patch_25_path",
+        "kind": "path",
+        "source_id": "patch_25"
+      },
+      {
+        "name": "Fig2_0076_patch_26_path",
+        "kind": "path",
+        "source_id": "patch_26"
+      },
+      {
+        "name": "Fig2_0077_patch_27_path",
+        "kind": "path",
+        "source_id": "patch_27"
+      },
+      {
+        "name": "Fig2_0078_patch_28_path",
+        "kind": "path",
+        "source_id": "patch_28"
+      },
+      {
+        "name": "Fig2_0079_patch_29_path",
+        "kind": "path",
+        "source_id": "patch_29"
+      },
+      {
+        "name": "Fig2_0080_patch_30_path",
+        "kind": "path",
+        "source_id": "patch_30"
+      },
+      {
+        "name": "Fig2_0081_patch_31_path",
+        "kind": "path",
+        "source_id": "patch_31"
+      },
+      {
+        "name": "Fig2_0082_patch_32_path",
+        "kind": "path",
+        "source_id": "patch_32"
+      },
+      {
+        "name": "Fig2_0083_patch_33_path",
+        "kind": "path",
+        "source_id": "patch_33"
+      },
+      {
+        "name": "Fig2_0084_patch_34_path",
+        "kind": "path",
+        "source_id": "patch_34"
+      },
+      {
+        "name": "Fig2_0085_patch_35_fill_path",
+        "kind": "path",
+        "source_id": "patch_35_fill"
+      },
+      {
+        "name": "Fig2_0086_patch_35_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_35"
+      },
+      {
+        "name": "Fig2_0087_patch_35_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_35"
+      },
+      {
+        "name": "Fig2_0088_patch_35_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_35"
+      },
+      {
+        "name": "Fig2_0089_patch_35_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_35"
+      },
+      {
+        "name": "Fig2_0090_patch_35_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_35"
+      },
+      {
+        "name": "Fig2_0091_patch_35_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_35"
+      },
+      {
+        "name": "Fig2_0092_patch_35_border_path",
+        "kind": "path",
+        "source_id": "patch_35_border"
+      },
+      {
+        "name": "Fig2_0093_patch_36_fill_path",
+        "kind": "path",
+        "source_id": "patch_36_fill"
+      },
+      {
+        "name": "Fig2_0094_patch_36_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_36"
+      },
+      {
+        "name": "Fig2_0095_patch_36_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_36"
+      },
+      {
+        "name": "Fig2_0096_patch_36_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_36"
+      },
+      {
+        "name": "Fig2_0097_patch_36_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_36"
+      },
+      {
+        "name": "Fig2_0098_patch_36_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_36"
+      },
+      {
+        "name": "Fig2_0099_patch_36_border_path",
+        "kind": "path",
+        "source_id": "patch_36_border"
+      },
+      {
+        "name": "Fig2_0100_patch_37_fill_path",
+        "kind": "path",
+        "source_id": "patch_37_fill"
+      },
+      {
+        "name": "Fig2_0101_patch_37_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_37"
+      },
+      {
+        "name": "Fig2_0102_patch_37_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_37"
+      },
+      {
+        "name": "Fig2_0103_patch_37_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_37"
+      },
+      {
+        "name": "Fig2_0104_patch_37_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_37"
+      },
+      {
+        "name": "Fig2_0105_patch_37_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_37"
+      },
+      {
+        "name": "Fig2_0106_patch_37_border_path",
+        "kind": "path",
+        "source_id": "patch_37_border"
+      },
+      {
+        "name": "Fig2_0107_patch_38_fill_path",
+        "kind": "path",
+        "source_id": "patch_38_fill"
+      },
+      {
+        "name": "Fig2_0108_patch_38_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_38"
+      },
+      {
+        "name": "Fig2_0109_patch_38_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_38"
+      },
+      {
+        "name": "Fig2_0110_patch_38_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_38"
+      },
+      {
+        "name": "Fig2_0111_patch_38_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_38"
+      },
+      {
+        "name": "Fig2_0112_patch_38_border_path",
+        "kind": "path",
+        "source_id": "patch_38_border"
+      },
+      {
+        "name": "Fig2_0113_patch_39_fill_path",
+        "kind": "path",
+        "source_id": "patch_39_fill"
+      },
+      {
+        "name": "Fig2_0114_patch_39_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_39"
+      },
+      {
+        "name": "Fig2_0115_patch_39_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_39"
+      },
+      {
+        "name": "Fig2_0116_patch_39_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_39"
+      },
+      {
+        "name": "Fig2_0117_patch_39_border_path",
+        "kind": "path",
+        "source_id": "patch_39_border"
+      },
+      {
+        "name": "Fig2_0118_patch_40_fill_path",
+        "kind": "path",
+        "source_id": "patch_40_fill"
+      },
+      {
+        "name": "Fig2_0119_patch_40_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_40"
+      },
+      {
+        "name": "Fig2_0120_patch_40_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_40"
+      },
+      {
+        "name": "Fig2_0121_patch_40_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_40"
+      },
+      {
+        "name": "Fig2_0122_patch_40_border_path",
+        "kind": "path",
+        "source_id": "patch_40_border"
+      },
+      {
+        "name": "Fig2_0123_patch_41_fill_path",
+        "kind": "path",
+        "source_id": "patch_41_fill"
+      },
+      {
+        "name": "Fig2_0124_patch_41_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_41"
+      },
+      {
+        "name": "Fig2_0125_patch_41_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_41"
+      },
+      {
+        "name": "Fig2_0126_patch_41_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_41"
+      },
+      {
+        "name": "Fig2_0127_patch_41_border_path",
+        "kind": "path",
+        "source_id": "patch_41_border"
+      },
+      {
+        "name": "Fig2_0128_patch_42_fill_path",
+        "kind": "path",
+        "source_id": "patch_42_fill"
+      },
+      {
+        "name": "Fig2_0129_patch_42_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_42"
+      },
+      {
+        "name": "Fig2_0130_patch_42_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_42"
+      },
+      {
+        "name": "Fig2_0131_patch_42_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_42"
+      },
+      {
+        "name": "Fig2_0132_patch_42_border_path",
+        "kind": "path",
+        "source_id": "patch_42_border"
+      },
+      {
+        "name": "Fig2_0133_patch_43_fill_path",
+        "kind": "path",
+        "source_id": "patch_43_fill"
+      },
+      {
+        "name": "Fig2_0134_patch_43_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_43"
+      },
+      {
+        "name": "Fig2_0135_patch_43_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_43"
+      },
+      {
+        "name": "Fig2_0136_patch_43_border_path",
+        "kind": "path",
+        "source_id": "patch_43_border"
+      },
+      {
+        "name": "Fig2_0137_patch_44_fill_path",
+        "kind": "path",
+        "source_id": "patch_44_fill"
+      },
+      {
+        "name": "Fig2_0138_patch_44_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_44"
+      },
+      {
+        "name": "Fig2_0139_patch_44_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_44"
+      },
+      {
+        "name": "Fig2_0140_patch_44_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_44"
+      },
+      {
+        "name": "Fig2_0141_patch_44_border_path",
+        "kind": "path",
+        "source_id": "patch_44_border"
+      },
+      {
+        "name": "Fig2_0142_patch_45_fill_path",
+        "kind": "path",
+        "source_id": "patch_45_fill"
+      },
+      {
+        "name": "Fig2_0143_patch_45_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_45"
+      },
+      {
+        "name": "Fig2_0144_patch_45_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_45"
+      },
+      {
+        "name": "Fig2_0145_patch_45_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_45"
+      },
+      {
+        "name": "Fig2_0146_patch_45_border_path",
+        "kind": "path",
+        "source_id": "patch_45_border"
+      },
+      {
+        "name": "Fig2_0147_patch_46_fill_path",
+        "kind": "path",
+        "source_id": "patch_46_fill"
+      },
+      {
+        "name": "Fig2_0148_patch_46_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_46"
+      },
+      {
+        "name": "Fig2_0149_patch_46_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_46"
+      },
+      {
+        "name": "Fig2_0150_patch_46_border_path",
+        "kind": "path",
+        "source_id": "patch_46_border"
+      },
+      {
+        "name": "Fig2_0151_patch_47_fill_path",
+        "kind": "path",
+        "source_id": "patch_47_fill"
+      },
+      {
+        "name": "Fig2_0152_patch_47_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_47"
+      },
+      {
+        "name": "Fig2_0153_patch_47_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_47"
+      },
+      {
+        "name": "Fig2_0154_patch_47_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_47"
+      },
+      {
+        "name": "Fig2_0155_patch_47_border_path",
+        "kind": "path",
+        "source_id": "patch_47_border"
+      },
+      {
+        "name": "Fig2_0156_patch_48_line",
+        "kind": "line",
+        "source_id": "patch_48"
+      },
+      {
+        "name": "Fig2_0157_patch_49_line",
+        "kind": "line",
+        "source_id": "patch_49"
+      },
+      {
+        "name": "Fig2_0158_line2d_27_path",
+        "kind": "path",
+        "source_id": "line2d_27"
+      },
+      {
+        "name": "Fig2_0159_line2d_27_path",
+        "kind": "path",
+        "source_id": "line2d_27"
+      },
+      {
+        "name": "Fig2_0160_line2d_27_path",
+        "kind": "path",
+        "source_id": "line2d_27"
+      },
+      {
+        "name": "Fig2_0161_line2d_27_path",
+        "kind": "path",
+        "source_id": "line2d_27"
+      },
+      {
+        "name": "Fig2_0162_line2d_27_path",
+        "kind": "path",
+        "source_id": "line2d_27"
+      },
+      {
+        "name": "Fig2_0163_line2d_27_path",
+        "kind": "path",
+        "source_id": "line2d_27"
+      },
+      {
+        "name": "Fig2_0164_line2d_27_path",
+        "kind": "path",
+        "source_id": "line2d_27"
+      },
+      {
+        "name": "Fig2_0165_line2d_27_path",
+        "kind": "path",
+        "source_id": "line2d_27"
+      },
+      {
+        "name": "Fig2_0166_line2d_27_path",
+        "kind": "path",
+        "source_id": "line2d_27"
+      },
+      {
+        "name": "Fig2_0167_line2d_27_path",
+        "kind": "path",
+        "source_id": "line2d_27"
+      },
+      {
+        "name": "Fig2_0168_line2d_27_path",
+        "kind": "path",
+        "source_id": "line2d_27"
+      },
+      {
+        "name": "Fig2_0169_line2d_27_path",
+        "kind": "path",
+        "source_id": "line2d_27"
+      },
+      {
+        "name": "Fig2_0170_line2d_27_path",
+        "kind": "path",
+        "source_id": "line2d_27"
+      },
+      {
+        "name": "Fig2_0171_line2d_27_path",
+        "kind": "path",
+        "source_id": "line2d_27"
+      },
+      {
+        "name": "Fig2_0172_line2d_27_path",
+        "kind": "path",
+        "source_id": "line2d_27"
+      },
+      {
+        "name": "Fig2_0173_line2d_27_path",
+        "kind": "path",
+        "source_id": "line2d_27"
+      },
+      {
+        "name": "Fig2_0174_line2d_28_path",
+        "kind": "path",
+        "source_id": "line2d_28"
+      },
+      {
+        "name": "Fig2_0175_line2d_28_path",
+        "kind": "path",
+        "source_id": "line2d_28"
+      },
+      {
+        "name": "Fig2_0176_line2d_28_path",
+        "kind": "path",
+        "source_id": "line2d_28"
+      },
+      {
+        "name": "Fig2_0177_line2d_28_path",
+        "kind": "path",
+        "source_id": "line2d_28"
+      },
+      {
+        "name": "Fig2_0178_line2d_28_path",
+        "kind": "path",
+        "source_id": "line2d_28"
+      },
+      {
+        "name": "Fig2_0179_line2d_28_path",
+        "kind": "path",
+        "source_id": "line2d_28"
+      },
+      {
+        "name": "Fig2_0180_line2d_28_path",
+        "kind": "path",
+        "source_id": "line2d_28"
+      },
+      {
+        "name": "Fig2_0181_line2d_28_path",
+        "kind": "path",
+        "source_id": "line2d_28"
+      },
+      {
+        "name": "Fig2_0182_line2d_28_path",
+        "kind": "path",
+        "source_id": "line2d_28"
+      },
+      {
+        "name": "Fig2_0183_line2d_28_path",
+        "kind": "path",
+        "source_id": "line2d_28"
+      },
+      {
+        "name": "Fig2_0184_line2d_28_path",
+        "kind": "path",
+        "source_id": "line2d_28"
+      },
+      {
+        "name": "Fig2_0185_line2d_28_path",
+        "kind": "path",
+        "source_id": "line2d_28"
+      },
+      {
+        "name": "Fig2_0186_line2d_28_path",
+        "kind": "path",
+        "source_id": "line2d_28"
+      },
+      {
+        "name": "Fig2_0187_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "A",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0188_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": " ",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0189_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": " ",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0190_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "T",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0191_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "h",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0192_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "r",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0193_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "e",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0194_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "e",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0195_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": " ",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0196_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "c",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0197_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "o",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0198_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "n",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0199_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "f",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0200_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "i",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0201_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "g",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0202_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "u",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0203_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "r",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0204_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "a",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0205_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "t",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0206_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "i",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0207_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "o",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0208_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "n",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0209_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "s",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0210_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": " ",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0211_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "(",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0212_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": ")",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0213_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "K",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0214_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "=",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0215_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "3",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0216_line2d_29_line",
+        "kind": "line",
+        "source_id": "line2d_29"
+      },
+      {
+        "name": "Fig2_0217_line2d_30_path",
+        "kind": "path",
+        "source_id": "line2d_30"
+      },
+      {
+        "name": "Fig2_0218_patch_50_path",
+        "kind": "path",
+        "source_id": "patch_50"
+      },
+      {
+        "name": "Fig2_0219_text_19_text",
+        "kind": "text",
+        "source_id": "text_19",
+        "text": "R",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0220_text_19_text",
+        "kind": "text",
+        "source_id": "text_19",
+        "text": "a",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0221_text_19_text",
+        "kind": "text",
+        "source_id": "text_19",
+        "text": "t",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0222_text_19_text",
+        "kind": "text",
+        "source_id": "text_19",
+        "text": "i",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0223_text_19_text",
+        "kind": "text",
+        "source_id": "text_19",
+        "text": "o",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0224_text_19_text",
+        "kind": "text",
+        "source_id": "text_19",
+        "text": " ",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0225_text_19_text",
+        "kind": "text",
+        "source_id": "text_19",
+        "text": "1",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0226_text_19_text",
+        "kind": "text",
+        "source_id": "text_19",
+        "text": ":",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0227_text_19_text",
+        "kind": "text",
+        "source_id": "text_19",
+        "text": " ",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0228_text_19_text",
+        "kind": "text",
+        "source_id": "text_19",
+        "text": "(",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0229_text_19_text",
+        "kind": "text",
+        "source_id": "text_19",
+        "text": "−",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0230_text_19_text",
+        "kind": "text",
+        "source_id": "text_19",
+        "text": "1",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0231_text_19_text",
+        "kind": "text",
+        "source_id": "text_19",
+        "text": ")",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0232_text_19_text",
+        "kind": "text",
+        "source_id": "text_19",
+        "text": "≤",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0233_text_19_text",
+        "kind": "text",
+        "source_id": "text_19",
+        "text": "2",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0234_text_19_text",
+        "kind": "text",
+        "source_id": "text_19",
+        "text": "d",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0235_text_19_text",
+        "kind": "text",
+        "source_id": "text_19",
+        "text": "N",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0236_patch_51_fill_path",
+        "kind": "path",
+        "source_id": "patch_51_fill"
+      },
+      {
+        "name": "Fig2_0237_patch_51_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_51"
+      },
+      {
+        "name": "Fig2_0238_patch_51_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_51"
+      },
+      {
+        "name": "Fig2_0239_patch_51_border_path",
+        "kind": "path",
+        "source_id": "patch_51_border"
+      },
+      {
+        "name": "Fig2_0240_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "E",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0241_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "x",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0242_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "a",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0243_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "c",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0244_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "t",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0245_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": " ",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0246_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "t",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0247_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "w",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0248_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "o",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0249_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "-",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0250_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "t",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0251_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "e",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0252_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "r",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0253_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "m",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0254_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "i",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0255_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "n",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0256_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "a",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0257_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "l",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0258_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": " ",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0259_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "r",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0260_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "e",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0261_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "g",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0262_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "i",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0263_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "m",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0264_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "e",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0265_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": ":",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0266_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": " ",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0267_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "2",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0268_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "<",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0269_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "(",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0270_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "−",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0271_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "1",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0272_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": ")",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0273_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "≤",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0274_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "3",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0275_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "d",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0276_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "N",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0277_patch_52_path",
+        "kind": "path",
+        "source_id": "patch_52"
+      },
+      {
+        "name": "Fig2_0278_text_21_text",
+        "kind": "text",
+        "source_id": "text_21",
+        "text": "Remaining regime: bounds; exact value open in general",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0279_PathCollection_1_path",
+        "kind": "path",
+        "source_id": "PathCollection_1"
+      },
+      {
+        "name": "Fig2_0280_PathCollection_1_path",
+        "kind": "path",
+        "source_id": "PathCollection_1"
+      },
+      {
+        "name": "Fig2_0281_PathCollection_1_path",
+        "kind": "path",
+        "source_id": "PathCollection_1"
+      },
+      {
+        "name": "Fig2_0282_PathCollection_1_path",
+        "kind": "path",
+        "source_id": "PathCollection_1"
+      },
+      {
+        "name": "Fig2_0283_PathCollection_1_path",
+        "kind": "path",
+        "source_id": "PathCollection_1"
+      },
+      {
+        "name": "Fig2_0284_PathCollection_1_path",
+        "kind": "path",
+        "source_id": "PathCollection_1"
+      },
+      {
+        "name": "Fig2_0285_PathCollection_1_path",
+        "kind": "path",
+        "source_id": "PathCollection_1"
+      },
+      {
+        "name": "Fig2_0286_PathCollection_1_path",
+        "kind": "path",
+        "source_id": "PathCollection_1"
+      },
+      {
+        "name": "Fig2_0287_PathCollection_1_path",
+        "kind": "path",
+        "source_id": "PathCollection_1"
+      },
+      {
+        "name": "Fig2_0288_PathCollection_1_path",
+        "kind": "path",
+        "source_id": "PathCollection_1"
+      },
+      {
+        "name": "Fig2_0289_PathCollection_1_path",
+        "kind": "path",
+        "source_id": "PathCollection_1"
+      },
+      {
+        "name": "Fig2_0290_PathCollection_1_path",
+        "kind": "path",
+        "source_id": "PathCollection_1"
+      },
+      {
+        "name": "Fig2_0291_PathCollection_1_path",
+        "kind": "path",
+        "source_id": "PathCollection_1"
+      },
+      {
+        "name": "Fig2_0292_PathCollection_1_path",
+        "kind": "path",
+        "source_id": "PathCollection_1"
+      },
+      {
+        "name": "Fig2_0293_PathCollection_1_path",
+        "kind": "path",
+        "source_id": "PathCollection_1"
+      },
+      {
+        "name": "Fig2_0294_PathCollection_1_path",
+        "kind": "path",
+        "source_id": "PathCollection_1"
+      },
+      {
+        "name": "Fig2_0295_patch_53_path",
+        "kind": "path",
+        "source_id": "patch_53"
+      },
+      {
+        "name": "Fig2_0296_patch_54_path",
+        "kind": "path",
+        "source_id": "patch_54"
+      },
+      {
+        "name": "Fig2_0297_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "N",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0298_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "d",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0299_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "=",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0300_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "5",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0301_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": ",",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0302_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": " ",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0303_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "=",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0304_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "1",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0305_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "7",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0306_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "1",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0307_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "/",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0308_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "6",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0309_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "7",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0310_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": " ",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0311_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "r",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0312_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "a",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0313_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "n",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0314_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "d",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0315_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "o",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0316_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "m",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0317_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "i",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0318_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "s",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0319_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "e",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0320_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "d",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0321_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "1",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0322_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "5",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0323_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "/",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0324_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "1",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0325_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "4",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0326_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": " ",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0327_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "d",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0328_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "e",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0329_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "t",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0330_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "e",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0331_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "r",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0332_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "m",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0333_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "i",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0334_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "n",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0335_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "i",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0336_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "s",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0337_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "t",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0338_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "i",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0339_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "c",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0340_patch_55_path",
+        "kind": "path",
+        "source_id": "patch_55"
+      },
+      {
+        "name": "Fig2_0341_patch_57_path",
+        "kind": "path",
+        "source_id": "patch_57"
+      },
+      {
+        "name": "Fig2_0342_patch_58_path",
+        "kind": "path",
+        "source_id": "patch_58"
+      },
+      {
+        "name": "Fig2_0343_patch_59_path",
+        "kind": "path",
+        "source_id": "patch_59"
+      },
+      {
+        "name": "Fig2_0344_patch_60_path",
+        "kind": "path",
+        "source_id": "patch_60"
+      },
+      {
+        "name": "Fig2_0345_patch_61_path",
+        "kind": "path",
+        "source_id": "patch_61"
+      },
+      {
+        "name": "Fig2_0346_patch_62_path",
+        "kind": "path",
+        "source_id": "patch_62"
+      },
+      {
+        "name": "Fig2_0347_patch_63_path",
+        "kind": "path",
+        "source_id": "patch_63"
+      },
+      {
+        "name": "Fig2_0348_patch_64_path",
+        "kind": "path",
+        "source_id": "patch_64"
+      },
+      {
+        "name": "Fig2_0349_patch_65_path",
+        "kind": "path",
+        "source_id": "patch_65"
+      },
+      {
+        "name": "Fig2_0350_patch_66_path",
+        "kind": "path",
+        "source_id": "patch_66"
+      },
+      {
+        "name": "Fig2_0351_patch_67_path",
+        "kind": "path",
+        "source_id": "patch_67"
+      },
+      {
+        "name": "Fig2_0352_patch_68_path",
+        "kind": "path",
+        "source_id": "patch_68"
+      },
+      {
+        "name": "Fig2_0353_patch_69_path",
+        "kind": "path",
+        "source_id": "patch_69"
+      },
+      {
+        "name": "Fig2_0354_patch_70_path",
+        "kind": "path",
+        "source_id": "patch_70"
+      },
+      {
+        "name": "Fig2_0355_patch_71_path",
+        "kind": "path",
+        "source_id": "patch_71"
+      },
+      {
+        "name": "Fig2_0356_line2d_31_line",
+        "kind": "line",
+        "source_id": "line2d_31"
+      },
+      {
+        "name": "Fig2_0357_text_23_text",
+        "kind": "text",
+        "source_id": "text_23",
+        "text": "1",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0358_line2d_32_line",
+        "kind": "line",
+        "source_id": "line2d_32"
+      },
+      {
+        "name": "Fig2_0359_text_24_text",
+        "kind": "text",
+        "source_id": "text_24",
+        "text": "2",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0360_line2d_33_line",
+        "kind": "line",
+        "source_id": "line2d_33"
+      },
+      {
+        "name": "Fig2_0361_text_25_text",
+        "kind": "text",
+        "source_id": "text_25",
+        "text": "3",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0362_line2d_34_line",
+        "kind": "line",
+        "source_id": "line2d_34"
+      },
+      {
+        "name": "Fig2_0363_text_26_text",
+        "kind": "text",
+        "source_id": "text_26",
+        "text": "4",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0364_line2d_35_line",
+        "kind": "line",
+        "source_id": "line2d_35"
+      },
+      {
+        "name": "Fig2_0365_text_27_text",
+        "kind": "text",
+        "source_id": "text_27",
+        "text": "5",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0366_line2d_36_line",
+        "kind": "line",
+        "source_id": "line2d_36"
+      },
+      {
+        "name": "Fig2_0367_text_28_text",
+        "kind": "text",
+        "source_id": "text_28",
+        "text": "6",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0368_line2d_37_line",
+        "kind": "line",
+        "source_id": "line2d_37"
+      },
+      {
+        "name": "Fig2_0369_text_29_text",
+        "kind": "text",
+        "source_id": "text_29",
+        "text": "8",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0370_line2d_38_line",
+        "kind": "line",
+        "source_id": "line2d_38"
+      },
+      {
+        "name": "Fig2_0371_text_30_text",
+        "kind": "text",
+        "source_id": "text_30",
+        "text": "10",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0372_line2d_39_line",
+        "kind": "line",
+        "source_id": "line2d_39"
+      },
+      {
+        "name": "Fig2_0373_text_31_text",
+        "kind": "text",
+        "source_id": "text_31",
+        "text": "12",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0374_line2d_40_line",
+        "kind": "line",
+        "source_id": "line2d_40"
+      },
+      {
+        "name": "Fig2_0375_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "14",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0376_line2d_41_line",
+        "kind": "line",
+        "source_id": "line2d_41"
+      },
+      {
+        "name": "Fig2_0377_text_33_text",
+        "kind": "text",
+        "source_id": "text_33",
+        "text": "16",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0378_line2d_42_line",
+        "kind": "line",
+        "source_id": "line2d_42"
+      },
+      {
+        "name": "Fig2_0379_line2d_43_line",
+        "kind": "line",
+        "source_id": "line2d_43"
+      },
+      {
+        "name": "Fig2_0380_line2d_44_line",
+        "kind": "line",
+        "source_id": "line2d_44"
+      },
+      {
+        "name": "Fig2_0381_line2d_45_line",
+        "kind": "line",
+        "source_id": "line2d_45"
+      },
+      {
+        "name": "Fig2_0382_line2d_46_line",
+        "kind": "line",
+        "source_id": "line2d_46"
+      },
+      {
+        "name": "Fig2_0383_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "R",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0384_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "o",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0385_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "w",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0386_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "s",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0387_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": " ",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0388_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "p",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0389_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "e",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0390_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "r",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0391_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": " ",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0392_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "c",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0393_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "o",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0394_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "n",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0395_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "f",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0396_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "i",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0397_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "g",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0398_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "u",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0399_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "r",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0400_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "a",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0401_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "t",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0402_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "i",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0403_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "o",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0404_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "n",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0405_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": " ",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0406_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": " ",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0407_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "(",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0408_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "i",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0409_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "n",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0410_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "t",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0411_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "e",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0412_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "g",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0413_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "e",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0414_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "r",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0415_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": ")",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0416_text_34_text",
+        "kind": "text",
+        "source_id": "text_34",
+        "text": "N",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0417_line2d_47_line",
+        "kind": "line",
+        "source_id": "line2d_47"
+      },
+      {
+        "name": "Fig2_0418_line2d_48_line",
+        "kind": "line",
+        "source_id": "line2d_48"
+      },
+      {
+        "name": "Fig2_0419_text_35_text",
+        "kind": "text",
+        "source_id": "text_35",
+        "text": "0",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0420_line2d_49_line",
+        "kind": "line",
+        "source_id": "line2d_49"
+      },
+      {
+        "name": "Fig2_0421_line2d_50_line",
+        "kind": "line",
+        "source_id": "line2d_50"
+      },
+      {
+        "name": "Fig2_0422_text_36_text",
+        "kind": "text",
+        "source_id": "text_36",
+        "text": ".25",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0423_line2d_51_line",
+        "kind": "line",
+        "source_id": "line2d_51"
+      },
+      {
+        "name": "Fig2_0424_line2d_52_line",
+        "kind": "line",
+        "source_id": "line2d_52"
+      },
+      {
+        "name": "Fig2_0425_text_37_text",
+        "kind": "text",
+        "source_id": "text_37",
+        "text": ".50",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0426_line2d_53_line",
+        "kind": "line",
+        "source_id": "line2d_53"
+      },
+      {
+        "name": "Fig2_0427_line2d_54_line",
+        "kind": "line",
+        "source_id": "line2d_54"
+      },
+      {
+        "name": "Fig2_0428_text_38_text",
+        "kind": "text",
+        "source_id": "text_38",
+        "text": ".75",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0429_line2d_55_line",
+        "kind": "line",
+        "source_id": "line2d_55"
+      },
+      {
+        "name": "Fig2_0430_line2d_56_line",
+        "kind": "line",
+        "source_id": "line2d_56"
+      },
+      {
+        "name": "Fig2_0431_text_39_text",
+        "kind": "text",
+        "source_id": "text_39",
+        "text": "1",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig2_0432_text_40_text",
+        "kind": "text",
+        "source_id": "text_40",
+        "text": "B",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0433_text_40_text",
+        "kind": "text",
+        "source_id": "text_40",
+        "text": "a",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0434_text_40_text",
+        "kind": "text",
+        "source_id": "text_40",
+        "text": "n",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0435_text_40_text",
+        "kind": "text",
+        "source_id": "text_40",
+        "text": "d",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0436_text_40_text",
+        "kind": "text",
+        "source_id": "text_40",
+        "text": " ",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0437_text_40_text",
+        "kind": "text",
+        "source_id": "text_40",
+        "text": "w",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0438_text_40_text",
+        "kind": "text",
+        "source_id": "text_40",
+        "text": "i",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0439_text_40_text",
+        "kind": "text",
+        "source_id": "text_40",
+        "text": "d",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0440_text_40_text",
+        "kind": "text",
+        "source_id": "text_40",
+        "text": "t",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0441_text_40_text",
+        "kind": "text",
+        "source_id": "text_40",
+        "text": "h",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0442_text_40_text",
+        "kind": "text",
+        "source_id": "text_40",
+        "text": " ",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0443_text_40_text",
+        "kind": "text",
+        "source_id": "text_40",
+        "text": "d",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0444_patch_72_fill_path",
+        "kind": "path",
+        "source_id": "patch_72_fill"
+      },
+      {
+        "name": "Fig2_0445_patch_72_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_72"
+      },
+      {
+        "name": "Fig2_0446_patch_72_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_72"
+      },
+      {
+        "name": "Fig2_0447_patch_72_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_72"
+      },
+      {
+        "name": "Fig2_0448_patch_72_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_72"
+      },
+      {
+        "name": "Fig2_0449_patch_72_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_72"
+      },
+      {
+        "name": "Fig2_0450_patch_72_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_72"
+      },
+      {
+        "name": "Fig2_0451_patch_72_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_72"
+      },
+      {
+        "name": "Fig2_0452_patch_72_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_72"
+      },
+      {
+        "name": "Fig2_0453_patch_72_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_72"
+      },
+      {
+        "name": "Fig2_0454_patch_72_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_72"
+      },
+      {
+        "name": "Fig2_0455_patch_72_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_72"
+      },
+      {
+        "name": "Fig2_0456_patch_72_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_72"
+      },
+      {
+        "name": "Fig2_0457_patch_72_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_72"
+      },
+      {
+        "name": "Fig2_0458_patch_72_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_72"
+      },
+      {
+        "name": "Fig2_0459_patch_72_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_72"
+      },
+      {
+        "name": "Fig2_0460_patch_72_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_72"
+      },
+      {
+        "name": "Fig2_0461_patch_72_border_path",
+        "kind": "path",
+        "source_id": "patch_72_border"
+      },
+      {
+        "name": "Fig2_0462_patch_73_fill_path",
+        "kind": "path",
+        "source_id": "patch_73_fill"
+      },
+      {
+        "name": "Fig2_0463_patch_73_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_73"
+      },
+      {
+        "name": "Fig2_0464_patch_73_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_73"
+      },
+      {
+        "name": "Fig2_0465_patch_73_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_73"
+      },
+      {
+        "name": "Fig2_0466_patch_73_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_73"
+      },
+      {
+        "name": "Fig2_0467_patch_73_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_73"
+      },
+      {
+        "name": "Fig2_0468_patch_73_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_73"
+      },
+      {
+        "name": "Fig2_0469_patch_73_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_73"
+      },
+      {
+        "name": "Fig2_0470_patch_73_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_73"
+      },
+      {
+        "name": "Fig2_0471_patch_73_border_path",
+        "kind": "path",
+        "source_id": "patch_73_border"
+      },
+      {
+        "name": "Fig2_0472_patch_74_fill_path",
+        "kind": "path",
+        "source_id": "patch_74_fill"
+      },
+      {
+        "name": "Fig2_0473_patch_74_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_74"
+      },
+      {
+        "name": "Fig2_0474_patch_74_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_74"
+      },
+      {
+        "name": "Fig2_0475_patch_74_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_74"
+      },
+      {
+        "name": "Fig2_0476_patch_74_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_74"
+      },
+      {
+        "name": "Fig2_0477_patch_74_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_74"
+      },
+      {
+        "name": "Fig2_0478_patch_74_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_74"
+      },
+      {
+        "name": "Fig2_0479_patch_74_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_74"
+      },
+      {
+        "name": "Fig2_0480_patch_74_border_path",
+        "kind": "path",
+        "source_id": "patch_74_border"
+      },
+      {
+        "name": "Fig2_0481_patch_75_fill_path",
+        "kind": "path",
+        "source_id": "patch_75_fill"
+      },
+      {
+        "name": "Fig2_0482_patch_75_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_75"
+      },
+      {
+        "name": "Fig2_0483_patch_75_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_75"
+      },
+      {
+        "name": "Fig2_0484_patch_75_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_75"
+      },
+      {
+        "name": "Fig2_0485_patch_75_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_75"
+      },
+      {
+        "name": "Fig2_0486_patch_75_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_75"
+      },
+      {
+        "name": "Fig2_0487_patch_75_border_path",
+        "kind": "path",
+        "source_id": "patch_75_border"
+      },
+      {
+        "name": "Fig2_0488_patch_76_fill_path",
+        "kind": "path",
+        "source_id": "patch_76_fill"
+      },
+      {
+        "name": "Fig2_0489_patch_76_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_76"
+      },
+      {
+        "name": "Fig2_0490_patch_76_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_76"
+      },
+      {
+        "name": "Fig2_0491_patch_76_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_76"
+      },
+      {
+        "name": "Fig2_0492_patch_76_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_76"
+      },
+      {
+        "name": "Fig2_0493_patch_76_border_path",
+        "kind": "path",
+        "source_id": "patch_76_border"
+      },
+      {
+        "name": "Fig2_0494_patch_77_fill_path",
+        "kind": "path",
+        "source_id": "patch_77_fill"
+      },
+      {
+        "name": "Fig2_0495_patch_77_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_77"
+      },
+      {
+        "name": "Fig2_0496_patch_77_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_77"
+      },
+      {
+        "name": "Fig2_0497_patch_77_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_77"
+      },
+      {
+        "name": "Fig2_0498_patch_77_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_77"
+      },
+      {
+        "name": "Fig2_0499_patch_77_border_path",
+        "kind": "path",
+        "source_id": "patch_77_border"
+      },
+      {
+        "name": "Fig2_0500_patch_78_fill_path",
+        "kind": "path",
+        "source_id": "patch_78_fill"
+      },
+      {
+        "name": "Fig2_0501_patch_78_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_78"
+      },
+      {
+        "name": "Fig2_0502_patch_78_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_78"
+      },
+      {
+        "name": "Fig2_0503_patch_78_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_78"
+      },
+      {
+        "name": "Fig2_0504_patch_78_border_path",
+        "kind": "path",
+        "source_id": "patch_78_border"
+      },
+      {
+        "name": "Fig2_0505_patch_79_fill_path",
+        "kind": "path",
+        "source_id": "patch_79_fill"
+      },
+      {
+        "name": "Fig2_0506_patch_79_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_79"
+      },
+      {
+        "name": "Fig2_0507_patch_79_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_79"
+      },
+      {
+        "name": "Fig2_0508_patch_79_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_79"
+      },
+      {
+        "name": "Fig2_0509_patch_79_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_79"
+      },
+      {
+        "name": "Fig2_0510_patch_79_border_path",
+        "kind": "path",
+        "source_id": "patch_79_border"
+      },
+      {
+        "name": "Fig2_0511_patch_80_fill_path",
+        "kind": "path",
+        "source_id": "patch_80_fill"
+      },
+      {
+        "name": "Fig2_0512_patch_80_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_80"
+      },
+      {
+        "name": "Fig2_0513_patch_80_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_80"
+      },
+      {
+        "name": "Fig2_0514_patch_80_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_80"
+      },
+      {
+        "name": "Fig2_0515_patch_80_border_path",
+        "kind": "path",
+        "source_id": "patch_80_border"
+      },
+      {
+        "name": "Fig2_0516_patch_81_fill_path",
+        "kind": "path",
+        "source_id": "patch_81_fill"
+      },
+      {
+        "name": "Fig2_0517_patch_81_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_81"
+      },
+      {
+        "name": "Fig2_0518_patch_81_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_81"
+      },
+      {
+        "name": "Fig2_0519_patch_81_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_81"
+      },
+      {
+        "name": "Fig2_0520_patch_81_border_path",
+        "kind": "path",
+        "source_id": "patch_81_border"
+      },
+      {
+        "name": "Fig2_0521_patch_82_fill_path",
+        "kind": "path",
+        "source_id": "patch_82_fill"
+      },
+      {
+        "name": "Fig2_0522_patch_82_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_82"
+      },
+      {
+        "name": "Fig2_0523_patch_82_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_82"
+      },
+      {
+        "name": "Fig2_0524_patch_82_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_82"
+      },
+      {
+        "name": "Fig2_0525_patch_82_border_path",
+        "kind": "path",
+        "source_id": "patch_82_border"
+      },
+      {
+        "name": "Fig2_0526_patch_83_fill_path",
+        "kind": "path",
+        "source_id": "patch_83_fill"
+      },
+      {
+        "name": "Fig2_0527_patch_83_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_83"
+      },
+      {
+        "name": "Fig2_0528_patch_83_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_83"
+      },
+      {
+        "name": "Fig2_0529_patch_83_border_path",
+        "kind": "path",
+        "source_id": "patch_83_border"
+      },
+      {
+        "name": "Fig2_0530_patch_84_fill_path",
+        "kind": "path",
+        "source_id": "patch_84_fill"
+      },
+      {
+        "name": "Fig2_0531_patch_84_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_84"
+      },
+      {
+        "name": "Fig2_0532_patch_84_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_84"
+      },
+      {
+        "name": "Fig2_0533_patch_84_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_84"
+      },
+      {
+        "name": "Fig2_0534_patch_84_border_path",
+        "kind": "path",
+        "source_id": "patch_84_border"
+      },
+      {
+        "name": "Fig2_0535_patch_85_fill_path",
+        "kind": "path",
+        "source_id": "patch_85_fill"
+      },
+      {
+        "name": "Fig2_0536_patch_85_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_85"
+      },
+      {
+        "name": "Fig2_0537_patch_85_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_85"
+      },
+      {
+        "name": "Fig2_0538_patch_85_border_path",
+        "kind": "path",
+        "source_id": "patch_85_border"
+      },
+      {
+        "name": "Fig2_0539_patch_86_fill_path",
+        "kind": "path",
+        "source_id": "patch_86_fill"
+      },
+      {
+        "name": "Fig2_0540_patch_86_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_86"
+      },
+      {
+        "name": "Fig2_0541_patch_86_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_86"
+      },
+      {
+        "name": "Fig2_0542_patch_86_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_86"
+      },
+      {
+        "name": "Fig2_0543_patch_86_border_path",
+        "kind": "path",
+        "source_id": "patch_86_border"
+      },
+      {
+        "name": "Fig2_0544_patch_87_fill_path",
+        "kind": "path",
+        "source_id": "patch_87_fill"
+      },
+      {
+        "name": "Fig2_0545_patch_87_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_87"
+      },
+      {
+        "name": "Fig2_0546_patch_87_hatch_line",
+        "kind": "hatch_line",
+        "source_id": "patch_87"
+      },
+      {
+        "name": "Fig2_0547_patch_87_border_path",
+        "kind": "path",
+        "source_id": "patch_87_border"
+      },
+      {
+        "name": "Fig2_0548_patch_88_line",
+        "kind": "line",
+        "source_id": "patch_88"
+      },
+      {
+        "name": "Fig2_0549_patch_89_line",
+        "kind": "line",
+        "source_id": "patch_89"
+      },
+      {
+        "name": "Fig2_0550_line2d_57_path",
+        "kind": "path",
+        "source_id": "line2d_57"
+      },
+      {
+        "name": "Fig2_0551_line2d_57_path",
+        "kind": "path",
+        "source_id": "line2d_57"
+      },
+      {
+        "name": "Fig2_0552_line2d_57_path",
+        "kind": "path",
+        "source_id": "line2d_57"
+      },
+      {
+        "name": "Fig2_0553_line2d_57_path",
+        "kind": "path",
+        "source_id": "line2d_57"
+      },
+      {
+        "name": "Fig2_0554_line2d_57_path",
+        "kind": "path",
+        "source_id": "line2d_57"
+      },
+      {
+        "name": "Fig2_0555_line2d_57_path",
+        "kind": "path",
+        "source_id": "line2d_57"
+      },
+      {
+        "name": "Fig2_0556_line2d_57_path",
+        "kind": "path",
+        "source_id": "line2d_57"
+      },
+      {
+        "name": "Fig2_0557_line2d_57_path",
+        "kind": "path",
+        "source_id": "line2d_57"
+      },
+      {
+        "name": "Fig2_0558_line2d_57_path",
+        "kind": "path",
+        "source_id": "line2d_57"
+      },
+      {
+        "name": "Fig2_0559_line2d_57_path",
+        "kind": "path",
+        "source_id": "line2d_57"
+      },
+      {
+        "name": "Fig2_0560_line2d_57_path",
+        "kind": "path",
+        "source_id": "line2d_57"
+      },
+      {
+        "name": "Fig2_0561_line2d_57_path",
+        "kind": "path",
+        "source_id": "line2d_57"
+      },
+      {
+        "name": "Fig2_0562_line2d_57_path",
+        "kind": "path",
+        "source_id": "line2d_57"
+      },
+      {
+        "name": "Fig2_0563_line2d_57_path",
+        "kind": "path",
+        "source_id": "line2d_57"
+      },
+      {
+        "name": "Fig2_0564_line2d_57_path",
+        "kind": "path",
+        "source_id": "line2d_57"
+      },
+      {
+        "name": "Fig2_0565_line2d_57_path",
+        "kind": "path",
+        "source_id": "line2d_57"
+      },
+      {
+        "name": "Fig2_0566_patch_90_path",
+        "kind": "path",
+        "source_id": "patch_90"
+      },
+      {
+        "name": "Fig2_0567_text_41_text",
+        "kind": "text",
+        "source_id": "text_41",
+        "text": "General lower and upper bounds",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0568_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": "B",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0569_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": " ",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0570_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": " ",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0571_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": "G",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0572_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": "e",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0573_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": "n",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0574_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": "e",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0575_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": "r",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0576_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": "a",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0577_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": "l",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0578_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": " ",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0579_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": "c",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0580_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": "a",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0581_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": "t",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0582_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": "a",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0583_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": "l",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0584_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": "o",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0585_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": "g",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0586_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": "u",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0587_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": "e",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0588_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": " ",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0589_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": "(",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0590_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": ")",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0591_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": "K",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0592_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": "≥",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0593_text_42_text",
+        "kind": "text",
+        "source_id": "text_42",
+        "text": "3",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig2_0594_line2d_58_line",
+        "kind": "line",
+        "source_id": "line2d_58"
+      },
+      {
+        "name": "Fig2_0595_PathCollection_2_path",
+        "kind": "path",
+        "source_id": "PathCollection_2"
+      },
+      {
+        "name": "Fig2_0596_PathCollection_2_path",
+        "kind": "path",
+        "source_id": "PathCollection_2"
+      },
+      {
+        "name": "Fig2_0597_PathCollection_2_path",
+        "kind": "path",
+        "source_id": "PathCollection_2"
+      },
+      {
+        "name": "Fig2_0598_PathCollection_2_path",
+        "kind": "path",
+        "source_id": "PathCollection_2"
+      },
+      {
+        "name": "Fig2_0599_PathCollection_2_path",
+        "kind": "path",
+        "source_id": "PathCollection_2"
+      },
+      {
+        "name": "Fig2_0600_PathCollection_2_path",
+        "kind": "path",
+        "source_id": "PathCollection_2"
+      },
+      {
+        "name": "Fig2_0601_PathCollection_2_path",
+        "kind": "path",
+        "source_id": "PathCollection_2"
+      },
+      {
+        "name": "Fig2_0602_PathCollection_2_path",
+        "kind": "path",
+        "source_id": "PathCollection_2"
+      },
+      {
+        "name": "Fig2_0603_PathCollection_2_path",
+        "kind": "path",
+        "source_id": "PathCollection_2"
+      },
+      {
+        "name": "Fig2_0604_PathCollection_2_path",
+        "kind": "path",
+        "source_id": "PathCollection_2"
+      },
+      {
+        "name": "Fig2_0605_PathCollection_2_path",
+        "kind": "path",
+        "source_id": "PathCollection_2"
+      },
+      {
+        "name": "Fig2_0606_PathCollection_2_path",
+        "kind": "path",
+        "source_id": "PathCollection_2"
+      },
+      {
+        "name": "Fig2_0607_PathCollection_2_path",
+        "kind": "path",
+        "source_id": "PathCollection_2"
+      },
+      {
+        "name": "Fig2_0608_PathCollection_2_path",
+        "kind": "path",
+        "source_id": "PathCollection_2"
+      },
+      {
+        "name": "Fig2_0609_PathCollection_2_path",
+        "kind": "path",
+        "source_id": "PathCollection_2"
+      },
+      {
+        "name": "Fig2_0610_PathCollection_2_path",
+        "kind": "path",
+        "source_id": "PathCollection_2"
+      },
+      {
+        "name": "Fig2_0611_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "H",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0612_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "a",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0613_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "t",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0614_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "c",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0615_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "h",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0616_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "e",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0617_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "d",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0618_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": " ",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0619_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "r",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0620_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "e",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0621_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "g",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0622_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "i",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0623_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "o",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0624_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "n",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0625_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": ":",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0626_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": " ",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0627_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "e",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0628_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "x",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0629_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "a",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0630_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "c",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0631_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "t",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0632_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": " ",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0633_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "f",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0634_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "o",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0635_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "r",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0636_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "m",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0637_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "u",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0638_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "l",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0639_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "a",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0640_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": " ",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0641_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "f",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0642_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "o",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0643_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "r",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0644_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": " ",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0645_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "0",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0646_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "<",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0647_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "≤",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0648_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "1",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0649_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "d",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0650_text_43_text",
+        "kind": "text",
+        "source_id": "text_43",
+        "text": "N",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0651_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "d",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0652_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "=",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0653_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "0",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0654_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": " ",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0655_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "i",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0656_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "s",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0657_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": " ",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0658_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "e",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0659_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "x",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0660_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "c",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0661_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "l",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0662_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "u",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0663_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "d",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0664_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "e",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0665_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "d",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0666_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": ":",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0667_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": " ",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0668_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "n",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0669_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "o",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0670_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": " ",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0671_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "p",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0672_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "o",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0673_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "s",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0674_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "i",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0675_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "t",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0676_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "i",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0677_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "v",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0678_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "e",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0679_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": " ",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0680_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "a",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0681_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "r",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0682_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "c",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0683_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "h",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0684_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "i",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0685_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "v",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0686_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "e",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0687_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": "s",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig2_0688_text_44_text",
+        "kind": "text",
+        "source_id": "text_44",
+        "text": ".",
+        "font_pt": 9.0
+      }
+    ],
+    "skipped_invisible_original_paths": [
+      {
+        "source_id": "patch_3",
+        "reason": "zero-area, no-stroke original path"
+      },
+      {
+        "source_id": "patch_4",
+        "reason": "zero-area, no-stroke original path"
+      },
+      {
+        "source_id": "patch_5",
+        "reason": "zero-area, no-stroke original path"
+      },
+      {
+        "source_id": "patch_6",
+        "reason": "zero-area, no-stroke original path"
+      },
+      {
+        "source_id": "patch_56",
+        "reason": "zero-area, no-stroke original path"
+      }
+    ],
+    "embedded_images": 0,
+    "canvas_points": [
+      360,
+      432
+    ],
+    "all_text_native_editable": true,
+    "conversion_notes": [
+      "Native ODF paths/lines; separate shape for each original marker.",
+      "Native editable text frames, including separately editable math glyph runs grouped by source label.",
+      "Separate native 1 pt hatch lines for exact-regime bands; each line can be edited.",
+      "Native dash and opacity styles; no raster/image/SVG embedding.",
+      "Minor font metric, hatch endpoint, antialiasing and stroke placement differences may occur across office versions."
+    ]
+  },
+  {
+    "figure": "Fig3",
+    "source_svg_sha256": "85d7659901e44d169efeebe87f1c9d59e8162500ae5c04dab6de1730c4bf86e7",
+    "native_counts": {
+      "group": 117,
+      "path": 16,
+      "line": 34,
+      "text": 98
+    },
+    "objects": [
+      {
+        "name": "Fig3_0001_patch_1_path",
+        "kind": "path",
+        "source_id": "patch_1"
+      },
+      {
+        "name": "Fig3_0002_patch_2_path",
+        "kind": "path",
+        "source_id": "patch_2"
+      },
+      {
+        "name": "Fig3_0003_patch_3_path",
+        "kind": "path",
+        "source_id": "patch_3"
+      },
+      {
+        "name": "Fig3_0004_line2d_1_line",
+        "kind": "line",
+        "source_id": "line2d_1"
+      },
+      {
+        "name": "Fig3_0005_text_1_text",
+        "kind": "text",
+        "source_id": "text_1",
+        "text": "0.0",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0006_line2d_2_line",
+        "kind": "line",
+        "source_id": "line2d_2"
+      },
+      {
+        "name": "Fig3_0007_text_2_text",
+        "kind": "text",
+        "source_id": "text_2",
+        "text": "0.5",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0008_line2d_3_line",
+        "kind": "line",
+        "source_id": "line2d_3"
+      },
+      {
+        "name": "Fig3_0009_text_3_text",
+        "kind": "text",
+        "source_id": "text_3",
+        "text": "1.0",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0010_text_4_text",
+        "kind": "text",
+        "source_id": "text_4",
+        "text": "Mean first objective",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig3_0011_line2d_4_line",
+        "kind": "line",
+        "source_id": "line2d_4"
+      },
+      {
+        "name": "Fig3_0012_text_5_text",
+        "kind": "text",
+        "source_id": "text_5",
+        "text": "0.0",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0013_line2d_5_line",
+        "kind": "line",
+        "source_id": "line2d_5"
+      },
+      {
+        "name": "Fig3_0014_text_6_text",
+        "kind": "text",
+        "source_id": "text_6",
+        "text": "0.5",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0015_line2d_6_line",
+        "kind": "line",
+        "source_id": "line2d_6"
+      },
+      {
+        "name": "Fig3_0016_text_7_text",
+        "kind": "text",
+        "source_id": "text_7",
+        "text": "1.0",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0017_text_8_text",
+        "kind": "text",
+        "source_id": "text_8",
+        "text": "Mean second objective",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig3_0018_line2d_7_path",
+        "kind": "path",
+        "source_id": "line2d_7"
+      },
+      {
+        "name": "Fig3_0019_line2d_8_line",
+        "kind": "line",
+        "source_id": "line2d_8"
+      },
+      {
+        "name": "Fig3_0020_line2d_9_line",
+        "kind": "line",
+        "source_id": "line2d_9"
+      },
+      {
+        "name": "Fig3_0021_patch_4_line",
+        "kind": "line",
+        "source_id": "patch_4"
+      },
+      {
+        "name": "Fig3_0022_patch_5_line",
+        "kind": "line",
+        "source_id": "patch_5"
+      },
+      {
+        "name": "Fig3_0023_text_9_text",
+        "kind": "text",
+        "source_id": "text_9",
+        "text": "U",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig3_0024_text_10_text",
+        "kind": "text",
+        "source_id": "text_10",
+        "text": "V",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig3_0025_text_11_text",
+        "kind": "text",
+        "source_id": "text_11",
+        "text": "(0,0)",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0026_text_12_text",
+        "kind": "text",
+        "source_id": "text_12",
+        "text": "(1,0)",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0027_text_13_text",
+        "kind": "text",
+        "source_id": "text_13",
+        "text": "(1,1)",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0028_PathCollection_1_path",
+        "kind": "path",
+        "source_id": "PathCollection_1"
+      },
+      {
+        "name": "Fig3_0029_PathCollection_1_path",
+        "kind": "path",
+        "source_id": "PathCollection_1"
+      },
+      {
+        "name": "Fig3_0030_PathCollection_1_path",
+        "kind": "path",
+        "source_id": "PathCollection_1"
+      },
+      {
+        "name": "Fig3_0031_PathCollection_2_path",
+        "kind": "path",
+        "source_id": "PathCollection_2"
+      },
+      {
+        "name": "Fig3_0032_PathCollection_3_path",
+        "kind": "path",
+        "source_id": "PathCollection_3"
+      },
+      {
+        "name": "Fig3_0033_PathCollection_4_path",
+        "kind": "path",
+        "source_id": "PathCollection_4"
+      },
+      {
+        "name": "Fig3_0034_PathCollection_5_path",
+        "kind": "path",
+        "source_id": "PathCollection_5"
+      },
+      {
+        "name": "Fig3_0035_text_14_text",
+        "kind": "text",
+        "source_id": "text_14",
+        "text": "N",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0036_text_14_text",
+        "kind": "text",
+        "source_id": "text_14",
+        "text": "q",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0037_text_14_text",
+        "kind": "text",
+        "source_id": "text_14",
+        "text": "=",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0038_text_14_text",
+        "kind": "text",
+        "source_id": "text_14",
+        "text": "1",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0039_text_14_text",
+        "kind": "text",
+        "source_id": "text_14",
+        "text": "2",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0040_text_14_text",
+        "kind": "text",
+        "source_id": "text_14",
+        "text": ",",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0041_text_14_text",
+        "kind": "text",
+        "source_id": "text_14",
+        "text": " ",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0042_text_14_text",
+        "kind": "text",
+        "source_id": "text_14",
+        "text": "=",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0043_text_14_text",
+        "kind": "text",
+        "source_id": "text_14",
+        "text": "3",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0044_text_14_text",
+        "kind": "text",
+        "source_id": "text_14",
+        "text": "Black dots: symbols",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0045_text_14_text",
+        "kind": "text",
+        "source_id": "text_14",
+        "text": "Coloured circles: L",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0046_text_14_text",
+        "kind": "text",
+        "source_id": "text_14",
+        "text": "Diamonds/squares: A",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0047_text_14_text",
+        "kind": "text",
+        "source_id": "text_14",
+        "text": "Shared R = (1,0)",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0048_line2d_10_line",
+        "kind": "line",
+        "source_id": "line2d_10"
+      },
+      {
+        "name": "Fig3_0049_line2d_10_path",
+        "kind": "path",
+        "source_id": "line2d_10"
+      },
+      {
+        "name": "Fig3_0050_text_15_text",
+        "kind": "text",
+        "source_id": "text_15",
+        "text": "World U",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig3_0051_line2d_11_line",
+        "kind": "line",
+        "source_id": "line2d_11"
+      },
+      {
+        "name": "Fig3_0052_line2d_11_path",
+        "kind": "path",
+        "source_id": "line2d_11"
+      },
+      {
+        "name": "Fig3_0053_text_16_text",
+        "kind": "text",
+        "source_id": "text_16",
+        "text": "World V",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig3_0054_patch_6_path",
+        "kind": "path",
+        "source_id": "patch_6"
+      },
+      {
+        "name": "Fig3_0055_line2d_12_line",
+        "kind": "line",
+        "source_id": "line2d_12"
+      },
+      {
+        "name": "Fig3_0056_line2d_13_line",
+        "kind": "line",
+        "source_id": "line2d_13"
+      },
+      {
+        "name": "Fig3_0057_text_17_text",
+        "kind": "text",
+        "source_id": "text_17",
+        "text": "1.00",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0058_line2d_14_line",
+        "kind": "line",
+        "source_id": "line2d_14"
+      },
+      {
+        "name": "Fig3_0059_line2d_15_line",
+        "kind": "line",
+        "source_id": "line2d_15"
+      },
+      {
+        "name": "Fig3_0060_text_18_text",
+        "kind": "text",
+        "source_id": "text_18",
+        "text": "1.05",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0061_line2d_16_line",
+        "kind": "line",
+        "source_id": "line2d_16"
+      },
+      {
+        "name": "Fig3_0062_line2d_17_line",
+        "kind": "line",
+        "source_id": "line2d_17"
+      },
+      {
+        "name": "Fig3_0063_text_19_text",
+        "kind": "text",
+        "source_id": "text_19",
+        "text": "1.10",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0064_line2d_18_line",
+        "kind": "line",
+        "source_id": "line2d_18"
+      },
+      {
+        "name": "Fig3_0065_line2d_19_line",
+        "kind": "line",
+        "source_id": "line2d_19"
+      },
+      {
+        "name": "Fig3_0066_text_20_text",
+        "kind": "text",
+        "source_id": "text_20",
+        "text": "1.15",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0067_text_21_text",
+        "kind": "text",
+        "source_id": "text_21",
+        "text": "Cost / cheapest realised certificate",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig3_0068_line2d_20_line",
+        "kind": "line",
+        "source_id": "line2d_20"
+      },
+      {
+        "name": "Fig3_0069_line2d_21_line",
+        "kind": "line",
+        "source_id": "line2d_21"
+      },
+      {
+        "name": "Fig3_0070_line2d_22_line",
+        "kind": "line",
+        "source_id": "line2d_22"
+      },
+      {
+        "name": "Fig3_0071_line2d_23_line",
+        "kind": "line",
+        "source_id": "line2d_23"
+      },
+      {
+        "name": "Fig3_0072_patch_7_line",
+        "kind": "line",
+        "source_id": "patch_7"
+      },
+      {
+        "name": "Fig3_0073_line2d_24_line",
+        "kind": "line",
+        "source_id": "line2d_24"
+      },
+      {
+        "name": "Fig3_0074_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "Randomised",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0075_text_22_text",
+        "kind": "text",
+        "source_id": "text_22",
+        "text": "unrestricted",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0076_line2d_25_line",
+        "kind": "line",
+        "source_id": "line2d_25"
+      },
+      {
+        "name": "Fig3_0077_text_23_text",
+        "kind": "text",
+        "source_id": "text_23",
+        "text": "Randomised",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0078_text_23_text",
+        "kind": "text",
+        "source_id": "text_23",
+        "text": "candidate complete",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0079_line2d_26_line",
+        "kind": "line",
+        "source_id": "line2d_26"
+      },
+      {
+        "name": "Fig3_0080_text_24_text",
+        "kind": "text",
+        "source_id": "text_24",
+        "text": "Deterministic",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0081_text_24_text",
+        "kind": "text",
+        "source_id": "text_24",
+        "text": "unrestricted",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0082_text_25_text",
+        "kind": "text",
+        "source_id": "text_25",
+        "text": "23/22",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig3_0083_text_26_text",
+        "kind": "text",
+        "source_id": "text_26",
+        "text": "873/800",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig3_0084_patch_8_path",
+        "kind": "path",
+        "source_id": "patch_8"
+      },
+      {
+        "name": "Fig3_0085_patch_9_path",
+        "kind": "path",
+        "source_id": "patch_9"
+      },
+      {
+        "name": "Fig3_0086_text_27_text",
+        "kind": "text",
+        "source_id": "text_27",
+        "text": "12/11 to 873/800",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0087_text_27_text",
+        "kind": "text",
+        "source_id": "text_27",
+        "text": "Width = 3/8800",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0088_text_28_text",
+        "kind": "text",
+        "source_id": "text_28",
+        "text": "12/11",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig3_0089_text_29_text",
+        "kind": "text",
+        "source_id": "text_29",
+        "text": "3/(4√2 − 3)",
+        "font_pt": 9.0
+      },
+      {
+        "name": "Fig3_0090_line2d_27_line",
+        "kind": "line",
+        "source_id": "line2d_27"
+      },
+      {
+        "name": "Fig3_0091_line2d_27_line",
+        "kind": "line",
+        "source_id": "line2d_27"
+      },
+      {
+        "name": "Fig3_0092_line2d_28_line",
+        "kind": "line",
+        "source_id": "line2d_28"
+      },
+      {
+        "name": "Fig3_0093_line2d_28_line",
+        "kind": "line",
+        "source_id": "line2d_28"
+      },
+      {
+        "name": "Fig3_0094_line2d_29_line",
+        "kind": "line",
+        "source_id": "line2d_29"
+      },
+      {
+        "name": "Fig3_0095_line2d_29_line",
+        "kind": "line",
+        "source_id": "line2d_29"
+      },
+      {
+        "name": "Fig3_0096_text_30_text",
+        "kind": "text",
+        "source_id": "text_30",
+        "text": "A  Fixed alphabet and two hard worlds",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig3_0097_text_31_text",
+        "kind": "text",
+        "source_id": "text_31",
+        "text": "B  Asymptotic bounds on acquisition ratios",
+        "font_pt": 10.0
+      },
+      {
+        "name": "Fig3_0098_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "C",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0099_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "o",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0100_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "n",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0101_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "t",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0102_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "i",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0103_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "n",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0104_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "u",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0105_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "o",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0106_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "u",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0107_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "s",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0108_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": " ",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0109_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "t",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0110_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "r",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0111_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "i",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0112_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "a",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0113_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "n",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0114_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "g",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0115_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "l",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0116_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "e",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0117_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": ";",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0118_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": " ",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0119_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "=",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0120_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "3",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0121_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": ";",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0122_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": " ",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0123_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "u",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0124_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "n",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0125_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "i",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0126_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "t",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0127_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": " ",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0128_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "p",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0129_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "r",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0130_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "i",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0131_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "c",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0132_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "e",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0133_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "s",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0134_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": ";",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0135_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": " ",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0136_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "z",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0137_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "e",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0138_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "r",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0139_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "o",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0140_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": " ",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0141_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "s",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0142_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "e",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0143_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "t",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0144_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "u",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0145_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "p",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0146_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": ".",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0147_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "K",
+        "font_pt": 8.5
+      },
+      {
+        "name": "Fig3_0148_text_32_text",
+        "kind": "text",
+        "source_id": "text_32",
+        "text": "Bounds constrain accumulation points; convergence is not proved.",
+        "font_pt": 8.5
+      }
+    ],
+    "skipped_invisible_original_paths": [],
+    "embedded_images": 0,
+    "canvas_points": [
+      360,
+      432
+    ],
+    "all_text_native_editable": true,
+    "conversion_notes": [
+      "Native ODF paths/lines; separate shape for each original marker.",
+      "Native editable text frames, including separately editable math glyph runs grouped by source label.",
+      "Separate native 1 pt hatch lines for exact-regime bands; each line can be edited.",
+      "Native dash and opacity styles; no raster/image/SVG embedding.",
+      "Minor font metric, hatch endpoint, antialiasing and stroke placement differences may occur across office versions."
+    ]
+  }
+]

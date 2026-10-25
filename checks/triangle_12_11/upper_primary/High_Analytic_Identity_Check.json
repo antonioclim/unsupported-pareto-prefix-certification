@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "identity_checks": {
+    "cleared_excess": "PASS",
+    "G_g_expansion": "PASS",
+    "G_gt_expansion": "PASS",
+    "G_gt_far_endpoint": "PASS",
+    "quadratic_Bernstein_w": "PASS",
+    "P_delta_decomposition": "PASS",
+    "C_lowerbound_low_g": "PASS",
+    "discriminant_polynomial": "PASS",
+    "discriminant_Bernstein_coefficients": "PASS"
+  },
+  "identities": 9,
+  "discriminant_minimum_coefficient": "613/20",
+  "analytic_large_g_lower_bound": "359/200",
+  "sympy": "1.14.0",
+  "scope": "Exact polynomial identities and displayed rational constants; inequalities and domain coverage also require the written proof.",
+  "script_sha256": "9561d30c4a81a749b3b492a5c88b1576cbcd673882c90189889a6db5f428f254",
+  "finished_at_utc": "2026-10-24T13:30:50.269114+00:00"
+}

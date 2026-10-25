@@ -1,0 +1,1 @@
+Historical P37 evidence, retained byte-for-byte for provenance. Its Fig1 is current Fig2; its Fig2 is current Fig3. Historical file hashes bind the original P37 files, not the renamed/rebuilt P41 files. Active records are outside history/.

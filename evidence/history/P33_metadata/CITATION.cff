@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Local author-review candidate. Cite the version actually used; no public release DOI has been assigned to this package."
+type: software
+title: "The Cost of Certifying Unsupported Pareto Points from Prefix Observations: Reproducibility Companion"
+version: "P33-author-review"
+authors:
+  - family-names: Clim
+    given-names: Antonio
+    orcid: "https://orcid.org/0000-0003-4745-0431"
+abstract: "Exact-arithmetic checks, retained input data, figure generators and execution records accompanying a study of competitive acquisition for robust Pareto and unsupportedness certificates under prefix observations. This candidate is prepared locally for author review."
+keywords:
+  - competitive analysis
+  - priced information
+  - Pareto certification
+  - prefix queries

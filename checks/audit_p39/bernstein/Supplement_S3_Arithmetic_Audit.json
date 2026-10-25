@@ -1,0 +1,23 @@
+{
+  "S3_3": {
+    "determinant": "11/5000",
+    "G_minus_threshold": "1/150",
+    "envelope": "17/133",
+    "excess_above_1_8": "3/1064"
+  },
+  "S3_4_adverse": {
+    "determinant": "7/1562500",
+    "p": "13/23",
+    "envelope": "1223710/13336987",
+    "excess_above_11_120": "138343/1600438440"
+  },
+  "S3_1": {
+    "improvement": "1/400",
+    "P0_coefficients": 288,
+    "P1_coefficients": 735,
+    "P0_partition_volume": "1",
+    "P1_partition_volume": "1"
+  },
+  "status": "PASS",
+  "scope": "Targeted exact arithmetic of retained adverse-control examples and certificate partition counts. No new coefficient replay or full science replay."
+}

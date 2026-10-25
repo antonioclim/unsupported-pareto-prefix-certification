@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "assertions_enabled": true,
+  "executions": [
+    {
+      "script": "upper/check_improved_upper.py",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "upper/check_improved_upper.py"
+      ],
+      "sha256": "cdc60a63b4080ac32aa2b09a2601df264b9fa0ced6b5cd4aee15bb9160eff2e6",
+      "seconds": 0.1066,
+      "returncode": 0,
+      "log": "logs/check_improved_upper.txt"
+    },
+    {
+      "script": "upper/check_improved_upper_independent.py",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "upper/check_improved_upper_independent.py"
+      ],
+      "sha256": "ff68841664a14be6e12a7514762bad8db904482d7ab3a2aa328ac4fb0be50631",
+      "seconds": 0.5817,
+      "returncode": 0,
+      "log": "logs/check_improved_upper_independent.txt"
+    },
+    {
+      "script": "ordinal/check_full_ordinal_game.py",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "ordinal/check_full_ordinal_game.py"
+      ],
+      "sha256": "6139b6f97ea460295062e8bf1f0b444dc33f277fdd66900463a147e0af2a88c5",
+      "seconds": 0.158,
+      "returncode": 0,
+      "log": "logs/check_full_ordinal_game.txt"
+    },
+    {
+      "script": "reductions/check_reduction_obstructions.py",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "reductions/check_reduction_obstructions.py"
+      ],
+      "sha256": "d0a07bcc3b21f5ce70c0f2f199e9b2584170cb299a1bb5c198e3d233c690343d",
+      "seconds": 0.3173,
+      "returncode": 0,
+      "log": "logs/check_reduction_obstructions.txt"
+    },
+    {
+      "script": "check_verifier_rejections.py",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "check_verifier_rejections.py"
+      ],
+      "sha256": "80b453c81ae6c92f62f1e14575f9954f6696cfc754d253d369da5bae45f8a32a",
+      "seconds": 0.3535,
+      "returncode": 0,
+      "log": "logs/check_verifier_rejections.txt"
+    }
+  ],
+  "total_seconds": 1.5171,
+  "scope": "Focused P30 checks, not a new execution of the historical full companion."
+}

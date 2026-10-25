@@ -1,0 +1,26 @@
+{
+  "schema": "p49-figure-article-metadata-v1",
+  "article_title": "The Price of Finding a Certificate: Unsupported Pareto Points under Prefix Queries",
+  "author": "Antonio Clim",
+  "ORCID": "https://orcid.org/0000-0003-4745-0431",
+  "article_running_title": "Certifying Unsupported Pareto Points",
+  "revision": "P49",
+  "scientific_figure_version": "P44 Fig3: candidate-census asymptotic limit 12/11; unrestricted randomised bounds 23/22 to 12/11. Fig1/2 exact values retained.",
+  "native_editable_version": "P49 text-colour styling; scientific figure specification P44",
+  "licence_adoption_version": "P35",
+  "article_doi": null,
+  "publication_status": "Prepared locally; not submitted or published",
+  "figure_titles": "Figure-specific descriptive titles retained; no obsolete article title in figure metadata.",
+  "figure_mapping": {
+    "P40 Fig0": "Fig1",
+    "P37 Fig1": "Fig2",
+    "P37 Fig2": "Fig3"
+  },
+  "figure_assets_modified_in_P41": true,
+  "figure_assets_modified_in_P42": false,
+  "figure_assets_modified_in_P44": true,
+  "figure_assets_modified_in_P45": false,
+  "integration_note": "P49 makes all figure text pure black for SIAM, preserving P44 scientific figure values and P46 mathematical baseline. Reference and native editable exports rebuilt and checked; no new physical data.",
+  "figure_assets_modified_in_P46": false,
+  "figure_assets_modified_in_P49": true
+}

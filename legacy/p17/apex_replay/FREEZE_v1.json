@@ -1,0 +1,10 @@
+{
+  "status": "FROZEN_BEFORE_FIRST_NATIVE_CONFIRMATORY_EXECUTION",
+  "sha256": {
+    "p17/apex_replay/apex_subcatalogue_replay_v1.py": "799f2a4448f021f6055d90296bf5dc716d64ae8b88710861e8a30b2811c2f21b",
+    "p17/apex_replay/fixtures_v1.json": "fd89f6d4c0ae02fed74f02e930484f8815c180db005f9e2e4e2c19e22ee11e17",
+    "p17/apex_replay/PROTOCOL_v1.txt": "dc496dfcfbdac43960feb1d6e5ced11247b54ffbabc82bd4c4cf1d0087c37d4b",
+    "p9/licence/apex_dataset/Crystal_results.json": "bc2c652f89a70d0723aec19cae1f2dba6d2b56523d5c0b54805520a8de072711",
+    "p9/licence/apex_dataset/RPL_results.json": "c987d6583288e157139f8d6b0253c2adb91abee7642eee28fcf99db311f8f746"
+  }
+}

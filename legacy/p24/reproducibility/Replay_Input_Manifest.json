@@ -1,0 +1,937 @@
+{
+  "schema": "p24-selected-scientific-replay-inputs-v1",
+  "path_base": "Directory containing p21, p22, p23 and p24",
+  "selection": "All six P21, eleven P22 and eight P23 canonical replay jobs, plus the single preserved-data P17 APEX subcatalogue replay.",
+  "stage_count": 4,
+  "selected_scientific_program_count": 26,
+  "selected_scientific_output_count": 27,
+  "file_count": 88,
+  "total_input_bytes": 8555065,
+  "stages": [
+    {
+      "id": "P21",
+      "kind": "unchanged_phase_replayer",
+      "entrypoint": "p21/reproduce_p21.py",
+      "arguments": [],
+      "report_path": "p21/review/P21_Clean_Replay_Validation.json",
+      "program_count": 6,
+      "output_count": 6,
+      "jobs": [
+        {
+          "script": "p21/theory/check_triangle_extension.py",
+          "outputs": [
+            "p21/theory/Triangle_Extension_Exact_Check.json"
+          ]
+        },
+        {
+          "script": "p21/review/check_triangle_n4_worlds.py",
+          "outputs": [
+            "p21/review/Triangle_N4_Independent_World_Check.json"
+          ]
+        },
+        {
+          "script": "p21/review/check_ordinal_worlds.py",
+          "outputs": [
+            "p21/review/Ordinal_World_Enumeration.json"
+          ]
+        },
+        {
+          "script": "p21/review/check_triangle_feasibility_construction.py",
+          "outputs": [
+            "p21/review/Triangle_Feasibility_Construction_Check.json"
+          ]
+        },
+        {
+          "script": "p21/review/check_dependent_domain_independent.py",
+          "outputs": [
+            "p21/review/Dependent_Domain_Independent_Checks.json"
+          ]
+        },
+        {
+          "script": "p21/practical/check_lipschitz_certificate.py",
+          "outputs": [
+            "p21/practical/Lipschitz_Certificate_Checks.json"
+          ]
+        }
+      ],
+      "timeout_seconds": 1800
+    },
+    {
+      "id": "P22",
+      "kind": "unchanged_phase_replayer",
+      "entrypoint": "p22/reproduce_p22.py",
+      "arguments": [
+        "--record",
+        "_p24_stage_reports/P22.json"
+      ],
+      "report_path": "_p24_stage_reports/P22.json",
+      "program_count": 11,
+      "output_count": 11,
+      "jobs": [
+        {
+          "script": "p22/structure/check_band_geometry.py",
+          "outputs": [
+            "p22/structure/Band_Geometry_Exact_Check.json"
+          ]
+        },
+        {
+          "script": "p22/lower/check_nonvanishing_triangle.py",
+          "outputs": [
+            "p22/lower/Nonvanishing_Triangular_Lower_Check.json"
+          ]
+        },
+        {
+          "script": "p22/upper/check_n5_upper.py",
+          "outputs": [
+            "p22/upper/N5_Upper_Exact_Check.json"
+          ]
+        },
+        {
+          "script": "p22/three_tail/check_triangle_n5_pair.py",
+          "outputs": [
+            "p22/three_tail/Triangle_N5_Two_World_Exact_Check.json"
+          ]
+        },
+        {
+          "script": "p22/review/check_band_independent.py",
+          "outputs": [
+            "p22/review/Band_Independent_Checks.json"
+          ]
+        },
+        {
+          "script": "p22/review/check_n5_upper_independent.py",
+          "outputs": [
+            "p22/review/N5_Upper_Independent_Check.json"
+          ]
+        },
+        {
+          "script": "p22/review/check_general_k_band_independent.py",
+          "outputs": [
+            "p22/review/General_K_Band_Independent_Check.json"
+          ]
+        },
+        {
+          "script": "p22/review/check_n5_independent.py",
+          "outputs": [
+            "p22/review/N5_Independent_Checks.json"
+          ]
+        },
+        {
+          "script": "p22/upper/check_long_chain_independent.py",
+          "outputs": [
+            "p22/upper/Long_Chain_Independent_Check.json"
+          ]
+        },
+        {
+          "script": "p22/lower/check_fixed_alphabet_chain.py",
+          "outputs": [
+            "p22/lower/Fixed_Alphabet_Constant_Overhead_Check.json"
+          ]
+        },
+        {
+          "script": "p22/upper/check_candidate_chain_independent.py",
+          "outputs": [
+            "p22/upper/Candidate_Chain_Independent_Check.json"
+          ]
+        }
+      ],
+      "timeout_seconds": 1800
+    },
+    {
+      "id": "P23",
+      "kind": "unchanged_phase_replayer",
+      "entrypoint": "p23/reproduce_p23.py",
+      "arguments": [
+        "--record",
+        "_p24_stage_reports/P23.json"
+      ],
+      "report_path": "_p24_stage_reports/P23.json",
+      "program_count": 8,
+      "output_count": 8,
+      "jobs": [
+        {
+          "script": "p23/lower/check_minimal_alphabet.py",
+          "outputs": [
+            "p23/lower/Minimal_Alphabet_Exact_Check.json"
+          ]
+        },
+        {
+          "script": "p23/lower/check_collinear_family_barrier.py",
+          "outputs": [
+            "p23/lower/Collinear_Family_Barrier_Exact_Check.json"
+          ]
+        },
+        {
+          "script": "p23/upper/check_universal_upper.py",
+          "outputs": [
+            "p23/upper/Universal_Upper_Exact_Check.json"
+          ]
+        },
+        {
+          "script": "p23/finite/check_n6_exact.py",
+          "outputs": [
+            "p23/finite/N6_Exact_Check.json"
+          ]
+        },
+        {
+          "script": "p23/foundation/check_ordinal_foundation.py",
+          "outputs": [
+            "p23/foundation/Ordinal_Foundation_Exact_Check.json"
+          ]
+        },
+        {
+          "script": "p23/foundation/check_three_symbol_independent.py",
+          "outputs": [
+            "p23/foundation/Three_Symbol_Independent_Check.json"
+          ]
+        },
+        {
+          "script": "p23/review/check_n6_independent.py",
+          "outputs": [
+            "p23/review/N6_Independent_Check.json"
+          ]
+        },
+        {
+          "script": "p23/review/check_universal_upper_independent.py",
+          "outputs": [
+            "p23/review/Universal_Upper_Independent_Check.json"
+          ]
+        }
+      ],
+      "timeout_seconds": 1800
+    },
+    {
+      "id": "P17_WIRELESS",
+      "kind": "preserved_data_program",
+      "entrypoint": "p17/apex_replay/apex_subcatalogue_replay_v1.py",
+      "arguments": [],
+      "report_path": "p17/apex_replay/results_v1.json",
+      "program_count": 1,
+      "output_count": 2,
+      "jobs": [
+        {
+          "script": "p17/apex_replay/apex_subcatalogue_replay_v1.py",
+          "outputs": [
+            "p17/apex_replay/results_v1.json",
+            "p17/apex_replay/comparison_v1.csv"
+          ]
+        }
+      ],
+      "timeout_seconds": 600
+    }
+  ],
+  "files": [
+    {
+      "path": "p17/apex_replay/ARTIFACT_MANIFEST_v1.json",
+      "size_bytes": 2224,
+      "sha256": "d29a80b32d61f764d2e11b9d56a0940514ccb52764e9aad42f87fff5d2fbe1a1",
+      "roles": [
+        "wireless_provenance_or_historical_record"
+      ]
+    },
+    {
+      "path": "p17/apex_replay/FREEZE_v1.json",
+      "size_bytes": 659,
+      "sha256": "27d2481eb95d937f9ed9ed56016f12b6221abaa5bb40e2eee41dfd102f5a54ec",
+      "roles": [
+        "wireless_frozen_input"
+      ]
+    },
+    {
+      "path": "p17/apex_replay/PROTOCOL_v1.txt",
+      "size_bytes": 1345,
+      "sha256": "dc496dfcfbdac43960feb1d6e5ced11247b54ffbabc82bd4c4cf1d0087c37d4b",
+      "roles": [
+        "wireless_frozen_input"
+      ]
+    },
+    {
+      "path": "p17/apex_replay/README.txt",
+      "size_bytes": 5965,
+      "sha256": "cdc072b84b406601d60a285cbaa087bd2202084ddf70e0ad3f691ebb43249462",
+      "roles": [
+        "wireless_provenance_or_historical_record"
+      ]
+    },
+    {
+      "path": "p17/apex_replay/apex_subcatalogue_replay_v1.py",
+      "size_bytes": 12618,
+      "sha256": "799f2a4448f021f6055d90296bf5dc716d64ae8b88710861e8a30b2811c2f21b",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p17/apex_replay/comparison_v1.csv",
+      "size_bytes": 54924,
+      "sha256": "de42f61187ce3fdc18de5da382b8f11c1991fb578b2f33472d166077fc21694e",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p17/apex_replay/execution_record_v1.json",
+      "size_bytes": 1729,
+      "sha256": "8369b1f79494fab278cf2a9603e4275db2213e090f64134921eaf2e05ab86fc3",
+      "roles": [
+        "wireless_provenance_or_historical_record"
+      ]
+    },
+    {
+      "path": "p17/apex_replay/fixtures_v1.json",
+      "size_bytes": 1040,
+      "sha256": "fd89f6d4c0ae02fed74f02e930484f8815c180db005f9e2e4e2c19e22ee11e17",
+      "roles": [
+        "wireless_frozen_input"
+      ]
+    },
+    {
+      "path": "p17/apex_replay/results_v1.json",
+      "size_bytes": 6902402,
+      "sha256": "2e5c865844ab41dd9037f19ea550a20e3792d8cd9a955f92d159e71c63a55503",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p20/output/Research_Companion_Paid_Prefix_v1.zip",
+      "size_bytes": 791647,
+      "sha256": "3eb2fd0998b70a8f9bfbdedaf86d3c95840a93f83dadc1550214a25880186944",
+      "roles": [
+        "retained_historical_scientific_companion_not_reexecuted"
+      ]
+    },
+    {
+      "path": "p20/review/RESEARCH_COMPANION_REPLAY_VALIDATION_v1.json",
+      "size_bytes": 25995,
+      "sha256": "2eedfc7a6817e67da13c1e4ddf6de3655702ba8950332bbc4b8e2c3bbffb9341",
+      "roles": [
+        "retained_historical_execution_record_not_reexecuted"
+      ]
+    },
+    {
+      "path": "p21/article/Manuscript_Paid_Prefix_Certification_P21_v10.md",
+      "size_bytes": 107326,
+      "sha256": "58ce4a51a17d07f6572dcdcd65df256ec8af4e112935639346cc15b3dca84797",
+      "roles": [
+        "proof_or_hash_binding_input"
+      ]
+    },
+    {
+      "path": "p21/practical/Lipschitz_Certificate_Checks.json",
+      "size_bytes": 11923,
+      "sha256": "334b4b072c766bde1b53e3aa1e4d3acbdad647c780e29d91acbe8dffc8cc8035",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p21/practical/check_lipschitz_certificate.py",
+      "size_bytes": 7666,
+      "sha256": "c095f8624e6971fa7a538357a6f70e9700d93c0eb5adfa504d83e17331d75941",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p21/reproduce_p21.py",
+      "size_bytes": 3208,
+      "sha256": "cb2c74011346d7961f47ccca1d8d61fb71701e5acde65b8097c32bbfb80c317e",
+      "roles": [
+        "unchanged_phase_replayer"
+      ]
+    },
+    {
+      "path": "p21/review/Dependent_Domain_Independent_Checks.json",
+      "size_bytes": 467,
+      "sha256": "fd58a50288752333e32c44ff40a59742d59ee53823b294ae073e9fea90e89fb1",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p21/review/Ordinal_World_Enumeration.json",
+      "size_bytes": 2412,
+      "sha256": "122de7b3fa0d831ccf067c3d5095a8b2d0f14b42ce7d869e6af62f75ac5f6007",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p21/review/P21_Clean_Replay_Validation.json",
+      "size_bytes": 4301,
+      "sha256": "97cea4583abb9150481b75d500b1c5f12bd2975dae2c48cb7d520e8cfb388f89",
+      "roles": [
+        "historical_phase_execution_record"
+      ]
+    },
+    {
+      "path": "p21/review/Triangle_Feasibility_Construction_Check.json",
+      "size_bytes": 2632,
+      "sha256": "0167b196097a09ea9239de8e597cb03b3532eacdec9e4c281cbfa48e543c1ac7",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p21/review/Triangle_N4_Independent_World_Check.json",
+      "size_bytes": 635,
+      "sha256": "d0d87724a00fdd25aaf030ab6586d73989072cacc95347ffda83451e81785bab",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p21/review/check_dependent_domain_independent.py",
+      "size_bytes": 3687,
+      "sha256": "95c59dc8086f8195805ae23c92495388b8620bbeef0001f5b5149b3c2b6050d3",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p21/review/check_ordinal_worlds.py",
+      "size_bytes": 2979,
+      "sha256": "0b0c80fac9ab2cc5d2005646f07a972befb105b7fa430f9a0500f9e78946c4fb",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p21/review/check_triangle_feasibility_construction.py",
+      "size_bytes": 2432,
+      "sha256": "d904ede602d4767a5ac6e525f05e3c5e35780f8d124a18c57872d7400bf75bfa",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p21/review/check_triangle_n4_worlds.py",
+      "size_bytes": 2124,
+      "sha256": "99893e9195d97a60aa6018e4a029482d280b6c5684dc9616446110e476bedcd2",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p21/theory/Triangle_Extension_Exact_Check.json",
+      "size_bytes": 11499,
+      "sha256": "b02d0b8fd375b040c686e34e1d98784112cd964c90932365d295cdbb1e24d450",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p21/theory/check_triangle_extension.py",
+      "size_bytes": 6089,
+      "sha256": "f7c90966f1b7b50e376b23327f50731370642c69aa31f5857a07afd7e25709b3",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p21/theory/triangle_four_rows_exact.md",
+      "size_bytes": 12541,
+      "sha256": "ed1d861df56d23669afa3ff44a8a9c933bf5de4b7c6b323592a747b77d419bb8",
+      "roles": [
+        "proof_or_hash_binding_input"
+      ]
+    },
+    {
+      "path": "p22/general_k/Triangular_General_K_Embedding.txt",
+      "size_bytes": 7799,
+      "sha256": "1c23129acaa3eb6301b9369ea0ec407bd5e7cb51b6da1862beaebaca76ffe952",
+      "roles": [
+        "proof_or_hash_binding_input"
+      ]
+    },
+    {
+      "path": "p22/lower/Fixed_Alphabet_Constant_Overhead_Check.json",
+      "size_bytes": 20389,
+      "sha256": "726842525d9e4d08fbb9dc3d5ee70219a4b45fd6400249c9c1f20e25bc589f51",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p22/lower/Fixed_Alphabet_Constant_Overhead_P22.md",
+      "size_bytes": 10384,
+      "sha256": "ae3ebb6788565a2256db5b46a8a7baf22de7c1447356a7d9437306c131f9a2fd",
+      "roles": [
+        "proof_or_hash_binding_input"
+      ]
+    },
+    {
+      "path": "p22/lower/Nonvanishing_Triangular_Lower_Bounds_P22.md",
+      "size_bytes": 10578,
+      "sha256": "5e8f3337fdc2456f6c81d9555073faa07b88d70027e9de50cb347dc7759db9bd",
+      "roles": [
+        "proof_or_hash_binding_input"
+      ]
+    },
+    {
+      "path": "p22/lower/Nonvanishing_Triangular_Lower_Check.json",
+      "size_bytes": 13997,
+      "sha256": "b2628d71d7a15c4368eaa5ff39807a62ff30dd44c58731061509956f0d7b8f84",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p22/lower/check_fixed_alphabet_chain.py",
+      "size_bytes": 6748,
+      "sha256": "9ee471b855cf596e1db78de0f7364fe496d9cd2d04c7234bdd6a6ed09f548904",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p22/lower/check_nonvanishing_triangle.py",
+      "size_bytes": 7898,
+      "sha256": "6dffffe36dc583a1ab5360e2db51dd80c83784e41259a27b5a3bea6f3708111e",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p22/reproduce_p22.py",
+      "size_bytes": 3479,
+      "sha256": "1c90058642dcca1e82691c5876f7f54ed122a3a4d0ca0bd5f31a69456d23d790",
+      "roles": [
+        "unchanged_phase_replayer"
+      ]
+    },
+    {
+      "path": "p22/review/Band_Independent_Checks.json",
+      "size_bytes": 928,
+      "sha256": "4464e224a3abd08fb8cc06e0a4df4eecd4b909e1c904a0f1f55122667d43223f",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p22/review/General_K_Band_Independent_Check.json",
+      "size_bytes": 19165,
+      "sha256": "e2f9bdb577954cd2cb5ec48ef962faa856402a87beafe6e599064d619102d4af",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p22/review/N5_Independent_Checks.json",
+      "size_bytes": 677,
+      "sha256": "bf00b5b64f011d970fd524cbc82c62648326802c1156c5df46a502cbac4202cf",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p22/review/N5_Upper_Independent_Check.json",
+      "size_bytes": 1471,
+      "sha256": "3797e932b5683f49e423761093466af6adb701621b98b29ebf48122e95e6da83",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p22/review/P22_Clean_Replay_Validation.json",
+      "size_bytes": 7258,
+      "sha256": "640254cd10f98fae43f5a02cad3cdfcf5367a0843fef4e5badaf63fd448eb82c",
+      "roles": [
+        "historical_phase_execution_record"
+      ]
+    },
+    {
+      "path": "p22/review/check_band_independent.py",
+      "size_bytes": 6986,
+      "sha256": "a2fd5da14b66af2614099f481cd904f2a65b2d2cc91472e65732bc8a8b95ec7c",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p22/review/check_general_k_band_independent.py",
+      "size_bytes": 9814,
+      "sha256": "d4ba98ef6967aa411dcab4c26bd53d22d719f256a586a269279a0f35a243a385",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p22/review/check_n5_independent.py",
+      "size_bytes": 2580,
+      "sha256": "a2e848d56eda8307bf73f8e820feadf9037013e1a44580f643442e9abce387b4",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p22/review/check_n5_upper_independent.py",
+      "size_bytes": 3828,
+      "sha256": "5e5364cd3b0e6d68395e59011cd26b0bfa5448f8b3aac0c3ee3baa318e768e70",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p22/structure/Band_Domain_Theorems_P22.md",
+      "size_bytes": 12867,
+      "sha256": "910faf09054430a9fffb85ab0989692d88d1f3cf461c828f81be21c5797a834a",
+      "roles": [
+        "proof_or_hash_binding_input"
+      ]
+    },
+    {
+      "path": "p22/structure/Band_Geometry_Exact_Check.json",
+      "size_bytes": 21760,
+      "sha256": "d18eacccb7a0ede3ac6db5dcb3d6cd85924bf834b2ee8cc0ba4b737dc37c30f8",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p22/structure/check_band_geometry.py",
+      "size_bytes": 5798,
+      "sha256": "64458b49c3e90d60bde1f9d97477e53c58aba3b8fe4bfe2911df2139153d806b",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p22/three_tail/Triangle_N5_Two_World_Exact_Check.json",
+      "size_bytes": 7573,
+      "sha256": "7ff1edcca9929042ca2b3347db55e175f73474dbc37ff1870d2a589da4b2cf78",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p22/three_tail/Triangle_N5_Two_World_Lower_Proof.txt",
+      "size_bytes": 7117,
+      "sha256": "20e75c984b81bb2830c17363283c75f6e8c7e788b148afce8853377399dfb0c0",
+      "roles": [
+        "proof_or_hash_binding_input"
+      ]
+    },
+    {
+      "path": "p22/three_tail/check_triangle_n5_pair.py",
+      "size_bytes": 3063,
+      "sha256": "427112211850513d69ee0f0e7f8fc2280f324cc1297660f1ddc9d24053d95ef6",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p22/upper/Candidate_Chain_Independent_Check.json",
+      "size_bytes": 26256,
+      "sha256": "d993ba48ac0ee92611f63543f239b4518eb25f37f85d41bc5e5f579469f59ed9",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p22/upper/Long_Chain_Independent_Check.json",
+      "size_bytes": 4398,
+      "sha256": "b4abc6b7e1d10cfb151f4da732535e3908b5d64d1a626e348261bea02d5994cd",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p22/upper/N5_Upper_Exact_Check.json",
+      "size_bytes": 8201,
+      "sha256": "7983568ffda62e30cf7e31c114369d5bb4e88dd5b3b806ed5a7ffd7a05f5d5ed",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p22/upper/N5_Upper_Proof.txt",
+      "size_bytes": 8304,
+      "sha256": "f39f19d0f20beb2d840ac9fea8eb978624e1f56d7a22d98d4838be185952948f",
+      "roles": [
+        "proof_or_hash_binding_input"
+      ]
+    },
+    {
+      "path": "p22/upper/check_candidate_chain_independent.py",
+      "size_bytes": 4061,
+      "sha256": "29c656ae7cc5b989f475f4aa4aad0c6fef192af25a27c60f5ed15699b15f2a0a",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p22/upper/check_long_chain_independent.py",
+      "size_bytes": 3307,
+      "sha256": "83886d04d7d0605f30ac421327eb6bc222a98ce425a7b21111b632cd876e99cd",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p22/upper/check_n5_upper.py",
+      "size_bytes": 3921,
+      "sha256": "752a2cd08ed2b1eddf7bd75a113664f6b120e5861c711c1ba66ae13236633c2d",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p23/finite/N6_Deterministic_Exact_and_Randomised_Lower_P23.md",
+      "size_bytes": 11927,
+      "sha256": "035cef34b606d3379424d7557cf56787463f76cea441f8a9e64600fdd7d4d0e5",
+      "roles": [
+        "proof_or_hash_binding_input"
+      ]
+    },
+    {
+      "path": "p23/finite/N6_Exact_Check.json",
+      "size_bytes": 2646,
+      "sha256": "4d3ab1a4ec393f28f8d9d04e976305604500ecb5a2ad3afec8491871c764174f",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p23/finite/check_n6_exact.py",
+      "size_bytes": 8046,
+      "sha256": "36d42af4ad368a0d5489fe5dc1bf36b3d7867d16c5ff92f9bffd5772a7c977f1",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p23/foundation/Foundational_Audit_P23.txt",
+      "size_bytes": 12854,
+      "sha256": "5f2f0172516bb9f16cc6ac58eed7c3bf5fb403929b4556addb3e24116ab4a918",
+      "roles": [
+        "later_correction_to_retained_older_proof"
+      ]
+    },
+    {
+      "path": "p23/foundation/Ordinal_Foundation_Exact_Check.json",
+      "size_bytes": 1384,
+      "sha256": "6c591e303f36ae6566dddc63eb3593f1b35fe991577234fb59028568ab2b4bfc",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p23/foundation/P21_Corrected_Continuation_Paragraph.txt",
+      "size_bytes": 4474,
+      "sha256": "a9379cd7fd0651abca471e7e1a85688ff003ca5a682784a3493c100ff9e90753",
+      "roles": [
+        "later_correction_to_retained_older_proof"
+      ]
+    },
+    {
+      "path": "p23/foundation/Three_Symbol_Independent_Check.json",
+      "size_bytes": 5366,
+      "sha256": "2943460a1009bd9c1d29a925096e96598c9b7b36a59e8e08fe7d489f7d7a7c21",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p23/foundation/check_ordinal_foundation.py",
+      "size_bytes": 3056,
+      "sha256": "ec3421175ce1844525108b1cc1e4aad6641f18498d0b64c984bd1e63b3e4ed7a",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p23/foundation/check_three_symbol_independent.py",
+      "size_bytes": 6811,
+      "sha256": "dd064b896cffc07014239af4864bfde1d0e8edd4a00a603ee8ed99b6db1e8d09",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p23/lower/Collinear_Family_Barrier_Exact_Check.json",
+      "size_bytes": 601,
+      "sha256": "8782f63f441986ee5d7c937dae7b9587b104035db1ebedc15e719c7bc0e83c8d",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p23/lower/Collinear_Two_Chain_Family_Barrier_P23.md",
+      "size_bytes": 3876,
+      "sha256": "3d2bdd33185179dc63370291b9370e17d9b86a9657d043dd9fdb54b4e61fc7de",
+      "roles": [
+        "proof_or_hash_binding_input"
+      ]
+    },
+    {
+      "path": "p23/lower/Minimal_Alphabet_Exact_Check.json",
+      "size_bytes": 10779,
+      "sha256": "a9dc81ec757c47014d319a36f36cdbcf9752f3e87d77d70907af042d5c41dc40",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p23/lower/Minimal_Alphabet_Persistent_Overhead_P23.md",
+      "size_bytes": 15844,
+      "sha256": "929cdee4ffe664b5182f30589e94a229aa317d89538d18cd368adc4ac7deae76",
+      "roles": [
+        "proof_or_hash_binding_input"
+      ]
+    },
+    {
+      "path": "p23/lower/check_collinear_family_barrier.py",
+      "size_bytes": 2467,
+      "sha256": "ab4d80b6542eeec9bcf7af0ba21a3ecb0ba1a81e33a7c112b47a9d431435b74a",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p23/lower/check_minimal_alphabet.py",
+      "size_bytes": 9389,
+      "sha256": "ca1e935659152008045fe4d553ecd263e8f9c0eb2ba7dde7a2daba04720c09d1",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p23/reproduce_p23.py",
+      "size_bytes": 7808,
+      "sha256": "b09343d9deade4b2dc2b05972cb63cd7876f0c938686e604bc8395c9a749c85d",
+      "roles": [
+        "unchanged_phase_replayer"
+      ]
+    },
+    {
+      "path": "p23/review/N6_Independent_Check.json",
+      "size_bytes": 2998,
+      "sha256": "c4090b21a3e34babe0a80c4affb6ed1718f1a78f73b9bc22fe3080d876fd87fa",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p23/review/P23_Clean_Replay_Validation.json",
+      "size_bytes": 7344,
+      "sha256": "dfbb7b64752cbb72625f7faeef42eca590bc5675f08156c719ab242615f9ebcf",
+      "roles": [
+        "historical_phase_execution_record"
+      ]
+    },
+    {
+      "path": "p23/review/Universal_Upper_Independent_Check.json",
+      "size_bytes": 20817,
+      "sha256": "098a346e7e0905d4e0d930eda1f9fda5afe95ac790a9d4d1c2b394c9dc4cd052",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p23/review/check_n6_independent.py",
+      "size_bytes": 6079,
+      "sha256": "ff586fb4961ff381d77ef44f5d61f1f5b3e933ba0581fc902c5c9a566868a597",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p23/review/check_universal_upper_independent.py",
+      "size_bytes": 5454,
+      "sha256": "4a419f86a3f3a23ef1f20249f9914eebaf76fbafb069a5777c24d758ea6904e7",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p23/upper/Universal_Triangle_Upper_Bounds_P23.md",
+      "size_bytes": 12145,
+      "sha256": "3a546b72ce133d7fbd27e044efdb6aaa198114c69529d3f07a04acc340611e93",
+      "roles": [
+        "proof_or_hash_binding_input"
+      ]
+    },
+    {
+      "path": "p23/upper/Universal_Upper_Exact_Check.json",
+      "size_bytes": 5318,
+      "sha256": "bdd6765099ac8a039059a2627bc716c53d0bb7da8fb67f710612a87c4ba30eae",
+      "roles": [
+        "retained_scientific_output"
+      ]
+    },
+    {
+      "path": "p23/upper/check_universal_upper.py",
+      "size_bytes": 4587,
+      "sha256": "229509fbef9c6fa01c52aa706c81a86dea7ecb61c6a50b998c8bf02fca1fc2c9",
+      "roles": [
+        "selected_scientific_program"
+      ]
+    },
+    {
+      "path": "p24/reproduce_p24.py",
+      "size_bytes": 8757,
+      "sha256": "69155701b1cfa13d0186c44e2c2dab485c2431dd271ecd9316992321d075c968",
+      "roles": [
+        "current_orchestrator"
+      ]
+    },
+    {
+      "path": "p24/reproducibility/build_replay_manifest.py",
+      "size_bytes": 6798,
+      "sha256": "363851d448c4c55fc1520ee1a60c12917a85e59453a8b9726bdc08f50c13260b",
+      "roles": [
+        "inventory_builder_not_scientific_execution"
+      ]
+    },
+    {
+      "path": "p9/licence/THIRD_PARTY_APEX.txt",
+      "size_bytes": 2540,
+      "sha256": "53ab4cc0e4a7fe1589618af58bf25888239c6c2f74f55ab2a5584e6fb4e105d0",
+      "roles": [
+        "upstream_data_attribution_or_licence"
+      ]
+    },
+    {
+      "path": "p9/licence/apex_dataset/Crystal_results.json",
+      "size_bytes": 27901,
+      "sha256": "bc2c652f89a70d0723aec19cae1f2dba6d2b56523d5c0b54805520a8de072711",
+      "roles": [
+        "unchanged_reused_wireless_data"
+      ]
+    },
+    {
+      "path": "p9/licence/apex_dataset/README.md",
+      "size_bytes": 6358,
+      "sha256": "d7bac309da77ea44d47d5ce248cf270ff6f1fc27a0733ea04580df89b084def5",
+      "roles": [
+        "upstream_data_attribution_or_licence"
+      ]
+    },
+    {
+      "path": "p9/licence/apex_dataset/RPL_results.json",
+      "size_bytes": 78910,
+      "sha256": "c987d6583288e157139f8d6b0253c2adb91abee7642eee28fcf99db311f8f746",
+      "roles": [
+        "unchanged_reused_wireless_data"
+      ]
+    },
+    {
+      "path": "p9/licence/ccby4_legalcode.txt",
+      "size_bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "roles": [
+        "upstream_data_attribution_or_licence"
+      ]
+    }
+  ],
+  "packaging_rule": "Retain every files[].path at exactly this relative path. Include this manifest and the final P24 replay record separately. No external data download or complete upstream archive is needed.",
+  "retained_history_scope": "The P20 companion and its 31-job/35-output execution record are preserved, not reexecuted by P24. The selected P17 wireless job was included in that earlier history and is explicitly reexecuted here.",
+  "scientific_limits": [
+    "Finite enumerations do not execute infinite Ramsey arguments or exhaust every continuous archive.",
+    "The two P23 universal-upper programs verify exact continuous Bernstein certificates conditional on the analytic reduction.",
+    "The wireless stage is an exact secondary replay of unchanged archived trial summaries, not a new radio measurement or original-framework execution.",
+    "New manuscript and supplement source bindings are separate from these frozen proof/checker inputs."
+  ]
+}

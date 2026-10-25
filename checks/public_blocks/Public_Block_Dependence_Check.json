@@ -1,0 +1,2592 @@
+{
+  "schema": "p44-public-block-dependence-v1",
+  "status": "PASS",
+  "method": "Exact dependent truth-table intersection and independent finite-alphabet completion enumeration; no endpoint oracle or project checker imported.",
+  "alphabet_common_denominator": 20,
+  "alphabet_integer_numerators": [
+    [
+      0,
+      0
+    ],
+    [
+      20,
+      20
+    ],
+    [
+      16,
+      6
+    ],
+    [
+      10,
+      10
+    ],
+    [
+      20,
+      0
+    ]
+  ],
+  "partition_families": [
+    {
+      "partitions": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "N": 2,
+      "m": 2,
+      "complete_archives": 125,
+      "positive_archives": 2,
+      "negative_archives": 123,
+      "prefix_states_checked": 3375,
+      "distinct_observed_transcripts": 1331,
+      "true_prefix_states": 16,
+      "price_profiles": [
+        "unit",
+        "fractional",
+        "expensive_last",
+        "expensive_first",
+        "heterogeneous"
+      ],
+      "rho_by_profile": {
+        "unit": "2",
+        "fractional": "13/6",
+        "expensive_last": "1001",
+        "expensive_first": "1001/1000",
+        "heterogeneous": "33/5"
+      },
+      "cost_comparisons_including_setups": 30,
+      "maximum_unit_distortion_in_finite_family": "2"
+    },
+    {
+      "partitions": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "N": 2,
+      "m": 2,
+      "complete_archives": 625,
+      "positive_archives": 8,
+      "negative_archives": 617,
+      "prefix_states_checked": 16875,
+      "distinct_observed_transcripts": 3751,
+      "true_prefix_states": 32,
+      "price_profiles": [
+        "unit",
+        "fractional",
+        "expensive_last",
+        "expensive_first",
+        "heterogeneous"
+      ],
+      "rho_by_profile": {
+        "unit": "2",
+        "fractional": "13/6",
+        "expensive_last": "1001",
+        "expensive_first": "1001/1000",
+        "heterogeneous": "25/4"
+      },
+      "cost_comparisons_including_setups": 120,
+      "maximum_unit_distortion_in_finite_family": "3/2"
+    },
+    {
+      "partitions": [
+        [
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "N": 2,
+      "m": 2,
+      "complete_archives": 625,
+      "positive_archives": 8,
+      "negative_archives": 617,
+      "prefix_states_checked": 16875,
+      "distinct_observed_transcripts": 3751,
+      "true_prefix_states": 32,
+      "price_profiles": [
+        "unit",
+        "fractional",
+        "expensive_last",
+        "expensive_first",
+        "heterogeneous"
+      ],
+      "rho_by_profile": {
+        "unit": "2",
+        "fractional": "13/6",
+        "expensive_last": "1001",
+        "expensive_first": "1001/1000",
+        "heterogeneous": "33/5"
+      },
+      "cost_comparisons_including_setups": 120,
+      "maximum_unit_distortion_in_finite_family": "3/2"
+    },
+    {
+      "partitions": [
+        [
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "N": 2,
+      "m": 2,
+      "complete_archives": 3125,
+      "positive_archives": 30,
+      "negative_archives": 3095,
+      "prefix_states_checked": 84375,
+      "distinct_observed_transcripts": 10571,
+      "true_prefix_states": 60,
+      "price_profiles": [
+        "unit",
+        "fractional",
+        "expensive_last",
+        "expensive_first",
+        "heterogeneous"
+      ],
+      "rho_by_profile": {
+        "unit": "2",
+        "fractional": "13/6",
+        "expensive_last": "1001",
+        "expensive_first": "1001/1000",
+        "heterogeneous": "17/3"
+      },
+      "cost_comparisons_including_setups": 450,
+      "maximum_unit_distortion_in_finite_family": "6/5"
+    },
+    {
+      "partitions": [
+        [
+          1,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "N": 2,
+      "m": 2,
+      "complete_archives": 625,
+      "positive_archives": 10,
+      "negative_archives": 615,
+      "prefix_states_checked": 16875,
+      "distinct_observed_transcripts": 3751,
+      "true_prefix_states": 40,
+      "price_profiles": [
+        "unit",
+        "fractional",
+        "expensive_last",
+        "expensive_first",
+        "heterogeneous"
+      ],
+      "rho_by_profile": {
+        "unit": "2",
+        "fractional": "31/15",
+        "expensive_last": "1001",
+        "expensive_first": "1001/1000",
+        "heterogeneous": "33/5"
+      },
+      "cost_comparisons_including_setups": 150,
+      "maximum_unit_distortion_in_finite_family": "3/2"
+    },
+    {
+      "partitions": [
+        [
+          1,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "N": 2,
+      "m": 2,
+      "complete_archives": 3125,
+      "positive_archives": 48,
+      "negative_archives": 3077,
+      "prefix_states_checked": 84375,
+      "distinct_observed_transcripts": 10571,
+      "true_prefix_states": 96,
+      "price_profiles": [
+        "unit",
+        "fractional",
+        "expensive_last",
+        "expensive_first",
+        "heterogeneous"
+      ],
+      "rho_by_profile": {
+        "unit": "2",
+        "fractional": "31/15",
+        "expensive_last": "1001",
+        "expensive_first": "1001/1000",
+        "heterogeneous": "25/4"
+      },
+      "cost_comparisons_including_setups": 720,
+      "maximum_unit_distortion_in_finite_family": "6/5"
+    },
+    {
+      "partitions": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "N": 2,
+      "m": 2,
+      "complete_archives": 3125,
+      "positive_archives": 48,
+      "negative_archives": 3077,
+      "prefix_states_checked": 84375,
+      "distinct_observed_transcripts": 10571,
+      "true_prefix_states": 96,
+      "price_profiles": [
+        "unit",
+        "fractional",
+        "expensive_last",
+        "expensive_first",
+        "heterogeneous"
+      ],
+      "rho_by_profile": {
+        "unit": "2",
+        "fractional": "89/44",
+        "expensive_last": "1001",
+        "expensive_first": "1001/1000",
+        "heterogeneous": "33/5"
+      },
+      "cost_comparisons_including_setups": 720,
+      "maximum_unit_distortion_in_finite_family": "6/5"
+    },
+    {
+      "partitions": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "N": 2,
+      "m": 1,
+      "complete_archives": 15625,
+      "positive_archives": 166,
+      "negative_archives": 15459,
+      "prefix_states_checked": 421875,
+      "distinct_observed_transcripts": 29791,
+      "true_prefix_states": 166,
+      "price_profiles": [
+        "unit",
+        "fractional",
+        "expensive_last",
+        "expensive_first",
+        "heterogeneous"
+      ],
+      "rho_by_profile": {
+        "unit": "1",
+        "fractional": "1",
+        "expensive_last": "1",
+        "expensive_first": "1",
+        "heterogeneous": "1"
+      },
+      "cost_comparisons_including_setups": 2490,
+      "maximum_unit_distortion_in_finite_family": "1"
+    },
+    {
+      "partitions": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3
+        ]
+      ],
+      "N": 3,
+      "m": 3,
+      "complete_archives": 3125,
+      "positive_archives": 47,
+      "negative_archives": 3078,
+      "prefix_states_checked": 200000,
+      "distinct_observed_transcripts": 32256,
+      "true_prefix_states": 282,
+      "price_profiles": [
+        "unit",
+        "fractional",
+        "expensive_last",
+        "expensive_first",
+        "heterogeneous"
+      ],
+      "rho_by_profile": {
+        "unit": "3",
+        "fractional": "1751/572",
+        "expensive_last": "1002",
+        "expensive_first": "501/500",
+        "heterogeneous": "589/15"
+      },
+      "cost_comparisons_including_setups": 705,
+      "maximum_unit_distortion_in_finite_family": "3/2"
+    },
+    {
+      "partitions": [
+        [
+          2,
+          1
+        ],
+        [
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "N": 3,
+      "m": 3,
+      "complete_archives": 3125,
+      "positive_archives": 47,
+      "negative_archives": 3078,
+      "prefix_states_checked": 200000,
+      "distinct_observed_transcripts": 32256,
+      "true_prefix_states": 282,
+      "price_profiles": [
+        "unit",
+        "fractional",
+        "expensive_last",
+        "expensive_first",
+        "heterogeneous"
+      ],
+      "rho_by_profile": {
+        "unit": "3",
+        "fractional": "143/45",
+        "expensive_last": "1002",
+        "expensive_first": "501/500",
+        "heterogeneous": "713/20"
+      },
+      "cost_comparisons_including_setups": 705,
+      "maximum_unit_distortion_in_finite_family": "3/2"
+    },
+    {
+      "partitions": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "N": 3,
+      "m": 3,
+      "complete_archives": 3125,
+      "positive_archives": 62,
+      "negative_archives": 3063,
+      "prefix_states_checked": 200000,
+      "distinct_observed_transcripts": 39936,
+      "true_prefix_states": 558,
+      "price_profiles": [
+        "unit",
+        "fractional",
+        "expensive_last",
+        "expensive_first",
+        "heterogeneous"
+      ],
+      "rho_by_profile": {
+        "unit": "3",
+        "fractional": "143/45",
+        "expensive_last": "1002",
+        "expensive_first": "501/500",
+        "heterogeneous": "589/15"
+      },
+      "cost_comparisons_including_setups": 930,
+      "maximum_unit_distortion_in_finite_family": "9/5"
+    }
+  ],
+  "sharp_families": [
+    {
+      "N": 1,
+      "unit_CD": 3,
+      "unit_CQ": 3,
+      "unit_ratio": 1,
+      "common_prices": [
+        "1/7"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "3/7",
+      "weighted_ratio_and_rho": "1",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "19/25",
+            "13/50"
+          ],
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "19/25",
+            "13/50"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 2,
+      "unit_CD": 3,
+      "unit_CQ": 6,
+      "unit_ratio": 2,
+      "common_prices": [
+        "1/7",
+        "5/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "138/77",
+      "weighted_ratio_and_rho": "46/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "151/400",
+            "51/400"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "151/200",
+            "51/200"
+          ],
+          [
+            "3/4",
+            "3/4"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "151/200",
+            "51/200"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/2"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 3,
+      "unit_CD": 3,
+      "unit_CQ": 9,
+      "unit_ratio": 3,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "306/77",
+      "weighted_ratio_and_rho": "102/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "113/225",
+            "38/225"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "113/150",
+            "19/75"
+          ],
+          [
+            "2/3",
+            "2/3"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "113/150",
+            "19/75"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/3"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 4,
+      "unit_CD": 3,
+      "unit_CQ": 12,
+      "unit_ratio": 4,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "537/77",
+      "weighted_ratio_and_rho": "179/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "903/1600",
+            "303/1600"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "301/400",
+            "101/400"
+          ],
+          [
+            "5/8",
+            "5/8"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "301/400",
+            "101/400"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/4"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 5,
+      "unit_CD": 3,
+      "unit_CQ": 15,
+      "unit_ratio": 5,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "831/77",
+      "weighted_ratio_and_rho": "277/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "376/625",
+            "126/625"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "94/125",
+            "63/250"
+          ],
+          [
+            "3/5",
+            "3/5"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "94/125",
+            "63/250"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/5"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 6,
+      "unit_CD": 3,
+      "unit_CQ": 18,
+      "unit_ratio": 6,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "108/7",
+      "weighted_ratio_and_rho": "36",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "451/720",
+            "151/720"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "451/600",
+            "151/600"
+          ],
+          [
+            "7/12",
+            "7/12"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "451/600",
+            "151/600"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/6"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 7,
+      "unit_CD": 3,
+      "unit_CQ": 21,
+      "unit_ratio": 7,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "1608/77",
+      "weighted_ratio_and_rho": "536/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "789/1225",
+            "264/1225"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "263/350",
+            "44/175"
+          ],
+          [
+            "4/7",
+            "4/7"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "263/350",
+            "44/175"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/7"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 8,
+      "unit_CD": 3,
+      "unit_CQ": 24,
+      "unit_ratio": 8,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "2091/77",
+      "weighted_ratio_and_rho": "697/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "4207/6400",
+            "1407/6400"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "601/800",
+            "201/800"
+          ],
+          [
+            "9/16",
+            "9/16"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "601/800",
+            "201/800"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/8"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 9,
+      "unit_CD": 3,
+      "unit_CQ": 27,
+      "unit_ratio": 9,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "2637/77",
+      "weighted_ratio_and_rho": "879/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "1352/2025",
+            "452/2025"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "169/225",
+            "113/450"
+          ],
+          [
+            "5/9",
+            "5/9"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "169/225",
+            "113/450"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/9"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 10,
+      "unit_CD": 3,
+      "unit_CQ": 30,
+      "unit_ratio": 10,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11",
+        "29/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "3246/77",
+      "weighted_ratio_and_rho": "1082/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "6759/10000",
+            "2259/10000"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "751/1000",
+            "251/1000"
+          ],
+          [
+            "11/20",
+            "11/20"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "751/1000",
+            "251/1000"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/10"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 11,
+      "unit_CD": 3,
+      "unit_CQ": 33,
+      "unit_ratio": 11,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11",
+        "29/11",
+        "32/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "3918/77",
+      "weighted_ratio_and_rho": "1306/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "413/605",
+            "138/605"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "413/550",
+            "69/275"
+          ],
+          [
+            "6/11",
+            "6/11"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "413/550",
+            "69/275"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/11"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 12,
+      "unit_CD": 3,
+      "unit_CQ": 36,
+      "unit_ratio": 12,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11",
+        "29/11",
+        "32/11",
+        "35/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "423/7",
+      "weighted_ratio_and_rho": "141",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "9911/14400",
+            "3311/14400"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "901/1200",
+            "301/1200"
+          ],
+          [
+            "13/24",
+            "13/24"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "901/1200",
+            "301/1200"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/12"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 13,
+      "unit_CD": 3,
+      "unit_CQ": 39,
+      "unit_ratio": 13,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11",
+        "29/11",
+        "32/11",
+        "35/11",
+        "38/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "5451/77",
+      "weighted_ratio_and_rho": "1817/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "2928/4225",
+            "978/4225"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "244/325",
+            "163/650"
+          ],
+          [
+            "7/13",
+            "7/13"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "244/325",
+            "163/650"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/13"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 14,
+      "unit_CD": 3,
+      "unit_CQ": 42,
+      "unit_ratio": 14,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11",
+        "29/11",
+        "32/11",
+        "35/11",
+        "38/11",
+        "41/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "6312/77",
+      "weighted_ratio_and_rho": "2104/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "13663/19600",
+            "4563/19600"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1051/1400",
+            "351/1400"
+          ],
+          [
+            "15/28",
+            "15/28"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1051/1400",
+            "351/1400"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/14"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 15,
+      "unit_CD": 3,
+      "unit_CQ": 45,
+      "unit_ratio": 15,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11",
+        "29/11",
+        "32/11",
+        "35/11",
+        "38/11",
+        "41/11",
+        "4"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "7236/77",
+      "weighted_ratio_and_rho": "2412/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "3941/5625",
+            "1316/5625"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "563/750",
+            "94/375"
+          ],
+          [
+            "8/15",
+            "8/15"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "563/750",
+            "94/375"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/15"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 16,
+      "unit_CD": 3,
+      "unit_CQ": 48,
+      "unit_ratio": 16,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11",
+        "29/11",
+        "32/11",
+        "35/11",
+        "38/11",
+        "41/11",
+        "4",
+        "47/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "8223/77",
+      "weighted_ratio_and_rho": "2741/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "3603/5120",
+            "1203/5120"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1201/1600",
+            "401/1600"
+          ],
+          [
+            "17/32",
+            "17/32"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1201/1600",
+            "401/1600"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/16"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 17,
+      "unit_CD": 3,
+      "unit_CQ": 51,
+      "unit_ratio": 17,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11",
+        "29/11",
+        "32/11",
+        "35/11",
+        "38/11",
+        "41/11",
+        "4",
+        "47/11",
+        "50/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "843/7",
+      "weighted_ratio_and_rho": "281",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "5104/7225",
+            "1704/7225"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "319/425",
+            "213/850"
+          ],
+          [
+            "9/17",
+            "9/17"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "319/425",
+            "213/850"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/17"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 18,
+      "unit_CD": 3,
+      "unit_CQ": 54,
+      "unit_ratio": 18,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11",
+        "29/11",
+        "32/11",
+        "35/11",
+        "38/11",
+        "41/11",
+        "4",
+        "47/11",
+        "50/11",
+        "53/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "10386/77",
+      "weighted_ratio_and_rho": "3462/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "22967/32400",
+            "7667/32400"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1351/1800",
+            "451/1800"
+          ],
+          [
+            "19/36",
+            "19/36"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1351/1800",
+            "451/1800"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/18"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 19,
+      "unit_CD": 3,
+      "unit_CQ": 57,
+      "unit_ratio": 19,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11",
+        "29/11",
+        "32/11",
+        "35/11",
+        "38/11",
+        "41/11",
+        "4",
+        "47/11",
+        "50/11",
+        "53/11",
+        "56/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "11562/77",
+      "weighted_ratio_and_rho": "3854/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "6417/9025",
+            "2142/9025"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "713/950",
+            "119/475"
+          ],
+          [
+            "10/19",
+            "10/19"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "713/950",
+            "119/475"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/19"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 20,
+      "unit_CD": 3,
+      "unit_CQ": 60,
+      "unit_ratio": 20,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11",
+        "29/11",
+        "32/11",
+        "35/11",
+        "38/11",
+        "41/11",
+        "4",
+        "47/11",
+        "50/11",
+        "53/11",
+        "56/11",
+        "59/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "12801/77",
+      "weighted_ratio_and_rho": "4267/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "28519/40000",
+            "9519/40000"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1501/2000",
+            "501/2000"
+          ],
+          [
+            "21/40",
+            "21/40"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1501/2000",
+            "501/2000"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/20"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 21,
+      "unit_CD": 3,
+      "unit_CQ": 63,
+      "unit_ratio": 21,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11",
+        "29/11",
+        "32/11",
+        "35/11",
+        "38/11",
+        "41/11",
+        "4",
+        "47/11",
+        "50/11",
+        "53/11",
+        "56/11",
+        "59/11",
+        "62/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "14103/77",
+      "weighted_ratio_and_rho": "4701/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "1576/2205",
+            "526/2205"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "394/525",
+            "263/1050"
+          ],
+          [
+            "11/21",
+            "11/21"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "394/525",
+            "263/1050"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/21"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 22,
+      "unit_CD": 3,
+      "unit_CQ": 66,
+      "unit_ratio": 22,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11",
+        "29/11",
+        "32/11",
+        "35/11",
+        "38/11",
+        "41/11",
+        "4",
+        "47/11",
+        "50/11",
+        "53/11",
+        "56/11",
+        "59/11",
+        "62/11",
+        "65/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "15468/77",
+      "weighted_ratio_and_rho": "5156/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "34671/48400",
+            "11571/48400"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1651/2200",
+            "551/2200"
+          ],
+          [
+            "23/44",
+            "23/44"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1651/2200",
+            "551/2200"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/22"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 23,
+      "unit_CD": 3,
+      "unit_CQ": 69,
+      "unit_ratio": 23,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11",
+        "29/11",
+        "32/11",
+        "35/11",
+        "38/11",
+        "41/11",
+        "4",
+        "47/11",
+        "50/11",
+        "53/11",
+        "56/11",
+        "59/11",
+        "62/11",
+        "65/11",
+        "68/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "1536/7",
+      "weighted_ratio_and_rho": "512",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "9493/13225",
+            "3168/13225"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "863/1150",
+            "144/575"
+          ],
+          [
+            "12/23",
+            "12/23"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "863/1150",
+            "144/575"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/23"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 24,
+      "unit_CD": 3,
+      "unit_CQ": 72,
+      "unit_ratio": 24,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11",
+        "29/11",
+        "32/11",
+        "35/11",
+        "38/11",
+        "41/11",
+        "4",
+        "47/11",
+        "50/11",
+        "53/11",
+        "56/11",
+        "59/11",
+        "62/11",
+        "65/11",
+        "68/11",
+        "71/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "18387/77",
+      "weighted_ratio_and_rho": "6129/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "41423/57600",
+            "13823/57600"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1801/2400",
+            "601/2400"
+          ],
+          [
+            "25/48",
+            "25/48"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1801/2400",
+            "601/2400"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/24"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 25,
+      "unit_CD": 3,
+      "unit_CQ": 75,
+      "unit_ratio": 25,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11",
+        "29/11",
+        "32/11",
+        "35/11",
+        "38/11",
+        "41/11",
+        "4",
+        "47/11",
+        "50/11",
+        "53/11",
+        "56/11",
+        "59/11",
+        "62/11",
+        "65/11",
+        "68/11",
+        "71/11",
+        "74/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "19941/77",
+      "weighted_ratio_and_rho": "6647/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "11256/15625",
+            "3756/15625"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "469/625",
+            "313/1250"
+          ],
+          [
+            "13/25",
+            "13/25"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "469/625",
+            "313/1250"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/25"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 26,
+      "unit_CD": 3,
+      "unit_CQ": 78,
+      "unit_ratio": 26,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11",
+        "29/11",
+        "32/11",
+        "35/11",
+        "38/11",
+        "41/11",
+        "4",
+        "47/11",
+        "50/11",
+        "53/11",
+        "56/11",
+        "59/11",
+        "62/11",
+        "65/11",
+        "68/11",
+        "71/11",
+        "74/11",
+        "7"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "21558/77",
+      "weighted_ratio_and_rho": "7186/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "1951/2704",
+            "651/2704"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1951/2600",
+            "651/2600"
+          ],
+          [
+            "27/52",
+            "27/52"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1951/2600",
+            "651/2600"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/26"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 27,
+      "unit_CD": 3,
+      "unit_CQ": 81,
+      "unit_ratio": 27,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11",
+        "29/11",
+        "32/11",
+        "35/11",
+        "38/11",
+        "41/11",
+        "4",
+        "47/11",
+        "50/11",
+        "53/11",
+        "56/11",
+        "59/11",
+        "62/11",
+        "65/11",
+        "68/11",
+        "71/11",
+        "74/11",
+        "7",
+        "80/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "23238/77",
+      "weighted_ratio_and_rho": "7746/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "13169/18225",
+            "4394/18225"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1013/1350",
+            "169/675"
+          ],
+          [
+            "14/27",
+            "14/27"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1013/1350",
+            "169/675"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/27"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 28,
+      "unit_CD": 3,
+      "unit_CQ": 84,
+      "unit_ratio": 28,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11",
+        "29/11",
+        "32/11",
+        "35/11",
+        "38/11",
+        "41/11",
+        "4",
+        "47/11",
+        "50/11",
+        "53/11",
+        "56/11",
+        "59/11",
+        "62/11",
+        "65/11",
+        "68/11",
+        "71/11",
+        "74/11",
+        "7",
+        "80/11",
+        "83/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "2271/7",
+      "weighted_ratio_and_rho": "757",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "56727/78400",
+            "18927/78400"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "2101/2800",
+            "701/2800"
+          ],
+          [
+            "29/56",
+            "29/56"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "2101/2800",
+            "701/2800"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/28"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 29,
+      "unit_CD": 3,
+      "unit_CQ": 87,
+      "unit_ratio": 29,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11",
+        "29/11",
+        "32/11",
+        "35/11",
+        "38/11",
+        "41/11",
+        "4",
+        "47/11",
+        "50/11",
+        "53/11",
+        "56/11",
+        "59/11",
+        "62/11",
+        "65/11",
+        "68/11",
+        "71/11",
+        "74/11",
+        "7",
+        "80/11",
+        "83/11",
+        "86/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "26787/77",
+      "weighted_ratio_and_rho": "8929/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "15232/21025",
+            "5082/21025"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "544/725",
+            "363/1450"
+          ],
+          [
+            "15/29",
+            "15/29"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "544/725",
+            "363/1450"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/29"
+          ]
+        ]
+      ]
+    },
+    {
+      "N": 30,
+      "unit_CD": 3,
+      "unit_CQ": 90,
+      "unit_ratio": 30,
+      "common_prices": [
+        "1/7",
+        "5/11",
+        "8/11",
+        "1",
+        "14/11",
+        "17/11",
+        "20/11",
+        "23/11",
+        "26/11",
+        "29/11",
+        "32/11",
+        "35/11",
+        "38/11",
+        "41/11",
+        "4",
+        "47/11",
+        "50/11",
+        "53/11",
+        "56/11",
+        "59/11",
+        "62/11",
+        "65/11",
+        "68/11",
+        "71/11",
+        "74/11",
+        "7",
+        "80/11",
+        "83/11",
+        "86/11",
+        "89/11"
+      ],
+      "weighted_CD": "3/7",
+      "weighted_CQ": "28656/77",
+      "weighted_ratio_and_rho": "9552/11",
+      "explicit_negative_predecessor_completions": [
+        [
+          [
+            "65279/90000",
+            "21779/90000"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "2251/3000",
+            "751/3000"
+          ],
+          [
+            "31/60",
+            "31/60"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "2251/3000",
+            "751/3000"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1",
+            "1/30"
+          ]
+        ]
+      ]
+    }
+  ],
+  "totals": {
+    "partition_families": 11,
+    "prefix_states_checked": 1329000,
+    "positive_archive_cases": 476,
+    "negative_archive_cases": 35899,
+    "cost_comparisons_including_setups": 7140,
+    "independent_Q_cached_calls": 39872,
+    "independent_Q_completed_mean_triples": 40192,
+    "sharp_family_N_values": 30,
+    "explicit_negative_predecessor_completions": 90
+  },
+  "limitations": [
+    "Finite alphabet and stated partition families only; cases overlap and are not independent physical samples.",
+    "No universal proof or historical-priority claim follows from these counts.",
+    "The analytic statement requires public partitions, exact equality within blocks and a Cartesian product of legal block completions.",
+    "Weighted sharpness with common price profiles is derived from explicit certificate characterisation, not an operational measurement."
+  ],
+  "source_sha256": "d2a027385c51af938fa5bd48a883ff7626035d51a504146d257b168018a3ac0b",
+  "elapsed_seconds": 9.324254274368286,
+  "finished_at_utc": "2026-10-24T14:49:07.904268+00:00"
+}

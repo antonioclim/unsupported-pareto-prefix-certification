@@ -1,0 +1,176 @@
+{
+  "schema": "sicomp-three-figure-build-p44-v1",
+  "revision": "P44",
+  "finished_at_utc": "2026-10-24T18:15:09.734962+00:00",
+  "status": "PASS",
+  "figure_order": [
+    "Fig1",
+    "Fig2",
+    "Fig3"
+  ],
+  "mapping": {
+    "P40 Fig0": "Fig1",
+    "P37 Fig1": "Fig2",
+    "P37 Fig2": "Fig3"
+  },
+  "prefix_arithmetic": {
+    "revision": "P44",
+    "status": "PASS",
+    "scope": "Exact arithmetic for the displayed route mixture. TRUE-prefix minima are separately verified by the P40 demonstrator and analytically in Supplement S1.6. This script alone is not an independent certificate optimiser.",
+    "prob_candidate_first": "16/23",
+    "expected_costs": {
+      "I": "200/23",
+      "II": "175/23"
+    },
+    "minimum_costs": {
+      "I": 8,
+      "II": 7
+    },
+    "common_prefix": [
+      2,
+      3,
+      1
+    ],
+    "rows_paid_common": 6,
+    "displayed_ratio": "25/23",
+    "script_sha256": "f607f699b1c8d042ac9e984703e2a25b938683a98b1b3cb2bee1cf6569b07939",
+    "native_images": 0
+  },
+  "theorem_figure_generation": {
+    "schema": "sicomp-theorem-figure-build-p44-v1",
+    "revision": "P44",
+    "finished_at_utc": "2026-10-24T18:15:08.119142+00:00",
+    "release_metadata_date": "2026-10-24",
+    "status": "PASS",
+    "semantic_checks": {
+      "status": "PASS",
+      "integer_N_boundaries": 16,
+      "worlds_checked": 2,
+      "method": "exact Fractions for thresholds, domination, chord gaps and support intervals; analytic radical converted only for plotting",
+      "scope": "checks displayed semantics, not universal theorem proofs"
+    },
+    "exports": [
+      {
+        "file": "Fig2.pdf",
+        "bytes": 31471,
+        "sha256": "2004b14b08cf1d392f38162e0d7533d92081e289a67e7c1be064f824830e17df"
+      },
+      {
+        "file": "Fig2.svg",
+        "bytes": 80693,
+        "sha256": "1914380996b5f9f714dd5f47b18b81e90aec62c01802db2ab83243c1eb3a6540"
+      },
+      {
+        "file": "Fig2.png",
+        "bytes": 236239,
+        "sha256": "7f1e7a10648c233221b43b1e463ef5412527c38492471bba0a45bc6a6c93f66a"
+      },
+      {
+        "file": "Fig3.pdf",
+        "bytes": 29650,
+        "sha256": "2d7341d8a64c2860ab1f7284dfe61272df64f41c26b34fa416c26132c90b7dc5"
+      },
+      {
+        "file": "Fig3.svg",
+        "bytes": 26310,
+        "sha256": "e5e725840d520ed021c727ffdcb1fb2aa1dcbe6cce31dab97d95aeaf53e38df7"
+      },
+      {
+        "file": "Fig3.png",
+        "bytes": 270517,
+        "sha256": "4ef6c8411356e975a8f84eda884026a0c7a3da48c37962f0a74b66fdf70187d0"
+      }
+    ],
+    "font_records": [
+      {
+        "figure": "Fig2",
+        "minimum_font_pt": 8.5,
+        "canvas_inches": [
+          5.0,
+          6.0
+        ],
+        "visible_text_items": 44
+      },
+      {
+        "figure": "Fig3",
+        "minimum_font_pt": 8.5,
+        "canvas_inches": [
+          5.0,
+          6.0
+        ],
+        "visible_text_items": 33
+      }
+    ],
+    "script_sha256": "c1c688d20414748907209f1a259931c55c846b0c56fdff71fcaf563073e45687",
+    "values_sha256": "c70a5eded3209b2af5ba437cd1cfe59d95268bb057cfb117b53f1f0cd8b961f7",
+    "environment": {
+      "python": "3.12.14",
+      "matplotlib": "3.10.8",
+      "platform": "Linux-6.18.55-x86_64-with-glibc2.39"
+    },
+    "reads_old_images": false,
+    "network_calls": false,
+    "new_measurements": false,
+    "scope": "generation and checks of figure semantics only; proofs remain analytic",
+    "final_insertion_requirement": "Insert at 5 inch width or greater, without a smaller height limit; smallest configured text is 8.5 pt at 5 inches."
+  },
+  "generators_sha256": {
+    "rebuild_figures.py": "05258ca6089f684dd5be3f3c49b35a3d28caf89a88887765e537246201833a0e",
+    "make_figures.py": "c1c688d20414748907209f1a259931c55c846b0c56fdff71fcaf563073e45687",
+    "build_prefix_figure.py": "f607f699b1c8d042ac9e984703e2a25b938683a98b1b3cb2bee1cf6569b07939",
+    "build_editable_odg.py": "a27ee8b33f5bb96e997ea14f0a5e10b936b5d3d6f79019e27cfd7246210e53a2"
+  },
+  "values_sha256": "140100983447ce2f55263ae1397bf71b702d47ab1799cd1204805836f93d9c0f",
+  "exports": [
+    {
+      "file": "Fig1.pdf",
+      "bytes": 60897,
+      "sha256": "d9d986db6e85978098a88692d6dcf7c48044537f8280ed2a927ce116da9dfe84"
+    },
+    {
+      "file": "Fig1.svg",
+      "bytes": 7799,
+      "sha256": "6e31d7d8aa5051b75781498985be9446ffbade7a614776e0168866803cbb3d75"
+    },
+    {
+      "file": "Fig1.png",
+      "bytes": 197894,
+      "sha256": "1a0fbb01e57abaf256dafc04666bf84c31226ddd5074983226bcbf4a3aa933c8"
+    },
+    {
+      "file": "Fig2.pdf",
+      "bytes": 31471,
+      "sha256": "2004b14b08cf1d392f38162e0d7533d92081e289a67e7c1be064f824830e17df"
+    },
+    {
+      "file": "Fig2.svg",
+      "bytes": 80693,
+      "sha256": "1914380996b5f9f714dd5f47b18b81e90aec62c01802db2ab83243c1eb3a6540"
+    },
+    {
+      "file": "Fig2.png",
+      "bytes": 236239,
+      "sha256": "7f1e7a10648c233221b43b1e463ef5412527c38492471bba0a45bc6a6c93f66a"
+    },
+    {
+      "file": "Fig3.pdf",
+      "bytes": 29650,
+      "sha256": "2d7341d8a64c2860ab1f7284dfe61272df64f41c26b34fa416c26132c90b7dc5"
+    },
+    {
+      "file": "Fig3.svg",
+      "bytes": 26310,
+      "sha256": "e5e725840d520ed021c727ffdcb1fb2aa1dcbe6cce31dab97d95aeaf53e38df7"
+    },
+    {
+      "file": "Fig3.png",
+      "bytes": 270517,
+      "sha256": "4ef6c8411356e975a8f84eda884026a0c7a3da48c37962f0a74b66fdf70187d0"
+    }
+  ],
+  "new_measurements": false,
+  "network_calls": false,
+  "GUI_interaction_executed": false,
+  "scope": "Exact displayed arithmetic and generated representation; not a proof of manuscript theorems.",
+  "final_insertion_requirement": "Use 5 inch width, without a smaller height limit; all labels are at least 8.5 pt."
+}

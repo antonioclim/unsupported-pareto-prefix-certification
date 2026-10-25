@@ -1,0 +1,36 @@
+{
+  "schema": "p17-apex-fixed-subcatalogue-v1",
+  "protocols": {
+    "Crystal": 16,
+    "RPL": 36
+  },
+  "triples_per_protocol": 128,
+  "selection_seed": "P17_APEX_SUBCATALOGUE_V1",
+  "configuration_labels": "zero-based indices from lexicographically sorted parameter tuples",
+  "triple_hash_text": "selection_seed|protocol|comma-separated ascending configuration indices",
+  "block_starts": [
+    0,
+    3
+  ],
+  "candidate_selection": "all three configurations in every selected triple",
+  "latency_transform": "latency/(latency+100ms) independently on each row",
+  "failure_transform": "1-reliability",
+  "completion_domain": "declared closed independent [0,1]^2 audit relaxation; not exact physical transformed feasible set",
+  "expected_tasks": 1536,
+  "expected_prefix_states": 98304,
+  "expected_policy_paths": 9216,
+  "policies": [
+    "A_LR",
+    "A_RL",
+    "B",
+    "det",
+    "greedy",
+    "census"
+  ],
+  "mixture_weights": [
+    "8/23",
+    "8/23",
+    "7/23"
+  ],
+  "price": "one per complete successful record disclosure"
+}

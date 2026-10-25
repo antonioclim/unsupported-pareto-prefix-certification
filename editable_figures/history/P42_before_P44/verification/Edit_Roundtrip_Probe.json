@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "revision": "P41",
+  "figures": [
+    {
+      "figure": "Fig1",
+      "status": "PASS",
+      "native_text_edited_and_reopened": "Fig1_0001_figure_text",
+      "native_line_colour_edited_and_reopened": "Fig1_0032_figure_line",
+      "method": "Temporary FODG edit -> LibreOffice ODG save -> LibreOffice FODG reopen; checked native object identity and changed values.",
+      "finished_figures_modified": false,
+      "new_pdfs_created": 0,
+      "limit": "Programmatic native-object edit; desktop GUI interaction was not exercised."
+    },
+    {
+      "figure": "Fig2",
+      "status": "PASS",
+      "native_text_edited_and_reopened": "Fig2_0016_text_1_text",
+      "native_line_colour_edited_and_reopened": "Fig2_0015_line2d_1_line",
+      "method": "Temporary FODG edit -> LibreOffice ODG save -> LibreOffice FODG reopen; checked native object identity and changed values.",
+      "finished_figures_modified": false,
+      "new_pdfs_created": 0,
+      "limit": "Programmatic native-object edit; desktop GUI interaction was not exercised."
+    },
+    {
+      "figure": "Fig3",
+      "status": "PASS",
+      "native_text_edited_and_reopened": "Fig3_0005_text_1_text",
+      "native_line_colour_edited_and_reopened": "Fig3_0004_line2d_1_line",
+      "method": "Temporary FODG edit -> LibreOffice ODG save -> LibreOffice FODG reopen; checked native object identity and changed values.",
+      "finished_figures_modified": false,
+      "new_pdfs_created": 0,
+      "limit": "Programmatic native-object edit; desktop GUI interaction was not exercised."
+    }
+  ],
+  "GUI_interaction_executed": false
+}

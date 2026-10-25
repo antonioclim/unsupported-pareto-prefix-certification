@@ -1,0 +1,124 @@
+{
+  "status": "PASS",
+  "program_count": 8,
+  "programs_executed": 8,
+  "byte_identical_output_count": 8,
+  "max_parallel_jobs": 3,
+  "dependency_order": "Universal producer completes successfully before universal independent checker.",
+  "jobs": [
+    {
+      "script": "lower/check_minimal_alphabet.py",
+      "output": "lower/Minimal_Alphabet_Exact_Check.json",
+      "retained_sha256": "a9dc81ec757c47014d319a36f36cdbcf9752f3e87d77d70907af042d5c41dc40",
+      "exit_code": 0,
+      "reproduced_sha256": "a9dc81ec757c47014d319a36f36cdbcf9752f3e87d77d70907af042d5c41dc40",
+      "result_status": "PASS",
+      "byte_identical": true,
+      "elapsed_seconds": 1.148
+    },
+    {
+      "script": "lower/check_collinear_family_barrier.py",
+      "output": "lower/Collinear_Family_Barrier_Exact_Check.json",
+      "retained_sha256": "8782f63f441986ee5d7c937dae7b9587b104035db1ebedc15e719c7bc0e83c8d",
+      "exit_code": 0,
+      "reproduced_sha256": "8782f63f441986ee5d7c937dae7b9587b104035db1ebedc15e719c7bc0e83c8d",
+      "result_status": "PASS",
+      "byte_identical": true,
+      "elapsed_seconds": 1.339
+    },
+    {
+      "script": "upper/check_universal_upper.py",
+      "output": "upper/Universal_Upper_Exact_Check.json",
+      "retained_sha256": "bdd6765099ac8a039059a2627bc716c53d0bb7da8fb67f710612a87c4ba30eae",
+      "exit_code": 0,
+      "reproduced_sha256": "bdd6765099ac8a039059a2627bc716c53d0bb7da8fb67f710612a87c4ba30eae",
+      "result_status": "PASS",
+      "byte_identical": true,
+      "elapsed_seconds": 0.064
+    },
+    {
+      "script": "finite/check_n6_exact.py",
+      "output": "finite/N6_Exact_Check.json",
+      "retained_sha256": "4d3ab1a4ec393f28f8d9d04e976305604500ecb5a2ad3afec8491871c764174f",
+      "exit_code": 0,
+      "reproduced_sha256": "4d3ab1a4ec393f28f8d9d04e976305604500ecb5a2ad3afec8491871c764174f",
+      "result_status": "PASS",
+      "byte_identical": true,
+      "elapsed_seconds": 0.137
+    },
+    {
+      "script": "foundation/check_ordinal_foundation.py",
+      "output": "foundation/Ordinal_Foundation_Exact_Check.json",
+      "retained_sha256": "6c591e303f36ae6566dddc63eb3593f1b35fe991577234fb59028568ab2b4bfc",
+      "exit_code": 0,
+      "reproduced_sha256": "6c591e303f36ae6566dddc63eb3593f1b35fe991577234fb59028568ab2b4bfc",
+      "result_status": "PASS",
+      "byte_identical": true,
+      "elapsed_seconds": 0.288
+    },
+    {
+      "script": "foundation/check_three_symbol_independent.py",
+      "output": "foundation/Three_Symbol_Independent_Check.json",
+      "retained_sha256": "2943460a1009bd9c1d29a925096e96598c9b7b36a59e8e08fe7d489f7d7a7c21",
+      "exit_code": 0,
+      "reproduced_sha256": "2943460a1009bd9c1d29a925096e96598c9b7b36a59e8e08fe7d489f7d7a7c21",
+      "result_status": "PASS",
+      "byte_identical": true,
+      "elapsed_seconds": 0.528
+    },
+    {
+      "script": "review/check_n6_independent.py",
+      "output": "review/N6_Independent_Check.json",
+      "retained_sha256": "c4090b21a3e34babe0a80c4affb6ed1718f1a78f73b9bc22fe3080d876fd87fa",
+      "exit_code": 0,
+      "reproduced_sha256": "c4090b21a3e34babe0a80c4affb6ed1718f1a78f73b9bc22fe3080d876fd87fa",
+      "result_status": "PASS",
+      "byte_identical": true,
+      "elapsed_seconds": 0.04
+    },
+    {
+      "script": "review/check_universal_upper_independent.py",
+      "output": "review/Universal_Upper_Independent_Check.json",
+      "retained_sha256": "098a346e7e0905d4e0d930eda1f9fda5afe95ac790a9d4d1c2b394c9dc4cd052",
+      "exit_code": 0,
+      "reproduced_sha256": "098a346e7e0905d4e0d930eda1f9fda5afe95ac790a9d4d1c2b394c9dc4cd052",
+      "result_status": "PASS",
+      "byte_identical": true,
+      "elapsed_seconds": 0.525
+    }
+  ],
+  "source_input_count": 17,
+  "source_inputs_unchanged": true,
+  "retained_outputs_unchanged": true,
+  "source_sha256": {
+    "p23/lower/check_minimal_alphabet.py": "ca1e935659152008045fe4d553ecd263e8f9c0eb2ba7dde7a2daba04720c09d1",
+    "p23/lower/check_collinear_family_barrier.py": "ab4d80b6542eeec9bcf7af0ba21a3ecb0ba1a81e33a7c112b47a9d431435b74a",
+    "p23/upper/check_universal_upper.py": "229509fbef9c6fa01c52aa706c81a86dea7ecb61c6a50b998c8bf02fca1fc2c9",
+    "p23/finite/check_n6_exact.py": "36d42af4ad368a0d5489fe5dc1bf36b3d7867d16c5ff92f9bffd5772a7c977f1",
+    "p23/foundation/check_ordinal_foundation.py": "ec3421175ce1844525108b1cc1e4aad6641f18498d0b64c984bd1e63b3e4ed7a",
+    "p23/foundation/check_three_symbol_independent.py": "dd064b896cffc07014239af4864bfde1d0e8edd4a00a603ee8ed99b6db1e8d09",
+    "p23/review/check_n6_independent.py": "ff586fb4961ff381d77ef44f5d61f1f5b3e933ba0581fc902c5c9a566868a597",
+    "p23/review/check_universal_upper_independent.py": "4a419f86a3f3a23ef1f20249f9914eebaf76fbafb069a5777c24d758ea6904e7",
+    "p23/lower/Minimal_Alphabet_Persistent_Overhead_P23.md": "929cdee4ffe664b5182f30589e94a229aa317d89538d18cd368adc4ac7deae76",
+    "p23/lower/Collinear_Two_Chain_Family_Barrier_P23.md": "3d2bdd33185179dc63370291b9370e17d9b86a9657d043dd9fdb54b4e61fc7de",
+    "p23/upper/Universal_Triangle_Upper_Bounds_P23.md": "3a546b72ce133d7fbd27e044efdb6aaa198114c69529d3f07a04acc340611e93",
+    "p23/finite/N6_Deterministic_Exact_and_Randomised_Lower_P23.md": "035cef34b606d3379424d7557cf56787463f76cea441f8a9e64600fdd7d4d0e5",
+    "p21/article/Manuscript_Paid_Prefix_Certification_P21_v10.md": "58ce4a51a17d07f6572dcdcd65df256ec8af4e112935639346cc15b3dca84797",
+    "p22/general_k/Triangular_General_K_Embedding.txt": "1c23129acaa3eb6301b9369ea0ec407bd5e7cb51b6da1862beaebaca76ffe952",
+    "p22/structure/Band_Domain_Theorems_P22.md": "910faf09054430a9fffb85ab0989692d88d1f3cf461c828f81be21c5797a834a",
+    "p22/lower/Fixed_Alphabet_Constant_Overhead_P22.md": "ae3ebb6788565a2256db5b46a8a7baf22de7c1447356a7d9437306c131f9a2fd",
+    "p23/reproduce_p23.py": "b09343d9deade4b2dc2b05972cb63cd7876f0c938686e604bc8395c9a749c85d"
+  },
+  "retained_output_sha256": {
+    "p23/lower/Minimal_Alphabet_Exact_Check.json": "a9dc81ec757c47014d319a36f36cdbcf9752f3e87d77d70907af042d5c41dc40",
+    "p23/lower/Collinear_Family_Barrier_Exact_Check.json": "8782f63f441986ee5d7c937dae7b9587b104035db1ebedc15e719c7bc0e83c8d",
+    "p23/upper/Universal_Upper_Exact_Check.json": "bdd6765099ac8a039059a2627bc716c53d0bb7da8fb67f710612a87c4ba30eae",
+    "p23/finite/N6_Exact_Check.json": "4d3ab1a4ec393f28f8d9d04e976305604500ecb5a2ad3afec8491871c764174f",
+    "p23/foundation/Ordinal_Foundation_Exact_Check.json": "6c591e303f36ae6566dddc63eb3593f1b35fe991577234fb59028568ab2b4bfc",
+    "p23/foundation/Three_Symbol_Independent_Check.json": "2943460a1009bd9c1d29a925096e96598c9b7b36a59e8e08fe7d489f7d7a7c21",
+    "p23/review/N6_Independent_Check.json": "c4090b21a3e34babe0a80c4affb6ed1718f1a78f73b9bc22fe3080d876fd87fa",
+    "p23/review/Universal_Upper_Independent_Check.json": "098a346e7e0905d4e0d930eda1f9fda5afe95ac790a9d4d1c2b394c9dc4cd052"
+  },
+  "total_elapsed_seconds": 1.871,
+  "scope": "Own standard-library scientific programs replayed in a temporary tree. The two universal-upper programs reproduce exact Bernstein certificates covering a continuous parameter cube, conditional on the analytic policy and polynomial reduction. The other programs perform declared finite exact checks. This does not execute an infinite Ramsey argument, exhaust a continuous archive class or constitute external peer review or proof-assistant verification."
+}

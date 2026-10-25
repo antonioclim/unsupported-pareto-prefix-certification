@@ -1,0 +1,158 @@
+{
+  "status": "PASS",
+  "exact_arithmetic": true,
+  "prefix_states_enumerated": 50078,
+  "hard_archives": [
+    {
+      "name": "U16",
+      "true_states": [
+        [
+          5,
+          5,
+          6
+        ],
+        [
+          5,
+          6,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ]
+      ],
+      "C_star": 16,
+      "deterministic_policy_cost": 17,
+      "whole_row_symbols": 7
+    },
+    {
+      "name": "V14",
+      "true_states": [
+        [
+          6,
+          2,
+          6
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ]
+      ],
+      "C_star": 14,
+      "deterministic_policy_cost": 14,
+      "whole_row_symbols": 5
+    },
+    {
+      "name": "A17",
+      "true_states": [
+        [
+          5,
+          6,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ]
+      ],
+      "C_star": 17,
+      "deterministic_policy_cost": 18,
+      "whole_row_symbols": 5
+    },
+    {
+      "name": "B13",
+      "true_states": [
+        [
+          6,
+          1,
+          6
+        ],
+        [
+          6,
+          2,
+          6
+        ],
+        [
+          6,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ]
+      ],
+      "C_star": 13,
+      "deterministic_policy_cost": 13,
+      "whole_row_symbols": 5
+    }
+  ],
+  "positive_length_triples_checked": 216,
+  "minimal_feasible_shapes": [
+    [
+      5,
+      5,
+      6
+    ],
+    [
+      6,
+      1,
+      6
+    ],
+    [
+      6,
+      5,
+      5
+    ],
+    [
+      6,
+      6,
+      4
+    ]
+  ],
+  "constructed_policy_archives": 22,
+  "random_synthetic_archives": 120,
+  "random_synthetic_positive": 1,
+  "random_synthetic_negative": 119,
+  "policy_cases": 146,
+  "setup_arithmetic_checks": 63,
+  "deterministic_exact_zero_setup": "17/16",
+  "randomised_lower_zero_setup": "103/98",
+  "script_sha256": "36d42af4ad368a0d5489fe5dc1bf36b3d7867d16c5ff92f9bffd5772a7c977f1",
+  "proof_sha256": "035cef34b606d3379424d7557cf56787463f76cea441f8a9e64600fdd7d4d0e5",
+  "scope": "Finite explicit-world, constructed-world and synthetic policy checks plus exact setup arithmetic; continuous universal policy correctness is analytic, not exhaustively computed. Randomised optimum remains open."
+}

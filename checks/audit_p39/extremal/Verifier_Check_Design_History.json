@@ -1,0 +1,48 @@
+{
+  "scope": "Finite semantic test-grid design, not empirical dataset selection or performance benchmarking",
+  "initial_grid": {
+    "cost_coordinates": [
+      "0",
+      "1/2",
+      "1",
+      "2"
+    ],
+    "failure_coordinates": [
+      "0",
+      "1/2",
+      "1"
+    ],
+    "results": [
+      {
+        "K": 3,
+        "catalogues": 1728,
+        "GOOD": 0
+      },
+      {
+        "K": 4,
+        "catalogues": 20736,
+        "GOOD": 0
+      }
+    ],
+    "all_decisions_agreed": true,
+    "coverage_limitation": "No GOOD archive; positive branch not exercised"
+  },
+  "expanded_grid": {
+    "change": "Added 3/5 to both coordinate sets, retaining every previous grid point",
+    "results": [
+      {
+        "K": 3,
+        "catalogues": 8000,
+        "GOOD": 32
+      },
+      {
+        "K": 4,
+        "catalogues": 160000,
+        "GOOD": 1218
+      }
+    ],
+    "all_decisions_agreed": true,
+    "result_path": "Extremal_Verifier_Check_P39.json"
+  },
+  "universal_proof_claimed_from_enumeration": false
+}

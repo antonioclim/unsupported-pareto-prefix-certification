@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "scope": "Finite ordinal game only; not numeric/Ramsey proof",
+  "method": "Exact posterior enumeration of all labelled worlds and ordinal states",
+  "results": [
+    {
+      "m": 1,
+      "n": 1,
+      "enumerated_optimum": "2",
+      "formula": "2",
+      "history_orders_do_not_change_value": true,
+      "states": 3,
+      "nonterminal_states": 3,
+      "worlds": 1
+    },
+    {
+      "m": 1,
+      "n": 2,
+      "enumerated_optimum": "5/2",
+      "formula": "5/2",
+      "history_orders_do_not_change_value": true,
+      "states": 8,
+      "nonterminal_states": 8,
+      "worlds": 2
+    },
+    {
+      "m": 1,
+      "n": 3,
+      "enumerated_optimum": "3",
+      "formula": "3",
+      "history_orders_do_not_change_value": true,
+      "states": 26,
+      "nonterminal_states": 26,
+      "worlds": 6
+    },
+    {
+      "m": 1,
+      "n": 4,
+      "enumerated_optimum": "7/2",
+      "formula": "7/2",
+      "history_orders_do_not_change_value": true,
+      "states": 106,
+      "nonterminal_states": 106,
+      "worlds": 24
+    },
+    {
+      "m": 2,
+      "n": 2,
+      "enumerated_optimum": "13/4",
+      "formula": "13/4",
+      "history_orders_do_not_change_value": true,
+      "states": 21,
+      "nonterminal_states": 21,
+      "worlds": 4
+    },
+    {
+      "m": 2,
+      "n": 3,
+      "enumerated_optimum": "23/6",
+      "formula": "23/6",
+      "history_orders_do_not_change_value": true,
+      "states": 68,
+      "nonterminal_states": 68,
+      "worlds": 12
+    },
+    {
+      "m": 2,
+      "n": 4,
+      "enumerated_optimum": "35/8",
+      "formula": "35/8",
+      "history_orders_do_not_change_value": true,
+      "states": 277,
+      "nonterminal_states": 277,
+      "worlds": 48
+    },
+    {
+      "m": 3,
+      "n": 3,
+      "enumerated_optimum": "41/9",
+      "formula": "41/9",
+      "history_orders_do_not_change_value": true,
+      "states": 220,
+      "nonterminal_states": 220,
+      "worlds": 36
+    },
+    {
+      "m": 3,
+      "n": 4,
+      "enumerated_optimum": "31/6",
+      "formula": "31/6",
+      "history_orders_do_not_change_value": true,
+      "states": 896,
+      "nonterminal_states": 896,
+      "worlds": 144
+    },
+    {
+      "m": 4,
+      "n": 4,
+      "enumerated_optimum": "47/8",
+      "formula": "47/8",
+      "history_orders_do_not_change_value": true,
+      "states": 3649,
+      "nonterminal_states": 3649,
+      "worlds": 576
+    }
+  ]
+}

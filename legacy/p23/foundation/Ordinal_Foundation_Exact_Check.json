@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "counts": {
+    "rank_worlds": 133,
+    "world_history_pairs": 53701,
+    "posterior_classes": 27255,
+    "next_label_checks": 33431,
+    "bellman_states": 18225,
+    "split_checks": 79
+  },
+  "posterior_splits": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      3
+    ]
+  ],
+  "bellman_splits": 225,
+  "balanced_total_label_range": [
+    2,
+    80
+  ],
+  "source_sha256": {
+    "p21/article/Manuscript_Paid_Prefix_Certification_P21_v10.md": "58ce4a51a17d07f6572dcdcd65df256ec8af4e112935639346cc15b3dca84797",
+    "p22/general_k/Triangular_General_K_Embedding.txt": "1c23129acaa3eb6301b9369ea0ec407bd5e7cb51b6da1862beaebaca76ffe952",
+    "p22/structure/Band_Domain_Theorems_P22.md": "910faf09054430a9fffb85ab0989692d88d1f3cf461c828f81be21c5797a834a",
+    "p22/lower/Fixed_Alphabet_Constant_Overhead_P22.md": "ae3ebb6788565a2256db5b46a8a7baf22de7c1447356a7d9437306c131f9a2fd"
+  },
+  "script_sha256": "ec3421175ce1844525108b1cc1e4aad6641f18498d0b64c984bd1e63b3e4ed7a",
+  "scope": "Exact enumeration of finite rank posterior histories and Bellman states. Does not execute infinite Ramsey, prove arbitrary real-domain policies by enumeration or constitute external peer review."
+}

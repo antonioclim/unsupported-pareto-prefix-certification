@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "source_sha256": "95c59dc8086f8195805ae23c92495388b8620bbeef0001f5b5149b3c2b6050d3",
+  "independent_of_producer_imports": true,
+  "integer_constructive_cases": 5000,
+  "noise_extreme_archives_cases": 1950,
+  "square_N3_exception": 9,
+  "limitations": [
+    "Finite arithmetic checks, not formal verification.",
+    "Does not claim positive-triangle exhaustive coverage.",
+    "Does not validate drift metadata on physical measurements."
+  ]
+}

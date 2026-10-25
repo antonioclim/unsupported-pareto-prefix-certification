@@ -1,0 +1,76 @@
+P23 AUTHOR-READY CORRECTION TO P21 APPENDIX A.3
+23 October 2026. P21 source remains immutable; this correction is authoritative
+for subsequent consolidation, subject to the final editorial audit.
+
+Source: p21/article/Manuscript_Paid_Prefix_Certification_P21_v10.md
+SHA-256: 58ce4a51a17d07f6572dcdcd65df256ec8af4e112935639346cc15b3dca84797
+Location: Appendix A.3, final paragraph beginning "Continuation uses the
+ambient dense positive rationals, not only S."
+
+Defective wording, quoted exactly:
+"If one good endpoint has already been observed, insert its missing opposite
+between the observed extremes; if one side is exhausted, its observed extreme
+serves as its good endpoint."
+
+Why correction is necessary:
+At a no-edge history with observations on both sides, max R_obs < min L_obs.
+If all L labels have been observed, its good endpoint must be min L_obs.
+Putting a missing R strictly BETWEEN max R_obs and min L_obs leaves it BELOW
+that L endpoint, and therefore does not create the required edge L<R.
+The symmetric all-R-observed case similarly requires a missing L BELOW the
+largest observed R, not within that separating gap. The theorem is not
+invalidated: the intended compatible positive completion exists, but that
+sentence specifies the wrong insertion interval in these cases.
+
+REPLACEMENT PARAGRAPH (British academic English; Markdown/LaTeX-ready)
+
+Continuation uses the ambient dense positive rationals, not only $S$.
+Consider a no-edge history with fewer than $k$ observed labels. If both sides
+have an unobserved label, choose new values $u<v$ strictly between the largest
+observed R value and the smallest observed L value. An absent lower or upper
+observed extreme may be replaced by zero or by a sufficiently large positive
+rational bound. Assign $u$ to one missing L and $v$ to one missing R. If all L
+labels have been observed, choose one missing R value strictly above the
+smallest observed L and below the next observed L, when a next L exists; if
+there is only one L, any sufficiently close larger rational value suffices.
+All observed R values are already below the smallest observed L. Symmetrically,
+if all R labels have been observed, choose one missing L value strictly below
+the largest observed R and above the next smaller observed R, when one exists;
+with only one R, choose any positive rational just below it. All observed L
+values are already larger. Fill the other missing R values sufficiently low
+and the other missing L values sufficiently high, choosing distinct rationals.
+Each case gives a compatible positive completion, and can give exactly one
+inversion. The only excluded case is the fully observed no-edge state. Thus
+adjacent integers in $S$ do not provide a free negative-answer promise: the
+algorithm must remain sound on the full ambient rational domain, including
+legal completions outside $S$.
+
+PROOF DETAILS AND SCOPE
+
+1. Both sides missing. Let r be max R_obs when that set is nonempty and zero
+otherwise. Let l be min L_obs when it is nonempty and any rational >r otherwise.
+Because the history has no edge and all observed ranks are distinct, r<l.
+Choose r<u<v<l. Designate the new L at u and R at v as the only good endpoints.
+All existing R are <u and all existing L are >v. Place every other missing R
+below u and every other missing L above v, with all values distinct.
+
+2. Only R side missing. All L labels exist; let l1 be their smallest value and,
+if m>=2, l2 their next value. Choose v in (l1,l2) if m>=2, or v>l1 if m=1.
+All observed R are below l1. Put all other missing R below l1. Exactly the
+pair (l1,v) is an inversion.
+
+3. Only L side missing. Let r1 be the largest observed R and, if n>=2, r2 its
+next smaller value. Choose u in (r2,r1) if n>=2, or u in (0,r1) if n=1.
+All observed L exceed r1. Put all other missing L above r1. Exactly (u,r1)
+is an inversion.
+
+4. The insertions exist by density and positivity of the rational domain.
+They are not required to belong to the selected finite integer set S.
+P21's fixed increasing rational embedding and P22's corresponding bounded
+embedding map these new scalar rationals into legal rows while preserving
+all already observed rows and the strict inversion. No new input-dependent
+oracle, adaptive adversary or promise is introduced.
+
+Mathematical effect: repairs an explicit positive-completion construction
+used to exclude premature FALSE answers. No theorem statement, constant,
+certificate cost, computational result or asymptotic claim changes.

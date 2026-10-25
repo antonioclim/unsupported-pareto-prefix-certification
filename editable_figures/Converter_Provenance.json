@@ -1,0 +1,23 @@
+{
+  "schema": "p49-native-converter-provenance-v1",
+  "sources": [
+    {
+      "path": "p37/04_Figures_Editable_ODG/source/build_editable_odg.py",
+      "sha256": "fb8a9bb002a31b24f992dbff8844432a6c00ae3a94bb87190ce527927f21c59e"
+    },
+    {
+      "path": "p40/figures/build_prefix_figure.py",
+      "sha256": "cc0f3e4e6e4eef1011e4fcea13908b5cd45f8200460a23e6213a1b819742f7fb"
+    }
+  ],
+  "current_files": {
+    "source/build_editable_odg.py": "a27ee8b33f5bb96e997ea14f0a5e10b936b5d3d6f79019e27cfd7246210e53a2",
+    "source/build_prefix_figure.py": "f607f699b1c8d042ac9e984703e2a25b938683a98b1b3cb2bee1cf6569b07939",
+    "source/make_figures.py": "c1c688d20414748907209f1a259931c55c846b0c56fdff71fcaf563073e45687"
+  },
+  "changes": "P49: Fig1 label fill and Fig3 U/V annotation text set to pure black. Native converter itself unchanged; editable objects, graphical geometry and colours retained.",
+  "licence": "BSD-3-Clause for covered author code; unchanged DejaVu terms remain separate",
+  "font_notice": "source/fonts/LICENSE_DEJAVU",
+  "revision": "P49",
+  "prior_changes_P44": "P44: Fig1 nominal stroke 1.1 pt; native stroke widths rounded upward to 0.01 mm to preserve the 1 pt minimum after LibreOffice quantisation; Fig3 metadata updated for the sharp candidate-census limit. Native editable objects retained."
+}

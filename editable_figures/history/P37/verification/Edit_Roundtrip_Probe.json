@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "native_text_edited_and_reopened": "Fig2_0050_text_15_text",
+  "native_line_colour_edited_and_reopened": "Fig2_0004_line2d_1_line",
+  "method": "Temporary FODG edit -> LibreOffice ODG save -> LibreOffice FODG reopen; checked native object identity and changed values.",
+  "finished_figures_modified": false,
+  "new_pdfs_created": 0,
+  "limit": "Programmatic native-object edit; desktop GUI interaction was not exercised."
+}

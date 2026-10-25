@@ -1,0 +1,73 @@
+{
+  "schema": "p17-apex-replay-artifact-manifest-v1",
+  "status": "COMPLETE_FIRST_NATIVE_EXECUTION_PASS_WITH_ADVERSE_APPLIED_RESULT",
+  "files": [
+    {
+      "path": "p17/apex_replay/apex_subcatalogue_replay_v1.py",
+      "bytes": 12618,
+      "sha256": "799f2a4448f021f6055d90296bf5dc716d64ae8b88710861e8a30b2811c2f21b"
+    },
+    {
+      "path": "p17/apex_replay/fixtures_v1.json",
+      "bytes": 1040,
+      "sha256": "fd89f6d4c0ae02fed74f02e930484f8815c180db005f9e2e4e2c19e22ee11e17"
+    },
+    {
+      "path": "p17/apex_replay/PROTOCOL_v1.txt",
+      "bytes": 1345,
+      "sha256": "dc496dfcfbdac43960feb1d6e5ced11247b54ffbabc82bd4c4cf1d0087c37d4b"
+    },
+    {
+      "path": "p17/apex_replay/FREEZE_v1.json",
+      "bytes": 659,
+      "sha256": "27d2481eb95d937f9ed9ed56016f12b6221abaa5bb40e2eee41dfd102f5a54ec"
+    },
+    {
+      "path": "p17/apex_replay/results_v1.json",
+      "bytes": 6902402,
+      "sha256": "2e5c865844ab41dd9037f19ea550a20e3792d8cd9a955f92d159e71c63a55503"
+    },
+    {
+      "path": "p17/apex_replay/comparison_v1.csv",
+      "bytes": 54924,
+      "sha256": "de42f61187ce3fdc18de5da382b8f11c1991fb578b2f33472d166077fc21694e"
+    },
+    {
+      "path": "p17/apex_replay/execution_record_v1.json",
+      "bytes": 1729,
+      "sha256": "8369b1f79494fab278cf2a9603e4275db2213e090f64134921eaf2e05ab86fc3"
+    },
+    {
+      "path": "p17/apex_replay/README.txt",
+      "bytes": 5965,
+      "sha256": "cdc072b84b406601d60a285cbaa087bd2202084ddf70e0ad3f691ebb43249462"
+    }
+  ],
+  "replay": {
+    "script": "p17/apex_replay/apex_subcatalogue_replay_v1.py",
+    "outputs": [
+      "p17/apex_replay/results_v1.json",
+      "p17/apex_replay/comparison_v1.csv"
+    ],
+    "required_original_data": [
+      "p9/licence/apex_dataset/Crystal_results.json",
+      "p9/licence/apex_dataset/RPL_results.json"
+    ],
+    "deterministic_outputs": true,
+    "no_variable_timestamp_in_scientific_outputs": true
+  },
+  "native_evidence": {
+    "task_count": 1536,
+    "prefix_states": 98304,
+    "policy_paths": 9216,
+    "GOOD_tasks": 41,
+    "not_GOOD_tasks": 1495,
+    "positive_C_star_values": [
+      9
+    ],
+    "positive_policy_cost_values": [
+      9
+    ],
+    "disclosure_savings_observed": false
+  }
+}
