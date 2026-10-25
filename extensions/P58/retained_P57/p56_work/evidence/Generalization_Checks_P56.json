@@ -1,0 +1,531 @@
+{
+  "status": "PASS",
+  "arithmetic": "fractions.Fraction, exact rational vertex enumeration",
+  "scope": "Finite corroboration only; universal proofs are in research/generalization.md",
+  "sharp_witness": [
+    {
+      "d": 2,
+      "required_rivals": 2,
+      "mixture_gap": "1/8"
+    },
+    {
+      "d": 3,
+      "required_rivals": 3,
+      "mixture_gap": "1/12"
+    },
+    {
+      "d": 4,
+      "required_rivals": 4,
+      "mixture_gap": "1/16"
+    },
+    {
+      "d": 5,
+      "required_rivals": 5,
+      "mixture_gap": "1/20"
+    },
+    {
+      "d": 6,
+      "required_rivals": 6,
+      "mixture_gap": "1/24"
+    }
+  ],
+  "comparator": [
+    {
+      "d": 2,
+      "lengths": [
+        1,
+        3,
+        2
+      ],
+      "states": 24,
+      "true_states": 1,
+      "positive": true,
+      "minimum": "20"
+    },
+    {
+      "d": 2,
+      "lengths": [
+        2,
+        3,
+        3,
+        3
+      ],
+      "states": 192,
+      "true_states": 2,
+      "positive": true,
+      "minimum": "65/2"
+    },
+    {
+      "d": 2,
+      "lengths": [
+        3,
+        3,
+        3
+      ],
+      "states": 64,
+      "true_states": 1,
+      "positive": true,
+      "minimum": "41/2"
+    },
+    {
+      "d": 2,
+      "lengths": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "states": 24,
+      "true_states": 1,
+      "positive": true,
+      "minimum": "73/6"
+    },
+    {
+      "d": 2,
+      "lengths": [
+        1,
+        1,
+        3
+      ],
+      "states": 16,
+      "true_states": 1,
+      "positive": true,
+      "minimum": "14"
+    },
+    {
+      "d": 2,
+      "lengths": [
+        1,
+        2,
+        3,
+        3
+      ],
+      "states": 96,
+      "true_states": 2,
+      "positive": true,
+      "minimum": "43/2"
+    },
+    {
+      "d": 2,
+      "lengths": [
+        2,
+        3,
+        2
+      ],
+      "states": 36,
+      "true_states": 0,
+      "positive": false,
+      "minimum": null
+    },
+    {
+      "d": 2,
+      "lengths": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "states": 36,
+      "true_states": 0,
+      "positive": false,
+      "minimum": null
+    },
+    {
+      "d": 2,
+      "lengths": [
+        3,
+        2,
+        2
+      ],
+      "states": 36,
+      "true_states": 0,
+      "positive": false,
+      "minimum": null
+    },
+    {
+      "d": 2,
+      "lengths": [
+        1,
+        2,
+        3,
+        1
+      ],
+      "states": 48,
+      "true_states": 0,
+      "positive": false,
+      "minimum": null
+    },
+    {
+      "d": 3,
+      "lengths": [
+        2,
+        3,
+        2,
+        3
+      ],
+      "states": 144,
+      "true_states": 1,
+      "positive": true,
+      "minimum": "68/3"
+    },
+    {
+      "d": 3,
+      "lengths": [
+        1,
+        2,
+        2,
+        3,
+        3
+      ],
+      "states": 288,
+      "true_states": 1,
+      "positive": true,
+      "minimum": "163/6"
+    },
+    {
+      "d": 3,
+      "lengths": [
+        2,
+        1,
+        1,
+        3
+      ],
+      "states": 48,
+      "true_states": 1,
+      "positive": true,
+      "minimum": "37/3"
+    },
+    {
+      "d": 3,
+      "lengths": [
+        1,
+        3,
+        3,
+        2,
+        1
+      ],
+      "states": 192,
+      "true_states": 1,
+      "positive": true,
+      "minimum": "167/6"
+    },
+    {
+      "d": 3,
+      "lengths": [
+        2,
+        3,
+        1,
+        1
+      ],
+      "states": 48,
+      "true_states": 1,
+      "positive": true,
+      "minimum": "14"
+    },
+    {
+      "d": 3,
+      "lengths": [
+        3,
+        3,
+        1,
+        1,
+        3
+      ],
+      "states": 256,
+      "true_states": 2,
+      "positive": true,
+      "minimum": "65/3"
+    },
+    {
+      "d": 3,
+      "lengths": [
+        3,
+        1,
+        1,
+        3
+      ],
+      "states": 64,
+      "true_states": 0,
+      "positive": false,
+      "minimum": null
+    },
+    {
+      "d": 3,
+      "lengths": [
+        3,
+        1,
+        2,
+        2,
+        3
+      ],
+      "states": 288,
+      "true_states": 0,
+      "positive": false,
+      "minimum": null
+    },
+    {
+      "d": 3,
+      "lengths": [
+        1,
+        1,
+        3,
+        3
+      ],
+      "states": 64,
+      "true_states": 0,
+      "positive": false,
+      "minimum": null
+    },
+    {
+      "d": 3,
+      "lengths": [
+        1,
+        1,
+        2,
+        3,
+        3
+      ],
+      "states": 192,
+      "true_states": 0,
+      "positive": false,
+      "minimum": null
+    },
+    {
+      "d": 4,
+      "lengths": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "states": 48,
+      "true_states": 1,
+      "positive": true,
+      "minimum": "25"
+    },
+    {
+      "d": 4,
+      "lengths": [
+        2,
+        1,
+        1,
+        1,
+        2
+      ],
+      "states": 72,
+      "true_states": 1,
+      "positive": true,
+      "minimum": "43/3"
+    },
+    {
+      "d": 4,
+      "lengths": [
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "states": 108,
+      "true_states": 1,
+      "positive": true,
+      "minimum": "35/2"
+    },
+    {
+      "d": 4,
+      "lengths": [
+        2,
+        1,
+        1,
+        1,
+        2
+      ],
+      "states": 72,
+      "true_states": 1,
+      "positive": true,
+      "minimum": "77/6"
+    },
+    {
+      "d": 4,
+      "lengths": [
+        2,
+        1,
+        2,
+        2,
+        1
+      ],
+      "states": 108,
+      "true_states": 1,
+      "positive": true,
+      "minimum": "115/6"
+    },
+    {
+      "d": 4,
+      "lengths": [
+        1,
+        1,
+        2,
+        1,
+        1
+      ],
+      "states": 48,
+      "true_states": 1,
+      "positive": true,
+      "minimum": "61/6"
+    },
+    {
+      "d": 4,
+      "lengths": [
+        2,
+        2,
+        1,
+        2,
+        1
+      ],
+      "states": 108,
+      "true_states": 0,
+      "positive": false,
+      "minimum": null
+    },
+    {
+      "d": 4,
+      "lengths": [
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "states": 72,
+      "true_states": 0,
+      "positive": false,
+      "minimum": null
+    },
+    {
+      "d": 4,
+      "lengths": [
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "states": 108,
+      "true_states": 0,
+      "positive": false,
+      "minimum": null
+    },
+    {
+      "d": 4,
+      "lengths": [
+        1,
+        1,
+        2,
+        2,
+        1
+      ],
+      "states": 72,
+      "true_states": 0,
+      "positive": false,
+      "minimum": null
+    }
+  ],
+  "margin": {
+    "prefixes_tested": 6400,
+    "sufficient_conditions_applicable_and_sound": 41,
+    "triangle_delta": "1/8",
+    "triangle_gamma": "1/8",
+    "N": 160,
+    "worst_order_boundary_prefix": [
+      150,
+      150,
+      150
+    ],
+    "boundary_is_TRUE": false,
+    "guaranteed_prefix": [
+      151,
+      151,
+      151
+    ],
+    "guaranteed_is_TRUE": true,
+    "guaranteed_savings_rows": 27,
+    "census_rows": 480,
+    "same_means_repeated_rows_first_lockstep_prefix": 143,
+    "repeated_rows_savings": 51
+  },
+  "unbounded_dimension_family": [
+    {
+      "d": 3,
+      "N": 4,
+      "candidate_observed": 3,
+      "bounded_candidate_lower": "5/8",
+      "bounded_candidate_upper": "7/8",
+      "rival_axis_mixture_coordinate": "1/2"
+    },
+    {
+      "d": 4,
+      "N": 6,
+      "candidate_observed": 3,
+      "bounded_candidate_lower": "5/12",
+      "bounded_candidate_upper": "11/12",
+      "rival_axis_mixture_coordinate": "1/3"
+    },
+    {
+      "d": 5,
+      "N": 8,
+      "candidate_observed": 3,
+      "bounded_candidate_lower": "5/16",
+      "bounded_candidate_upper": "15/16",
+      "rival_axis_mixture_coordinate": "1/4"
+    },
+    {
+      "d": 6,
+      "N": 10,
+      "candidate_observed": 3,
+      "bounded_candidate_lower": "1/4",
+      "bounded_candidate_upper": "19/20",
+      "rival_axis_mixture_coordinate": "1/5"
+    },
+    {
+      "d": 7,
+      "N": 12,
+      "candidate_observed": 3,
+      "bounded_candidate_lower": "5/24",
+      "bounded_candidate_upper": "23/24",
+      "rival_axis_mixture_coordinate": "1/6"
+    },
+    {
+      "d": 8,
+      "N": 14,
+      "candidate_observed": 3,
+      "bounded_candidate_lower": "5/28",
+      "bounded_candidate_upper": "27/28",
+      "rival_axis_mixture_coordinate": "1/7"
+    }
+  ],
+  "d3_unbounded_candidate_partial": {
+    "N": 10,
+    "prefix": [
+      6,
+      10,
+      10
+    ],
+    "candidate_lower": [
+      "3/5",
+      "11/20",
+      "11/20"
+    ],
+    "bounded_candidate_upper": [
+      "19/20",
+      "19/20"
+    ],
+    "status": "verified by exact inequalities"
+  },
+  "comparator_totals": {
+    "archives": 30,
+    "positive": 18,
+    "prefixes": 2972,
+    "true_prefixes": 21
+  }
+}

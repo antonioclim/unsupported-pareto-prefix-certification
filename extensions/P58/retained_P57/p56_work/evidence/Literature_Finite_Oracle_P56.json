@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "purpose": "Independent exact finite-corpus best-response verification",
+  "not_claimed": "No full-triangle upper bound, no asymptotic optimum",
+  "cases": [
+    {
+      "weighted_normalized_cost": "103/101",
+      "states": 2522,
+      "state_bound": 4394,
+      "comparators": [
+        34,
+        33
+      ],
+      "initial_action": 0,
+      "q": 3,
+      "n": 12,
+      "prior": [
+        "68/101",
+        "33/101"
+      ],
+      "expected_ratio": "103/101",
+      "pass_check": true
+    },
+    {
+      "weighted_normalized_cost": "229/223",
+      "states": 5474,
+      "state_bound": 9826,
+      "comparators": [
+        45,
+        44
+      ],
+      "initial_action": 0,
+      "q": 4,
+      "n": 16,
+      "prior": [
+        "135/223",
+        "88/223"
+      ],
+      "expected_ratio": "229/223",
+      "pass_check": true
+    },
+    {
+      "weighted_normalized_cost": "401/389",
+      "states": 10122,
+      "state_bound": 18522,
+      "comparators": [
+        56,
+        55
+      ],
+      "initial_action": 0,
+      "q": 5,
+      "n": 20,
+      "prior": [
+        "224/389",
+        "165/389"
+      ],
+      "expected_ratio": "401/389",
+      "pass_check": true
+    },
+    {
+      "weighted_normalized_cost": "619/599",
+      "states": 16850,
+      "state_bound": 31250,
+      "comparators": [
+        67,
+        66
+      ],
+      "initial_action": 0,
+      "q": 6,
+      "n": 24,
+      "prior": [
+        "335/599",
+        "264/599"
+      ],
+      "expected_ratio": "619/599",
+      "pass_check": true
+    }
+  ]
+}

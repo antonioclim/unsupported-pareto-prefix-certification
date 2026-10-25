@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "method": "Independent raw CSV parsing, exact means/verdicts via weight breakpoints, every terminal negative certificate, costs and all mixture probabilities; imports no policy or producer.",
+  "tasks": 1092,
+  "positive_tasks": 0,
+  "policy_task_results_verified": 6552,
+  "negative_terminal_reasons": {
+    "None": 1888,
+    "certain_domination": 2052,
+    "observed_dominator": 1388,
+    "certain_support": 1224
+  },
+  "totals": {
+    "census": "1310400",
+    "census_early": "1050896",
+    "NW": "1098086",
+    "NW_early": "1012537",
+    "SE": "1098086",
+    "SE_early": "1012606",
+    "mixture": "1098086",
+    "mixture_early": "23164306134794212447490119968994476039254800826618088066/22877416500826649986226705943155157860621939008313"
+  },
+  "source_report_sha256": "1b228eac9a18c091337ab9272e9470d778e85c820836161e14a19a495601e3f8"
+}

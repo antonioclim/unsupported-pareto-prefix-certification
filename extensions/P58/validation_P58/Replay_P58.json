@@ -1,0 +1,231 @@
+{
+  "status": "PASS",
+  "mode": "dimensions",
+  "utc_started": "20261025T155435Z_b162895b",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "delivered_files_verified": 69,
+  "programs": [
+    {
+      "program": "verify_reduction.py",
+      "exit_code": 0,
+      "seconds_observed": 4.4393582659977255,
+      "fresh_output_created": true,
+      "stderr_empty": true
+    },
+    {
+      "program": "verify_support_decomposition.py",
+      "exit_code": 0,
+      "seconds_observed": 6.16227510200406,
+      "fresh_output_created": true,
+      "stderr_empty": true
+    },
+    {
+      "program": "check_three_alternative_projection.py",
+      "exit_code": 0,
+      "seconds_observed": 1.7798200179968262,
+      "fresh_output_created": true,
+      "stderr_empty": true
+    },
+    {
+      "program": "check_approximation.py",
+      "exit_code": 0,
+      "seconds_observed": 0.20046482900215778,
+      "fresh_output_created": true,
+      "stderr_empty": true
+    }
+  ],
+  "comparisons": [
+    {
+      "report": "RESULTS.json",
+      "fields": [
+        {
+          "field": "boundary_controls",
+          "match": true
+        },
+        {
+          "field": "exact_anchor_transfer",
+          "match": true
+        },
+        {
+          "field": "exact_arithmetic",
+          "match": true
+        },
+        {
+          "field": "no_go",
+          "match": true
+        },
+        {
+          "field": "numerical_crosscheck",
+          "match": true
+        },
+        {
+          "field": "positive_archive_transfer",
+          "match": true
+        },
+        {
+          "field": "scope",
+          "match": true
+        },
+        {
+          "field": "seed",
+          "match": true
+        },
+        {
+          "field": "status",
+          "match": true
+        }
+      ],
+      "all_scientific_fields_match": true
+    },
+    {
+      "report": "support_decomposition_checks.json",
+      "fields": [
+        {
+          "field": "boundary_controls",
+          "match": true
+        },
+        {
+          "field": "by_dimension",
+          "match": true
+        },
+        {
+          "field": "cases_per_dimension",
+          "match": true
+        },
+        {
+          "field": "exact_interval_mismatches",
+          "match": true
+        },
+        {
+          "field": "interval_method",
+          "match": true
+        },
+        {
+          "field": "mismatches",
+          "match": true
+        },
+        {
+          "field": "reference_method",
+          "match": true
+        },
+        {
+          "field": "rivals",
+          "match": true
+        },
+        {
+          "field": "scope",
+          "match": true
+        },
+        {
+          "field": "seed",
+          "match": true
+        },
+        {
+          "field": "supported",
+          "match": true
+        },
+        {
+          "field": "test",
+          "match": true
+        },
+        {
+          "field": "total",
+          "match": true
+        },
+        {
+          "field": "unsupported",
+          "match": true
+        }
+      ],
+      "all_scientific_fields_match": true
+    },
+    {
+      "report": "three_alternative_projection_control.json",
+      "fields": [
+        {
+          "field": "arithmetic",
+          "match": true
+        },
+        {
+          "field": "catalogues_with_GOOD",
+          "match": true
+        },
+        {
+          "field": "failures_of_two_original_coordinate_representation",
+          "match": true
+        },
+        {
+          "field": "first_failure",
+          "match": true
+        },
+        {
+          "field": "grid",
+          "match": true
+        },
+        {
+          "field": "objectives",
+          "match": true
+        },
+        {
+          "field": "scope",
+          "match": true
+        },
+        {
+          "field": "unordered_three_alternative_catalogues",
+          "match": true
+        }
+      ],
+      "all_scientific_fields_match": true
+    },
+    {
+      "report": "approximation_checks.json",
+      "fields": [
+        {
+          "field": "analytic_uniform_gap_lower_bound",
+          "match": true
+        },
+        {
+          "field": "arithmetic",
+          "match": true
+        },
+        {
+          "field": "boundary_and_tie_controls",
+          "match": true
+        },
+        {
+          "field": "limitations",
+          "match": true
+        },
+        {
+          "field": "seed",
+          "match": true
+        },
+        {
+          "field": "smallest_observed_positive_mixture_gap",
+          "match": true
+        },
+        {
+          "field": "status",
+          "match": true
+        },
+        {
+          "field": "two_anchor_positive_controls_by_dimension",
+          "match": true
+        }
+      ],
+      "all_scientific_fields_match": true
+    }
+  ],
+  "scientific_field_comparison_count": 39,
+  "excluded_scientific_comparison_fields": [
+    "elapsed_seconds",
+    "python",
+    "scipy"
+  ],
+  "arithmetic": "Logical checks use fractions.Fraction. SciPy/HiGHS LP comparisons are floating-point cross-checks, not exact proofs.",
+  "scope": "Finite synthetic corroboration. No universal theorem, historical novelty, deployment performance or economic benefit is established by these tests.",
+  "earlier_P57_programs_rerun_in_this_mode": false,
+  "delivered_evidence_overwritten": false
+}

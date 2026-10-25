@@ -1,0 +1,9 @@
+P56 exploratory additional dataset protocol, frozen before computing outcomes.
+Source: https://satcompetition.github.io/2024/downloads/detailed_results.zip
+Use only detailed_main.csv, all solver columns except hash/vresult.
+Use all rows in existing CSV order (instance hash order), without reordering by performance.
+Task set: every unordered triple of distinct solver labels, every designated candidate in that triple; rivals lexical label order. No outcome filtering.
+Two objectives: c = recorded PAR-2 instance score / 10000; f=1 exactly for the 10000 unsolved penalty, otherwise 0. These are normalized penalty and failure, not physical runtime or energy. Require every nonpenalty score in [0,5000] and all cells present.
+Declare closed independent triangle as conservative certification completion contract; do not equate with exact physical data image or claim comparator preservation on a tighter physical domain.
+Evaluate candidate-census triangle continuations NW-first and SE-first, exact theorem19 mixture p(G), with and without early-FALSE wrapper. Also groupwise full census and groupwise census plus same wrapper. No retrospective selection of schedule per archive. Use exact integer arithmetic for corners and rational weights/probabilities.
+Report all tasks, positive/negative counts, costs, label means, no iid confidence intervals. All-triple tasks overlap strongly. No public release of original downloaded bytes because reuse licence has not yet been confirmed. Archive URL/hash and retrieval recipe are sufficient for private reproducibility. Existing public aggregate score knowledge is withheld from simulated clients; this is a controlled blind replay, not an enforced commercial service.

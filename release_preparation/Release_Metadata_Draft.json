@@ -1,82 +1,70 @@
 {
-  "prepared_on": "2026-10-25",
-  "version": "1.0.0",
+  "purpose": "Manual Zenodo form recipe; not an API request and not an automatic GitHub integration configuration.",
+  "resource_type": "Software",
   "title": "The Price of Finding a Certificate: Unsupported Pareto Points under Prefix Queries: Reproducibility Companion",
+  "version": "1.1.0",
+  "version_doi": "10.5281/zenodo.23646970",
+  "publication_date": "2026-10-25",
   "creators": [
     {
       "name": "Clim, Antonio",
       "orcid": "0000-0003-4745-0431",
-      "affiliation": "Bucharest University of Economic Studies"
+      "affiliation": "Department of Economic Informatics and Cybernetics, Bucharest University of Economic Studies, Bucharest, Romania"
     }
   ],
-  "description": "Exact-arithmetic checks, retained inputs and editable figures for paid-prefix Pareto certification, including the three-configuration triangle upper bound 12/11, its exact asymptotic candidate-census limit, public-block comparator-distortion bounds, independent finite certificate optimisation and retained historical controls. The APEX analysis uses retained third-party data and reports no new radio measurements or measured disclosure saving.",
+  "description": "This reproducibility companion provides exact-arithmetic verification software, retained inputs and results, editable vector figures and claim-to-evidence maps for \"The Price of Finding a Certificate: Unsupported Pareto Points under Prefix Queries\". The study compares paid acquisition with the cheapest realised prefix certifying a candidate as Pareto nondominated and unsupported under nonzero nonnegative weights.\n\nVersion 1.1.0 incorporates the P57 and P58 research additions while preserving the earlier scientific code and evidence. These additions include the 87/80 upper-bound certificate and operational controls for three configurations on the triangle, a faster retrospective comparator, controlled APEX and SAT 2024 replays, sparse-support and three-alternative dimensional checks, a counterexample to universal nonnegative affine compression, exact two-anchor transfer conditions and sufficient approximation-margin controls. The 87/80 guarantee has the hypotheses stated in the accompanying manuscript, including unit row prices; it is not asserted for arbitrary tariffs. The 12/11 asymptotic optimum remains valid for the candidate-complete policy class. The unrestricted triangle optimum and convergence remain open.\n\nThe new dimensional checks use exact rational arithmetic, with separately labelled floating-point SciPy/HiGHS cross-checks. Finite computational controls do not establish universal theorems by themselves. Three-alternative geometric verification in arbitrary dimension does not imply a universal lossless reduction of paid observations to two dimensions. The experiments do not establish measured monetary, energy or deployed-service benefits. Internal independently implemented checks are author-side AI-assisted controls, not external peer review or proof-assistant verification.\n\nThe APEX replays reuse APEX Dataset: Testbed Traces and Evaluation Results, version 1.0 (https://doi.org/10.3217/3dhx0-2k125); the associated article is https://doi.org/10.1145/3770918. Source bytes, attribution and licence notices already present in version 1.0.0 are retained. SAT 2024 derived results use the official results at https://satcompetition.github.io/2024/. The original SAT ZIP/CSV is not redistributed; acquisition instructions and its frozen checksum are supplied.\n\nLicences apply by component: BSD-3-Clause covers the author's covered code and executable configuration; CC BY 4.0 covers the author's covered documentation, result tables and figures, within his rights. Original APEX data and DejaVu fonts retain their third-party terms and notices. LICENSING.md and LICENSE_SCOPE.json define the scope. The manuscript, supplementary manuscript, cover letter and private submission materials are not included or relicensed. No GitHub Actions workflow is included.",
   "keywords": [
     "competitive analysis",
+    "query complexity",
     "priced information",
     "Pareto certification",
+    "unsupported Pareto points",
+    "prefix observations",
     "geometric uncertainty",
-    "prefix queries"
+    "exact arithmetic",
+    "reproducible research",
+    "multiobjective optimisation"
   ],
-  "related_source_data": [
+  "language": "English",
+  "access": "Open",
+  "licences": [
+    {
+      "name": "BSD 3-Clause License",
+      "id": "bsd-3-clause",
+      "scope": "Covered author code and executable configuration"
+    },
+    {
+      "name": "Creative Commons Attribution 4.0 International",
+      "id": "cc-by-4.0",
+      "scope": "Covered author documentation, derived results and figures"
+    }
+  ],
+  "third_party_terms": "Keep original APEX/DejaVu notices; the metadata licence choices do not override the component inventory.",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/antonioclim/unsupported-pareto-prefix-certification/releases/tag/v1.1.0",
+      "scheme": "url",
+      "relation": "isIdenticalTo",
+      "resource_type": "software"
+    },
     {
       "identifier": "10.3217/3dhx0-2k125",
       "scheme": "doi",
       "relation": "isDerivedFrom",
-      "licence": "CC-BY-4.0"
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.1145/3770918",
+      "scheme": "doi",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://satcompetition.github.io/2024/",
+      "scheme": "url",
+      "relation": "isDerivedFrom"
     }
   ],
-  "public_repository": "https://github.com/antonioclim/unsupported-pareto-prefix-certification",
-  "version_doi": "10.5281/zenodo.23632859",
-  "concept_doi": "10.5281/zenodo.23632858",
-  "release_date": "2026-10-25",
-  "component_notice_review": "Embedded_Rights_Inventory_P33.json and Licence_Component_Map.md retain historical rights evidence. The P35 adopted grant and current exact scope are in LICENSING.md and LICENSE_SCOPE.json.",
-  "excluded_from_public_payload": [
-    "current article and supplement",
-    "cover letter",
-    "author confirmations",
-    "private submission audit reports",
-    "SIAM class",
-    "retired private historical source"
-  ],
-  "scientific_snapshot": "P46 mathematical and checker baseline, P49 figures and P52 exact replay retained unchanged. Published v1.0.0 remains the frozen P52 package; P53 updates current-main publication metadata only.",
-  "packaging_metadata_revision": "P52",
-  "licence_adoption_revision": "P35",
-  "author_code_licence": "BSD-3-Clause",
-  "author_documentation_tables_figures_licence": "CC-BY-4.0",
-  "governing_notice": "LICENSING.md",
-  "governing_scope": "LICENSE_SCOPE.json",
-  "proposed_first_public_tag": "v1.0.0",
-  "github_preparation_route": "Browser-only full-source uploads and a manual draft release",
-  "github_actions_workflows_included": false,
-  "automatic_zenodo_integration": false,
-  "sole_author": "Antonio Clim",
-  "specific_funding": null,
-  "conflicts_of_interest": "None declared",
-  "acknowledgements": null,
-  "retired_historical_source_provenance": "provenance/Retired_Manuscript_P21.json",
-  "local_preparation_revision": "P52",
-  "status_at_preparation": "repository-created-version-doi-reserved-release-and-record-unpublished",
-  "manual_publication_route": "Browser upload of prepared files to the existing repository, manual attachment of the release asset and publication of the matching manual Zenodo deposit. The version DOI is reserved; public release URL, concept DOI and publication dates require confirmation. No automatic integration or GitHub Actions workflow is included.",
-  "article_title": "The Price of Finding a Certificate: Unsupported Pareto Points under Prefix Queries",
-  "article_abstract": "We study the cost of discovering a certificate for a designated candidate whose two objectives are means of ordered vector records. Each query purchases the next whole record of one configuration. Algorithms must decide correctly on every legal archive, and their acquisition cost on positive archives is compared with the cheapest realised prefix proving both Pareto nondomination and unsupportedness under nonzero nonnegative weights. This is a geometric instance-complexity problem with mandatory predecessor payments. When the cost coordinate is unbounded, we determine the exact deterministic and zero-error randomised ratios for every catalogue size and archive length. The randomised lower bound covers numerical policies and arbitrary prefix interleavings through a causal Ramsey reduction. Bounded diagonal bands yield sharp three-configuration transitions under positive row prices. For three configurations on the triangle, a uniform policy has ratio at most 12/11. A matching asymptotic lower bound determines the exact limiting ratio of policies that fully observe the candidate before TRUE. Approaching the unrestricted asymptotic lower bound 23/22 instead requires partial candidate observation on the exhibited hard family. A certificate-preservation criterion characterises transcript-preserving policy transfer, and public constant blocks yield sharp comparator-distortion bounds. The unrestricted triangle optimum remains open.",
-  "article_abstract_word_count_whitespace": 193,
-  "software_release_status": "published",
-  "scientific_scope_note": "docs/Current_Scientific_Scope_P46.md",
-  "article_reference_count": 37,
-  "current_execution_evidence": "results/Full_Local_P52.json",
-  "historical_execution_evidence": "results/Full_Local_P49.json",
-  "version_doi_status_at_preparation": "reserved-unpublished",
-  "zenodo_record_published_at_preparation": false,
-  "release_url": "https://github.com/antonioclim/unsupported-pareto-prefix-certification/releases/tag/v1.0.0",
-  "publication_date": "2026-10-25",
-  "date_released": "2026-10-25",
-  "repository_visibility_at_preparation": null,
-  "earlier_execution_evidence": "results/Full_Local_P46.json",
-  "public_release_created": true,
-  "zenodo_record_published": true,
-  "version_doi_status": "registered-resolving",
-  "publication_metadata_revision": "P53",
-  "published_source_commit": "6517a174a03eaceb0bc9adc31a51959ecb7e7fd6",
-  "publication_verification_record": "docs/Publication_Verification_P53.json",
-  "metadata_record_scope": "Current publication status verified independently after publication; *_at_preparation fields describe the unchanged historical preparation state."
+  "versioning": "Use New version on the existing Zenodo record. Zenodo maintains the version/concept relationship; do not create a separate unrelated record or manually reuse the old DOI.",
+  "no_private_contact_fields": true
 }

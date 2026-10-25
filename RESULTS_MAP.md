@@ -1,3 +1,9 @@
+# Result maps for release 1.1.0
+
+The new dimensional map is [extensions/P58/RESULTS_MAP_P58.md](extensions/P58/RESULTS_MAP_P58.md). The P57 additions, including the 87/80 certificate and archive replays, are mapped in [extensions/P58/retained_P57/RESULTS_MAP.md](extensions/P58/retained_P57/RESULTS_MAP.md).
+
+The remaining map below is the retained 1.0.0-era map, with its historical scope and identifiers.
+
 # Result-to-check map
 
 The principal command is `python3 run_all_checks.py --record results/Full_Local_P52.json`. It generates fresh outputs in temporary copies, checks retained scientific payloads, validates reported source hashes and verifies that frozen inputs remain unchanged.

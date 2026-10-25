@@ -1,0 +1,181 @@
+{
+  "test": "Exact objective-pair support, exact all-objective interval, and full-dimensional numerical LP",
+  "rivals": 2,
+  "seed": 20261025,
+  "cases_per_dimension": 400,
+  "python": "3.12.14",
+  "scipy": "1.17.0",
+  "by_dimension": [
+    {
+      "dimension": 2,
+      "total": 400,
+      "supported": 210,
+      "unsupported": 190,
+      "mismatches": 0,
+      "exact_interval_mismatches": 0,
+      "families": {
+        "random": 200,
+        "strictly_unsupported": 100,
+        "supported_without_axis_support": 100
+      }
+    },
+    {
+      "dimension": 3,
+      "total": 400,
+      "supported": 246,
+      "unsupported": 154,
+      "mismatches": 0,
+      "exact_interval_mismatches": 0,
+      "families": {
+        "random": 200,
+        "strictly_unsupported": 100,
+        "supported_without_axis_support": 100
+      }
+    },
+    {
+      "dimension": 5,
+      "total": 400,
+      "supported": 284,
+      "unsupported": 116,
+      "mismatches": 0,
+      "exact_interval_mismatches": 0,
+      "families": {
+        "random": 200,
+        "strictly_unsupported": 100,
+        "supported_without_axis_support": 100
+      }
+    },
+    {
+      "dimension": 20,
+      "total": 400,
+      "supported": 300,
+      "unsupported": 100,
+      "mismatches": 0,
+      "exact_interval_mismatches": 0,
+      "families": {
+        "random": 200,
+        "strictly_unsupported": 100,
+        "supported_without_axis_support": 100
+      }
+    },
+    {
+      "dimension": 50,
+      "total": 400,
+      "supported": 300,
+      "unsupported": 100,
+      "mismatches": 0,
+      "exact_interval_mismatches": 0,
+      "families": {
+        "random": 200,
+        "strictly_unsupported": 100,
+        "supported_without_axis_support": 100
+      }
+    }
+  ],
+  "total": 2000,
+  "supported": 1340,
+  "unsupported": 660,
+  "mismatches": 0,
+  "exact_interval_mismatches": 0,
+  "scope": "Synthetic corroboration; not a proof, deployed test or runtime benchmark.",
+  "reference_method": "Full-dimensional SciPy/HiGHS LP uses floating-point arithmetic.",
+  "interval_method": "Independent rational strict-interval intersection; O(d) rational operations.",
+  "boundary_controls": [
+    {
+      "name": "lambda_one_is_included",
+      "unsupported": true,
+      "bounds": {
+        "lower": "2/3",
+        "lower_closed": false,
+        "upper": "1",
+        "upper_closed": true
+      },
+      "passed": true
+    },
+    {
+      "name": "lambda_zero_is_included",
+      "unsupported": true,
+      "bounds": {
+        "lower": "0",
+        "lower_closed": true,
+        "upper": "1/3",
+        "upper_closed": false
+      },
+      "passed": true
+    },
+    {
+      "name": "opposing_strict_intervals_meet",
+      "unsupported": false,
+      "bounds": {
+        "lower": "1/2",
+        "lower_closed": false,
+        "upper": "1/2",
+        "upper_closed": false
+      },
+      "passed": true
+    },
+    {
+      "name": "constant_coordinate_tie",
+      "unsupported": false,
+      "bounds": {
+        "reason": "constant strict inequality is impossible"
+      },
+      "passed": true
+    },
+    {
+      "name": "constant_negative_coordinates",
+      "unsupported": true,
+      "bounds": {
+        "lower": "0",
+        "lower_closed": true,
+        "upper": "1",
+        "upper_closed": true
+      },
+      "passed": true
+    },
+    {
+      "name": "closed_relaxation_only_lambda_zero",
+      "unsupported": false,
+      "bounds": {
+        "lower": "0",
+        "lower_closed": true,
+        "upper": "0",
+        "upper_closed": false
+      },
+      "passed": true
+    },
+    {
+      "name": "closed_relaxation_only_lambda_one",
+      "unsupported": false,
+      "bounds": {
+        "lower": "1",
+        "lower_closed": false,
+        "upper": "1",
+        "upper_closed": true
+      },
+      "passed": true
+    },
+    {
+      "name": "nonempty_open_interval",
+      "unsupported": true,
+      "bounds": {
+        "lower": "1/4",
+        "lower_closed": false,
+        "upper": "3/4",
+        "upper_closed": false
+      },
+      "passed": true
+    },
+    {
+      "name": "nonempty_narrow_rational_interval",
+      "unsupported": true,
+      "bounds": {
+        "lower": "4/11",
+        "lower_closed": false,
+        "upper": "2/5",
+        "upper_closed": false
+      },
+      "passed": true
+    }
+  ]
+}

@@ -1,145 +1,73 @@
-REPRODUCIBILITY COMPANION — P52
-The Price of Finding a Certificate: Unsupported Pareto Points under Prefix Queries
-Antonio Clim
+# The Price of Finding a Certificate: Unsupported Pareto Points under Prefix Queries
 
-Version 1.0.0 was published on GitHub and Zenodo on 25 October 2026. P53 updates publication metadata on main; the published tag, archive, scientific code, data and retained P52 replay are unchanged. The P46 mathematical and checker baseline and P49 black figure text are retained. The current packaged replay record is results/Full_Local_P52.json; results/Full_Local_P49.json and results/Full_Local_P46.json remain historical execution records. The replay format identifies the unchanged P46 runner implementation, not the delivery edition.
+Antonio Clim — reproducibility companion **1.1.0**.
 
-BROWSER-ONLY REPOSITORY PREPARATION
+This release brings the P57/P58 software and evidence together with the existing companion. The main manuscript and Supplementary Materials are separate documents and are not included in this software archive.
 
-Open docs/Browser_Release_Guide_RO.md or the companion HTML/TXT guide.
-The author can prepare the repository and a draft release without a terminal,
-Git, GitHub Desktop or GitHub Actions. The delivery wrapper contains prepared
-upload batches and the full release asset outside this repository.
+## Version and citation
 
-OPTIONAL COMPUTATIONAL REPRODUCTION FOR REVIEWERS
+- Version DOI: https://doi.org/10.5281/zenodo.23646970
+- Version-independent concept DOI: https://doi.org/10.5281/zenodo.23632858
+- GitHub release: https://github.com/antonioclim/unsupported-pareto-prefix-certification/releases/tag/v1.1.0
+- Release date selected during preparation: 2026-10-25
+- Previous published version 1.0.0: https://doi.org/10.5281/zenodo.23632859
 
-1. Extract the archive into a new directory. Open a terminal in the directory
-   containing run_all_checks.py. Keep the original archive unchanged.
-2. Check Python 3.12 or later:
+These links and metadata were prepared for the manual release. The preparation program checks DOI syntax and local bytes; it does not reserve a DOI or certify that either service has published the release. The attached archive `unsupported-pareto-prefix-certification-v1.1.0.zip` is the payload intended for both GitHub and Zenodo. GitHub's automatically generated source archives have different container bytes.
 
-   python3 --version
+## Scientific scope
 
-3. Execute the complete suite:
+The additions include the **87/80** upper-bound certificate for three configurations on the triangle, operational controls, a faster retrospective comparator, controlled APEX/SAT archive replays and higher-dimensional certification checks. The stated triangle result uses unit row prices and all other hypotheses of the accompanying manuscript; it is not a guarantee for arbitrary tariffs. The **12/11** asymptotic optimum remains valid for the candidate-complete policy class. The unrestricted asymptotic lower bound is **23/22**; the unrestricted optimum and convergence remain open.
 
-   python3 run_all_checks.py --record results/Full_Local_P52.json
+For three alternatives, unsupportedness in arbitrary dimension can be checked by scalar interval feasibility. This does not reduce the number of purchased records. Exact paid-prefix transfer requires the stated public two-anchor representation and full raw-row/completion, observation and price correspondence. A universal nonnegative affine compression to two dimensions does not exist for general catalogues. Approximate reconstruction gives a sufficient certificate only with valid error bounds and strict margins; failure is inconclusive.
 
-4. After the process returns, inspect the current completion record:
+Finite exact controls and separately labelled floating-point cross-checks support reproducibility; they do not alone prove universal theorems. No measured monetary, energy or deployed-service benefit is claimed. Author-side AI-assisted checks are distinct from external peer review and proof-assistant verification.
 
-   python3 -c "import json; r=json.load(open('results/Full_Local_P52.json')); print(r['status'], r['run_id'], r['finished_at_utc'])"
+## Files and provenance
 
-Expected: exit code 0 and PASS, with a fresh run ID and finish time. RUNNING is an
-incomplete attempt. FAIL or a nonzero process exit is not success. A saved PASS
-from a previous invocation is not evidence for the current one.
+- `extensions/P58/` contains all 84 files of the P58 addendum unchanged.
+- `extensions/P58/retained_P57/` preserves its earlier code, research notes, evidence and manifest unchanged.
+- `extensions/P58/retained_P57/dependencies/unsupported-pareto-prefix-certification-v1.0.0.zip` is the unchanged published archive, SHA-256 `19b24d6f9e3cb4f4417fb554988e9d5dbefd8180792bc02ea47790287a9a37ff`. It is required by the APEX replay.
+- Existing scientific files and historical reports in the root repository retain their original scope and results. Current root release metadata has been updated from base commit `004b06e63ac2a2a2ed0eccecf924534f2ae65ad1`.
 
-Use Python without -O. The implementation uses only the standard library and
-runs offline. No network service, package installation, LaTeX or hardware access
-is required. The executed platform is Linux; Windows native execution has not
-been performed. WSL can provide a Linux environment, but this is not evidence
-that the current snapshot was executed under every WSL version.
+The inner P58/P57 README statements about being unpublished describe their original preparation snapshots. They are preserved for provenance; the root metadata identifies this release. Historical browser guides under `docs/`, dated scope notes and historical execution records describe their own versions. They are not instructions to republish version 1.0.0.
 
-Optional identity-only command (no scientific execution):
+## Run the checks
 
-   python3 run_all_checks.py --verify-only --record results/Integrity_Local_P52.json
+Preparation of this release uses Python 3.10+ standard library only. Scientific replays have their own requirements. Run Python without `-O`. Use the supplied runners so delivered evidence remains unchanged.
 
-The complete route runs six original current scientific checks, one control,
-26 historical jobs and ten additional scientific checks: 42 scientific program
-entries plus one control. These counts include related checks of the same
-result. The separate algebraic rejection control tests four mutations; the
-current 12/11 checker rejects four further mutations, eight cases in total.
+New dimensional controls (the validated environment used Python 3.12.14, NumPy 2.3.5 and SciPy 1.17.0):
 
-Comparison rules
+```bash
+python3 -m pip install -r extensions/P58/dimension_reduction/requirements.txt
+python3 extensions/P58/run_research_P58.py --mode dimensions
+```
 
-All computation takes place in temporary copies. Outputs are removed before
-production. Original current checks retain their exact comparison rules: six
-outputs compare bytes; the candidate checker compares JSON after excluding only
-elapsed_seconds and python_version. The historical layer compares 26 of its 27
-outputs byte-for-byte. The remaining ordinal output must match every scientific
-field; only its adapted script identity and explicit historical-source provenance
-differ. The retired historical-source digest is not a freshly verified source hash.
-The other three public proof inputs are still verified from actual bytes.
+The P57 core and APEX controls use the Python standard library:
 
-Ten additional checks compare their exact JSON after excluding only the explicitly
-listed runtime fields in run_all_checks.py. The new triangle certificate check
-excludes only elapsed_seconds; its analytic check excludes no fields. The public
-block check excludes only elapsed_seconds and finished_at_utc. The prefix demo enumerates random
-branches exactly; it does not use Monte Carlo. Its comparator is independently
-computed on a small finite alphabet rather than read from a fixture. The adverse
-price example and all negative inputs remain in the suite.
+```bash
+python3 extensions/P58/run_research_P58.py --mode core
+python3 extensions/P58/run_research_P58.py --mode apex
+```
 
-Reports and failure handling
+The SAT replay requires the official source ZIP, downloaded separately as described in `extensions/P58/retained_P57/README.md`:
 
-Reports are written atomically after recording RUNNING. Inside the package,
---record must be under results/. Protected source paths, symbolic links and
-unrelated existing external files cannot be overwritten. Relative report paths
-are relative to the terminal's current directory. Standard replay reports may be
-replaced by a new invocation; use a different filename to preserve every run.
+```bash
+python3 extensions/P58/run_research_P58.py --mode sat --sat-source /path/to/detailed_results.zip
+python3 extensions/P58/run_research_P58.py --mode all --sat-source /path/to/detailed_results.zip
+```
 
-If a command fails, retain its report and error message. A preflight failure
-writes FAIL where the destination is valid and writable. Invalid arguments or
-an unsafe destination may prevent report creation; the terminal error remains
-a failure. Restore a fresh extraction if frozen input bytes differ. Never edit
-expected outputs or regenerate a manifest simply to suppress a failure.
+`--mode all` runs the new dimensional and retained P57 modes. The original 1.0.0/P46 suite is a separate baseline:
 
-Historical records and direct commands
+```bash
+python3 run_all_checks.py --record results/Full_Local_1_1_0_baseline.json
+```
 
-The old scientific sources, results and manifests are retained. Their original
-entry points are historical code and can require the retired source. Use
-run_all_checks.py for the public snapshot. run_checks.py --legacy reproduces the
-base suite only; it does not execute the ten additional scientific checks. The retirement
-and comparison contract is in docs/Provenance_Migration_P41.md.
+The root legacy runner alone does not run the P58 additions. Its optional `--verify-only` checks frozen identities and executes no scientific programs. The retained P58 validation reran four dimensional programs and compared 39 scientific fields; it did not rerun all P57 experiments. No scientific rerun is implied merely by preparing or publishing this archive.
 
-RESULTS_MAP.md/json links named mathematical claims to proof locations and
-finite checks. The universal proofs, numeric-to-ordinal reduction and novelty
-arguments are not established by a PASS result. Figures have separate optional
-rendering dependencies. The recorded APEX analysis uses retained upstream data,
-not new physical trials; its no-saving result is preserved. See the erratum note
-for the upstream parameter-table correction.
+## Data, licences and local outputs
 
-Rights are component-specific: read LICENSING.md, RIGHTS.md and LICENSE_SCOPE.json.
-New execution reports are written under results/ and are not frozen inputs.
+APEX source: https://doi.org/10.3217/3dhx0-2k125; associated article: https://doi.org/10.1145/3770918. Original notices and covered source bytes are retained. SAT source: https://satcompetition.github.io/2024/. Raw SAT ZIP/CSV files are not redistributed. The SAT runner verifies its required checksum before use.
 
-Manifest boundaries
+BSD-3-Clause applies to covered author code; CC BY 4.0 applies to covered author documentation, results and figures. Original APEX, DejaVu and standard-text rights remain unchanged. See `LICENSING.md`, `LICENSE_SCOPE.json` and the inner P58/P57 notices. This is component licensing, not a choice of two alternative licences for every file.
 
-The scientific-input manifest excludes top-level results/, root LICENSE_SCOPE.json
-and PACKAGE_MANIFEST_SHA256.json, and named final integrated replay records
-listed in frozen_manifest.json.
-These are post-freeze administrative or execution records. The final package
-manifest binds their delivered bytes; they are not science inputs. Historical
-manifest and execution files elsewhere remain retained and hash-bound. This
-explicit separation avoids a manifest/result/licensing circular dependency.
-
-CURRENT SCIENTIFIC SCOPE
-
-The current triangle upper bound is 12/11 for three configurations, every archive
-length and unit row prices; a common compulsory information-free setup charge is
-allowed. The exact asymptotic candidate-census optimum is 12/11 on the triangle
-and fixed three-symbol alphabet at zero setup. Candidate-census means observing
-the entire candidate before TRUE on every positive archive, while permitting
-interleaving and early FALSE. The unrestricted lower bound is asymptotically
-23/22, leaving an interval of width 1/22. Its convergence and exact optimum remain
-open. No arbitrary-tariff guarantee follows from these numerical constants.
-
-Supplementary Proposition S11 gives sharp comparator-distortion bounds for public
-consecutive equal-row blocks with Cartesian-product completions across blocks.
-The factor is at most the largest block length at unit prices and an explicit
-price-dependent factor otherwise. Short blocks alone do not bound distortion
-under arbitrary tariffs.
-
-The earlier 873/800 bound and its 4,644-coefficient certificate remain historical
-controls. The new rule has a distinct exact certificate: 58 boxes and 4,824
-multivariate Bernstein coefficients, seven additional univariate coefficients
-and nine algebraic identities checked independently. See
-docs/Current_Scientific_Scope_P46.md and RESULTS_MAP.md for exact scope.
-
-PUBLISHED SOFTWARE VERSION 1.0.0 — 25 OCTOBER 2026
-Repository: https://github.com/antonioclim/unsupported-pareto-prefix-certification
-Release: https://github.com/antonioclim/unsupported-pareto-prefix-certification/releases/tag/v1.0.0
-Version DOI: 10.5281/zenodo.23632859
-Concept DOI: 10.5281/zenodo.23632858
-Published source commit: 6517a174a03eaceb0bc9adc31a51959ecb7e7fd6
-Archive bytes: 7849303
-SHA-256: 19b24d6f9e3cb4f4417fb554988e9d5dbefd8180792bc02ea47790287a9a37ff
-Public downloads from both services match the prepared archive byte for byte.
-P53 changes current-main publication metadata only. The published tag/archive and scientific sources are unchanged.
-The retained P52 replay concerns the original release snapshot; its manifests are preserved under evidence/history/P52_publication/.
-Cite the version DOI for this release. See docs/Publication_Verification_P53.json.
+Generated `reruns/` directories and local environments are excluded from publication. SAT reruns contain a local copy of the external source ZIP. Do not commit or redistribute those run directories. No GitHub Actions workflow, credentials, author contact form or manuscript source is included.

@@ -1,0 +1,772 @@
+{
+  "status": "PASS",
+  "mode": "all",
+  "delivered_input_files_verified": 47,
+  "programs": [
+    {
+      "program": "upper_87_80_certificate.py",
+      "exit_code": 0,
+      "seconds_observed": 0.3576686879969202,
+      "output_created": true
+    },
+    {
+      "program": "root_verify_87_80.py",
+      "exit_code": 0,
+      "seconds_observed": 1.3657383219979238,
+      "output_created": true
+    },
+    {
+      "program": "upper_87_80_operational.py",
+      "exit_code": 0,
+      "seconds_observed": 2.6315149049987667,
+      "output_created": true
+    },
+    {
+      "program": "lower_audit_mixed_policy.py",
+      "exit_code": 0,
+      "seconds_observed": 0.5977709770013462,
+      "output_created": true
+    },
+    {
+      "program": "geo_comparator.py",
+      "exit_code": 0,
+      "seconds_observed": 3.1496744390024105,
+      "output_created": true
+    },
+    {
+      "program": "gen_endpoint_margin_checks.py",
+      "exit_code": 0,
+      "seconds_observed": 0.5402946870017331,
+      "output_created": true
+    },
+    {
+      "program": "gen_crosscheck_geo.py",
+      "exit_code": 0,
+      "seconds_observed": 0.1754093859999557,
+      "output_created": true
+    },
+    {
+      "program": "lit_finite_oracle.py",
+      "exit_code": 0,
+      "seconds_observed": 2.7595096609948087,
+      "output_created": true
+    },
+    {
+      "program": "practical_negative_stopping.py",
+      "exit_code": 0,
+      "seconds_observed": 12.776730851001048,
+      "output_created": true
+    },
+    {
+      "program": "root_check_apex.py",
+      "exit_code": 0,
+      "seconds_observed": 0.8222305340023013,
+      "output_created": true
+    },
+    {
+      "program": "practical_sat2024_replay.py",
+      "exit_code": 0,
+      "seconds_observed": 14.611181847001717,
+      "output_created": true
+    },
+    {
+      "program": "root_check_sat.py",
+      "exit_code": 0,
+      "seconds_observed": 0.27538148000166984,
+      "output_created": true
+    }
+  ],
+  "scientific_field_comparisons": [
+    {
+      "file": "upper_87_80_certificate.json",
+      "field": "cut",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_certificate.json",
+      "field": "excess_bound",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_certificate.json",
+      "field": "families",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_certificate.json",
+      "field": "lambda",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_certificate.json",
+      "field": "ratio",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_certificate.json",
+      "field": "status",
+      "match": true
+    },
+    {
+      "file": "Root_87_80_Independent_P56.json",
+      "field": "exact_bernstein_coefficients",
+      "match": true
+    },
+    {
+      "file": "Root_87_80_Independent_P56.json",
+      "field": "families",
+      "match": true
+    },
+    {
+      "file": "Root_87_80_Independent_P56.json",
+      "field": "leaf_count",
+      "match": true
+    },
+    {
+      "file": "Root_87_80_Independent_P56.json",
+      "field": "limitation",
+      "match": true
+    },
+    {
+      "file": "Root_87_80_Independent_P56.json",
+      "field": "method",
+      "match": true
+    },
+    {
+      "file": "Root_87_80_Independent_P56.json",
+      "field": "mutation_controls",
+      "match": true
+    },
+    {
+      "file": "Root_87_80_Independent_P56.json",
+      "field": "polynomial_identity_grid_points",
+      "match": true
+    },
+    {
+      "file": "Root_87_80_Independent_P56.json",
+      "field": "ratio",
+      "match": true
+    },
+    {
+      "file": "Root_87_80_Independent_P56.json",
+      "field": "status",
+      "match": true
+    },
+    {
+      "file": "Root_87_80_Independent_P56.json",
+      "field": "verifier_sha256",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_operational.json",
+      "field": "arithmetic",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_operational.json",
+      "field": "cut_boundaries_checked",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_operational.json",
+      "field": "hard_U_actual_partial_stops",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_operational.json",
+      "field": "hard_enumerated_prefixes",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_operational.json",
+      "field": "hard_max_observed_ratio",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_operational.json",
+      "field": "hard_records",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_operational.json",
+      "field": "hard_world_cases",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_operational.json",
+      "field": "limitations",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_operational.json",
+      "field": "ordinary_case_counts",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_operational.json",
+      "field": "ordinary_cases",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_operational.json",
+      "field": "ordinary_comparator_prefixes",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_operational.json",
+      "field": "ordinary_max_observed_ratio",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_operational.json",
+      "field": "ordinary_maxcase",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_operational.json",
+      "field": "ordinary_negative",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_operational.json",
+      "field": "ordinary_positive",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_operational.json",
+      "field": "policy_branch_executions",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_operational.json",
+      "field": "schema",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_operational.json",
+      "field": "separation_controls",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_operational.json",
+      "field": "source_sha256",
+      "match": true
+    },
+    {
+      "file": "upper_87_80_operational.json",
+      "field": "status",
+      "match": true
+    },
+    {
+      "file": "Lower_Independent_Mixed_Policy_Audit_P56.json",
+      "field": "alpha_left_at_cut",
+      "match": true
+    },
+    {
+      "file": "Lower_Independent_Mixed_Policy_Audit_P56.json",
+      "field": "alpha_maximum",
+      "match": true
+    },
+    {
+      "file": "Lower_Independent_Mixed_Policy_Audit_P56.json",
+      "field": "alpha_right_at_cut",
+      "match": true
+    },
+    {
+      "file": "Lower_Independent_Mixed_Policy_Audit_P56.json",
+      "field": "branches",
+      "match": true
+    },
+    {
+      "file": "Lower_Independent_Mixed_Policy_Audit_P56.json",
+      "field": "conditional_southeast_probability_maximum",
+      "match": true
+    },
+    {
+      "file": "Lower_Independent_Mixed_Policy_Audit_P56.json",
+      "field": "finite_exact_point_checks",
+      "match": true
+    },
+    {
+      "file": "Lower_Independent_Mixed_Policy_Audit_P56.json",
+      "field": "gap_relative_reduction",
+      "match": true
+    },
+    {
+      "file": "Lower_Independent_Mixed_Policy_Audit_P56.json",
+      "field": "low_derivative_numerator_lower_bound",
+      "match": true
+    },
+    {
+      "file": "Lower_Independent_Mixed_Policy_Audit_P56.json",
+      "field": "minimum_grid_residual",
+      "match": true
+    },
+    {
+      "file": "Lower_Independent_Mixed_Policy_Audit_P56.json",
+      "field": "new_ratio",
+      "match": true
+    },
+    {
+      "file": "Lower_Independent_Mixed_Policy_Audit_P56.json",
+      "field": "new_upper_minus_old_lower",
+      "match": true
+    },
+    {
+      "file": "Lower_Independent_Mixed_Policy_Audit_P56.json",
+      "field": "old_upper_minus_new_upper",
+      "match": true
+    },
+    {
+      "file": "Lower_Independent_Mixed_Policy_Audit_P56.json",
+      "field": "scope",
+      "match": true
+    },
+    {
+      "file": "Lower_Independent_Mixed_Policy_Audit_P56.json",
+      "field": "status",
+      "match": true
+    },
+    {
+      "file": "Geometry_Comparator_P56.json",
+      "field": "arithmetic",
+      "match": true
+    },
+    {
+      "file": "Geometry_Comparator_P56.json",
+      "field": "cases",
+      "match": true
+    },
+    {
+      "file": "Geometry_Comparator_P56.json",
+      "field": "categories",
+      "match": true
+    },
+    {
+      "file": "Geometry_Comparator_P56.json",
+      "field": "claim_limit",
+      "match": true
+    },
+    {
+      "file": "Geometry_Comparator_P56.json",
+      "field": "cost_mismatches",
+      "match": true
+    },
+    {
+      "file": "Geometry_Comparator_P56.json",
+      "field": "exhaustive_prefix_states",
+      "match": true
+    },
+    {
+      "file": "Geometry_Comparator_P56.json",
+      "field": "negative",
+      "match": true
+    },
+    {
+      "file": "Geometry_Comparator_P56.json",
+      "field": "oracle_scope",
+      "match": true
+    },
+    {
+      "file": "Geometry_Comparator_P56.json",
+      "field": "positive",
+      "match": true
+    },
+    {
+      "file": "Geometry_Comparator_P56.json",
+      "field": "returned_certificate_failures",
+      "match": true
+    },
+    {
+      "file": "Geometry_Comparator_P56.json",
+      "field": "schema",
+      "match": true
+    },
+    {
+      "file": "Geometry_Comparator_P56.json",
+      "field": "seed",
+      "match": true
+    },
+    {
+      "file": "Geometry_Comparator_P56.json",
+      "field": "source_sha256",
+      "match": true
+    },
+    {
+      "file": "Geometry_Comparator_P56.json",
+      "field": "status",
+      "match": true
+    },
+    {
+      "file": "Generalization_Checks_P56.json",
+      "field": "arithmetic",
+      "match": true
+    },
+    {
+      "file": "Generalization_Checks_P56.json",
+      "field": "comparator",
+      "match": true
+    },
+    {
+      "file": "Generalization_Checks_P56.json",
+      "field": "comparator_totals",
+      "match": true
+    },
+    {
+      "file": "Generalization_Checks_P56.json",
+      "field": "d3_unbounded_candidate_partial",
+      "match": true
+    },
+    {
+      "file": "Generalization_Checks_P56.json",
+      "field": "margin",
+      "match": true
+    },
+    {
+      "file": "Generalization_Checks_P56.json",
+      "field": "scope",
+      "match": true
+    },
+    {
+      "file": "Generalization_Checks_P56.json",
+      "field": "sharp_witness",
+      "match": true
+    },
+    {
+      "file": "Generalization_Checks_P56.json",
+      "field": "status",
+      "match": true
+    },
+    {
+      "file": "Generalization_Checks_P56.json",
+      "field": "unbounded_dimension_family",
+      "match": true
+    },
+    {
+      "file": "Generalization_Crosscheck_Geometry_P56.json",
+      "field": "archives",
+      "match": true
+    },
+    {
+      "file": "Generalization_Crosscheck_Geometry_P56.json",
+      "field": "geo_source_sha256",
+      "match": true
+    },
+    {
+      "file": "Generalization_Crosscheck_Geometry_P56.json",
+      "field": "oracle",
+      "match": true
+    },
+    {
+      "file": "Generalization_Crosscheck_Geometry_P56.json",
+      "field": "positive",
+      "match": true
+    },
+    {
+      "file": "Generalization_Crosscheck_Geometry_P56.json",
+      "field": "prefixes_exhausted",
+      "match": true
+    },
+    {
+      "file": "Generalization_Crosscheck_Geometry_P56.json",
+      "field": "scope",
+      "match": true
+    },
+    {
+      "file": "Generalization_Crosscheck_Geometry_P56.json",
+      "field": "status",
+      "match": true
+    },
+    {
+      "file": "Generalization_Crosscheck_Geometry_P56.json",
+      "field": "weighted_unequal_archives",
+      "match": true
+    },
+    {
+      "file": "Literature_Finite_Oracle_P56.json",
+      "field": "cases",
+      "match": true
+    },
+    {
+      "file": "Literature_Finite_Oracle_P56.json",
+      "field": "not_claimed",
+      "match": true
+    },
+    {
+      "file": "Literature_Finite_Oracle_P56.json",
+      "field": "purpose",
+      "match": true
+    },
+    {
+      "file": "Literature_Finite_Oracle_P56.json",
+      "field": "status",
+      "match": true
+    },
+    {
+      "file": "practical_negative_stopping_P56.json",
+      "field": "all_tasks",
+      "match": true
+    },
+    {
+      "file": "practical_negative_stopping_P56.json",
+      "field": "audit_program_sha256",
+      "match": true
+    },
+    {
+      "file": "practical_negative_stopping_P56.json",
+      "field": "by_protocol",
+      "match": true
+    },
+    {
+      "file": "practical_negative_stopping_P56.json",
+      "field": "finite_soundness",
+      "match": true
+    },
+    {
+      "file": "practical_negative_stopping_P56.json",
+      "field": "frozen_source_checks",
+      "match": true
+    },
+    {
+      "file": "practical_negative_stopping_P56.json",
+      "field": "limitations",
+      "match": true
+    },
+    {
+      "file": "practical_negative_stopping_P56.json",
+      "field": "records",
+      "match": true
+    },
+    {
+      "file": "practical_negative_stopping_P56.json",
+      "field": "schema",
+      "match": true
+    },
+    {
+      "file": "practical_negative_stopping_P56.json",
+      "field": "source_program_sha256",
+      "match": true
+    },
+    {
+      "file": "practical_negative_stopping_P56.json",
+      "field": "status",
+      "match": true
+    },
+    {
+      "file": "Root_APEX_Verification_P56.json",
+      "field": "enhanced_disclosures",
+      "match": true
+    },
+    {
+      "file": "Root_APEX_Verification_P56.json",
+      "field": "fair_baseline_saving",
+      "match": true
+    },
+    {
+      "file": "Root_APEX_Verification_P56.json",
+      "field": "independence",
+      "match": true
+    },
+    {
+      "file": "Root_APEX_Verification_P56.json",
+      "field": "limitations",
+      "match": true
+    },
+    {
+      "file": "Root_APEX_Verification_P56.json",
+      "field": "negative",
+      "match": true
+    },
+    {
+      "file": "Root_APEX_Verification_P56.json",
+      "field": "negative_witnesses",
+      "match": true
+    },
+    {
+      "file": "Root_APEX_Verification_P56.json",
+      "field": "policy_task_results_verified",
+      "match": true
+    },
+    {
+      "file": "Root_APEX_Verification_P56.json",
+      "field": "positive",
+      "match": true
+    },
+    {
+      "file": "Root_APEX_Verification_P56.json",
+      "field": "status",
+      "match": true
+    },
+    {
+      "file": "Root_APEX_Verification_P56.json",
+      "field": "tasks",
+      "match": true
+    },
+    {
+      "file": "practical_sat2024_replay_P56.json",
+      "field": "complete_mean_objectives",
+      "match": true
+    },
+    {
+      "file": "practical_sat2024_replay_P56.json",
+      "field": "configurations",
+      "match": true
+    },
+    {
+      "file": "practical_sat2024_replay_P56.json",
+      "field": "exact_coordinate_denominator",
+      "match": true
+    },
+    {
+      "file": "practical_sat2024_replay_P56.json",
+      "field": "full_catalogue_GOOD",
+      "match": true
+    },
+    {
+      "file": "practical_sat2024_replay_P56.json",
+      "field": "input_cells",
+      "match": true
+    },
+    {
+      "file": "practical_sat2024_replay_P56.json",
+      "field": "limitations",
+      "match": true
+    },
+    {
+      "file": "practical_sat2024_replay_P56.json",
+      "field": "ordering",
+      "match": true
+    },
+    {
+      "file": "practical_sat2024_replay_P56.json",
+      "field": "protocol_sha256",
+      "match": true
+    },
+    {
+      "file": "practical_sat2024_replay_P56.json",
+      "field": "records",
+      "match": true
+    },
+    {
+      "file": "practical_sat2024_replay_P56.json",
+      "field": "rows_per_configuration",
+      "match": true
+    },
+    {
+      "file": "practical_sat2024_replay_P56.json",
+      "field": "schema",
+      "match": true
+    },
+    {
+      "file": "practical_sat2024_replay_P56.json",
+      "field": "score_decimal_scale",
+      "match": true
+    },
+    {
+      "file": "practical_sat2024_replay_P56.json",
+      "field": "script_sha256",
+      "match": true
+    },
+    {
+      "file": "practical_sat2024_replay_P56.json",
+      "field": "source_csv_sha256",
+      "match": true
+    },
+    {
+      "file": "practical_sat2024_replay_P56.json",
+      "field": "source_url",
+      "match": true
+    },
+    {
+      "file": "practical_sat2024_replay_P56.json",
+      "field": "source_zip_sha256",
+      "match": true
+    },
+    {
+      "file": "practical_sat2024_replay_P56.json",
+      "field": "status",
+      "match": true
+    },
+    {
+      "file": "practical_sat2024_replay_P56.json",
+      "field": "summary",
+      "match": true
+    },
+    {
+      "file": "practical_sat2024_replay_P56.json",
+      "field": "unsolved_penalty_cells",
+      "match": true
+    },
+    {
+      "file": "Root_SAT_Verification_P56.json",
+      "field": "method",
+      "match": true
+    },
+    {
+      "file": "Root_SAT_Verification_P56.json",
+      "field": "negative_terminal_reasons",
+      "match": true
+    },
+    {
+      "file": "Root_SAT_Verification_P56.json",
+      "field": "policy_task_results_verified",
+      "match": true
+    },
+    {
+      "file": "Root_SAT_Verification_P56.json",
+      "field": "positive_tasks",
+      "match": true
+    },
+    {
+      "file": "Root_SAT_Verification_P56.json",
+      "field": "status",
+      "match": true
+    },
+    {
+      "file": "Root_SAT_Verification_P56.json",
+      "field": "tasks",
+      "match": true
+    },
+    {
+      "file": "Root_SAT_Verification_P56.json",
+      "field": "totals",
+      "match": true
+    }
+  ],
+  "comparison_count": 131,
+  "regenerated_report_linkage": [
+    {
+      "file": "Root_87_80_Independent_P56.json",
+      "field": "source_certificate_sha256",
+      "target": "upper_87_80_certificate.json",
+      "match": true
+    },
+    {
+      "file": "Root_APEX_Verification_P56.json",
+      "field": "source_report_sha256",
+      "target": "practical_negative_stopping_P56.json",
+      "match": true
+    },
+    {
+      "file": "Root_SAT_Verification_P56.json",
+      "field": "source_report_sha256",
+      "target": "practical_sat2024_replay_P56.json",
+      "match": true
+    }
+  ],
+  "excluded_comparison_fields": [
+    "elapsed_seconds",
+    "platform",
+    "process_cpu_ns_single_sequential_pass",
+    "python",
+    "seconds_observed",
+    "source_certificate_sha256",
+    "source_report_sha256",
+    "wall_seconds"
+  ],
+  "all_stderr_empty": true,
+  "cpu_diagnostic_requested": false,
+  "cpu_timings_compared": false,
+  "sat_source_in_delivered_addendum": false,
+  "notes": "Fresh outputs are inside this rerun only. PASS records exact program results and agreement with shipped scientific fields; it is not proof-assistant verification, external peer review, or evidence of deployed economic benefit."
+}

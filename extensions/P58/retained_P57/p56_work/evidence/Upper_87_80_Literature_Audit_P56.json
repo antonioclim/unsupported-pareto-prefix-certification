@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "scope": "Independent conceptual proof/probability/coverage audit; no Bernstein coefficient reconstruction in this track",
+  "checked_artifact": "p56_work/research/triangle_upper_87_80.md",
+  "exact_arithmetic_checks": {
+    "mixture_probability": true,
+    "low_endpoint": true,
+    "high_left_limit": true,
+    "high_right_endpoint": true,
+    "max_conditional_probability": true,
+    "low_derivative_lower": true,
+    "positive_U_coefficient": true,
+    "strict_bound_improvement": true,
+    "gap": true,
+    "interval_narrowing": true,
+    "class_gap": true,
+    "hard_family_mixture": true,
+    "last_failure": true,
+    "all_residue_classes_at_threshold": true,
+    "finite_criterion_equivalence_checked": true
+  },
+  "issues": [],
+  "new_consequence": "Strict unrestricted vs candidate-census class separation for every N>=308; asymptotic gap at least3/880",
+  "dependencies": [
+    "Canonical P55 screening and geometry lemmas",
+    "Root independent8family Bernstein verification"
+  ]
+}

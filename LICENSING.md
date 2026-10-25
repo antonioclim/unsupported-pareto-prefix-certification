@@ -50,3 +50,8 @@ Official licence texts and summaries:
 - https://opensource.org/license/bsd-3-clause
 - https://creativecommons.org/licenses/by/4.0/legalcode.txt
 - https://creativecommons.org/licenses/by/4.0/
+
+
+## Version 1.1.0 additions
+
+The unchanged extension under `extensions/P58/` retains its `LICENSING_P58.md` and `LICENSE_SCOPE_P58.json`; `retained_P57/` and its embedded original ZIP retain their own component terms. New root administrative documentation uses the existing author CC BY 4.0 grant, within his rights. The root `.gitignore` remains covered executable configuration under BSD-3-Clause. No original manuscript, private submission document, raw SAT ZIP/CSV or generated rerun directory is included or relicensed.

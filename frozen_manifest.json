@@ -1,7 +1,7 @@
 {
   "schema": "p33-review-companion-frozen-v1",
-  "created_at_utc": "2026-10-25T05:44:13.701731+00:00",
-  "purpose": "Identity of reviewed current sources and retained evidence; not proof of theorems.",
+  "created_at_utc": "2026-10-25T00:00:00+00:00",
+  "purpose": "Version 1.1.0 administrative refresh of the legacy member set. Scientific files are unchanged; P58 has its own manifest and is bound by the final package manifest.",
   "excluded": [
     "results/ (runtime reports)",
     "LICENSE_SCOPE.json (post-freeze rights inventory)",
@@ -12,13 +12,13 @@
   "files": [
     {
       "path": "CITATION.cff",
-      "bytes": 1061,
-      "sha256": "0e5279c6977c07a69c30533414bc618413638a981807ce7e01706774985c3dd0"
+      "bytes": 1324,
+      "sha256": "35b9da5a6bab46e121e5f40b1c513d2cc657118cb850fa2903bcdd67aafd2d20"
     },
     {
       "path": "CURRENT_RELEASE_METADATA.json",
-      "bytes": 5994,
-      "sha256": "b281943b21b04db26b583202352d8df00d7cc74389878be71c51f665d30c4389"
+      "bytes": 4864,
+      "sha256": "621b6ef13da8b28dd9b30a188a5fa63a04a7907ee2f0b31460f361cf65a70c56"
     },
     {
       "path": "LICENSE",
@@ -37,33 +37,33 @@
     },
     {
       "path": "LICENSING.md",
-      "bytes": 3018,
-      "sha256": "82d54ef293d697923795e87edacb51341a7542784e7dd7875298a090b6a1390b"
+      "bytes": 3544,
+      "sha256": "f6bcb233ce4c80415ae751c5299cd770148a97f22a0c4ea4208417afc2dc97fb"
     },
     {
       "path": "README.md",
-      "bytes": 8796,
-      "sha256": "fe810b6c277ed8186711fb9051ef375bde8b80f18c1bdf307c71f371e788ed42"
+      "bytes": 6231,
+      "sha256": "7a0e9b76672bd524a3fb1a59269f52ca0908d888237f9f1458f8cabaa0c1460b"
     },
     {
       "path": "README.txt",
-      "bytes": 8516,
-      "sha256": "7f7d3f4928f9b350895ede573c44a0d0f97471abd526ba23549144600a32c49c"
+      "bytes": 6231,
+      "sha256": "7a0e9b76672bd524a3fb1a59269f52ca0908d888237f9f1458f8cabaa0c1460b"
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 10558,
-      "sha256": "b4efe67bbc98d23c0e336d1062b7d6978e3ac826f92b28a446577efff775f2af"
+      "bytes": 11478,
+      "sha256": "9ed2d4a424cb1e37cc2df628908055f8a8c9e7a184b7c2bc5c0c257af143e039"
     },
     {
       "path": "RESULTS_MAP.json",
-      "bytes": 22783,
-      "sha256": "9a0dbcaf9b335c20cd5d17347994a02a701071c82fa5777114a1c60f8ec32a2f"
+      "bytes": 23834,
+      "sha256": "b6b34bbfcc3f9cb328d2933c621358975aa213fd69803c8ed7d26293fe498ff6"
     },
     {
       "path": "RESULTS_MAP.md",
-      "bytes": 18532,
-      "sha256": "ad158373299b0c010d59c513929b90a1d437bac210f57f1e71d1a5b35d583f59"
+      "bytes": 18940,
+      "sha256": "b293c1353e484002eea8f50931dbd2833bbab9ba5ebc9cfe0a65ee05d5a3c37d"
     },
     {
       "path": "RIGHTS.md",
@@ -422,8 +422,8 @@
     },
     {
       "path": "docs/PACKAGING.md",
-      "bytes": 4182,
-      "sha256": "32f2f9624197fc015be794e467ab42fcd0f95a387371a119059cdeb7bf878757"
+      "bytes": 2329,
+      "sha256": "db18987c024778e69cbfe81d5e51ee26112c93bc98558b1e708b9e343d98e938"
     },
     {
       "path": "docs/Provenance_Migration_P41.md",
@@ -1842,8 +1842,8 @@
     },
     {
       "path": "release_preparation/CITATION.cff",
-      "bytes": 1061,
-      "sha256": "0e5279c6977c07a69c30533414bc618413638a981807ce7e01706774985c3dd0"
+      "bytes": 1324,
+      "sha256": "35b9da5a6bab46e121e5f40b1c513d2cc657118cb850fa2903bcdd67aafd2d20"
     },
     {
       "path": "release_preparation/Embedded_Rights_Inventory_P33.json",
@@ -1857,8 +1857,8 @@
     },
     {
       "path": "release_preparation/Release_Metadata_Draft.json",
-      "bytes": 6010,
-      "sha256": "870b2d9387cc249bec0ed6e3c29e452dd5018a1d42bb60e1fd1d097f95d544e1"
+      "bytes": 5172,
+      "sha256": "d55213ebd140c5fa21db9efd3a42955920b6949f043908808fe5c0d57092cd45"
     },
     {
       "path": "run_all_checks.py",
@@ -1892,5 +1892,6 @@
       "release_preparation/CITATION.cff",
       "release_preparation/Release_Metadata_Draft.json"
     ]
-  }
+  },
+  "timestamp_semantics": "Nominal release-date stamp for reproducible packaging, not execution time."
 }

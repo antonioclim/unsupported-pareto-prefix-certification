@@ -1,3 +1,13 @@
+# Version 1.1.0 — P58 reproducibility update
+
+Prepared release date: 2026-10-25. Version DOI: https://doi.org/10.5281/zenodo.23646970.
+
+Adds the complete P58 component (including retained P57) without changing its scientific files. New evidence includes the 87/80 triangle certificate, comparator and archive-replay controls, sparse-support and three-alternative dimensional checks, exact structural-transfer hypotheses and approximation-margin controls. Previous 12/11 results and adverse experimental outcomes remain preserved. See the root README for assumptions, limits and commands.
+
+Root administrative release metadata, licence and integrity inventories were updated. The preparation process performs no remote publication and no full scientific rerun. Version 1.0.0 remains unchanged at https://doi.org/10.5281/zenodo.23632859.
+
+The following notes are retained historical release notes for earlier versions:
+
 # Release notes
 
 ## Prepared v1.0.0 — local revision P52, prepared 25 October 2026

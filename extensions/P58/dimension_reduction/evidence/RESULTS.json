@@ -1,0 +1,315 @@
+{
+  "status": "PASS",
+  "seed": 20261025,
+  "scope": "Finite exact controls and labelled numerical cross-checks; not universal proofs or deployment benchmarks.",
+  "exact_arithmetic": "Python fractions.Fraction",
+  "no_go": {
+    "3": {
+      "matrices_checked": 309,
+      "all_destroy_nondomination": true,
+      "minimum_proved_projected_gap": "1/4"
+    },
+    "5": {
+      "matrices_checked": 126,
+      "all_destroy_nondomination": true,
+      "minimum_proved_projected_gap": "1/4"
+    },
+    "20": {
+      "matrices_checked": 126,
+      "all_destroy_nondomination": true,
+      "minimum_proved_projected_gap": "1/4"
+    },
+    "50": {
+      "matrices_checked": 126,
+      "all_destroy_nondomination": true,
+      "minimum_proved_projected_gap": "1/4"
+    }
+  },
+  "exact_anchor_transfer": {
+    "5": {
+      "full_archive_verdict_comparisons": 729,
+      "full_archive_positive_count": 0,
+      "prefix_archives": 729,
+      "prefix_states_compared": 19683,
+      "retrospective_cost_comparisons": 729,
+      "finite_positive_costs": 0,
+      "positive_cost_values": [],
+      "all_equal": true,
+      "setup": 17,
+      "row_prices": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          11,
+          13
+        ]
+      ]
+    },
+    "20": {
+      "full_archive_verdict_comparisons": 729,
+      "full_archive_positive_count": 0,
+      "prefix_archives": 82,
+      "prefix_states_compared": 2214,
+      "retrospective_cost_comparisons": 82,
+      "finite_positive_costs": 0,
+      "positive_cost_values": [],
+      "all_equal": true,
+      "setup": 17,
+      "row_prices": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          11,
+          13
+        ]
+      ]
+    },
+    "50": {
+      "full_archive_verdict_comparisons": 729,
+      "full_archive_positive_count": 0,
+      "prefix_archives": 82,
+      "prefix_states_compared": 2214,
+      "retrospective_cost_comparisons": 82,
+      "finite_positive_costs": 0,
+      "positive_cost_values": [],
+      "all_equal": true,
+      "setup": 17,
+      "row_prices": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          11,
+          13
+        ]
+      ]
+    }
+  },
+  "positive_archive_transfer": {
+    "5": [
+      {
+        "length": 8,
+        "alternating_rows": false,
+        "prefix_states_compared": 729,
+        "true_prefix_states": 3,
+        "latent_Cstar": 163,
+        "lifted_Cstar": 163,
+        "full_disclosure_cost": 173,
+        "minimum_cost_prefix": [
+          8,
+          7,
+          8
+        ],
+        "positive_and_strictly_cheaper_than_census": true
+      },
+      {
+        "length": 8,
+        "alternating_rows": true,
+        "prefix_states_compared": 729,
+        "true_prefix_states": 3,
+        "latent_Cstar": 163,
+        "lifted_Cstar": 163,
+        "full_disclosure_cost": 173,
+        "minimum_cost_prefix": [
+          8,
+          7,
+          8
+        ],
+        "positive_and_strictly_cheaper_than_census": true
+      },
+      {
+        "length": 16,
+        "alternating_rows": false,
+        "prefix_states_compared": 4913,
+        "true_prefix_states": 19,
+        "latent_Cstar": 450,
+        "lifted_Cstar": 450,
+        "full_disclosure_cost": 521,
+        "minimum_cost_prefix": [
+          15,
+          14,
+          15
+        ],
+        "positive_and_strictly_cheaper_than_census": true
+      },
+      {
+        "length": 16,
+        "alternating_rows": true,
+        "prefix_states_compared": 4913,
+        "true_prefix_states": 19,
+        "latent_Cstar": 450,
+        "lifted_Cstar": 450,
+        "full_disclosure_cost": 521,
+        "minimum_cost_prefix": [
+          15,
+          14,
+          15
+        ],
+        "positive_and_strictly_cheaper_than_census": true
+      }
+    ],
+    "20": [
+      {
+        "length": 8,
+        "alternating_rows": false,
+        "prefix_states_compared": 729,
+        "true_prefix_states": 3,
+        "latent_Cstar": 163,
+        "lifted_Cstar": 163,
+        "full_disclosure_cost": 173,
+        "minimum_cost_prefix": [
+          8,
+          7,
+          8
+        ],
+        "positive_and_strictly_cheaper_than_census": true
+      },
+      {
+        "length": 8,
+        "alternating_rows": true,
+        "prefix_states_compared": 729,
+        "true_prefix_states": 3,
+        "latent_Cstar": 163,
+        "lifted_Cstar": 163,
+        "full_disclosure_cost": 173,
+        "minimum_cost_prefix": [
+          8,
+          7,
+          8
+        ],
+        "positive_and_strictly_cheaper_than_census": true
+      },
+      {
+        "length": 16,
+        "alternating_rows": false,
+        "prefix_states_compared": 4913,
+        "true_prefix_states": 19,
+        "latent_Cstar": 450,
+        "lifted_Cstar": 450,
+        "full_disclosure_cost": 521,
+        "minimum_cost_prefix": [
+          15,
+          14,
+          15
+        ],
+        "positive_and_strictly_cheaper_than_census": true
+      },
+      {
+        "length": 16,
+        "alternating_rows": true,
+        "prefix_states_compared": 4913,
+        "true_prefix_states": 19,
+        "latent_Cstar": 450,
+        "lifted_Cstar": 450,
+        "full_disclosure_cost": 521,
+        "minimum_cost_prefix": [
+          15,
+          14,
+          15
+        ],
+        "positive_and_strictly_cheaper_than_census": true
+      }
+    ],
+    "50": [
+      {
+        "length": 8,
+        "alternating_rows": false,
+        "prefix_states_compared": 729,
+        "true_prefix_states": 3,
+        "latent_Cstar": 163,
+        "lifted_Cstar": 163,
+        "full_disclosure_cost": 173,
+        "minimum_cost_prefix": [
+          8,
+          7,
+          8
+        ],
+        "positive_and_strictly_cheaper_than_census": true
+      },
+      {
+        "length": 8,
+        "alternating_rows": true,
+        "prefix_states_compared": 729,
+        "true_prefix_states": 3,
+        "latent_Cstar": 163,
+        "lifted_Cstar": 163,
+        "full_disclosure_cost": 173,
+        "minimum_cost_prefix": [
+          8,
+          7,
+          8
+        ],
+        "positive_and_strictly_cheaper_than_census": true
+      },
+      {
+        "length": 16,
+        "alternating_rows": false,
+        "prefix_states_compared": 4913,
+        "true_prefix_states": 19,
+        "latent_Cstar": 450,
+        "lifted_Cstar": 450,
+        "full_disclosure_cost": 521,
+        "minimum_cost_prefix": [
+          15,
+          14,
+          15
+        ],
+        "positive_and_strictly_cheaper_than_census": true
+      },
+      {
+        "length": 16,
+        "alternating_rows": true,
+        "prefix_states_compared": 4913,
+        "true_prefix_states": 19,
+        "latent_Cstar": 450,
+        "lifted_Cstar": 450,
+        "full_disclosure_cost": 521,
+        "minimum_cost_prefix": [
+          15,
+          14,
+          15
+        ],
+        "positive_and_strictly_cheaper_than_census": true
+      }
+    ]
+  },
+  "boundary_controls": {
+    "strict_2epsilon_boundary": {
+      "epsilon": "1/20",
+      "surrogate_mixture_margin": "1/10",
+      "actual_mixture_margin": "0",
+      "surrogate_good": true,
+      "actual_good": false
+    },
+    "constant_added_objective_changes_support": true,
+    "coordinatewise_cube_preserves_dominance_but_changes_support": true
+  },
+  "numerical_crosscheck": {
+    "status": "passed",
+    "cases_by_dimension": {
+      "3": 25,
+      "5": 25,
+      "20": 25,
+      "50": 25
+    },
+    "arithmetic": "floating-point SciPy/HiGHS; independent numerical cross-check only"
+  },
+  "elapsed_seconds": 3.776514
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "official_results_url": "https://satcompetition.github.io/2024/results.html",
+  "entries": 14,
+  "test": "Each derived PAR2 mean matches published two-decimal score within half last decimal, and all solved counts match exactly.",
+  "source_zip_sha256": "dfdf1d515fc95e95d3b76f907a2ce67932af1f8905f90c3dd7f743ea6c2b751a",
+  "source_csv_sha256": "a00f623691e3aa4e10adc85ee0d15b63fbaa25a3cef9c5787d81650ea9d821c6"
+}

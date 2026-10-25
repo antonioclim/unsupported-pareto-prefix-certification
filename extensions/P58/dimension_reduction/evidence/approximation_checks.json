@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "arithmetic": "fractions.Fraction, exact rational",
+  "seed": 20261025,
+  "two_anchor_positive_controls_by_dimension": {"2": 100, "5": 100, "20": 100, "50": 100},
+  "smallest_observed_positive_mixture_gap": "14/625",
+  "analytic_uniform_gap_lower_bound": "1/50",
+  "boundary_and_tie_controls": 4,
+  "limitations": "Finite synthetic controls only; proofs are in approximation.md. No timing, real data or paid-access efficiency measured."
+}

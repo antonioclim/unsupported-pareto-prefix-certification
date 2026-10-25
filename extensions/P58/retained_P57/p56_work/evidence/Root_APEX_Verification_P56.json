@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "independence": "Raw JSON parsed and SHA selection reconstructed without importing producer or policy; full verdict checked by scalarisation breakpoint enumeration; every exported endpoint witness independently checked.",
+  "tasks": 1536,
+  "positive": 41,
+  "negative": 1495,
+  "policy_task_results_verified": 9216,
+  "negative_witnesses": {
+    "certain_support": 5598,
+    "certain_domination": 3372
+  },
+  "enhanced_disclosures": {
+    "A_LR": "11515",
+    "A_RL": "11515",
+    "B": "13816",
+    "det": "11515",
+    "greedy": "11515",
+    "census": "12365",
+    "mixture": "280952/23"
+  },
+  "fair_baseline_saving": "170/2473",
+  "source_report_sha256": "7615cabd5872714362062dbfa40e2d026581e8683c65b4be61a8adc780f54803",
+  "limitations": "Evidence validation supplements analytic soundness; no physical measurements or external peer review."
+}

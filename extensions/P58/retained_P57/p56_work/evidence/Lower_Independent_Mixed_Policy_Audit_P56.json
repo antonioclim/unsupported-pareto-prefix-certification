@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "finite_exact_point_checks": 11754,
+  "branches": [
+    "high",
+    "low"
+  ],
+  "minimum_grid_residual": "0",
+  "alpha_left_at_cut": "29/38",
+  "alpha_right_at_cut": "59/80",
+  "alpha_maximum": "33/40",
+  "conditional_southeast_probability_maximum": "9/10",
+  "low_derivative_numerator_lower_bound": "293/24",
+  "new_ratio": "87/80",
+  "old_upper_minus_new_upper": "3/880",
+  "new_upper_minus_old_lower": "37/880",
+  "gap_relative_reduction": "3/40",
+  "scope": "Finite exact arithmetic corroboration of independently derived cost identity; not a continuum nonnegativity proof."
+}

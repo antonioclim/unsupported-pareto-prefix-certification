@@ -1,0 +1,3698 @@
+{
+  "schema": "p56-mixed-triangle-87-80-operational-v1",
+  "status": "PASS",
+  "arithmetic": "exact Fraction; finite tests distinct from continuous proof",
+  "ordinary_case_counts": {
+    "exhaustive_N1": 216,
+    "fixed_seed_grid": 1400,
+    "designed_boundary": 128,
+    "new_cut_neighbours": 72
+  },
+  "ordinary_cases": 1816,
+  "ordinary_positive": 141,
+  "ordinary_negative": 1675,
+  "ordinary_comparator_prefixes": 68309,
+  "ordinary_max_observed_ratio": "9539/9165",
+  "ordinary_maxcase": {
+    "index": 1682,
+    "N": 5,
+    "gap": "7/10",
+    "opt": 13,
+    "costs": [
+      15,
+      13,
+      15
+    ],
+    "expected": "9539/705",
+    "archive": [
+      [
+        [
+          18,
+          4
+        ],
+        [
+          18,
+          4
+        ],
+        [
+          18,
+          4
+        ],
+        [
+          18,
+          4
+        ],
+        [
+          18,
+          4
+        ]
+      ],
+      [
+        [
+          7,
+          7
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          7,
+          7
+        ]
+      ],
+      [
+        [
+          20,
+          0
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          20,
+          0
+        ]
+      ]
+    ]
+  },
+  "hard_world_cases": 224,
+  "hard_U_actual_partial_stops": 112,
+  "hard_max_observed_ratio": "128683/118908",
+  "hard_enumerated_prefixes": 8788,
+  "policy_branch_executions": 6120,
+  "cut_boundaries_checked": [
+    "3/4"
+  ],
+  "hard_records": [
+    {
+      "N": 12,
+      "q": 3,
+      "pad": 0,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 34,
+      "costs": [
+        35,
+        36,
+        35
+      ],
+      "expected": "961/27",
+      "ratio": "961/918",
+      "Q_candidate_prefix": 11
+    },
+    {
+      "N": 12,
+      "q": 3,
+      "pad": 0,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 34,
+      "costs": [
+        35,
+        36,
+        35
+      ],
+      "expected": "961/27",
+      "ratio": "961/918",
+      "Q_candidate_prefix": 11
+    },
+    {
+      "N": 12,
+      "q": 3,
+      "pad": 0,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 33,
+      "costs": [
+        35,
+        34,
+        36
+      ],
+      "expected": "22721/660",
+      "ratio": "22721/21780",
+      "Q_candidate_prefix": 12
+    },
+    {
+      "N": 12,
+      "q": 3,
+      "pad": 0,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 33,
+      "costs": [
+        35,
+        34,
+        36
+      ],
+      "expected": "22721/660",
+      "ratio": "22721/21780",
+      "Q_candidate_prefix": 12
+    },
+    {
+      "N": 13,
+      "q": 3,
+      "pad": 1,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 37,
+      "costs": [
+        38,
+        39,
+        38
+      ],
+      "expected": "14537/377",
+      "ratio": "14537/13949",
+      "Q_candidate_prefix": 12
+    },
+    {
+      "N": 13,
+      "q": 3,
+      "pad": 1,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 37,
+      "costs": [
+        38,
+        39,
+        38
+      ],
+      "expected": "14537/377",
+      "ratio": "14537/13949",
+      "Q_candidate_prefix": 12
+    },
+    {
+      "N": 13,
+      "q": 3,
+      "pad": 1,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 36,
+      "costs": [
+        38,
+        37,
+        39
+      ],
+      "expected": "344779/9204",
+      "ratio": "344779/331344",
+      "Q_candidate_prefix": 13
+    },
+    {
+      "N": 13,
+      "q": 3,
+      "pad": 1,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 36,
+      "costs": [
+        38,
+        37,
+        39
+      ],
+      "expected": "344779/9204",
+      "ratio": "344779/331344",
+      "Q_candidate_prefix": 13
+    },
+    {
+      "N": 14,
+      "q": 3,
+      "pad": 2,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 40,
+      "costs": [
+        41,
+        42,
+        41
+      ],
+      "expected": "9012/217",
+      "ratio": "2253/2170",
+      "Q_candidate_prefix": 13
+    },
+    {
+      "N": 14,
+      "q": 3,
+      "pad": 2,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 40,
+      "costs": [
+        41,
+        42,
+        41
+      ],
+      "expected": "9012/217",
+      "ratio": "2253/2170",
+      "Q_candidate_prefix": 13
+    },
+    {
+      "N": 14,
+      "q": 3,
+      "pad": 2,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 39,
+      "costs": [
+        41,
+        40,
+        42
+      ],
+      "expected": "4373/108",
+      "ratio": "4373/4212",
+      "Q_candidate_prefix": 14
+    },
+    {
+      "N": 14,
+      "q": 3,
+      "pad": 2,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 39,
+      "costs": [
+        41,
+        40,
+        42
+      ],
+      "expected": "4373/108",
+      "ratio": "4373/4212",
+      "Q_candidate_prefix": 14
+    },
+    {
+      "N": 15,
+      "q": 3,
+      "pad": 3,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 43,
+      "costs": [
+        44,
+        45,
+        44
+      ],
+      "expected": "7343/165",
+      "ratio": "7343/7095",
+      "Q_candidate_prefix": 14
+    },
+    {
+      "N": 15,
+      "q": 3,
+      "pad": 3,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 43,
+      "costs": [
+        44,
+        45,
+        44
+      ],
+      "expected": "7343/165",
+      "ratio": "7343/7095",
+      "Q_candidate_prefix": 14
+    },
+    {
+      "N": 15,
+      "q": 3,
+      "pad": 3,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 42,
+      "costs": [
+        44,
+        43,
+        45
+      ],
+      "expected": "174947/4020",
+      "ratio": "174947/168840",
+      "Q_candidate_prefix": 15
+    },
+    {
+      "N": 15,
+      "q": 3,
+      "pad": 3,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 42,
+      "costs": [
+        44,
+        43,
+        45
+      ],
+      "expected": "174947/4020",
+      "ratio": "174947/168840",
+      "Q_candidate_prefix": 15
+    },
+    {
+      "N": 16,
+      "q": 4,
+      "pad": 0,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 45,
+      "costs": [
+        47,
+        48,
+        46
+      ],
+      "expected": "5131/108",
+      "ratio": "5131/4860",
+      "Q_candidate_prefix": 14
+    },
+    {
+      "N": 16,
+      "q": 4,
+      "pad": 0,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 45,
+      "costs": [
+        47,
+        48,
+        46
+      ],
+      "expected": "5131/108",
+      "ratio": "5131/4860",
+      "Q_candidate_prefix": 14
+    },
+    {
+      "N": 16,
+      "q": 4,
+      "pad": 0,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 44,
+      "costs": [
+        47,
+        45,
+        48
+      ],
+      "expected": "10030/219",
+      "ratio": "5015/4818",
+      "Q_candidate_prefix": 16
+    },
+    {
+      "N": 16,
+      "q": 4,
+      "pad": 0,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 44,
+      "costs": [
+        47,
+        45,
+        48
+      ],
+      "expected": "10030/219",
+      "ratio": "5015/4818",
+      "Q_candidate_prefix": 16
+    },
+    {
+      "N": 17,
+      "q": 4,
+      "pad": 1,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 48,
+      "costs": [
+        50,
+        51,
+        49
+      ],
+      "expected": "195677/3876",
+      "ratio": "195677/186048",
+      "Q_candidate_prefix": 15
+    },
+    {
+      "N": 17,
+      "q": 4,
+      "pad": 1,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 48,
+      "costs": [
+        50,
+        51,
+        49
+      ],
+      "expected": "195677/3876",
+      "ratio": "195677/186048",
+      "Q_candidate_prefix": 15
+    },
+    {
+      "N": 17,
+      "q": 4,
+      "pad": 1,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 47,
+      "costs": [
+        50,
+        48,
+        51
+      ],
+      "expected": "767341/15708",
+      "ratio": "767341/738276",
+      "Q_candidate_prefix": 17
+    },
+    {
+      "N": 17,
+      "q": 4,
+      "pad": 1,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 47,
+      "costs": [
+        50,
+        48,
+        51
+      ],
+      "expected": "767341/15708",
+      "ratio": "767341/738276",
+      "Q_candidate_prefix": 17
+    },
+    {
+      "N": 18,
+      "q": 4,
+      "pad": 2,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 51,
+      "costs": [
+        53,
+        54,
+        52
+      ],
+      "expected": "9623/180",
+      "ratio": "9623/9180",
+      "Q_candidate_prefix": 16
+    },
+    {
+      "N": 18,
+      "q": 4,
+      "pad": 2,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 51,
+      "costs": [
+        53,
+        54,
+        52
+      ],
+      "expected": "9623/180",
+      "ratio": "9623/9180",
+      "Q_candidate_prefix": 16
+    },
+    {
+      "N": 18,
+      "q": 4,
+      "pad": 2,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 50,
+      "costs": [
+        53,
+        51,
+        54
+      ],
+      "expected": "5605/108",
+      "ratio": "1121/1080",
+      "Q_candidate_prefix": 18
+    },
+    {
+      "N": 18,
+      "q": 4,
+      "pad": 2,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 50,
+      "costs": [
+        53,
+        51,
+        54
+      ],
+      "expected": "5605/108",
+      "ratio": "1121/1080",
+      "Q_candidate_prefix": 18
+    },
+    {
+      "N": 19,
+      "q": 4,
+      "pad": 3,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 54,
+      "costs": [
+        56,
+        57,
+        55
+      ],
+      "expected": "270233/4788",
+      "ratio": "270233/258552",
+      "Q_candidate_prefix": 17
+    },
+    {
+      "N": 19,
+      "q": 4,
+      "pad": 3,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 54,
+      "costs": [
+        56,
+        57,
+        55
+      ],
+      "expected": "270233/4788",
+      "ratio": "270233/258552",
+      "Q_candidate_prefix": 17
+    },
+    {
+      "N": 19,
+      "q": 4,
+      "pad": 3,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 53,
+      "costs": [
+        56,
+        54,
+        57
+      ],
+      "expected": "1064791/19380",
+      "ratio": "1064791/1027140",
+      "Q_candidate_prefix": 19
+    },
+    {
+      "N": 19,
+      "q": 4,
+      "pad": 3,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 53,
+      "costs": [
+        56,
+        54,
+        57
+      ],
+      "expected": "1064791/19380",
+      "ratio": "1064791/1027140",
+      "Q_candidate_prefix": 19
+    },
+    {
+      "N": 20,
+      "q": 5,
+      "pad": 0,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 56,
+      "costs": [
+        59,
+        60,
+        57
+      ],
+      "expected": "3209/54",
+      "ratio": "3209/3024",
+      "Q_candidate_prefix": 17
+    },
+    {
+      "N": 20,
+      "q": 5,
+      "pad": 0,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 56,
+      "costs": [
+        59,
+        60,
+        57
+      ],
+      "expected": "3209/54",
+      "ratio": "3209/3024",
+      "Q_candidate_prefix": 17
+    },
+    {
+      "N": 20,
+      "q": 5,
+      "pad": 0,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 55,
+      "costs": [
+        59,
+        56,
+        60
+      ],
+      "expected": "312233/5460",
+      "ratio": "312233/300300",
+      "Q_candidate_prefix": 20
+    },
+    {
+      "N": 20,
+      "q": 5,
+      "pad": 0,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 55,
+      "costs": [
+        59,
+        56,
+        60
+      ],
+      "expected": "312233/5460",
+      "ratio": "312233/300300",
+      "Q_candidate_prefix": 20
+    },
+    {
+      "N": 21,
+      "q": 5,
+      "pad": 1,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 59,
+      "costs": [
+        62,
+        63,
+        60
+      ],
+      "expected": "41063/658",
+      "ratio": "41063/38822",
+      "Q_candidate_prefix": 18
+    },
+    {
+      "N": 21,
+      "q": 5,
+      "pad": 1,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 59,
+      "costs": [
+        62,
+        63,
+        60
+      ],
+      "expected": "41063/658",
+      "ratio": "41063/38822",
+      "Q_candidate_prefix": 18
+    },
+    {
+      "N": 21,
+      "q": 5,
+      "pad": 1,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 58,
+      "costs": [
+        62,
+        59,
+        63
+      ],
+      "expected": "480773/7980",
+      "ratio": "480773/462840",
+      "Q_candidate_prefix": 21
+    },
+    {
+      "N": 21,
+      "q": 5,
+      "pad": 1,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 58,
+      "costs": [
+        62,
+        59,
+        63
+      ],
+      "expected": "480773/7980",
+      "ratio": "480773/462840",
+      "Q_candidate_prefix": 21
+    },
+    {
+      "N": 22,
+      "q": 5,
+      "pad": 2,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 62,
+      "costs": [
+        65,
+        66,
+        63
+      ],
+      "expected": "70487/1078",
+      "ratio": "70487/66836",
+      "Q_candidate_prefix": 19
+    },
+    {
+      "N": 22,
+      "q": 5,
+      "pad": 2,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 62,
+      "costs": [
+        65,
+        66,
+        63
+      ],
+      "expected": "70487/1078",
+      "ratio": "70487/66836",
+      "Q_candidate_prefix": 19
+    },
+    {
+      "N": 22,
+      "q": 5,
+      "pad": 2,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 61,
+      "costs": [
+        65,
+        62,
+        66
+      ],
+      "expected": "2279/36",
+      "ratio": "2279/2196",
+      "Q_candidate_prefix": 22
+    },
+    {
+      "N": 22,
+      "q": 5,
+      "pad": 2,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 61,
+      "costs": [
+        65,
+        62,
+        66
+      ],
+      "expected": "2279/36",
+      "ratio": "2279/2196",
+      "Q_candidate_prefix": 22
+    },
+    {
+      "N": 23,
+      "q": 5,
+      "pad": 3,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 65,
+      "costs": [
+        68,
+        69,
+        66
+      ],
+      "expected": "481181/7038",
+      "ratio": "481181/457470",
+      "Q_candidate_prefix": 20
+    },
+    {
+      "N": 23,
+      "q": 5,
+      "pad": 3,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 65,
+      "costs": [
+        68,
+        69,
+        66
+      ],
+      "expected": "481181/7038",
+      "ratio": "481181/457470",
+      "Q_candidate_prefix": 20
+    },
+    {
+      "N": 23,
+      "q": 5,
+      "pad": 3,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 64,
+      "costs": [
+        68,
+        65,
+        69
+      ],
+      "expected": "1886501/28428",
+      "ratio": "1886501/1819392",
+      "Q_candidate_prefix": 23
+    },
+    {
+      "N": 23,
+      "q": 5,
+      "pad": 3,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 64,
+      "costs": [
+        68,
+        65,
+        69
+      ],
+      "expected": "1886501/28428",
+      "ratio": "1886501/1819392",
+      "Q_candidate_prefix": 23
+    },
+    {
+      "N": 24,
+      "q": 6,
+      "pad": 0,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 67,
+      "costs": [
+        71,
+        72,
+        68
+      ],
+      "expected": "7705/108",
+      "ratio": "115/108",
+      "Q_candidate_prefix": 20
+    },
+    {
+      "N": 24,
+      "q": 6,
+      "pad": 0,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 67,
+      "costs": [
+        71,
+        72,
+        68
+      ],
+      "expected": "7705/108",
+      "ratio": "115/108",
+      "Q_candidate_prefix": 20
+    },
+    {
+      "N": 24,
+      "q": 6,
+      "pad": 0,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 66,
+      "costs": [
+        71,
+        67,
+        72
+      ],
+      "expected": "89701/1308",
+      "ratio": "89701/86328",
+      "Q_candidate_prefix": 24
+    },
+    {
+      "N": 24,
+      "q": 6,
+      "pad": 0,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 66,
+      "costs": [
+        71,
+        67,
+        72
+      ],
+      "expected": "89701/1308",
+      "ratio": "89701/86328",
+      "Q_candidate_prefix": 24
+    },
+    {
+      "N": 25,
+      "q": 6,
+      "pad": 1,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 70,
+      "costs": [
+        74,
+        75,
+        71
+      ],
+      "expected": "13007/175",
+      "ratio": "13007/12250",
+      "Q_candidate_prefix": 21
+    },
+    {
+      "N": 25,
+      "q": 6,
+      "pad": 1,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 70,
+      "costs": [
+        74,
+        75,
+        71
+      ],
+      "expected": "13007/175",
+      "ratio": "13007/12250",
+      "Q_candidate_prefix": 21
+    },
+    {
+      "N": 25,
+      "q": 6,
+      "pad": 1,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 69,
+      "costs": [
+        74,
+        70,
+        75
+      ],
+      "expected": "2428849/33900",
+      "ratio": "2428849/2339100",
+      "Q_candidate_prefix": 25
+    },
+    {
+      "N": 25,
+      "q": 6,
+      "pad": 1,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 69,
+      "costs": [
+        74,
+        70,
+        75
+      ],
+      "expected": "2428849/33900",
+      "ratio": "2428849/2339100",
+      "Q_candidate_prefix": 25
+    },
+    {
+      "N": 26,
+      "q": 6,
+      "pad": 2,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 73,
+      "costs": [
+        77,
+        78,
+        74
+      ],
+      "expected": "116583/1508",
+      "ratio": "116583/110084",
+      "Q_candidate_prefix": 22
+    },
+    {
+      "N": 26,
+      "q": 6,
+      "pad": 2,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 73,
+      "costs": [
+        77,
+        78,
+        74
+      ],
+      "expected": "116583/1508",
+      "ratio": "116583/110084",
+      "Q_candidate_prefix": 22
+    },
+    {
+      "N": 26,
+      "q": 6,
+      "pad": 2,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 72,
+      "costs": [
+        77,
+        73,
+        78
+      ],
+      "expected": "8069/108",
+      "ratio": "8069/7776",
+      "Q_candidate_prefix": 26
+    },
+    {
+      "N": 26,
+      "q": 6,
+      "pad": 2,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 72,
+      "costs": [
+        77,
+        73,
+        78
+      ],
+      "expected": "8069/108",
+      "ratio": "8069/7776",
+      "Q_candidate_prefix": 26
+    },
+    {
+      "N": 27,
+      "q": 6,
+      "pad": 3,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 76,
+      "costs": [
+        80,
+        81,
+        77
+      ],
+      "expected": "14453/180",
+      "ratio": "14453/13680",
+      "Q_candidate_prefix": 23
+    },
+    {
+      "N": 27,
+      "q": 6,
+      "pad": 3,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 76,
+      "costs": [
+        80,
+        81,
+        77
+      ],
+      "expected": "14453/180",
+      "ratio": "14453/13680",
+      "Q_candidate_prefix": 23
+    },
+    {
+      "N": 27,
+      "q": 6,
+      "pad": 3,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 75,
+      "costs": [
+        80,
+        76,
+        81
+      ],
+      "expected": "1016369/13068",
+      "ratio": "1016369/980100",
+      "Q_candidate_prefix": 27
+    },
+    {
+      "N": 27,
+      "q": 6,
+      "pad": 3,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 75,
+      "costs": [
+        80,
+        76,
+        81
+      ],
+      "expected": "1016369/13068",
+      "ratio": "1016369/980100",
+      "Q_candidate_prefix": 27
+    },
+    {
+      "N": 28,
+      "q": 7,
+      "pad": 0,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 78,
+      "costs": [
+        83,
+        84,
+        79
+      ],
+      "expected": "2248/27",
+      "ratio": "1124/1053",
+      "Q_candidate_prefix": 23
+    },
+    {
+      "N": 28,
+      "q": 7,
+      "pad": 0,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 78,
+      "costs": [
+        83,
+        84,
+        79
+      ],
+      "expected": "2248/27",
+      "ratio": "1124/1053",
+      "Q_candidate_prefix": 23
+    },
+    {
+      "N": 28,
+      "q": 7,
+      "pad": 0,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 77,
+      "costs": [
+        83,
+        78,
+        84
+      ],
+      "expected": "853183/10668",
+      "ratio": "853183/821436",
+      "Q_candidate_prefix": 28
+    },
+    {
+      "N": 28,
+      "q": 7,
+      "pad": 0,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 77,
+      "costs": [
+        83,
+        78,
+        84
+      ],
+      "expected": "853183/10668",
+      "ratio": "853183/821436",
+      "Q_candidate_prefix": 28
+    },
+    {
+      "N": 29,
+      "q": 7,
+      "pad": 1,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 81,
+      "costs": [
+        86,
+        87,
+        82
+      ],
+      "expected": "487714/5655",
+      "ratio": "487714/458055",
+      "Q_candidate_prefix": 24
+    },
+    {
+      "N": 29,
+      "q": 7,
+      "pad": 1,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 81,
+      "costs": [
+        86,
+        87,
+        82
+      ],
+      "expected": "487714/5655",
+      "ratio": "487714/458055",
+      "Q_candidate_prefix": 24
+    },
+    {
+      "N": 29,
+      "q": 7,
+      "pad": 1,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 80,
+      "costs": [
+        86,
+        81,
+        87
+      ],
+      "expected": "3786067/45588",
+      "ratio": "3786067/3647040",
+      "Q_candidate_prefix": 29
+    },
+    {
+      "N": 29,
+      "q": 7,
+      "pad": 1,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 80,
+      "costs": [
+        86,
+        81,
+        87
+      ],
+      "expected": "3786067/45588",
+      "ratio": "3786067/3647040",
+      "Q_candidate_prefix": 29
+    },
+    {
+      "N": 30,
+      "q": 7,
+      "pad": 2,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 84,
+      "costs": [
+        89,
+        90,
+        85
+      ],
+      "expected": "89677/1005",
+      "ratio": "12811/12060",
+      "Q_candidate_prefix": 25
+    },
+    {
+      "N": 30,
+      "q": 7,
+      "pad": 2,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 84,
+      "costs": [
+        89,
+        90,
+        85
+      ],
+      "expected": "89677/1005",
+      "ratio": "12811/12060",
+      "Q_candidate_prefix": 25
+    },
+    {
+      "N": 30,
+      "q": 7,
+      "pad": 2,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 83,
+      "costs": [
+        89,
+        84,
+        90
+      ],
+      "expected": "9301/108",
+      "ratio": "9301/8964",
+      "Q_candidate_prefix": 30
+    },
+    {
+      "N": 30,
+      "q": 7,
+      "pad": 2,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 83,
+      "costs": [
+        89,
+        84,
+        90
+      ],
+      "expected": "9301/108",
+      "ratio": "9301/8964",
+      "Q_candidate_prefix": 30
+    },
+    {
+      "N": 31,
+      "q": 7,
+      "pad": 3,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 87,
+      "costs": [
+        92,
+        93,
+        88
+      ],
+      "expected": "591760/6417",
+      "ratio": "591760/558279",
+      "Q_candidate_prefix": 26
+    },
+    {
+      "N": 31,
+      "q": 7,
+      "pad": 3,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 87,
+      "costs": [
+        92,
+        93,
+        88
+      ],
+      "expected": "591760/6417",
+      "ratio": "591760/558279",
+      "Q_candidate_prefix": 26
+    },
+    {
+      "N": 31,
+      "q": 7,
+      "pad": 3,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 86,
+      "costs": [
+        92,
+        87,
+        93
+      ],
+      "expected": "4611745/51708",
+      "ratio": "4611745/4446888",
+      "Q_candidate_prefix": 31
+    },
+    {
+      "N": 31,
+      "q": 7,
+      "pad": 3,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 86,
+      "costs": [
+        92,
+        87,
+        93
+      ],
+      "expected": "4611745/51708",
+      "ratio": "4611745/4446888",
+      "Q_candidate_prefix": 31
+    },
+    {
+      "N": 32,
+      "q": 8,
+      "pad": 0,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 89,
+      "costs": [
+        95,
+        96,
+        90
+      ],
+      "expected": "10279/108",
+      "ratio": "10279/9612",
+      "Q_candidate_prefix": 26
+    },
+    {
+      "N": 32,
+      "q": 8,
+      "pad": 0,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 89,
+      "costs": [
+        95,
+        96,
+        90
+      ],
+      "expected": "10279/108",
+      "ratio": "10279/9612",
+      "Q_candidate_prefix": 26
+    },
+    {
+      "N": 32,
+      "q": 8,
+      "pad": 0,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 88,
+      "costs": [
+        95,
+        89,
+        96
+      ],
+      "expected": "317987/3480",
+      "ratio": "317987/306240",
+      "Q_candidate_prefix": 32
+    },
+    {
+      "N": 32,
+      "q": 8,
+      "pad": 0,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 88,
+      "costs": [
+        95,
+        89,
+        96
+      ],
+      "expected": "317987/3480",
+      "ratio": "317987/306240",
+      "Q_candidate_prefix": 32
+    },
+    {
+      "N": 33,
+      "q": 8,
+      "pad": 1,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 92,
+      "costs": [
+        98,
+        99,
+        93
+      ],
+      "expected": "479429/4884",
+      "ratio": "479429/449328",
+      "Q_candidate_prefix": 27
+    },
+    {
+      "N": 33,
+      "q": 8,
+      "pad": 1,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 92,
+      "costs": [
+        98,
+        99,
+        93
+      ],
+      "expected": "479429/4884",
+      "ratio": "479429/449328",
+      "Q_candidate_prefix": 27
+    },
+    {
+      "N": 33,
+      "q": 8,
+      "pad": 1,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 91,
+      "costs": [
+        98,
+        92,
+        99
+      ],
+      "expected": "1857703/19668",
+      "ratio": "1857703/1789788",
+      "Q_candidate_prefix": 33
+    },
+    {
+      "N": 33,
+      "q": 8,
+      "pad": 1,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 91,
+      "costs": [
+        98,
+        92,
+        99
+      ],
+      "expected": "1857703/19668",
+      "ratio": "1857703/1789788",
+      "Q_candidate_prefix": 33
+    },
+    {
+      "N": 34,
+      "q": 8,
+      "pad": 2,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 95,
+      "costs": [
+        101,
+        102,
+        96
+      ],
+      "expected": "130687/1292",
+      "ratio": "130687/122740",
+      "Q_candidate_prefix": 28
+    },
+    {
+      "N": 34,
+      "q": 8,
+      "pad": 2,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 95,
+      "costs": [
+        101,
+        102,
+        96
+      ],
+      "expected": "130687/1292",
+      "ratio": "130687/122740",
+      "Q_candidate_prefix": 28
+    },
+    {
+      "N": 34,
+      "q": 8,
+      "pad": 2,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 94,
+      "costs": [
+        101,
+        95,
+        102
+      ],
+      "expected": "3511/36",
+      "ratio": "3511/3384",
+      "Q_candidate_prefix": 34
+    },
+    {
+      "N": 34,
+      "q": 8,
+      "pad": 2,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 94,
+      "costs": [
+        101,
+        95,
+        102
+      ],
+      "expected": "3511/36",
+      "ratio": "3511/3384",
+      "Q_candidate_prefix": 34
+    },
+    {
+      "N": 35,
+      "q": 8,
+      "pad": 3,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 98,
+      "costs": [
+        104,
+        105,
+        99
+      ],
+      "expected": "1705799/16380",
+      "ratio": "1705799/1605240",
+      "Q_candidate_prefix": 29
+    },
+    {
+      "N": 35,
+      "q": 8,
+      "pad": 3,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 98,
+      "costs": [
+        104,
+        105,
+        99
+      ],
+      "expected": "1705799/16380",
+      "ratio": "1705799/1605240",
+      "Q_candidate_prefix": 29
+    },
+    {
+      "N": 35,
+      "q": 8,
+      "pad": 3,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 97,
+      "costs": [
+        104,
+        98,
+        105
+      ],
+      "expected": "6633551/65940",
+      "ratio": "6633551/6396180",
+      "Q_candidate_prefix": 35
+    },
+    {
+      "N": 35,
+      "q": 8,
+      "pad": 3,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 97,
+      "costs": [
+        104,
+        98,
+        105
+      ],
+      "expected": "6633551/65940",
+      "ratio": "6633551/6396180",
+      "Q_candidate_prefix": 35
+    },
+    {
+      "N": 36,
+      "q": 9,
+      "pad": 0,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 100,
+      "costs": [
+        107,
+        108,
+        101
+      ],
+      "expected": "5783/54",
+      "ratio": "5783/5400",
+      "Q_candidate_prefix": 29
+    },
+    {
+      "N": 36,
+      "q": 9,
+      "pad": 0,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 100,
+      "costs": [
+        107,
+        108,
+        101
+      ],
+      "expected": "5783/54",
+      "ratio": "5783/5400",
+      "Q_candidate_prefix": 29
+    },
+    {
+      "N": 36,
+      "q": 9,
+      "pad": 0,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 99,
+      "costs": [
+        107,
+        100,
+        108
+      ],
+      "expected": "603095/5868",
+      "ratio": "603095/580932",
+      "Q_candidate_prefix": 36
+    },
+    {
+      "N": 36,
+      "q": 9,
+      "pad": 0,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 99,
+      "costs": [
+        107,
+        100,
+        108
+      ],
+      "expected": "603095/5868",
+      "ratio": "603095/580932",
+      "Q_candidate_prefix": 36
+    },
+    {
+      "N": 37,
+      "q": 9,
+      "pad": 1,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 103,
+      "costs": [
+        110,
+        111,
+        104
+      ],
+      "expected": "676119/6142",
+      "ratio": "676119/632626",
+      "Q_candidate_prefix": 30
+    },
+    {
+      "N": 37,
+      "q": 9,
+      "pad": 1,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 103,
+      "costs": [
+        110,
+        111,
+        104
+      ],
+      "expected": "676119/6142",
+      "ratio": "676119/632626",
+      "Q_candidate_prefix": 30
+    },
+    {
+      "N": 37,
+      "q": 9,
+      "pad": 1,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 102,
+      "costs": [
+        110,
+        103,
+        111
+      ],
+      "expected": "7849111/74148",
+      "ratio": "7849111/7563096",
+      "Q_candidate_prefix": 37
+    },
+    {
+      "N": 37,
+      "q": 9,
+      "pad": 1,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 102,
+      "costs": [
+        110,
+        103,
+        111
+      ],
+      "expected": "7849111/74148",
+      "ratio": "7849111/7563096",
+      "Q_candidate_prefix": 37
+    },
+    {
+      "N": 38,
+      "q": 9,
+      "pad": 2,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 106,
+      "costs": [
+        113,
+        114,
+        107
+      ],
+      "expected": "365217/3230",
+      "ratio": "365217/342380",
+      "Q_candidate_prefix": 31
+    },
+    {
+      "N": 38,
+      "q": 9,
+      "pad": 2,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 106,
+      "costs": [
+        113,
+        114,
+        107
+      ],
+      "expected": "365217/3230",
+      "ratio": "365217/342380",
+      "Q_candidate_prefix": 31
+    },
+    {
+      "N": 38,
+      "q": 9,
+      "pad": 2,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 105,
+      "costs": [
+        113,
+        106,
+        114
+      ],
+      "expected": "11765/108",
+      "ratio": "2353/2268",
+      "Q_candidate_prefix": 38
+    },
+    {
+      "N": 38,
+      "q": 9,
+      "pad": 2,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 105,
+      "costs": [
+        113,
+        106,
+        114
+      ],
+      "expected": "11765/108",
+      "ratio": "2353/2268",
+      "Q_candidate_prefix": 38
+    },
+    {
+      "N": 39,
+      "q": 9,
+      "pad": 3,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 109,
+      "costs": [
+        116,
+        117,
+        110
+      ],
+      "expected": "87509/754",
+      "ratio": "87509/82186",
+      "Q_candidate_prefix": 32
+    },
+    {
+      "N": 39,
+      "q": 9,
+      "pad": 3,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 109,
+      "costs": [
+        116,
+        117,
+        110
+      ],
+      "expected": "87509/754",
+      "ratio": "87509/82186",
+      "Q_candidate_prefix": 32
+    },
+    {
+      "N": 39,
+      "q": 9,
+      "pad": 3,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 108,
+      "costs": [
+        116,
+        109,
+        117
+      ],
+      "expected": "436841/3900",
+      "ratio": "436841/421200",
+      "Q_candidate_prefix": 39
+    },
+    {
+      "N": 39,
+      "q": 9,
+      "pad": 3,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 108,
+      "costs": [
+        116,
+        109,
+        117
+      ],
+      "expected": "436841/3900",
+      "ratio": "436841/421200",
+      "Q_candidate_prefix": 39
+    },
+    {
+      "N": 40,
+      "q": 10,
+      "pad": 0,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 111,
+      "costs": [
+        119,
+        120,
+        112
+      ],
+      "expected": "12853/108",
+      "ratio": "12853/11988",
+      "Q_candidate_prefix": 32
+    },
+    {
+      "N": 40,
+      "q": 10,
+      "pad": 0,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 111,
+      "costs": [
+        119,
+        120,
+        112
+      ],
+      "expected": "12853/108",
+      "ratio": "12853/11988",
+      "Q_candidate_prefix": 32
+    },
+    {
+      "N": 40,
+      "q": 10,
+      "pad": 0,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 110,
+      "costs": [
+        119,
+        111,
+        120
+      ],
+      "expected": "1239989/10860",
+      "ratio": "1239989/1194600",
+      "Q_candidate_prefix": 40
+    },
+    {
+      "N": 40,
+      "q": 10,
+      "pad": 0,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 110,
+      "costs": [
+        119,
+        111,
+        120
+      ],
+      "expected": "1239989/10860",
+      "ratio": "1239989/1194600",
+      "Q_candidate_prefix": 40
+    },
+    {
+      "N": 41,
+      "q": 10,
+      "pad": 1,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 114,
+      "costs": [
+        122,
+        123,
+        115
+      ],
+      "expected": "1380541/11316",
+      "ratio": "1380541/1290024",
+      "Q_candidate_prefix": 33
+    },
+    {
+      "N": 41,
+      "q": 10,
+      "pad": 1,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 114,
+      "costs": [
+        122,
+        123,
+        115
+      ],
+      "expected": "1380541/11316",
+      "ratio": "1380541/1290024",
+      "Q_candidate_prefix": 33
+    },
+    {
+      "N": 41,
+      "q": 10,
+      "pad": 1,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 113,
+      "costs": [
+        122,
+        114,
+        123
+      ],
+      "expected": "10673209/91020",
+      "ratio": "10673209/10285260",
+      "Q_candidate_prefix": 41
+    },
+    {
+      "N": 41,
+      "q": 10,
+      "pad": 1,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 113,
+      "costs": [
+        122,
+        114,
+        123
+      ],
+      "expected": "10673209/91020",
+      "ratio": "10673209/10285260",
+      "Q_candidate_prefix": 41
+    },
+    {
+      "N": 42,
+      "q": 10,
+      "pad": 2,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 117,
+      "costs": [
+        125,
+        126,
+        118
+      ],
+      "expected": "493457/3948",
+      "ratio": "493457/461916",
+      "Q_candidate_prefix": 34
+    },
+    {
+      "N": 42,
+      "q": 10,
+      "pad": 2,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 117,
+      "costs": [
+        125,
+        126,
+        118
+      ],
+      "expected": "493457/3948",
+      "ratio": "493457/461916",
+      "Q_candidate_prefix": 34
+    },
+    {
+      "N": 42,
+      "q": 10,
+      "pad": 2,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 116,
+      "costs": [
+        125,
+        117,
+        126
+      ],
+      "expected": "12997/108",
+      "ratio": "12997/12528",
+      "Q_candidate_prefix": 42
+    },
+    {
+      "N": 42,
+      "q": 10,
+      "pad": 2,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 116,
+      "costs": [
+        125,
+        117,
+        126
+      ],
+      "expected": "12997/108",
+      "ratio": "12997/12528",
+      "Q_candidate_prefix": 42
+    },
+    {
+      "N": 43,
+      "q": 10,
+      "pad": 3,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 120,
+      "costs": [
+        128,
+        129,
+        121
+      ],
+      "expected": "792449/6192",
+      "ratio": "792449/743040",
+      "Q_candidate_prefix": 35
+    },
+    {
+      "N": 43,
+      "q": 10,
+      "pad": 3,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 120,
+      "costs": [
+        128,
+        129,
+        121
+      ],
+      "expected": "792449/6192",
+      "ratio": "792449/743040",
+      "Q_candidate_prefix": 35
+    },
+    {
+      "N": 43,
+      "q": 10,
+      "pad": 3,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 119,
+      "costs": [
+        128,
+        120,
+        129
+      ],
+      "expected": "12291211/99588",
+      "ratio": "12291211/11850972",
+      "Q_candidate_prefix": 43
+    },
+    {
+      "N": 43,
+      "q": 10,
+      "pad": 3,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 119,
+      "costs": [
+        128,
+        120,
+        129
+      ],
+      "expected": "12291211/99588",
+      "ratio": "12291211/11850972",
+      "Q_candidate_prefix": 43
+    },
+    {
+      "N": 44,
+      "q": 11,
+      "pad": 0,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 122,
+      "costs": [
+        131,
+        132,
+        123
+      ],
+      "expected": "3535/27",
+      "ratio": "3535/3294",
+      "Q_candidate_prefix": 35
+    },
+    {
+      "N": 44,
+      "q": 11,
+      "pad": 0,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 122,
+      "costs": [
+        131,
+        132,
+        123
+      ],
+      "expected": "3535/27",
+      "ratio": "3535/3294",
+      "Q_candidate_prefix": 35
+    },
+    {
+      "N": 44,
+      "q": 11,
+      "pad": 0,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 121,
+      "costs": [
+        131,
+        122,
+        132
+      ],
+      "expected": "3298811/26268",
+      "ratio": "3298811/3178428",
+      "Q_candidate_prefix": 44
+    },
+    {
+      "N": 44,
+      "q": 11,
+      "pad": 0,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 121,
+      "costs": [
+        131,
+        122,
+        132
+      ],
+      "expected": "3298811/26268",
+      "ratio": "3298811/3178428",
+      "Q_candidate_prefix": 44
+    },
+    {
+      "N": 45,
+      "q": 11,
+      "pad": 1,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 125,
+      "costs": [
+        134,
+        135,
+        126
+      ],
+      "expected": "608651/4545",
+      "ratio": "608651/568125",
+      "Q_candidate_prefix": 36
+    },
+    {
+      "N": 45,
+      "q": 11,
+      "pad": 1,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 125,
+      "costs": [
+        134,
+        135,
+        126
+      ],
+      "expected": "608651/4545",
+      "ratio": "608651/568125",
+      "Q_candidate_prefix": 36
+    },
+    {
+      "N": 45,
+      "q": 11,
+      "pad": 1,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 124,
+      "costs": [
+        134,
+        125,
+        135
+      ],
+      "expected": "1567171/12180",
+      "ratio": "1567171/1510320",
+      "Q_candidate_prefix": 45
+    },
+    {
+      "N": 45,
+      "q": 11,
+      "pad": 1,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 124,
+      "costs": [
+        134,
+        125,
+        135
+      ],
+      "expected": "1567171/12180",
+      "ratio": "1567171/1510320",
+      "Q_candidate_prefix": 45
+    },
+    {
+      "N": 46,
+      "q": 11,
+      "pad": 2,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 128,
+      "costs": [
+        137,
+        138,
+        129
+      ],
+      "expected": "324334/2369",
+      "ratio": "162167/151616",
+      "Q_candidate_prefix": 37
+    },
+    {
+      "N": 46,
+      "q": 11,
+      "pad": 2,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 128,
+      "costs": [
+        137,
+        138,
+        129
+      ],
+      "expected": "324334/2369",
+      "ratio": "162167/151616",
+      "Q_candidate_prefix": 37
+    },
+    {
+      "N": 46,
+      "q": 11,
+      "pad": 2,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 127,
+      "costs": [
+        137,
+        128,
+        138
+      ],
+      "expected": "527/4",
+      "ratio": "527/508",
+      "Q_candidate_prefix": 46
+    },
+    {
+      "N": 46,
+      "q": 11,
+      "pad": 2,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 127,
+      "costs": [
+        137,
+        128,
+        138
+      ],
+      "expected": "527/4",
+      "ratio": "527/508",
+      "Q_candidate_prefix": 46
+    },
+    {
+      "N": 47,
+      "q": 11,
+      "pad": 3,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 131,
+      "costs": [
+        140,
+        141,
+        132
+      ],
+      "expected": "2071201/14805",
+      "ratio": "2071201/1939455",
+      "Q_candidate_prefix": 38
+    },
+    {
+      "N": 47,
+      "q": 11,
+      "pad": 3,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 131,
+      "costs": [
+        140,
+        141,
+        132
+      ],
+      "expected": "2071201/14805",
+      "ratio": "2071201/1939455",
+      "Q_candidate_prefix": 38
+    },
+    {
+      "N": 47,
+      "q": 11,
+      "pad": 3,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 130,
+      "costs": [
+        140,
+        131,
+        141
+      ],
+      "expected": "16045337/119004",
+      "ratio": "16045337/15470520",
+      "Q_candidate_prefix": 47
+    },
+    {
+      "N": 47,
+      "q": 11,
+      "pad": 3,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 130,
+      "costs": [
+        140,
+        131,
+        141
+      ],
+      "expected": "16045337/119004",
+      "ratio": "16045337/15470520",
+      "Q_candidate_prefix": 47
+    },
+    {
+      "N": 48,
+      "q": 12,
+      "pad": 0,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 133,
+      "costs": [
+        143,
+        144,
+        134
+      ],
+      "expected": "15427/108",
+      "ratio": "15427/14364",
+      "Q_candidate_prefix": 38
+    },
+    {
+      "N": 48,
+      "q": 12,
+      "pad": 0,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 133,
+      "costs": [
+        143,
+        144,
+        134
+      ],
+      "expected": "15427/108",
+      "ratio": "15427/14364",
+      "Q_candidate_prefix": 38
+    },
+    {
+      "N": 48,
+      "q": 12,
+      "pad": 0,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 132,
+      "costs": [
+        143,
+        133,
+        144
+      ],
+      "expected": "178357/1302",
+      "ratio": "178357/171864",
+      "Q_candidate_prefix": 48
+    },
+    {
+      "N": 48,
+      "q": 12,
+      "pad": 0,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 132,
+      "costs": [
+        143,
+        133,
+        144
+      ],
+      "expected": "178357/1302",
+      "ratio": "178357/171864",
+      "Q_candidate_prefix": 48
+    },
+    {
+      "N": 49,
+      "q": 12,
+      "pad": 1,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 136,
+      "costs": [
+        146,
+        147,
+        137
+      ],
+      "expected": "1572091/10780",
+      "ratio": "1572091/1466080",
+      "Q_candidate_prefix": 39
+    },
+    {
+      "N": 49,
+      "q": 12,
+      "pad": 1,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 136,
+      "costs": [
+        146,
+        147,
+        137
+      ],
+      "expected": "1572091/10780",
+      "ratio": "1572091/1466080",
+      "Q_candidate_prefix": 39
+    },
+    {
+      "N": 49,
+      "q": 12,
+      "pad": 1,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 135,
+      "costs": [
+        146,
+        136,
+        147
+      ],
+      "expected": "18202237/129948",
+      "ratio": "18202237/17542980",
+      "Q_candidate_prefix": 49
+    },
+    {
+      "N": 49,
+      "q": 12,
+      "pad": 1,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 135,
+      "costs": [
+        146,
+        136,
+        147
+      ],
+      "expected": "18202237/129948",
+      "ratio": "18202237/17542980",
+      "Q_candidate_prefix": 49
+    },
+    {
+      "N": 50,
+      "q": 12,
+      "pad": 2,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 139,
+      "costs": [
+        149,
+        150,
+        140
+      ],
+      "expected": "52089/350",
+      "ratio": "52089/48650",
+      "Q_candidate_prefix": 40
+    },
+    {
+      "N": 50,
+      "q": 12,
+      "pad": 2,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 139,
+      "costs": [
+        149,
+        150,
+        140
+      ],
+      "expected": "52089/350",
+      "ratio": "52089/48650",
+      "Q_candidate_prefix": 40
+    },
+    {
+      "N": 50,
+      "q": 12,
+      "pad": 2,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 138,
+      "costs": [
+        149,
+        139,
+        150
+      ],
+      "expected": "15461/108",
+      "ratio": "15461/14904",
+      "Q_candidate_prefix": 50
+    },
+    {
+      "N": 50,
+      "q": 12,
+      "pad": 2,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 138,
+      "costs": [
+        149,
+        139,
+        150
+      ],
+      "expected": "15461/108",
+      "ratio": "15461/14904",
+      "Q_candidate_prefix": 50
+    },
+    {
+      "N": 51,
+      "q": 12,
+      "pad": 3,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 142,
+      "costs": [
+        152,
+        153,
+        143
+      ],
+      "expected": "588445/3876",
+      "ratio": "588445/550392",
+      "Q_candidate_prefix": 41
+    },
+    {
+      "N": 51,
+      "q": 12,
+      "pad": 3,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 142,
+      "costs": [
+        152,
+        153,
+        143
+      ],
+      "expected": "588445/3876",
+      "ratio": "588445/550392",
+      "Q_candidate_prefix": 41
+    },
+    {
+      "N": 51,
+      "q": 12,
+      "pad": 3,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 141,
+      "costs": [
+        152,
+        142,
+        153
+      ],
+      "expected": "6831725/46716",
+      "ratio": "6831725/6586956",
+      "Q_candidate_prefix": 51
+    },
+    {
+      "N": 51,
+      "q": 12,
+      "pad": 3,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 141,
+      "costs": [
+        152,
+        142,
+        153
+      ],
+      "expected": "6831725/46716",
+      "ratio": "6831725/6586956",
+      "Q_candidate_prefix": 51
+    },
+    {
+      "N": 80,
+      "q": 20,
+      "pad": 0,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 221,
+      "costs": [
+        239,
+        240,
+        222
+      ],
+      "expected": "25723/108",
+      "ratio": "25723/23868",
+      "Q_candidate_prefix": 62
+    },
+    {
+      "N": 80,
+      "q": 20,
+      "pad": 0,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 221,
+      "costs": [
+        239,
+        240,
+        222
+      ],
+      "expected": "25723/108",
+      "ratio": "25723/23868",
+      "Q_candidate_prefix": 62
+    },
+    {
+      "N": 80,
+      "q": 20,
+      "pad": 0,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 220,
+      "costs": [
+        239,
+        221,
+        240
+      ],
+      "expected": "1235873/5415",
+      "ratio": "1235873/1191300",
+      "Q_candidate_prefix": 80
+    },
+    {
+      "N": 80,
+      "q": 20,
+      "pad": 0,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 220,
+      "costs": [
+        239,
+        221,
+        240
+      ],
+      "expected": "1235873/5415",
+      "ratio": "1235873/1191300",
+      "Q_candidate_prefix": 80
+    },
+    {
+      "N": 81,
+      "q": 20,
+      "pad": 1,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 224,
+      "costs": [
+        242,
+        243,
+        225
+      ],
+      "expected": "7110679/29484",
+      "ratio": "7110679/6604416",
+      "Q_candidate_prefix": 63
+    },
+    {
+      "N": 81,
+      "q": 20,
+      "pad": 1,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 224,
+      "costs": [
+        242,
+        243,
+        225
+      ],
+      "expected": "7110679/29484",
+      "ratio": "7110679/6604416",
+      "Q_candidate_prefix": 63
+    },
+    {
+      "N": 81,
+      "q": 20,
+      "pad": 1,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 223,
+      "costs": [
+        242,
+        224,
+        243
+      ],
+      "expected": "3039607/13140",
+      "ratio": "3039607/2930220",
+      "Q_candidate_prefix": 81
+    },
+    {
+      "N": 81,
+      "q": 20,
+      "pad": 1,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 223,
+      "costs": [
+        242,
+        224,
+        243
+      ],
+      "expected": "3039607/13140",
+      "ratio": "3039607/2930220",
+      "Q_candidate_prefix": 81
+    },
+    {
+      "N": 82,
+      "q": 20,
+      "pad": 2,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 227,
+      "costs": [
+        245,
+        246,
+        228
+      ],
+      "expected": "920993/3772",
+      "ratio": "920993/856244",
+      "Q_candidate_prefix": 64
+    },
+    {
+      "N": 82,
+      "q": 20,
+      "pad": 2,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 227,
+      "costs": [
+        245,
+        246,
+        228
+      ],
+      "expected": "920993/3772",
+      "ratio": "920993/856244",
+      "Q_candidate_prefix": 64
+    },
+    {
+      "N": 82,
+      "q": 20,
+      "pad": 2,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 226,
+      "costs": [
+        245,
+        227,
+        246
+      ],
+      "expected": "2813/12",
+      "ratio": "2813/2712",
+      "Q_candidate_prefix": 82
+    },
+    {
+      "N": 82,
+      "q": 20,
+      "pad": 2,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 226,
+      "costs": [
+        245,
+        227,
+        246
+      ],
+      "expected": "2813/12",
+      "ratio": "2813/2712",
+      "Q_candidate_prefix": 82
+    },
+    {
+      "N": 83,
+      "q": 20,
+      "pad": 3,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 230,
+      "costs": [
+        248,
+        249,
+        231
+      ],
+      "expected": "22894001/92628",
+      "ratio": "22894001/21304440",
+      "Q_candidate_prefix": 65
+    },
+    {
+      "N": 83,
+      "q": 20,
+      "pad": 3,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 230,
+      "costs": [
+        248,
+        249,
+        231
+      ],
+      "expected": "22894001/92628",
+      "ratio": "22894001/21304440",
+      "Q_candidate_prefix": 65
+    },
+    {
+      "N": 83,
+      "q": 20,
+      "pad": 3,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 229,
+      "costs": [
+        248,
+        230,
+        249
+      ],
+      "expected": "88235831/371508",
+      "ratio": "88235831/85075332",
+      "Q_candidate_prefix": 83
+    },
+    {
+      "N": 83,
+      "q": 20,
+      "pad": 3,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 229,
+      "costs": [
+        248,
+        230,
+        249
+      ],
+      "expected": "88235831/371508",
+      "ratio": "88235831/85075332",
+      "Q_candidate_prefix": 83
+    },
+    {
+      "N": 200,
+      "q": 50,
+      "pad": 0,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 551,
+      "costs": [
+        599,
+        600,
+        552
+      ],
+      "expected": "64333/108",
+      "ratio": "64333/59508",
+      "Q_candidate_prefix": 152
+    },
+    {
+      "N": 200,
+      "q": 50,
+      "pad": 0,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 551,
+      "costs": [
+        599,
+        600,
+        552
+      ],
+      "expected": "64333/108",
+      "ratio": "64333/59508",
+      "Q_candidate_prefix": 152
+    },
+    {
+      "N": 200,
+      "q": 50,
+      "pad": 0,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 550,
+      "costs": [
+        599,
+        551,
+        600
+      ],
+      "expected": "154189969/270300",
+      "ratio": "154189969/148665000",
+      "Q_candidate_prefix": 200
+    },
+    {
+      "N": 200,
+      "q": 50,
+      "pad": 0,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 550,
+      "costs": [
+        599,
+        551,
+        600
+      ],
+      "expected": "154189969/270300",
+      "ratio": "154189969/148665000",
+      "Q_candidate_prefix": 200
+    },
+    {
+      "N": 201,
+      "q": 50,
+      "pad": 1,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 554,
+      "costs": [
+        602,
+        603,
+        555
+      ],
+      "expected": "18130239/30284",
+      "ratio": "18130239/16777336",
+      "Q_candidate_prefix": 153
+    },
+    {
+      "N": 201,
+      "q": 50,
+      "pad": 1,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 554,
+      "costs": [
+        602,
+        603,
+        555
+      ],
+      "expected": "18130239/30284",
+      "ratio": "18130239/16777336",
+      "Q_candidate_prefix": 153
+    },
+    {
+      "N": 201,
+      "q": 50,
+      "pad": 1,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 553,
+      "costs": [
+        602,
+        554,
+        603
+      ],
+      "expected": "417319043/727620",
+      "ratio": "417319043/402373860",
+      "Q_candidate_prefix": 201
+    },
+    {
+      "N": 201,
+      "q": 50,
+      "pad": 1,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 553,
+      "costs": [
+        602,
+        554,
+        603
+      ],
+      "expected": "417319043/727620",
+      "ratio": "417319043/402373860",
+      "Q_candidate_prefix": 201
+    },
+    {
+      "N": 202,
+      "q": 50,
+      "pad": 2,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 557,
+      "costs": [
+        605,
+        606,
+        558
+      ],
+      "expected": "55178117/91708",
+      "ratio": "55178117/51081356",
+      "Q_candidate_prefix": 154
+    },
+    {
+      "N": 202,
+      "q": 50,
+      "pad": 2,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 557,
+      "costs": [
+        605,
+        606,
+        558
+      ],
+      "expected": "55178117/91708",
+      "ratio": "55178117/51081356",
+      "Q_candidate_prefix": 154
+    },
+    {
+      "N": 202,
+      "q": 50,
+      "pad": 2,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 556,
+      "costs": [
+        605,
+        557,
+        606
+      ],
+      "expected": "20759/36",
+      "ratio": "20759/20016",
+      "Q_candidate_prefix": 202
+    },
+    {
+      "N": 202,
+      "q": 50,
+      "pad": 2,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 556,
+      "costs": [
+        605,
+        557,
+        606
+      ],
+      "expected": "20759/36",
+      "ratio": "20759/20016",
+      "Q_candidate_prefix": 202
+    },
+    {
+      "N": 203,
+      "q": 50,
+      "pad": 3,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 560,
+      "costs": [
+        608,
+        609,
+        561
+      ],
+      "expected": "20989901/34713",
+      "ratio": "20989901/19439280",
+      "Q_candidate_prefix": 155
+    },
+    {
+      "N": 203,
+      "q": 50,
+      "pad": 3,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 560,
+      "costs": [
+        608,
+        609,
+        561
+      ],
+      "expected": "20989901/34713",
+      "ratio": "20989901/19439280",
+      "Q_candidate_prefix": 155
+    },
+    {
+      "N": 203,
+      "q": 50,
+      "pad": 3,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 559,
+      "costs": [
+        608,
+        560,
+        609
+      ],
+      "expected": "1289375291/2224068",
+      "ratio": "1289375291/1243254012",
+      "Q_candidate_prefix": 203
+    },
+    {
+      "N": 203,
+      "q": 50,
+      "pad": 3,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 559,
+      "costs": [
+        608,
+        560,
+        609
+      ],
+      "expected": "1289375291/2224068",
+      "ratio": "1289375291/1243254012",
+      "Q_candidate_prefix": 203
+    },
+    {
+      "N": 224,
+      "q": 56,
+      "pad": 0,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 617,
+      "costs": [
+        671,
+        672,
+        618
+      ],
+      "expected": "72055/108",
+      "ratio": "72055/66636",
+      "Q_candidate_prefix": 170
+    },
+    {
+      "N": 224,
+      "q": 56,
+      "pad": 0,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 617,
+      "costs": [
+        671,
+        672,
+        618
+      ],
+      "expected": "72055/108",
+      "ratio": "72055/66636",
+      "Q_candidate_prefix": 170
+    },
+    {
+      "N": 224,
+      "q": 56,
+      "pad": 0,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 616,
+      "costs": [
+        671,
+        617,
+        672
+      ],
+      "expected": "108298439/169512",
+      "ratio": "108298439/104419392",
+      "Q_candidate_prefix": 224
+    },
+    {
+      "N": 224,
+      "q": 56,
+      "pad": 0,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 616,
+      "costs": [
+        671,
+        617,
+        672
+      ],
+      "expected": "108298439/169512",
+      "ratio": "108298439/104419392",
+      "Q_candidate_prefix": 224
+    },
+    {
+      "N": 225,
+      "q": 56,
+      "pad": 1,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 620,
+      "costs": [
+        674,
+        675,
+        621
+      ],
+      "expected": "152598637/227700",
+      "ratio": "152598637/141174000",
+      "Q_candidate_prefix": 171
+    },
+    {
+      "N": 225,
+      "q": 56,
+      "pad": 1,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 620,
+      "costs": [
+        674,
+        675,
+        621
+      ],
+      "expected": "152598637/227700",
+      "ratio": "152598637/141174000",
+      "Q_candidate_prefix": 171
+    },
+    {
+      "N": 225,
+      "q": 56,
+      "pad": 1,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 619,
+      "costs": [
+        674,
+        620,
+        675
+      ],
+      "expected": "195098861/303900",
+      "ratio": "195098861/188114100",
+      "Q_candidate_prefix": 225
+    },
+    {
+      "N": 225,
+      "q": 56,
+      "pad": 1,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 619,
+      "costs": [
+        674,
+        620,
+        675
+      ],
+      "expected": "195098861/303900",
+      "ratio": "195098861/188114100",
+      "Q_candidate_prefix": 225
+    },
+    {
+      "N": 226,
+      "q": 56,
+      "pad": 2,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 623,
+      "costs": [
+        677,
+        678,
+        624
+      ],
+      "expected": "38642779/57404",
+      "ratio": "5520397/5108956",
+      "Q_candidate_prefix": 172
+    },
+    {
+      "N": 226,
+      "q": 56,
+      "pad": 2,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 623,
+      "costs": [
+        677,
+        678,
+        624
+      ],
+      "expected": "38642779/57404",
+      "ratio": "5520397/5108956",
+      "Q_candidate_prefix": 172
+    },
+    {
+      "N": 226,
+      "q": 56,
+      "pad": 2,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 622,
+      "costs": [
+        677,
+        623,
+        678
+      ],
+      "expected": "7741/12",
+      "ratio": "7741/7464",
+      "Q_candidate_prefix": 226
+    },
+    {
+      "N": 226,
+      "q": 56,
+      "pad": 2,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 622,
+      "costs": [
+        677,
+        623,
+        678
+      ],
+      "expected": "7741/12",
+      "ratio": "7741/7464",
+      "Q_candidate_prefix": 226
+    },
+    {
+      "N": 227,
+      "q": 56,
+      "pad": 3,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 626,
+      "costs": [
+        680,
+        681,
+        627
+      ],
+      "expected": "469681487/694620",
+      "ratio": "469681487/434832120",
+      "Q_candidate_prefix": 173
+    },
+    {
+      "N": 227,
+      "q": 56,
+      "pad": 3,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 626,
+      "costs": [
+        680,
+        681,
+        627
+      ],
+      "expected": "469681487/694620",
+      "ratio": "469681487/434832120",
+      "Q_candidate_prefix": 173
+    },
+    {
+      "N": 227,
+      "q": 56,
+      "pad": 3,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 625,
+      "costs": [
+        680,
+        626,
+        681
+      ],
+      "expected": "1802727407/2781204",
+      "ratio": "1802727407/1738252500",
+      "Q_candidate_prefix": 227
+    },
+    {
+      "N": 227,
+      "q": 56,
+      "pad": 3,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 625,
+      "costs": [
+        680,
+        626,
+        681
+      ],
+      "expected": "1802727407/2781204",
+      "ratio": "1802727407/1738252500",
+      "Q_candidate_prefix": 227
+    },
+    {
+      "N": 400,
+      "q": 100,
+      "pad": 0,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 1101,
+      "costs": [
+        1199,
+        1200,
+        1102
+      ],
+      "expected": "128683/108",
+      "ratio": "128683/118908",
+      "Q_candidate_prefix": 302
+    },
+    {
+      "N": 400,
+      "q": 100,
+      "pad": 0,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 1101,
+      "costs": [
+        1199,
+        1200,
+        1102
+      ],
+      "expected": "128683/108",
+      "ratio": "128683/118908",
+      "Q_candidate_prefix": 302
+    },
+    {
+      "N": 400,
+      "q": 100,
+      "pad": 0,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 1100,
+      "costs": [
+        1199,
+        1101,
+        1200
+      ],
+      "expected": "154094368/135075",
+      "ratio": "38523592/37145625",
+      "Q_candidate_prefix": 400
+    },
+    {
+      "N": 400,
+      "q": 100,
+      "pad": 0,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 1100,
+      "costs": [
+        1199,
+        1101,
+        1200
+      ],
+      "expected": "154094368/135075",
+      "ratio": "38523592/37145625",
+      "Q_candidate_prefix": 400
+    },
+    {
+      "N": 401,
+      "q": 100,
+      "pad": 1,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 1104,
+      "costs": [
+        1202,
+        1203,
+        1105
+      ],
+      "expected": "2592336077/2170212",
+      "ratio": "2592336077/2395914048",
+      "Q_candidate_prefix": 303
+    },
+    {
+      "N": 401,
+      "q": 100,
+      "pad": 1,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 1104,
+      "costs": [
+        1202,
+        1203,
+        1105
+      ],
+      "expected": "2592336077/2170212",
+      "ratio": "2592336077/2395914048",
+      "Q_candidate_prefix": 303
+    },
+    {
+      "N": 401,
+      "q": 100,
+      "pad": 1,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 1103,
+      "costs": [
+        1202,
+        1104,
+        1203
+      ],
+      "expected": "9935594029/8685660",
+      "ratio": "9935594029/9580282980",
+      "Q_candidate_prefix": 401
+    },
+    {
+      "N": 401,
+      "q": 100,
+      "pad": 1,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 1103,
+      "costs": [
+        1202,
+        1104,
+        1203
+      ],
+      "expected": "9935594029/8685660",
+      "ratio": "9935594029/9580282980",
+      "Q_candidate_prefix": 401
+    },
+    {
+      "N": 402,
+      "q": 100,
+      "pad": 2,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 1107,
+      "costs": [
+        1205,
+        1206,
+        1108
+      ],
+      "expected": "108795923/90852",
+      "ratio": "108795923/100573164",
+      "Q_candidate_prefix": 304
+    },
+    {
+      "N": 402,
+      "q": 100,
+      "pad": 2,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 1107,
+      "costs": [
+        1205,
+        1206,
+        1108
+      ],
+      "expected": "108795923/90852",
+      "ratio": "108795923/100573164",
+      "Q_candidate_prefix": 304
+    },
+    {
+      "N": 402,
+      "q": 100,
+      "pad": 2,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 1106,
+      "costs": [
+        1205,
+        1107,
+        1206
+      ],
+      "expected": "123877/108",
+      "ratio": "123877/119448",
+      "Q_candidate_prefix": 402
+    },
+    {
+      "N": 402,
+      "q": 100,
+      "pad": 2,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 1106,
+      "costs": [
+        1205,
+        1107,
+        1206
+      ],
+      "expected": "123877/108",
+      "ratio": "123877/119448",
+      "Q_candidate_prefix": 402
+    },
+    {
+      "N": 403,
+      "q": 100,
+      "pad": 3,
+      "world": "U",
+      "swap": false,
+      "opt_by_theorem16": 1110,
+      "costs": [
+        1208,
+        1209,
+        1111
+      ],
+      "expected": "2629958441/2190708",
+      "ratio": "2629958441/2431685880",
+      "Q_candidate_prefix": 305
+    },
+    {
+      "N": 403,
+      "q": 100,
+      "pad": 3,
+      "world": "U",
+      "swap": true,
+      "opt_by_theorem16": 1110,
+      "costs": [
+        1208,
+        1209,
+        1111
+      ],
+      "expected": "2629958441/2190708",
+      "ratio": "2629958441/2431685880",
+      "Q_candidate_prefix": 305
+    },
+    {
+      "N": 403,
+      "q": 100,
+      "pad": 3,
+      "world": "V",
+      "swap": false,
+      "opt_by_theorem16": 1109,
+      "costs": [
+        1208,
+        1110,
+        1209
+      ],
+      "expected": "205791559/178932",
+      "ratio": "205791559/198435588",
+      "Q_candidate_prefix": 403
+    },
+    {
+      "N": 403,
+      "q": 100,
+      "pad": 3,
+      "world": "V",
+      "swap": true,
+      "opt_by_theorem16": 1109,
+      "costs": [
+        1208,
+        1110,
+        1209
+      ],
+      "expected": "205791559/178932",
+      "ratio": "205791559/198435588",
+      "Q_candidate_prefix": 403
+    }
+  ],
+  "separation_controls": {
+    "multiples_of_four_q_56_through_1000": true,
+    "all_N_308_through_5000": true,
+    "N_220_and_307_below_separation_threshold": true
+  },
+  "source_sha256": "dab850f3e30fb8169bc380da79dade8a19f3ec3804bc1c6c08c518083fbd6420",
+  "elapsed_seconds": 2.6983681359997718,
+  "limitations": "Synthetic and analytic-family stress controls; no economic/deployment measurement; finite controls do not prove the universal bound."
+}

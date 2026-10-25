@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "previous_archive_sha256": "929d0b004bcbe2fc60d245477f51460b616531b9360a1debad35eec89945d298",
+  "retained_P57_members": 49,
+  "retained_P57_members_byte_identical": true,
+  "retained_P57_manifest_unchanged": true,
+  "published_1_0_0_zip_sha256": "19b24d6f9e3cb4f4417fb554988e9d5dbefd8180792bc02ea47790287a9a37ff",
+  "fresh_dimensional_replay": "validation_P58/Replay_P58.json",
+  "fresh_programs_executed": 4,
+  "scientific_field_comparisons": 39,
+  "all_scientific_fields_match": true,
+  "all_programs_exit_zero": true,
+  "all_stderr_empty": true,
+  "counts": {
+    "support_instances": 2000,
+    "strict_interval_controls": 9,
+    "no_go_matrices": 687,
+    "full_archive_verdict_comparisons": 2187,
+    "prefix_comparisons": 57963,
+    "nonpositive_comparator_comparisons": 893,
+    "positive_comparator_comparisons": 12,
+    "approximation_instances": 400,
+    "approximation_boundary_controls": 4,
+    "offline_catalogues": 41664,
+    "offline_positive_catalogues": 423
+  },
+  "scope": {
+    "older_P57_scientific_checks_rerun": false,
+    "older_evidence_preservation_checked": true,
+    "exact_checks": "fractions.Fraction",
+    "numerical_checks": "SciPy/HiGHS floating-point LP, separately labelled",
+    "deployment_benefit_demonstrated": false,
+    "external_peer_review": false,
+    "proof_assistant_verification": false,
+    "universal_mathematical_proofs": "Provided in canonical manuscript/supplement; not established by finite tests."
+  },
+  "runner_environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "note": "Replay manifest count refers to the input snapshot before these validation records were added. Final MANIFEST_P58.json covers the delivered final archive except itself; reruns/ is excluded."
+}

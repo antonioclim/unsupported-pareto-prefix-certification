@@ -1,0 +1,152 @@
+{
+  "status": "PASS",
+  "method": "Independent direct rational evaluations and Bernstein-basis collocation inversion; no producer imports; exact degree-bound identity grids, prefix-free full partition check.",
+  "ratio": "87/80",
+  "families": {
+    "L0": {
+      "leaves": 19,
+      "coefficients": 1368,
+      "minimum": "139621/78643200",
+      "degree": [
+        5,
+        3,
+        2
+      ],
+      "identity_degree_bound": [
+        6,
+        3,
+        2
+      ]
+    },
+    "L1": {
+      "leaves": 19,
+      "coefficients": 2736,
+      "minimum": "1379545878341/5772436045824000",
+      "degree": [
+        7,
+        5,
+        2
+      ],
+      "identity_degree_bound": [
+        8,
+        5,
+        2
+      ]
+    },
+    "L2": {
+      "leaves": 16,
+      "coefficients": 2016,
+      "minimum": "77/122880",
+      "degree": [
+        6,
+        5,
+        2
+      ],
+      "identity_degree_bound": [
+        6,
+        5,
+        2
+      ]
+    },
+    "L3": {
+      "leaves": 1,
+      "coefficients": 96,
+      "minimum": "645/114688",
+      "degree": [
+        7,
+        3,
+        2
+      ],
+      "identity_degree_bound": [
+        7,
+        3,
+        2
+      ]
+    },
+    "H0": {
+      "leaves": 1,
+      "coefficients": 72,
+      "minimum": "0",
+      "degree": [
+        5,
+        3,
+        2
+      ],
+      "identity_degree_bound": [
+        5,
+        3,
+        2
+      ]
+    },
+    "H1": {
+      "leaves": 1,
+      "coefficients": 105,
+      "minimum": "0",
+      "degree": [
+        6,
+        4,
+        2
+      ],
+      "identity_degree_bound": [
+        6,
+        4,
+        2
+      ]
+    },
+    "H2": {
+      "leaves": 1,
+      "coefficients": 150,
+      "minimum": "0",
+      "degree": [
+        9,
+        4,
+        2
+      ],
+      "identity_degree_bound": [
+        9,
+        4,
+        2
+      ]
+    },
+    "H3": {
+      "leaves": 1,
+      "coefficients": 96,
+      "minimum": "0",
+      "degree": [
+        7,
+        3,
+        2
+      ],
+      "identity_degree_bound": [
+        7,
+        3,
+        2
+      ]
+    }
+  },
+  "polynomial_identity_grid_points": 891,
+  "exact_bernstein_coefficients": 6639,
+  "leaf_count": 59,
+  "mutation_controls": [
+    {
+      "kind": "wrong_ratio",
+      "rejected": true
+    },
+    {
+      "kind": "wrong_polynomial",
+      "rejected": true
+    },
+    {
+      "kind": "missing_leaf",
+      "rejected": true
+    },
+    {
+      "kind": "wrong_minimum",
+      "rejected": true
+    }
+  ],
+  "source_certificate_sha256": "f7fa6e50c3578b37c3347a47b72379a9509372fc352a1b18a22aa80fca51c388",
+  "verifier_sha256": "ed360260d488c34ea412eb2aa8ead1a3595dbb818bdd5b55f74cf4947d071684",
+  "seconds_observed": 1.4046448589942884,
+  "limitation": "Proves the polynomial inequalities and checks exported partition. Policy semantics and analytic reduction require separate proof review."
+}

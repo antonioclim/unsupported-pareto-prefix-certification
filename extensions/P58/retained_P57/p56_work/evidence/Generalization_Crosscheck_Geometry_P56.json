@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "archives": 100,
+  "weighted_unequal_archives": 40,
+  "positive": 57,
+  "geo_source_sha256": "fa040ca0a651eed14131a31df590281c317938d134079189b2fb9ecef1f3a7ae",
+  "prefixes_exhausted": 15516,
+  "oracle": "Separate exact d-dimensional rational simplex-vertex feasibility; no use of geo interval_oracle or brute",
+  "scope": "Finite corroboration plus manual proof review; not formalverification"
+}

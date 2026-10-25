@@ -1,0 +1,24 @@
+{
+  "schema": "p56-exact-comparator-merged-stream-v1",
+  "seed": 20261025,
+  "cases": 2966,
+  "positive": 566,
+  "negative": 2400,
+  "exhaustive_prefix_states": 695812,
+  "categories": {
+    "exhaustive_square_N1": 1512,
+    "random_rational_prices": 800,
+    "designed_positive_square": 400,
+    "triangle_hard_UV": 14,
+    "unequal_lengths_nonuniform_mean_weights": 240
+  },
+  "cost_mismatches": 0,
+  "returned_certificate_failures": 0,
+  "python": "3.12.14",
+  "source_sha256": "fa040ca0a651eed14131a31df590281c317938d134079189b2fb9ecef1f3a7ae",
+  "arithmetic": "exact fractions.Fraction; no floating-point verdicts",
+  "oracle_scope": "Exhaustive prefix enumeration with independent supporting-interval oracle; endpoint theorem assumed",
+  "claim_limit": "Finite algorithm validation, not formal verification, novelty proof, online policy, economic measurement, or triangle-ratio improvement",
+  "seconds_observed": 2.782948423999187,
+  "status": "PASS"
+}

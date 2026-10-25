@@ -1,19 +1,25 @@
 cff-version: 1.2.0
-message: "Cite the software version actually used. Version 1.0.0 is published on GitHub and Zenodo. See LICENSING.md for component-specific rights."
+message: "Cite the software version actually used. This metadata was prepared for manual release 1.1.0 using its reserved version DOI; it does not certify remote publication. Component-specific terms are in LICENSING.md and LICENSE_SCOPE.json."
 type: software
 title: "The Price of Finding a Certificate: Unsupported Pareto Points under Prefix Queries: Reproducibility Companion"
-version: "1.0.0"
+version: "1.1.0"
 repository-code: "https://github.com/antonioclim/unsupported-pareto-prefix-certification"
-doi: "10.5281/zenodo.23632859"
+doi: "10.5281/zenodo.23646970"
+date-released: "2026-10-25"
+url: "https://doi.org/10.5281/zenodo.23646970"
 authors:
   - family-names: Clim
     given-names: Antonio
     orcid: "https://orcid.org/0000-0003-4745-0431"
-abstract: "Exact-arithmetic checks, retained inputs and editable figures for paid-prefix Pareto certification, including the three-configuration triangle upper bound 12/11, its exact asymptotic candidate-census limit, public-block comparator-distortion bounds, independent finite certificate optimisation and retained historical controls."
+abstract: "Exact-arithmetic checks, retained inputs and editable figures for paid-prefix Pareto certification, including the 87/80 three-configuration triangle bound, the 12/11 candidate-complete asymptotic result, higher-dimensional certification conditions, controlled archive replays and retained historical evidence."
 keywords:
-  - competitive analysis
-  - priced information
-  - Pareto certification
-  - prefix queries
-date-released: "2026-10-25"
-url: "https://zenodo.org/records/23632859"
+  - "competitive analysis"
+  - "query complexity"
+  - "priced information"
+  - "Pareto certification"
+  - "unsupported Pareto points"
+  - "prefix observations"
+  - "geometric uncertainty"
+  - "exact arithmetic"
+  - "reproducible research"
+  - "multiobjective optimisation"
