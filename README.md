@@ -1,13 +1,13 @@
 # The Price of Finding a Certificate: Unsupported Pareto Points under Prefix Queries
 
-Antonio Clim — reproducibility companion, local revision P52
+Antonio Clim — reproducibility companion 1.0.0; publication metadata P53
 
 This companion provides exact-arithmetic checks, retained inputs, editable
 figures and execution records for paid-prefix Pareto certification. It supports
 the article's mathematical arguments and finite checks; the article and its
 Supplementary Materials are separate submission documents.
 
-P52 records the existing GitHub repository and reserved Zenodo version DOI. The P46 mathematical and checker baseline and P49 black figure text are retained. The current packaged replay record is results/Full_Local_P52.json; results/Full_Local_P49.json and results/Full_Local_P46.json remain historical execution records. The replay format identifies the unchanged P46 runner implementation, not the delivery edition.
+Version 1.0.0 was published on GitHub and Zenodo on 25 October 2026. P53 updates publication metadata on main; the published tag, archive, scientific code, data and retained P52 replay are unchanged. The P46 mathematical and checker baseline and P49 black figure text are retained. The current packaged replay record is results/Full_Local_P52.json; results/Full_Local_P49.json and results/Full_Local_P46.json remain historical execution records. The replay format identifies the unchanged P46 runner implementation, not the delivery edition.
 
 ## Scientific scope
 
@@ -108,7 +108,7 @@ parameter-table correction and explains why it does not alter the computation.
 | `figures/`, `editable_figures/` | Figure sources, exports and editable native objects |
 | `RESULTS_MAP.md/json` | Proof and computation mapping |
 | `frozen_manifest.json` | Scientific-input identities |
-| `CITATION.cff` | Citation metadata for the proposed software version 1.0.0 |
+| `CITATION.cff` | Citation metadata for published software version 1.0.0 |
 
 Figure regeneration has optional dependencies described with the figure
 sources; it is separate from the standard-library science command. New reports
@@ -119,12 +119,15 @@ integrity failure pass. `freeze_inputs.py` is a maintainer snapshot tool.
 The [Romanian browser guide](docs/Browser_Release_Guide_RO.md) explains repository
 upload and manual release preparation. The outer delivery wrapper contains
 upload batches and the release asset; they do not belong inside the repository.
-No GitHub Actions workflow is included. P52 prepares software version `1.0.0`
-and tag `v1.0.0` for the existing [GitHub repository](https://github.com/antonioclim/unsupported-pareto-prefix-certification).
-At preparation on 25 October 2026, the version DOI **10.5281/zenodo.23632859** is
-reserved; the release and Zenodo record are unpublished. A reserved DOI does
-not establish public availability. The public release URL, concept DOI and
-publication dates remain unset until confirmed.
+No GitHub Actions workflow is included. Version **1.0.0** was published on **25 October 2026**:
+
+- [GitHub release v1.0.0](https://github.com/antonioclim/unsupported-pareto-prefix-certification/releases/tag/v1.0.0)
+- [Zenodo version DOI 10.5281/zenodo.23632859](https://doi.org/10.5281/zenodo.23632859)
+- [Zenodo record](https://zenodo.org/records/23632859)
+
+The published source commit is `6517a174a03eaceb0bc9adc31a51959ecb7e7fd6`. The attached archive has 7,849,303 bytes and SHA-256 `19b24d6f9e3cb4f4417fb554988e9d5dbefd8180792bc02ea47790287a9a37ff`; independent downloads from both services matched the prepared archive byte for byte. The concept DOI is recorded separately in the [publication verification record](docs/Publication_Verification_P53.json); cite the version DOI above for this release.
+
+Current main contains administrative publication metadata added after the frozen release. The P52 replay remains evidence for the original v1.0.0 snapshot; its original manifests are retained under `evidence/history/P52_publication/`. No new scientific execution is claimed for this metadata update.
 
 ## Citation and rights
 

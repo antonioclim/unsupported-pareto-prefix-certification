@@ -2,7 +2,7 @@ REPRODUCIBILITY COMPANION — P52
 The Price of Finding a Certificate: Unsupported Pareto Points under Prefix Queries
 Antonio Clim
 
-P52 records the existing GitHub repository and reserved Zenodo version DOI. The P46 mathematical and checker baseline and P49 black figure text are retained. The current packaged replay record is results/Full_Local_P52.json; results/Full_Local_P49.json and results/Full_Local_P46.json remain historical execution records. The replay format identifies the unchanged P46 runner implementation, not the delivery edition.
+Version 1.0.0 was published on GitHub and Zenodo on 25 October 2026. P53 updates publication metadata on main; the published tag, archive, scientific code, data and retained P52 replay are unchanged. The P46 mathematical and checker baseline and P49 black figure text are retained. The current packaged replay record is results/Full_Local_P52.json; results/Full_Local_P49.json and results/Full_Local_P46.json remain historical execution records. The replay format identifies the unchanged P46 runner implementation, not the delivery edition.
 
 BROWSER-ONLY REPOSITORY PREPARATION
 
@@ -131,10 +131,15 @@ multivariate Bernstein coefficients, seven additional univariate coefficients
 and nine algebraic identities checked independently. See
 docs/Current_Scientific_Scope_P46.md and RESULTS_MAP.md for exact scope.
 
-P52 prepares software version 1.0.0 and tag v1.0.0.
+PUBLISHED SOFTWARE VERSION 1.0.0 — 25 OCTOBER 2026
 Repository: https://github.com/antonioclim/unsupported-pareto-prefix-certification
-Version DOI: 10.5281/zenodo.23632859 (reserved, unpublished at preparation).
-At preparation on 25 October 2026, the release and Zenodo record are unpublished.
-Release URL, concept DOI and publication dates remain unset until confirmed.
-Cite the software version actually used; a reserved DOI does not establish
-public availability.
+Release: https://github.com/antonioclim/unsupported-pareto-prefix-certification/releases/tag/v1.0.0
+Version DOI: 10.5281/zenodo.23632859
+Concept DOI: 10.5281/zenodo.23632858
+Published source commit: 6517a174a03eaceb0bc9adc31a51959ecb7e7fd6
+Archive bytes: 7849303
+SHA-256: 19b24d6f9e3cb4f4417fb554988e9d5dbefd8180792bc02ea47790287a9a37ff
+Public downloads from both services match the prepared archive byte for byte.
+P53 changes current-main publication metadata only. The published tag/archive and scientific sources are unchanged.
+The retained P52 replay concerns the original release snapshot; its manifests are preserved under evidence/history/P52_publication/.
+Cite the version DOI for this release. See docs/Publication_Verification_P53.json.

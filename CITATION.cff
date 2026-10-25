@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Cite the software version actually used. The version DOI is reserved for the prepared version 1.0.0; the release and Zenodo record are unpublished at preparation. See LICENSING.md for component-specific rights."
+message: "Cite the software version actually used. Version 1.0.0 is published on GitHub and Zenodo. See LICENSING.md for component-specific rights."
 type: software
 title: "The Price of Finding a Certificate: Unsupported Pareto Points under Prefix Queries: Reproducibility Companion"
 version: "1.0.0"
@@ -15,3 +15,5 @@ keywords:
   - priced information
   - Pareto certification
   - prefix queries
+date-released: "2026-10-25"
+url: "https://zenodo.org/records/23632859"

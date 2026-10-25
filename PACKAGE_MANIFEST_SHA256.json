@@ -1,5 +1,5 @@
 {
-  "schema": "p52-delivery-files-v1",
+  "schema": "p53-current-main-administrative-files-v1",
   "kit": "repository",
   "hash_algorithm": "SHA-256",
   "self_excluded": "PACKAGE_MANIFEST_SHA256.json",
@@ -16,13 +16,13 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1063,
-      "sha256": "846acf886bbb7d2596ed766ea0e24eed8b66902365860975419845aebb122d35"
+      "bytes": 1061,
+      "sha256": "0e5279c6977c07a69c30533414bc618413638a981807ce7e01706774985c3dd0"
     },
     {
       "path": "CURRENT_RELEASE_METADATA.json",
-      "bytes": 5755,
-      "sha256": "c845cd610b907da565154aae1d29df3930e7fdf2ad14600c4cf1fc073d52288c"
+      "bytes": 5994,
+      "sha256": "b281943b21b04db26b583202352d8df00d7cc74389878be71c51f665d30c4389"
     },
     {
       "path": "LICENSE",
@@ -41,8 +41,8 @@
     },
     {
       "path": "LICENSE_SCOPE.json",
-      "bytes": 317052,
-      "sha256": "07c69104d89a4cfd6515fceb49f43fec2a7bf36111cdd88b6d725dadee85f9bb"
+      "bytes": 318973,
+      "sha256": "aac6c542978f571c83129b66eb11f1ec0e34ebeaae954ec8cea2be5e5589ef16"
     },
     {
       "path": "LICENSING.md",
@@ -51,13 +51,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 8043,
-      "sha256": "5aa9da1a57755484b2879b18df8d92f2e729fba8ea4db5c04c2a1650a8c79668"
+      "bytes": 8796,
+      "sha256": "fe810b6c277ed8186711fb9051ef375bde8b80f18c1bdf307c71f371e788ed42"
     },
     {
       "path": "README.txt",
-      "bytes": 7976,
-      "sha256": "74334579e25c3fdd762910b18048ff5ce66f3ca4c40e2520014d6dc5f7a25127"
+      "bytes": 8516,
+      "sha256": "7f7d3f4928f9b350895ede573c44a0d0f97471abd526ba23549144600a32c49c"
     },
     {
       "path": "RELEASE_NOTES.md",
@@ -438,6 +438,11 @@
       "path": "docs/Provenance_Migration_P41.md",
       "bytes": 2172,
       "sha256": "e35178603399aec55dd3e6be8afaf0b37ef96887823261d1011acae1c25585db"
+    },
+    {
+      "path": "docs/Publication_Verification_P53.json",
+      "bytes": 1886,
+      "sha256": "4db16729ec5df85c38a94131de57e58d3255a3669c6e5cb2772e24bda6856540"
     },
     {
       "path": "docs/Statement_Crosswalk_P41.json",
@@ -1225,6 +1230,16 @@
       "sha256": "156ff1013f90196734449983e760e8c614add08cae319cfae91fa9ed9687d5ed"
     },
     {
+      "path": "evidence/history/P52_publication/PACKAGE_MANIFEST_SHA256.json",
+      "bytes": 69124,
+      "sha256": "83f3ab6c0f23cbea997a3219746247e3953d186168c88a9c389d1c288cbf77ef"
+    },
+    {
+      "path": "evidence/history/P52_publication/frozen_manifest.json",
+      "bytes": 68155,
+      "sha256": "c98a77cc72326a882ee36de721efcfafaa8760a8a71387100ecd4bfe0a32d7a6"
+    },
+    {
       "path": "figures/README.txt",
       "bytes": 2683,
       "sha256": "fd1f638bb8083a576b9efcb468c04e8e65106f87ed8fb3791e69ad6b91bb9509"
@@ -1381,8 +1396,8 @@
     },
     {
       "path": "frozen_manifest.json",
-      "bytes": 68155,
-      "sha256": "c98a77cc72326a882ee36de721efcfafaa8760a8a71387100ecd4bfe0a32d7a6"
+      "bytes": 69502,
+      "sha256": "a64edad2238b04bdd2a82c0be5e413493540369faca2fb288b44bb3575fc1400"
     },
     {
       "path": "history/P41/Final_Integrated_Replay_P41.json",
@@ -1846,8 +1861,8 @@
     },
     {
       "path": "release_preparation/CITATION.cff",
-      "bytes": 1063,
-      "sha256": "846acf886bbb7d2596ed766ea0e24eed8b66902365860975419845aebb122d35"
+      "bytes": 1061,
+      "sha256": "0e5279c6977c07a69c30533414bc618413638a981807ce7e01706774985c3dd0"
     },
     {
       "path": "release_preparation/Embedded_Rights_Inventory_P33.json",
@@ -1861,8 +1876,8 @@
     },
     {
       "path": "release_preparation/Release_Metadata_Draft.json",
-      "bytes": 5470,
-      "sha256": "da106d98ed643c5f5378b811ef3e1a180bf2c382c3f140a20c890c5c25dcc74b"
+      "bytes": 6010,
+      "sha256": "870b2d9387cc249bec0ed6e3c29e452dd5018a1d42bb60e1fd1d097f95d544e1"
     },
     {
       "path": "results/Full_Local_P45.json",
@@ -1883,6 +1898,11 @@
       "path": "results/Full_Local_P52.json",
       "bytes": 713400,
       "sha256": "4568ccc7249ea574e8e94d3037b77d78c3b4dedcd7552269caabc185f6e79d90"
+    },
+    {
+      "path": "results/Integrity_Local_P53.json",
+      "bytes": 1307,
+      "sha256": "b03199e9b17c1b07fbf385093469fcdd6a4c677952dc996d9a67f57e96721c96"
     },
     {
       "path": "run_all_checks.py",
