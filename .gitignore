@@ -11,3 +11,7 @@ Thumbs.db
 *~
 .vscode/
 .idea/
+
+# New local replay directories may contain externally supplied SAT source data.
+extensions/P58/reruns/
+extensions/P58/retained_P57/reruns/
