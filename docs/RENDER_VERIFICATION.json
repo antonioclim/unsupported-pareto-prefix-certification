@@ -1,0 +1,425 @@
+{
+  "status": "PASS",
+  "version": "1.2.0",
+  "version_doi": "10.5281/zenodo.23936602",
+  "public_markdown": 20,
+  "offline_html": 20,
+  "substantive_note_modules": 17,
+  "excluded_private_navigation_and_duplication": [
+    "CURRENT_PROOF_INDEX.md",
+    "provenance/COMPLETE_PROOF_INDEX_CHECKPOINT91.md",
+    "provenance/HISTORY_AND_CROSSWALKS.md",
+    "provenance/MAIN_SUPPLEMENT_DEDUPLICATION.md"
+  ],
+  "embedded_private_index_omitted_from": "research_notes/EXTENDED_METHODS_AND_REPLAYS.md",
+  "retained_math_expressions": 1683,
+  "links": {
+    "local": 186,
+    "external": 118,
+    "package_root_notice": 2
+  },
+  "external_links_resolved_live": false,
+  "live_browser_rendering_tested": false,
+  "navigation_scope": "Local HTML and Markdown links and fragments checked. Root rights notice supplied by package.",
+  "files": {
+    "INTEGRATION_INDEX.md": {
+      "checkpoint_markdown_sha256": "3db760f465b43b5d1d60023e34c0ba465536e5c94368f6f2a19a62f2d26f7d69",
+      "public_markdown_sha256": "8d2adfdbaf39f3cbc40ead411aa873d47fb287b6ff577bd7a4df6d7fbfccfd25",
+      "offline_html_sha256": "4002a626db7efafa12c4a41f53c5075278237d43ef6b51cb1f12249427e282d6",
+      "mathematics": {
+        "status": "PASS",
+        "source_expressions": 0,
+        "output_expressions": 0,
+        "equivalent_except_equation_labels_and_whitespace": true,
+        "normalised_expression_sequence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "render": {
+        "input_math_expressions": 0,
+        "output_mathml_elements": 0,
+        "conversion_warnings": [],
+        "remote_executable_resources": 0,
+        "HTML_only_math_font_normalisations": []
+      }
+    },
+    "README.md": {
+      "checkpoint_markdown_sha256": "84add85f40019fc0b47fd85409efbe4c914000f60cbc370a9aa4c0e9ee10db9c",
+      "public_markdown_sha256": "c2afe3f6e32c8a2b5c2e461106dff7a89990b20687abe62fcf4eadb2503884a1",
+      "offline_html_sha256": "b09be8a83cb9c9e34487c568090c92284bab34b059d4ea1f72261fbaef176d2f",
+      "mathematics": {
+        "status": "PASS",
+        "source_expressions": 0,
+        "output_expressions": 0,
+        "equivalent_except_equation_labels_and_whitespace": true,
+        "normalised_expression_sequence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "render": {
+        "input_math_expressions": 0,
+        "output_mathml_elements": 0,
+        "conversion_warnings": [],
+        "remote_executable_resources": 0,
+        "HTML_only_math_font_normalisations": []
+      }
+    },
+    "REFERENCES.md": {
+      "checkpoint_markdown_sha256": "76765a9ea3b630a3b93d76e1d2dbe52e91a509542df449f7cb94bd31ec8e3131",
+      "public_markdown_sha256": "76765a9ea3b630a3b93d76e1d2dbe52e91a509542df449f7cb94bd31ec8e3131",
+      "offline_html_sha256": "1319fc37cc26f377a4de066a64ab6754a3d137d828b42c03236ed25af91d1f1e",
+      "mathematics": {
+        "status": "PASS",
+        "source_expressions": 1,
+        "output_expressions": 1,
+        "equivalent_except_equation_labels_and_whitespace": true,
+        "normalised_expression_sequence_sha256": "38c98ddc89e5b70f2ecde6784dc3821b6ad3e4ffae408c206e116f8c7cc7c976"
+      },
+      "render": {
+        "input_math_expressions": 1,
+        "output_mathml_elements": 1,
+        "conversion_warnings": [],
+        "remote_executable_resources": 0,
+        "HTML_only_math_font_normalisations": []
+      }
+    },
+    "applications/AUDIT_SERVICE_AND_STOPPING.md": {
+      "checkpoint_markdown_sha256": "b0079ccb355944efbd1964a2288126a27964a8b706ecf701cc559c0bdb9e313c",
+      "public_markdown_sha256": "4600aa69ca8a7a6a483ae1c5702e8a2dbe92a2098c411428fe7b3c01fbf99a47",
+      "offline_html_sha256": "76d7cd5111a0d2a68c07ba42fdf3af910d37347953cca1414f3f076d5487f42a",
+      "mathematics": {
+        "status": "PASS",
+        "source_expressions": 8,
+        "output_expressions": 8,
+        "equivalent_except_equation_labels_and_whitespace": true,
+        "normalised_expression_sequence_sha256": "6c49ca64405aef172729c77f16fd4c8a2b1191fc1a726347745a0b5eda94aa20"
+      },
+      "render": {
+        "input_math_expressions": 8,
+        "output_mathml_elements": 8,
+        "conversion_warnings": [],
+        "remote_executable_resources": 0,
+        "HTML_only_math_font_normalisations": []
+      }
+    },
+    "applications/SCENARIOS_AND_ASSUMPTIONS.md": {
+      "checkpoint_markdown_sha256": "73048cb436cac2cc3518277d3cfa71c4f99ca88f55f9d72c131409163226341d",
+      "public_markdown_sha256": "6e9a9238a93d32c7ef4c0c9929a505623190698547af5a9c34ce6bbd56e6cec6",
+      "offline_html_sha256": "5f699254cca248fb6379bc57a5ba33d54ca81eb99810c54145b8996e0e290f3e",
+      "mathematics": {
+        "status": "PASS",
+        "source_expressions": 0,
+        "output_expressions": 0,
+        "equivalent_except_equation_labels_and_whitespace": true,
+        "normalised_expression_sequence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "render": {
+        "input_math_expressions": 0,
+        "output_mathml_elements": 0,
+        "conversion_warnings": [],
+        "remote_executable_resources": 0,
+        "HTML_only_math_font_normalisations": []
+      }
+    },
+    "economics/OVERHEAD_AND_BREAK_EVEN.md": {
+      "checkpoint_markdown_sha256": "3512e6d433b862645a5aac9557e178cadef1aefcdac62006511ee8fca0ae18f4",
+      "public_markdown_sha256": "728c421799b65adbd3a8e901cbbf9c6e1a3e26604d07e7284cf0eb74d5bd0b26",
+      "offline_html_sha256": "2e9950012a19bca18c15c403e1366e4ad372deee87e8d98ee768824a2521872c",
+      "mathematics": {
+        "status": "PASS",
+        "source_expressions": 23,
+        "output_expressions": 23,
+        "equivalent_except_equation_labels_and_whitespace": true,
+        "normalised_expression_sequence_sha256": "03719f34f45400894f6750a6975c1872e92f2e667a37b36c150c03d20cf5589f"
+      },
+      "render": {
+        "input_math_expressions": 23,
+        "output_mathml_elements": 23,
+        "conversion_warnings": [],
+        "remote_executable_resources": 0,
+        "HTML_only_math_font_normalisations": []
+      }
+    },
+    "history/TRIANGLE_UPPER_BOUND_CONTROLS.md": {
+      "checkpoint_markdown_sha256": "357dde7e584e272ebbdf6622f9efc7f09f8bda683892c4adf7fc8396bba7567c",
+      "public_markdown_sha256": "b46fe6066bb59b848e60338bcd1fe57191cb5252c3cde3be0e970b43868650a6",
+      "offline_html_sha256": "f9b106191ebd65bdf7b6fa18e67c1dbf3a736f6919f09d461d060824ad4726ae",
+      "mathematics": {
+        "status": "PASS",
+        "source_expressions": 223,
+        "output_expressions": 223,
+        "equivalent_except_equation_labels_and_whitespace": true,
+        "normalised_expression_sequence_sha256": "927f6519f4875edd2a629e489927bd50e8ebc774768493e7467e57f67bd73ea5"
+      },
+      "render": {
+        "input_math_expressions": 223,
+        "output_mathml_elements": 223,
+        "conversion_warnings": [],
+        "remote_executable_resources": 0,
+        "HTML_only_math_font_normalisations": []
+      }
+    },
+    "implementation/CONSTRUCTIVE_POLICIES.md": {
+      "checkpoint_markdown_sha256": "d398daf248d1258142af82d7856db8ea0452994a9b5e9f130bc5d14949b09448",
+      "public_markdown_sha256": "7b9a77f28bc057fc874f9cbd6c42bd3a9b88a12c4c7c78b83077dd479d39e879",
+      "offline_html_sha256": "3aa124b7ab0171b707862e8fbac6cced46b59e58e1c2b9c0a34dc46925453044",
+      "mathematics": {
+        "status": "PASS",
+        "source_expressions": 16,
+        "output_expressions": 16,
+        "equivalent_except_equation_labels_and_whitespace": true,
+        "normalised_expression_sequence_sha256": "d2789d94e40521054b4bc8fd1efabaac248c3836b91a7002ad2f3a12db87a3d6"
+      },
+      "render": {
+        "input_math_expressions": 16,
+        "output_mathml_elements": 16,
+        "conversion_warnings": [],
+        "remote_executable_resources": 0,
+        "HTML_only_math_font_normalisations": []
+      }
+    },
+    "implementation/DISCLOSURE_SERVICE.md": {
+      "checkpoint_markdown_sha256": "eb64dae6cd7f1fc03b77cf257f7cfdb1e77f8e1080adf33a4799fe9d82f5cbea",
+      "public_markdown_sha256": "390bee5a8db4c7a07d71f02f73e4ae00da31332cdbfccf7cadeb2635b70de41b",
+      "offline_html_sha256": "d5a5504f8916f9c5d9a62e7438ad34b18400320f5b7135187b5711073deb2f24",
+      "mathematics": {
+        "status": "PASS",
+        "source_expressions": 15,
+        "output_expressions": 15,
+        "equivalent_except_equation_labels_and_whitespace": true,
+        "normalised_expression_sequence_sha256": "a8374b34207cba451aff785b57099164eaff7a14d581729e15d4e5e18bbf5393"
+      },
+      "render": {
+        "input_math_expressions": 15,
+        "output_mathml_elements": 15,
+        "conversion_warnings": [],
+        "remote_executable_resources": 0,
+        "HTML_only_math_font_normalisations": []
+      }
+    },
+    "provenance/RESEARCH_HISTORY.md": {
+      "checkpoint_markdown_sha256": "e3af5bc6be863019ce2453ca0c6658528b6f119e1c4d567fced7a3ad92268614",
+      "public_markdown_sha256": "e18ac32b838d19b080855b1ccd294718eddd3b5cf4430309f7c6c1d1774e44a9",
+      "offline_html_sha256": "75856095bab62e4f62600353500207db36a2c1f4bf69bef04a89035479fa33ab",
+      "mathematics": {
+        "status": "PASS",
+        "source_expressions": 5,
+        "output_expressions": 5,
+        "equivalent_except_equation_labels_and_whitespace": true,
+        "normalised_expression_sequence_sha256": "518df1ace83a846fcb28bd51f8811dfd3b0cfe3e43f1e416655e297c2000c8e2"
+      },
+      "render": {
+        "input_math_expressions": 5,
+        "output_mathml_elements": 5,
+        "conversion_warnings": [],
+        "remote_executable_resources": 0,
+        "HTML_only_math_font_normalisations": []
+      }
+    },
+    "provenance/SOURCE_DATA_AND_RIGHTS.md": {
+      "checkpoint_markdown_sha256": "08f4f60aab8ed93124f8288586108db88f759be95542e055fe7943a436ba3893",
+      "public_markdown_sha256": "2b32d86ab5c347508aabd95d9cf7df7c5b9f29710507e7eeb836a6f9c21d9d4a",
+      "offline_html_sha256": "9bcd981468404d1c39aca7af4ac672551e92c50bfc7e9e64bfbdbe7841bd7a0d",
+      "mathematics": {
+        "status": "PASS",
+        "source_expressions": 4,
+        "output_expressions": 4,
+        "equivalent_except_equation_labels_and_whitespace": true,
+        "normalised_expression_sequence_sha256": "fdc3d7640a49d715fef6c60f5536c9acbb8f770a78ab02b6c9e5de9f87fb1a6d"
+      },
+      "render": {
+        "input_math_expressions": 4,
+        "output_mathml_elements": 4,
+        "conversion_warnings": [],
+        "remote_executable_resources": 0,
+        "HTML_only_math_font_normalisations": []
+      }
+    },
+    "replays/APEX.md": {
+      "checkpoint_markdown_sha256": "52c07628eca62b6ba0863227b95eb14f8fc05e59b3220cfe6f22c91d036ee2d4",
+      "public_markdown_sha256": "e2c405d0d9c3c4ed80fc7bdd8e866d9c55aa6d52deff60b2ab7f481599a5060c",
+      "offline_html_sha256": "cf482e78dfb120eeb794e1c3f3cb596708bd5f34232610a18ec6b4438e3dcfd0",
+      "mathematics": {
+        "status": "PASS",
+        "source_expressions": 20,
+        "output_expressions": 20,
+        "equivalent_except_equation_labels_and_whitespace": true,
+        "normalised_expression_sequence_sha256": "27f412ce2e90a8915ce093dd62a1c0e4594fddbda1b55f5396b52230ef497ef2"
+      },
+      "render": {
+        "input_math_expressions": 20,
+        "output_mathml_elements": 20,
+        "conversion_warnings": [],
+        "remote_executable_resources": 0,
+        "HTML_only_math_font_normalisations": []
+      }
+    },
+    "replays/SAT2024.md": {
+      "checkpoint_markdown_sha256": "d2a7ebd5d29efe4280d659fafb2857dc4c8c4768972ab05b9c51ddabe34171bf",
+      "public_markdown_sha256": "ccdb4db272b9608e769ec926336b8ae50444235fd7e473b5c3f1538adab55c1d",
+      "offline_html_sha256": "e641302a46d54dafb7c51e18ee759a68729bbbf1cf05157f279ccef54ad462af",
+      "mathematics": {
+        "status": "PASS",
+        "source_expressions": 11,
+        "output_expressions": 11,
+        "equivalent_except_equation_labels_and_whitespace": true,
+        "normalised_expression_sequence_sha256": "ff528702673fe01cad6c61269cccad036185cee3869cd12f37ac84847141914c"
+      },
+      "render": {
+        "input_math_expressions": 11,
+        "output_mathml_elements": 11,
+        "conversion_warnings": [],
+        "remote_executable_resources": 0,
+        "HTML_only_math_font_normalisations": []
+      }
+    },
+    "reproducibility/BASELINE_REPLAY.md": {
+      "checkpoint_markdown_sha256": "125776c99a3a4cd27ac85e811276dccfb8473b8641f9fb766c804eb5297d7fab",
+      "public_markdown_sha256": "92907bc655aaf061a8e8032aa6dc869352ab71a4bbda480e77c0f67c7dadcbd5",
+      "offline_html_sha256": "cb6d059931b5be203fa328e2206c29762c61bd2174b02c89a10ebb332abaa873",
+      "mathematics": {
+        "status": "PASS",
+        "source_expressions": 1,
+        "output_expressions": 1,
+        "equivalent_except_equation_labels_and_whitespace": true,
+        "normalised_expression_sequence_sha256": "3d3d197de4123a4a0dc82367fd26e16db291756571da49f10e10fbee050e5db0"
+      },
+      "render": {
+        "input_math_expressions": 1,
+        "output_mathml_elements": 1,
+        "conversion_warnings": [],
+        "remote_executable_resources": 0,
+        "HTML_only_math_font_normalisations": []
+      }
+    },
+    "reproducibility/P58_EXTENSIONS.md": {
+      "checkpoint_markdown_sha256": "5ecea006b9046768eb771533adf42a2a1d456688dc54896a9d17c0cd4b2b5e1a",
+      "public_markdown_sha256": "17486ed6588ba7ce588251ef7a7c3acc5573c0d8f8f26cc1c0e6ff83efd0a7d7",
+      "offline_html_sha256": "5a4fc420edccf0e65d77c5a6a2a32fcaae38f299d1e22d0f1a2e3ef37c12c634",
+      "mathematics": {
+        "status": "PASS",
+        "source_expressions": 0,
+        "output_expressions": 0,
+        "equivalent_except_equation_labels_and_whitespace": true,
+        "normalised_expression_sequence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "render": {
+        "input_math_expressions": 0,
+        "output_mathml_elements": 0,
+        "conversion_warnings": [],
+        "remote_executable_resources": 0,
+        "HTML_only_math_font_normalisations": []
+      }
+    },
+    "research/ACCESS_MODELS_AND_IMPLEMENTATION_BOUNDARIES.md": {
+      "checkpoint_markdown_sha256": "7f9293c1bee7ac1595a2167311f78b952d46e591f14fa86f520e732812da959d",
+      "public_markdown_sha256": "b6fe72916e2fab2f14f510a88e73b9c84180d631bd69b564756d602c923a0ce6",
+      "offline_html_sha256": "07a9d3d1f72273fba0a637fd6e0a9d363b8ec369fb0639687c115af71da66eea",
+      "mathematics": {
+        "status": "PASS",
+        "source_expressions": 174,
+        "output_expressions": 174,
+        "equivalent_except_equation_labels_and_whitespace": true,
+        "normalised_expression_sequence_sha256": "572c722fcee768d62665cffb4c226046c1a6c838758f53de29c9c0f153420e86"
+      },
+      "render": {
+        "input_math_expressions": 174,
+        "output_mathml_elements": 174,
+        "conversion_warnings": [],
+        "remote_executable_resources": 0,
+        "HTML_only_math_font_normalisations": []
+      }
+    },
+    "research/MATHEMATICAL_EXTENSIONS_P61.md": {
+      "checkpoint_markdown_sha256": "5e7c6c681698303be53c031c17c04809de5507200cb925364284d2a9c3844295",
+      "public_markdown_sha256": "78f87afa1a8fe6724bd40eb3f736e2d6cf44eb027509c2af11155dd746897b8a",
+      "offline_html_sha256": "c84d5e55110a0e1013c2c70efa8c71164bd3caef8cd8ac6e6364f7921432c489",
+      "mathematics": {
+        "status": "PASS",
+        "source_expressions": 450,
+        "output_expressions": 450,
+        "equivalent_except_equation_labels_and_whitespace": true,
+        "normalised_expression_sequence_sha256": "9f311f5fa62bff623c1d19fe70eb6e4705aa4a21d29d108603149c474f1e8bf4"
+      },
+      "render": {
+        "input_math_expressions": 450,
+        "output_mathml_elements": 450,
+        "conversion_warnings": [],
+        "remote_executable_resources": 0,
+        "HTML_only_math_font_normalisations": []
+      }
+    },
+    "research_notes/EXTENDED_METHODS_AND_REPLAYS.md": {
+      "checkpoint_markdown_sha256": "64d12bded234169776652a91a1c7c49e1922fb490b25cbfbe648bc983c4cf78c",
+      "public_markdown_sha256": "3009c1f9e9e1697cb7a5815bc326620e2b1ac0984b91d72a899611cbfbd55ad5",
+      "offline_html_sha256": "d6c1dc22caebf776517430e4adf485bde71a538b9a03df0d1514e1e2408375ef",
+      "mathematics": {
+        "status": "PASS",
+        "source_expressions": 98,
+        "output_expressions": 98,
+        "equivalent_except_equation_labels_and_whitespace": true,
+        "normalised_expression_sequence_sha256": "02859e328fce0fcba2f34d2dbfd09cd59241ac2f7bc627a055d7048fc1a8ca3a"
+      },
+      "render": {
+        "input_math_expressions": 98,
+        "output_mathml_elements": 98,
+        "conversion_warnings": [],
+        "remote_executable_resources": 0,
+        "HTML_only_math_font_normalisations": []
+      }
+    },
+    "research_notes/SQUARE_EXTENSIONS_COMPLETE.md": {
+      "checkpoint_markdown_sha256": "4cff226acfc0822f20f05da87475c6d49918bf4de87229ecc2e06d3845005275",
+      "public_markdown_sha256": "0e4b993edd34b74853080f13bcc0df6aedd62880b781bb6b040620ae5fb5422d",
+      "offline_html_sha256": "30c2b5f5016ea210e994f8ea2d7fff7b25893238b4c364a9e044172f5f05ae6f",
+      "mathematics": {
+        "status": "PASS",
+        "source_expressions": 336,
+        "output_expressions": 336,
+        "equivalent_except_equation_labels_and_whitespace": true,
+        "normalised_expression_sequence_sha256": "2ec64b6440b6ea08cd8b4c0ffb8d30d82eaf813b38196504a9f978f3d66c0dd9"
+      },
+      "render": {
+        "input_math_expressions": 336,
+        "output_mathml_elements": 336,
+        "conversion_warnings": [],
+        "remote_executable_resources": 0,
+        "HTML_only_math_font_normalisations": [
+          {
+            "from": "{\\rm det}",
+            "to": "\\mathrm{det}",
+            "count": 1,
+            "scope": "HTML MathML font representation only"
+          },
+          {
+            "from": "{\\rm det}",
+            "to": "\\mathrm{det}",
+            "count": 1,
+            "scope": "HTML MathML font representation only"
+          },
+          {
+            "from": "{\\rm det}",
+            "to": "\\mathrm{det}",
+            "count": 1,
+            "scope": "HTML MathML font representation only"
+          }
+        ]
+      }
+    },
+    "research_notes/TRIANGLE_FINITE_EXTENSIONS_COMPLETE.md": {
+      "checkpoint_markdown_sha256": "ab14e114b6ff135d40879269e28716b88c706251e8c64468712de3df2f763ec4",
+      "public_markdown_sha256": "1e82e55b73d982ac089474172f1bdb0da2ed0463ef5e10e133a218afaedcebf3",
+      "offline_html_sha256": "25015cdb23fd80f0f161db2762f2be7f13538e515cd20fd256e9d386e1768011",
+      "mathematics": {
+        "status": "PASS",
+        "source_expressions": 298,
+        "output_expressions": 298,
+        "equivalent_except_equation_labels_and_whitespace": true,
+        "normalised_expression_sequence_sha256": "6bdeb4d2d4600036326f924043a89270d6ed70ff830a725fa10e49db2fb8f5f1"
+      },
+      "render": {
+        "input_math_expressions": 298,
+        "output_mathml_elements": 298,
+        "conversion_warnings": [],
+        "remote_executable_resources": 0,
+        "HTML_only_math_font_normalisations": []
+      }
+    }
+  }
+}

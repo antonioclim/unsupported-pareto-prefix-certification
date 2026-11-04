@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; font-src 'none'; base-uri 'none'"><title>Conditional application scenarios</title><style>
+:root { color-scheme: light; }
+body { max-width: 1060px; margin: 32px auto; padding: 0 32px 72px;
+  color: #18212a; background: white; font: 18px/1.6 Georgia, serif; }
+h1,h2,h3,h4,h5,h6 { color: #162b41; line-height: 1.25;
+  font-family: system-ui, sans-serif; overflow-wrap: anywhere; }
+h1 {font-size: 2rem;} h2 {font-size: 1.5rem; margin-top: 2rem;}
+h3 {font-size: 1.2rem; margin-top: 1.6rem;}
+a {color: #135d9c; text-decoration-thickness: 1px;}
+code {font-size: .88em; overflow-wrap: anywhere;}
+pre {padding: 16px; background: #f2f4f6; overflow-x: auto;
+  white-space: pre; border-radius: 4px; line-height: 1.4;}
+pre code {overflow-wrap: normal;}
+.table-scroll {overflow-x: auto; margin: 1em 0;}
+table {border-collapse: collapse; font-size: .91em; width: 100%;}
+th,td {padding: 9px 12px; border: 1px solid #c7d0d8; vertical-align: top;}
+th {background: #edf2f6; text-align: left;}
+math[display="block"] {display: block; overflow-x: auto; overflow-y: hidden;
+  padding: 8px 0; margin: 10px 0; max-width: 100%;}
+blockquote {margin-left: 0; padding-left: 18px; border-left: 3px solid #c7d0d8;}
+.document-note {font: .88em/1.5 system-ui,sans-serif; color: #475361;}
+@media print { body {max-width: none; margin: 0; padding: 0; font-size: 11pt;}
+  pre {white-space: pre-wrap;} a {color: inherit;}}
+</style></head><body>
+<p class="document-note">Offline reading view. Mathematics uses native MathML; no external scripts, fonts or rendering services are required.</p>
+<p><a name="heading-applications-scenarios_and_assumptions-conditional-application-scenarios"></a></p>
+<h1 id="conditional-application-scenarios">Conditional application scenarios</h1>
+<p><a name="s12-2-scenarios"></a></p>
+<p><a href="../README.html">Documentation index</a></p>
+<p><strong>Role:</strong> Optional proposed application contracts and their assumptions; these scenarios are not deployment evidence. <strong>Source:</strong> UPPC P61, S12.2, Antonio Clim. Documentation for companion version 1.2.0. Source prose retains its existing manuscript/supplement rights; moving it to MD grants no additional licence.</p>
+<p><strong>Path convention:</strong> scientific commands and scientific-file paths below start at the frozen companion’s <code>reproduction/</code> root unless a different working directory is expressly stated. In a GitHub source checkout, the equivalent working directory is the repository root; the command paths are identical. Run commands from that software root, not from this <code>docs/</code> directory. Retained results are not a claim of a fresh execution. References to manuscript sections and statements use their scientific identifiers; the separately supplied review documents contain the essential proofs.</p>
+<p><a name="heading-applications-scenarios_and_assumptions-s12-2-conditional-application-scenarios"></a></p>
+<p><strong>Reading context.</strong> Section and statement identifiers refer to their original research stages. This note preserves the stated arguments, evidence and limitations. The article and Essential Supplement form a separate review package.</p>
+<h3 id="s12.2.-conditional-application-scenarios">S12.2. Conditional application scenarios</h3>
+<p>The following scenarios describe possible implementations of the audit contract. They specify what would have to be represented and enforced before applying the acquisition results. They have not been deployed or evaluated in this work. In each case the target is a designated configuration’s nondomination and unsupportedness within a fixed catalogue of archived means. The practical purpose is to examine an omission from weighted-sum searches when the available configurations must be selected individually.</p>
+<p><strong>Frozen software or service benchmarks.</strong> A configuration could be a fixed software build, execution setting or service plan. One row would contain the exact recorded losses from one completed benchmark unit, such as resource consumption and a task-error penalty. An evidence service would hold an immutable archive for each configuration and disclose the next complete row on request. The evaluator would pay for evidence access separately from the resource-consumption objective being compared. A TRUE certificate would establish that the designated configuration is nondominated but omitted by every nonzero nonnegative weighted score over the archived catalogue. This could support scrutiny of a configuration relevant to separate acceptance thresholds, without selecting a universally preferable implementation. Transfer requires publicly justified row domains, fixed order, known lengths and the stated completion contract. Shared workloads, aggregate summaries or other public measurements could constrain the unread values and change the comparator. A future implementation would need to validate its access controls, accounting and treatment of those constraints.</p>
+<p><strong>Fixed model or system configurations on archived tests.</strong> A configuration could instead be one frozen model-and-inference setting, with each row recording two predeclared losses on a completed test unit, for example a prediction penalty and a resource-use measure. The finite test archive would be fixed before the audit; the algorithm would purchase successive recorded outcomes rather than choose or generate new tests. The audit could identify a nondominated configuration overlooked by weighted scoring of the complete archived means. It would make no inference about generalisation, future workloads or a population of users. Test labels, shared test structure and published aggregate scores can impose cross-row or cross-configuration constraints; those facts must be included in the legal completion class. Adaptive test generation, model updates or an alternative free path to hidden outcomes would require a different observation model. Any deployment would still need its own assessment of measurement precision, service overhead and whether the proposed evidence-access restriction serves a useful operational purpose.</p>
+<p><strong>Contractual evidence for a supplier or service catalogue.</strong> A configuration could be an indivisible contractual service package, with each row pairing two exact losses from a completed service unit, such as a recorded operating charge and a predeclared failure penalty. A custodian could disclose those paired records in a publicly fixed order under a metered evidence contract. The audit would concern the fixed historical catalogue and could expose a package omitted by all weighted sums while remaining relevant to separately specified eligibility constraints. It would neither certify future contractual performance nor determine the purchaser’s preferred package. Public contractual caps must justify any bounded domain; observed maxima alone are insufficient. Cross-period obligations, shared records and value-dependent disclosure prices may invalidate the assumed completion or charge model. Implementing this scenario would therefore require a specification of the admissible records and evidence service, followed by an evaluation of actual access costs and alternative audit procedures.</p>
+<p><strong>More than two criteria.</strong> With three frozen configurations, the original-space verdict can be evaluated exactly using all criteria and the one-variable interval calculation in Section S5.9. For example, latency, resource consumption and three distinct error losses give five criteria, not a new five-dimensional acquisition guarantee. If additional recorded criteria are public nonnegative affine functions of two retained anchors at every legal row, Section S5.11 instead supplies an exact cost-preserving reduction, subject to its completion and query assumptions. A relationship observed only in the completed benchmark does not suffice. With approximate relationships, Section S5.12 requires valid error bounds and strict margins before returning a positive certificate. None of these scenarios establishes measured LLM, database, security or economic performance gains.</p>
+
+</body></html>

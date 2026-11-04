@@ -1,38 +1,34 @@
 {
-  "schema": "sicomp-component-licence-scope-1.1.0-v1",
-  "revision": "1.1.0-P58",
-  "grant_adoption_revision": "P35",
-  "adopted_on": "2026-10-24",
-  "grantor": "Antonio Clim",
-  "kit_kind": "repository",
-  "scope_basis": "P35 author adoption within his rights; exact baseline classifications and reviewed additions. Third-party terms and excluded-file rights preserved. Version 1.1.0 adds the unchanged P58/P57 component under its existing grants; current administrative inventories are refreshed.",
-  "governing_notice": "LICENSING.md",
-  "author_code_licence": "BSD-3-Clause",
-  "author_documentation_tables_figures_licence": "CC-BY-4.0",
+  "schema": "uppc-v1.2.0-component-scope-v1",
+  "governing_notice": "LICENSING.md and RIGHTS_NOTICE.md",
+  "archive_path_separator": "!",
   "spdx_or_local_license_definitions": {
     "LicenseRef-DejaVu-Font-Terms": "Original bundled LICENSE_DEJAVU; includes Bitstream/DejaVu/Arev terms where stated.",
     "LicenseRef-Original-Licence-Text": "Unmodified standard licence text, preserved for stating applicable terms; no relicensing claim."
   },
-  "archive_path_separator": "!",
-  "administrative_files_without_self_referential_hash": [
-    {
-      "path": "LICENSE_SCOPE.json",
-      "role": "author-administrative-manifest",
-      "licence": "CC-BY-4.0",
-      "rights_holder": "Antonio Clim",
-      "component": "author",
-      "note": "Covered administrative documentation within the author's rights; no self-referential hash is included."
+  "counts": {
+    "file_and_member_entries": 1390,
+    "by_role": {
+      "author-code-or-executable-configuration": 274,
+      "public-research-notes-or-release-administration": 50,
+      "author-documentation-metadata-result-or-figure": 869,
+      "standard-licence-text": 14,
+      "third-party-font-or-notice": 20,
+      "archive-container": 1,
+      "author-administrative-manifest": 4,
+      "author-secondary-analysis-documentation-or-results": 140,
+      "mixed-archive-container": 2,
+      "attribution-notice": 4,
+      "upstream-data-or-readme": 12
     },
-    {
-      "path": "PACKAGE_MANIFEST_SHA256.json",
-      "role": "author-administrative-manifest",
-      "licence": "CC-BY-4.0",
-      "rights_holder": "Antonio Clim",
-      "component": "author",
-      "note": "Covered administrative documentation within the author's rights; no self-referential hash is included."
+    "by_licence": {
+      "BSD-3-Clause": 274,
+      "component-specific-or-reserved": 53,
+      "CC-BY-4.0": 1029,
+      "LicenseRef-Original-Licence-Text": 14,
+      "LicenseRef-DejaVu-Font-Terms": 20
     }
-  ],
-  "archive_audit": "ZIP members are listed recursively using !; native document/figure packages remain indivisible file entries with applicable embedded-font terms preserved.",
+  },
   "files": [
     {
       "path": ".gitattributes",
@@ -56,23 +52,33 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1324,
-      "sha256": "35b9da5a6bab46e121e5f40b1c513d2cc657118cb850fa2903bcdd67aafd2d20",
-      "role": "author-documentation-metadata-result-or-figure",
-      "licence": "CC-BY-4.0",
-      "rights_holder": "Antonio Clim",
-      "component": "author",
-      "note": "Author grant adopted 2026-10-24, limited to rights held by the author; embedded font terms remain separate."
+      "bytes": 654,
+      "sha256": "91cd9ae27e4d0167f6d0bd3200f5d778632928c435e903eb4bd5fa8b09da5a17",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "COMPONENT_SCOPE.json",
+      "bytes": 671,
+      "sha256": "1f2315e8623adddd5e119dc5040bb38700f0b01d0f2e5cafc8dee063f4d5db55",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
     },
     {
       "path": "CURRENT_RELEASE_METADATA.json",
-      "bytes": 4864,
-      "sha256": "621b6ef13da8b28dd9b30a188a5fa63a04a7907ee2f0b31460f361cf65a70c56",
-      "role": "author-documentation-metadata-result-or-figure",
-      "licence": "CC-BY-4.0",
-      "rights_holder": "Antonio Clim",
-      "component": "author",
-      "note": "Author grant adopted 2026-10-24, limited to rights held by the author; embedded font terms remain separate."
+      "bytes": 1284,
+      "sha256": "4e28d68a882b37d753f60996bb11a2f8c4d4928884994ebe73a80be24cebd9d0",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
     },
     {
       "path": "LICENSE",
@@ -115,34 +121,44 @@
       "note": "Author grant adopted 2026-10-24, limited to rights held by the author; embedded font terms remain separate."
     },
     {
+      "path": "MIGRATION_STATE.json",
+      "bytes": 275,
+      "sha256": "417d088c68ffbac49d4587d81b6cc0dff4012a44686469cbe644f5e19aa745cc",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
       "path": "README.md",
-      "bytes": 6231,
-      "sha256": "7a0e9b76672bd524a3fb1a59269f52ca0908d888237f9f1458f8cabaa0c1460b",
-      "role": "author-documentation-metadata-result-or-figure",
-      "licence": "CC-BY-4.0",
-      "rights_holder": "Antonio Clim",
-      "component": "author",
-      "note": "Author grant adopted 2026-10-24, limited to rights held by the author; embedded font terms remain separate."
+      "bytes": 1536,
+      "sha256": "1e612675b7afa5b2567293032d0b340fdbeceef993cb6c34ff206e3e8cc12b69",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
     },
     {
       "path": "README.txt",
-      "bytes": 6231,
-      "sha256": "7a0e9b76672bd524a3fb1a59269f52ca0908d888237f9f1458f8cabaa0c1460b",
-      "role": "author-documentation-metadata-result-or-figure",
-      "licence": "CC-BY-4.0",
-      "rights_holder": "Antonio Clim",
-      "component": "author",
-      "note": "Author grant adopted 2026-10-24, limited to rights held by the author; embedded font terms remain separate."
+      "bytes": 1536,
+      "sha256": "1e612675b7afa5b2567293032d0b340fdbeceef993cb6c34ff206e3e8cc12b69",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 11478,
-      "sha256": "9ed2d4a424cb1e37cc2df628908055f8a8c9e7a184b7c2bc5c0c257af143e039",
-      "role": "author-documentation-metadata-result-or-figure",
-      "licence": "CC-BY-4.0",
-      "rights_holder": "Antonio Clim",
-      "component": "author",
-      "note": "Author grant adopted 2026-10-24, limited to rights held by the author; embedded font terms remain separate."
+      "bytes": 609,
+      "sha256": "75fa0d2427564576a5d00cbc5ae3a935849c5e1dc4eed075663d4ee3e75af4a1",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
     },
     {
       "path": "RESULTS_MAP.json",
@@ -173,6 +189,16 @@
       "rights_holder": "Antonio Clim",
       "component": "author",
       "note": "Author grant adopted 2026-10-24, limited to rights held by the author; embedded font terms remain separate."
+    },
+    {
+      "path": "RIGHTS_NOTICE.md",
+      "bytes": 973,
+      "sha256": "43ac7d1a54a1cc94a146e6386be3c3ca9adae8cdb493576522907f233cde58f8",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
     },
     {
       "path": "checks/Verifier_Rejection_Check.json",
@@ -875,6 +901,26 @@
       "note": "Author grant adopted 2026-10-24, limited to rights held by the author; embedded font terms remain separate."
     },
     {
+      "path": "docs/INTEGRATION_INDEX.html",
+      "bytes": 7128,
+      "sha256": "4002a626db7efafa12c4a41f53c5075278237d43ef6b51cb1f12249427e282d6",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/INTEGRATION_INDEX.md",
+      "bytes": 4193,
+      "sha256": "8d2adfdbaf39f3cbc40ead411aa873d47fb287b6ff577bd7a4df6d7fbfccfd25",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
       "path": "docs/PACKAGING.md",
       "bytes": 2329,
       "sha256": "db18987c024778e69cbfe81d5e51ee26112c93bc98558b1e708b9e343d98e938",
@@ -905,6 +951,56 @@
       "note": "Author grant adopted 2026-10-24, limited to rights held by the author; embedded font terms remain separate."
     },
     {
+      "path": "docs/README.html",
+      "bytes": 6203,
+      "sha256": "b09be8a83cb9c9e34487c568090c92284bab34b059d4ea1f72261fbaef176d2f",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 3453,
+      "sha256": "c2afe3f6e32c8a2b5c2e461106dff7a89990b20687abe62fcf4eadb2503884a1",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/REFERENCES.html",
+      "bytes": 19728,
+      "sha256": "1319fc37cc26f377a4de066a64ab6754a3d137d828b42c03236ed25af91d1f1e",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/REFERENCES.md",
+      "bytes": 12963,
+      "sha256": "76765a9ea3b630a3b93d76e1d2dbe52e91a509542df449f7cb94bd31ec8e3131",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/RENDER_VERIFICATION.json",
+      "bytes": 19122,
+      "sha256": "a1b1ddd31765dcbb157c718c2fa657fcca78130f9c6080506d1d7754e0011259",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
       "path": "docs/Statement_Crosswalk_P41.json",
       "bytes": 10411,
       "sha256": "1108d6d6074f404412c36a564e1382a0e75bf125fe4a8519209ddd26c7b2a193",
@@ -913,6 +1009,346 @@
       "rights_holder": "Antonio Clim",
       "component": "author",
       "note": "Author grant adopted 2026-10-24, limited to rights held by the author; embedded font terms remain separate."
+    },
+    {
+      "path": "docs/applications/AUDIT_SERVICE_AND_STOPPING.html",
+      "bytes": 8224,
+      "sha256": "76d7cd5111a0d2a68c07ba42fdf3af910d37347953cca1414f3f076d5487f42a",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/applications/AUDIT_SERVICE_AND_STOPPING.md",
+      "bytes": 3955,
+      "sha256": "4600aa69ca8a7a6a483ae1c5702e8a2dbe92a2098c411428fe7b3c01fbf99a47",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/applications/SCENARIOS_AND_ASSUMPTIONS.html",
+      "bytes": 8411,
+      "sha256": "5f699254cca248fb6379bc57a5ba33d54ca81eb99810c54145b8996e0e290f3e",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/applications/SCENARIOS_AND_ASSUMPTIONS.md",
+      "bytes": 6283,
+      "sha256": "6e9a9238a93d32c7ef4c0c9929a505623190698547af5a9c34ce6bbd56e6cec6",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/economics/OVERHEAD_AND_BREAK_EVEN.html",
+      "bytes": 11531,
+      "sha256": "2e9950012a19bca18c15c403e1366e4ad372deee87e8d98ee768824a2521872c",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/economics/OVERHEAD_AND_BREAK_EVEN.md",
+      "bytes": 4337,
+      "sha256": "728c421799b65adbd3a8e901cbbf9c6e1a3e26604d07e7284cf0eb74d5bd0b26",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/history/TRIANGLE_UPPER_BOUND_CONTROLS.html",
+      "bytes": 74538,
+      "sha256": "f9b106191ebd65bdf7b6fa18e67c1dbf3a736f6919f09d461d060824ad4726ae",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/history/TRIANGLE_UPPER_BOUND_CONTROLS.md",
+      "bytes": 12883,
+      "sha256": "b46fe6066bb59b848e60338bcd1fe57191cb5252c3cde3be0e970b43868650a6",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/implementation/CONSTRUCTIVE_POLICIES.html",
+      "bytes": 15483,
+      "sha256": "3aa124b7ab0171b707862e8fbac6cced46b59e58e1c2b9c0a34dc46925453044",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/implementation/CONSTRUCTIVE_POLICIES.md",
+      "bytes": 8093,
+      "sha256": "7b9a77f28bc057fc874f9cbd6c42bd3a9b88a12c4c7c78b83077dd479d39e879",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/implementation/DISCLOSURE_SERVICE.html",
+      "bytes": 12564,
+      "sha256": "d5a5504f8916f9c5d9a62e7438ad34b18400320f5b7135187b5711073deb2f24",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/implementation/DISCLOSURE_SERVICE.md",
+      "bytes": 6599,
+      "sha256": "390bee5a8db4c7a07d71f02f73e4ae00da31332cdbfccf7cadeb2635b70de41b",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/provenance/RESEARCH_HISTORY.html",
+      "bytes": 10028,
+      "sha256": "75856095bab62e4f62600353500207db36a2c1f4bf69bef04a89035479fa33ab",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/provenance/RESEARCH_HISTORY.md",
+      "bytes": 6192,
+      "sha256": "e18ac32b838d19b080855b1ccd294718eddd3b5cf4430309f7c6c1d1774e44a9",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/provenance/SOURCE_DATA_AND_RIGHTS.html",
+      "bytes": 7896,
+      "sha256": "9bcd981468404d1c39aca7af4ac672551e92c50bfc7e9e64bfbdbe7841bd7a0d",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/provenance/SOURCE_DATA_AND_RIGHTS.md",
+      "bytes": 4194,
+      "sha256": "2b32d86ab5c347508aabd95d9cf7df7c5b9f29710507e7eeb836a6f9c21d9d4a",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/replays/APEX.html",
+      "bytes": 20866,
+      "sha256": "cf482e78dfb120eeb794e1c3f3cb596708bd5f34232610a18ec6b4438e3dcfd0",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/replays/APEX.md",
+      "bytes": 10692,
+      "sha256": "e2c405d0d9c3c4ed80fc7bdd8e866d9c55aa6d52deff60b2ab7f481599a5060c",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/replays/SAT2024.html",
+      "bytes": 10677,
+      "sha256": "e641302a46d54dafb7c51e18ee759a68729bbbf1cf05157f279ccef54ad462af",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/replays/SAT2024.md",
+      "bytes": 5001,
+      "sha256": "ccdb4db272b9608e769ec926336b8ae50444235fd7e473b5c3f1538adab55c1d",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/reproducibility/BASELINE_REPLAY.html",
+      "bytes": 13139,
+      "sha256": "cb6d059931b5be203fa328e2206c29762c61bd2174b02c89a10ebb332abaa873",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/reproducibility/BASELINE_REPLAY.md",
+      "bytes": 9602,
+      "sha256": "92907bc655aaf061a8e8032aa6dc869352ab71a4bbda480e77c0f67c7dadcbd5",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/reproducibility/P58_EXTENSIONS.html",
+      "bytes": 10944,
+      "sha256": "5a4fc420edccf0e65d77c5a6a2a32fcaae38f299d1e22d0f1a2e3ef37c12c634",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/reproducibility/P58_EXTENSIONS.md",
+      "bytes": 7445,
+      "sha256": "17486ed6588ba7ce588251ef7a7c3acc5573c0d8f8f26cc1c0e6ff83efd0a7d7",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/research/ACCESS_MODELS_AND_IMPLEMENTATION_BOUNDARIES.html",
+      "bytes": 102751,
+      "sha256": "07a9d3d1f72273fba0a637fd6e0a9d363b8ec369fb0639687c115af71da66eea",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/research/ACCESS_MODELS_AND_IMPLEMENTATION_BOUNDARIES.md",
+      "bytes": 40846,
+      "sha256": "b6fe72916e2fab2f14f510a88e73b9c84180d631bd69b564756d602c923a0ce6",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/research/MATHEMATICAL_EXTENSIONS_P61.html",
+      "bytes": 178774,
+      "sha256": "c84d5e55110a0e1013c2c70efa8c71164bd3caef8cd8ac6e6364f7921432c489",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/research/MATHEMATICAL_EXTENSIONS_P61.md",
+      "bytes": 48478,
+      "sha256": "78f87afa1a8fe6724bd40eb3f736e2d6cf44eb027509c2af11155dd746897b8a",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/research_notes/EXTENDED_METHODS_AND_REPLAYS.html",
+      "bytes": 74175,
+      "sha256": "d6c1dc22caebf776517430e4adf485bde71a538b9a03df0d1514e1e2408375ef",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/research_notes/EXTENDED_METHODS_AND_REPLAYS.md",
+      "bytes": 43322,
+      "sha256": "3009c1f9e9e1697cb7a5815bc326620e2b1ac0984b91d72a899611cbfbd55ad5",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/research_notes/SQUARE_EXTENSIONS_COMPLETE.html",
+      "bytes": 132186,
+      "sha256": "30c2b5f5016ea210e994f8ea2d7fff7b25893238b4c364a9e044172f5f05ae6f",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/research_notes/SQUARE_EXTENSIONS_COMPLETE.md",
+      "bytes": 32003,
+      "sha256": "0e4b993edd34b74853080f13bcc0df6aedd62880b781bb6b040620ae5fb5422d",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/research_notes/TRIANGLE_FINITE_EXTENSIONS_COMPLETE.html",
+      "bytes": 112273,
+      "sha256": "25015cdb23fd80f0f161db2762f2be7f13538e515cd20fd256e9d386e1768011",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
+    },
+    {
+      "path": "docs/research_notes/TRIANGLE_FINITE_EXTENSIONS_COMPLETE.md",
+      "bytes": 24178,
+      "sha256": "1e82e55b73d982ac089474172f1bdb0da2ed0463ef5e10e133a218afaedcebf3",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
     },
     {
       "path": "editable_figures/ARTICLE_METADATA.json",
@@ -2866,13 +3302,13 @@
     },
     {
       "path": "extensions/P58/retained_P57/dependencies/unsupported-pareto-prefix-certification-v1.0.0.zip!reproduction/LICENSE_SCOPE.json",
+      "bytes": 317052,
+      "sha256": "07c69104d89a4cfd6515fceb49f43fec2a7bf36111cdd88b6d725dadee85f9bb",
       "role": "author-administrative-manifest",
       "licence": "CC-BY-4.0",
       "rights_holder": "Antonio Clim",
       "component": "author",
-      "note": "Covered administrative documentation within the author's rights; no self-referential hash is included.",
-      "bytes": 317052,
-      "sha256": "07c69104d89a4cfd6515fceb49f43fec2a7bf36111cdd88b6d725dadee85f9bb"
+      "note": "Covered administrative documentation within the author's rights; no self-referential hash is included."
     },
     {
       "path": "extensions/P58/retained_P57/dependencies/unsupported-pareto-prefix-certification-v1.0.0.zip!reproduction/LICENSING.md",
@@ -2886,13 +3322,13 @@
     },
     {
       "path": "extensions/P58/retained_P57/dependencies/unsupported-pareto-prefix-certification-v1.0.0.zip!reproduction/PACKAGE_MANIFEST_SHA256.json",
+      "bytes": 69124,
+      "sha256": "83f3ab6c0f23cbea997a3219746247e3953d186168c88a9c389d1c288cbf77ef",
       "role": "author-administrative-manifest",
       "licence": "CC-BY-4.0",
       "rights_holder": "Antonio Clim",
       "component": "author",
-      "note": "Covered administrative documentation within the author's rights; no self-referential hash is included.",
-      "bytes": 69124,
-      "sha256": "83f3ab6c0f23cbea997a3219746247e3953d186168c88a9c389d1c288cbf77ef"
+      "note": "Covered administrative documentation within the author's rights; no self-referential hash is included."
     },
     {
       "path": "extensions/P58/retained_P57/dependencies/unsupported-pareto-prefix-certification-v1.0.0.zip!reproduction/README.md",
@@ -9906,13 +10342,13 @@
     },
     {
       "path": "frozen_manifest.json",
-      "bytes": 69679,
-      "sha256": "7f12733efff15881ab4055d12d3dff1291b5475f7e58e1015e9ea211d560681f",
-      "role": "author-documentation-metadata-result-or-figure",
-      "licence": "CC-BY-4.0",
-      "rights_holder": "Antonio Clim",
-      "component": "author",
-      "note": "Author grant adopted 2026-10-24, limited to rights held by the author; embedded font terms remain separate."
+      "bytes": 71544,
+      "sha256": "c0dcd03a82e87362b2eca77da0e0562e78bb13db9edf5040fff8a1d7c088c957",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
     },
     {
       "path": "history/P41/Final_Integrated_Replay_P41.json",
@@ -13295,6 +13731,86 @@
       "note": "Author grant adopted 2026-10-24, limited to rights held by the author; embedded font terms remain separate."
     },
     {
+      "path": "provenance/frozen_1_1_0/CITATION.cff",
+      "bytes": 1324,
+      "sha256": "35b9da5a6bab46e121e5f40b1c513d2cc657118cb850fa2903bcdd67aafd2d20",
+      "role": "author-documentation-metadata-result-or-figure",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "Antonio Clim",
+      "component": "author",
+      "note": "Author grant adopted 2026-10-24, limited to rights held by the author; embedded font terms remain separate."
+    },
+    {
+      "path": "provenance/frozen_1_1_0/CURRENT_RELEASE_METADATA.json",
+      "bytes": 4864,
+      "sha256": "621b6ef13da8b28dd9b30a188a5fa63a04a7907ee2f0b31460f361cf65a70c56",
+      "role": "author-documentation-metadata-result-or-figure",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "Antonio Clim",
+      "component": "author",
+      "note": "Author grant adopted 2026-10-24, limited to rights held by the author; embedded font terms remain separate."
+    },
+    {
+      "path": "provenance/frozen_1_1_0/LICENSE_SCOPE.json",
+      "bytes": 735793,
+      "sha256": "fab958d3cccd1765a7ed831b006d13906456edf88b81b82f0b413357a96b07b1",
+      "role": "author-administrative-manifest",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "Antonio Clim",
+      "component": "author",
+      "note": "Covered administrative documentation within the author's rights; no self-referential hash is included."
+    },
+    {
+      "path": "provenance/frozen_1_1_0/PACKAGE_MANIFEST_SHA256.json",
+      "bytes": 86559,
+      "sha256": "fd1b733c8737f2b4c42b5ec9d91e3b3befb01e44fb1a3e309285d2fbbe40e7a5",
+      "role": "author-administrative-manifest",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "Antonio Clim",
+      "component": "author",
+      "note": "Covered administrative documentation within the author's rights; no self-referential hash is included."
+    },
+    {
+      "path": "provenance/frozen_1_1_0/README.md",
+      "bytes": 6231,
+      "sha256": "7a0e9b76672bd524a3fb1a59269f52ca0908d888237f9f1458f8cabaa0c1460b",
+      "role": "author-documentation-metadata-result-or-figure",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "Antonio Clim",
+      "component": "author",
+      "note": "Author grant adopted 2026-10-24, limited to rights held by the author; embedded font terms remain separate."
+    },
+    {
+      "path": "provenance/frozen_1_1_0/README.txt",
+      "bytes": 6231,
+      "sha256": "7a0e9b76672bd524a3fb1a59269f52ca0908d888237f9f1458f8cabaa0c1460b",
+      "role": "author-documentation-metadata-result-or-figure",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "Antonio Clim",
+      "component": "author",
+      "note": "Author grant adopted 2026-10-24, limited to rights held by the author; embedded font terms remain separate."
+    },
+    {
+      "path": "provenance/frozen_1_1_0/RELEASE_NOTES.md",
+      "bytes": 11478,
+      "sha256": "9ed2d4a424cb1e37cc2df628908055f8a8c9e7a184b7c2bc5c0c257af143e039",
+      "role": "author-documentation-metadata-result-or-figure",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "Antonio Clim",
+      "component": "author",
+      "note": "Author grant adopted 2026-10-24, limited to rights held by the author; embedded font terms remain separate."
+    },
+    {
+      "path": "provenance/frozen_1_1_0/frozen_manifest.json",
+      "bytes": 69679,
+      "sha256": "7f12733efff15881ab4055d12d3dff1291b5475f7e58e1015e9ea211d560681f",
+      "role": "author-documentation-metadata-result-or-figure",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "Antonio Clim",
+      "component": "author",
+      "note": "Author grant adopted 2026-10-24, limited to rights held by the author; embedded font terms remain separate."
+    },
+    {
       "path": "release_preparation/CITATION.cff",
       "bytes": 1324,
       "sha256": "35b9da5a6bab46e121e5f40b1c513d2cc657118cb850fa2903bcdd67aafd2d20",
@@ -13415,24 +13931,22 @@
       "note": "Author grant adopted 2026-10-24, limited to rights held by the author."
     }
   ],
-  "counts": {
-    "file_and_member_entries": 628,
-    "by_role": {
-      "attribution-notice": 2,
-      "author-code-or-executable-configuration": 127,
-      "author-documentation-metadata-result-or-figure": 406,
-      "author-secondary-analysis-documentation-or-results": 70,
-      "mixed-archive-container": 1,
-      "standard-licence-text": 6,
-      "third-party-font-or-notice": 10,
-      "upstream-data-or-readme": 6
+  "administrative_files_without_self_referential_hash": [
+    {
+      "path": "LICENSE_SCOPE.json",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
     },
-    "by_licence": {
-      "BSD-3-Clause": 127,
-      "CC-BY-4.0": 484,
-      "LicenseRef-DejaVu-Font-Terms": 10,
-      "LicenseRef-Original-Licence-Text": 6,
-      "component-specific-or-excluded": 1
+    {
+      "path": "PACKAGE_MANIFEST_SHA256.json",
+      "role": "public-research-notes-or-release-administration",
+      "licence": null,
+      "component": "v1.2.0",
+      "rights_holder": "Existing rights holders",
+      "note": "Rights are retained as described in RIGHTS_NOTICE.md."
     }
-  }
+  ]
 }
