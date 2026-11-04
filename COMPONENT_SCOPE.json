@@ -1,0 +1,19 @@
+{
+  "software_version": "1.2.0",
+  "version_doi": "10.5281/zenodo.23936602",
+  "public_scope": "Software, retained evidence and selected Markdown research notes with offline HTML views.",
+  "included_components": [
+    "Frozen scientific software and data",
+    "Retained certificate evidence",
+    "Editable figures from the frozen baseline",
+    "Selected research and reproducibility notes"
+  ],
+  "excluded_components": [
+    "Complete manuscript and supplement",
+    "Canonical manuscript sources and source segments",
+    "Private submission and audit files",
+    "Raw SAT archive"
+  ],
+  "rights_notice": "RIGHTS_NOTICE.md",
+  "github_workflows_included": false
+}

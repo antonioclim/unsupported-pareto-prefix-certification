@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; font-src 'none'; base-uri 'none'"><title>Frozen P58 research-extension reproduction</title><style>
+:root { color-scheme: light; }
+body { max-width: 1060px; margin: 32px auto; padding: 0 32px 72px;
+  color: #18212a; background: white; font: 18px/1.6 Georgia, serif; }
+h1,h2,h3,h4,h5,h6 { color: #162b41; line-height: 1.25;
+  font-family: system-ui, sans-serif; overflow-wrap: anywhere; }
+h1 {font-size: 2rem;} h2 {font-size: 1.5rem; margin-top: 2rem;}
+h3 {font-size: 1.2rem; margin-top: 1.6rem;}
+a {color: #135d9c; text-decoration-thickness: 1px;}
+code {font-size: .88em; overflow-wrap: anywhere;}
+pre {padding: 16px; background: #f2f4f6; overflow-x: auto;
+  white-space: pre; border-radius: 4px; line-height: 1.4;}
+pre code {overflow-wrap: normal;}
+.table-scroll {overflow-x: auto; margin: 1em 0;}
+table {border-collapse: collapse; font-size: .91em; width: 100%;}
+th,td {padding: 9px 12px; border: 1px solid #c7d0d8; vertical-align: top;}
+th {background: #edf2f6; text-align: left;}
+math[display="block"] {display: block; overflow-x: auto; overflow-y: hidden;
+  padding: 8px 0; margin: 10px 0; max-width: 100%;}
+blockquote {margin-left: 0; padding-left: 18px; border-left: 3px solid #c7d0d8;}
+.document-note {font: .88em/1.5 system-ui,sans-serif; color: #475361;}
+@media print { body {max-width: none; margin: 0; padding: 0; font-size: 11pt;}
+  pre {white-space: pre-wrap;} a {color: inherit;}}
+</style></head><body>
+<p class="document-note">Offline reading view. Mathematics uses native MathML; no external scripts, fonts or rendering services are required.</p>
+<p><a name="heading-reproducibility-p58_extensions-frozen-p58-research-extension-reproduction"></a></p>
+<h1 id="frozen-p58-research-extension-reproduction">Frozen P58 research-extension reproduction</h1>
+<p><a name="s9-4-extensions"></a></p>
+<p><a href="../README.html">Documentation index</a></p>
+<p><strong>Role:</strong> Technical execution modes, dependencies and result-to-script navigation for the retained research extensions. <strong>Source:</strong> UPPC P61, S9.4, Antonio Clim. Documentation for companion version 1.2.0. Source prose retains its existing manuscript/supplement rights; moving it to MD grants no additional licence.</p>
+<p><strong>Path convention:</strong> scientific commands and scientific-file paths below start at the frozen companion’s <code>reproduction/</code> root unless a different working directory is expressly stated. In a GitHub source checkout, the equivalent working directory is the repository root; the command paths are identical. Run commands from that software root, not from this <code>docs/</code> directory. Retained results are not a claim of a fresh execution. References to manuscript sections and statements use their scientific identifiers; the separately supplied review documents contain the essential proofs.</p>
+<p><a name="heading-reproducibility-p58_extensions-s9-4-published-research-extensions-in-version-1-1-0"></a></p>
+<p><strong>Reading context.</strong> Section and statement identifiers refer to their original research stages. This note preserves the stated arguments, evidence and limitations. The article and Essential Supplement form a separate review package.</p>
+<h3 id="s9.4.-published-research-extensions-in-version-1.1.0">S9.4. Published research extensions in version 1.1.0</h3>
+<p>The published companion version 1.1.0 includes the complete P58 addendum under <code>extensions/P58/</code>, preserving its files and internal manifest byte-for-byte. Version 1.2.0 retains the same scientific files under <code>reproduction/</code> in the downloaded companion. Historical <code>P56</code>, <code>P57</code> and <code>P58</code> components in paths identify research stages, rather than public software version numbers. Exact replay preserves the delivered evidence and writes a fresh attempt in a separate directory.</p>
+<p>From the companion’s <code>reproduction/</code> directory, run the research extensions with:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> extensions/P58</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> run_research_P58.py <span class="at">--mode</span> dimensions</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> run_research_P58.py <span class="at">--mode</span> core</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> run_research_P58.py <span class="at">--mode</span> apex</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> run_research_P58.py <span class="at">--mode</span> all <span class="at">--sat-source</span> /path/to/detailed_results.zip</span></code></pre></div>
+<p>Python optimisation must remain disabled. The SAT source argument must name the official, checksum-matching archive described in Section S11.4; the addendum does not redistribute that source. The runner documentation defines the exact modes and output location. The dimensional controls additionally require the NumPy and SciPy versions specified in <code>dimension_reduction/requirements.txt</code>; the numerical LP comparisons are labelled separately from exact rational checks. The retained CPU diagnostic is environment-specific and is separate from the scientific equality checks.</p>
+<p>The earlier P57 addendum is retained byte-for-byte under <code>retained_P57/</code>; its original manifest and runner remain available. In the following list, legacy paths are relative to that retained directory. Unless a full path is given, program basenames are in <code>p56_work/scripts/</code> and output basenames are in <code>p56_work/evidence/</code>. The new <code>dimension_reduction/</code> paths are relative to the P58 addendum root:</p>
+<ul>
+<li><p><strong>Theorem 20 and Section S6.2:</strong> <code>p56_work/scripts/upper_87_80_certificate.py</code> produces the exact polynomial certificate; <code>root_verify_87_80.py</code> independently reconstructs its coefficients by rational collocation without importing the producer. <code>p56_work/evidence/upper_87_80_certificate.json</code> and <code>Root_87_80_Independent_P56.json</code> identify the eight polynomial families, 59 subdivision leaves, 6,639 nonnegative coefficients, 891 unisolvent identity-check points and four rejected certificate mutations. The analytic reduction and policy cost comparison remain part of the proof.</p></li>
+<li><p><strong>Mixed-policy implementation and lower-family controls:</strong> <code>upper_87_80_operational.py</code> records exact branch executions in <code>upper_87_80_operational.json</code>; <code>lower_audit_mixed_policy.py</code> supplies separately written algebraic and feasibility controls in <code>Lower_Independent_Mixed_Policy_Audit_P56.json</code>. Finite executions are not a replacement for the continuous-domain theorem or evidence that a maximum observed test ratio is the true worst case.</p></li>
+<li><p><strong>Section S1.1 comparator:</strong> <code>geo_comparator.py</code> produces <code>Geometry_Comparator_P56.json</code>; <code>gen_crosscheck_geo.py</code> produces <code>Generalization_Crosscheck_Geometry_P56.json</code> using a separate exact vertex-feasibility oracle, including unequal lengths and weighted means.</p></li>
+<li><p><strong>Sections S5.6–S5.8:</strong> <code>gen_endpoint_margin_checks.py</code> produces <code>Generalization_Checks_P56.json</code>, with finite controls for weighted endpoint certificates, sharp witness cardinalities, margin certificates and the higher-dimensional counterexample. The statements and proofs establish the universal claims.</p></li>
+<li><p><strong>Section S11.2 and the APEX replay:</strong> <code>practical_negative_stopping.py</code> produces <code>practical_negative_stopping_P56.json</code>; <code>root_check_apex.py</code> verifies the task construction, full-archive verdicts, exported negative witnesses and accounting without importing that producer or its policies. Its output is <code>Root_APEX_Verification_P56.json</code>. The unchanged source and earlier policy definitions are obtained from the frozen version 1.0.0 dependency identified by the addendum manifest.</p></li>
+<li><p><strong>Section S11.4 SAT replay:</strong> <code>practical_sat2024_replay.py</code> produces <code>practical_sat2024_replay_P56.json</code>; <code>root_check_sat.py</code> verifies raw CSV parsing, exact means, verdicts, terminal negative witnesses and mixture probabilities without importing the replay producer. Its output is <code>Root_SAT_Verification_P56.json</code>. Source acquisition and checksum requirements are recorded in <code>p56_work/research/practical_SAT2024_protocol.txt</code> and the addendum README.</p></li>
+<li><p><strong>Section S12.4 diagnostic:</strong> <code>practical_cpu_diagnostic.py</code> and <code>practical_cpu_diagnostic_P56.json</code> retain the execution protocol and measured local CPU times. These times are neither portable scientific invariants nor measured end-to-end service savings.</p></li>
+<li><p><strong>Sections S5.9–S5.12:</strong> <code>dimension_reduction/verify_support_decomposition.py</code> compares exact pair and scalar-interval tests on 2,000 catalogues and nine boundary controls, with a separately labelled numerical LP comparison. <code>verify_reduction.py</code> checks 57,963 corresponding prefix verdicts and 12 positive priced-comparator examples, alongside geometric and negative controls. <code>check_approximation.py</code> checks 400 rational instances and four boundary controls. <code>check_three_alternative_projection.py</code> exhausts 41,664 three-point catalogues, including 423 positive ones, for a supplementary full-information representation result retained only in the research note. This last result is not an acquisition theorem and is not needed for S16–S19. The scripts, retained outputs and fresh replay record identify the precise arithmetic and scope; finite checks do not prove the universal statements.</p></li>
+</ul>
+<p>The author’s new addendum code and documentation follow the component-specific licences in Section S9.3. The published 1.0.0 dependency retains its original bytes and notices. The SAT source ZIP and CSV bytes are excluded because a redistribution licence has not been established; the public source URL, hashes, retrieval instructions, code and derived results are supplied. Neither a code audit nor a reproducibility replay is external peer review.</p>
+
+</body></html>

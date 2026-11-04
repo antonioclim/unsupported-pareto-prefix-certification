@@ -1,0 +1,7 @@
+{
+  "status": "READY_FOR_MANUAL_PUBLICATION",
+  "planned_version": "1.2.0",
+  "new_version_doi": "10.5281/zenodo.23936602",
+  "public_scope": "Software, retained evidence and selected Markdown research notes with offline HTML views.",
+  "scientific_working_directory": "."
+}

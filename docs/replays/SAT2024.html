@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; font-src 'none'; base-uri 'none'"><title>SAT Competition 2024 negative-only replay</title><style>
+:root { color-scheme: light; }
+body { max-width: 1060px; margin: 32px auto; padding: 0 32px 72px;
+  color: #18212a; background: white; font: 18px/1.6 Georgia, serif; }
+h1,h2,h3,h4,h5,h6 { color: #162b41; line-height: 1.25;
+  font-family: system-ui, sans-serif; overflow-wrap: anywhere; }
+h1 {font-size: 2rem;} h2 {font-size: 1.5rem; margin-top: 2rem;}
+h3 {font-size: 1.2rem; margin-top: 1.6rem;}
+a {color: #135d9c; text-decoration-thickness: 1px;}
+code {font-size: .88em; overflow-wrap: anywhere;}
+pre {padding: 16px; background: #f2f4f6; overflow-x: auto;
+  white-space: pre; border-radius: 4px; line-height: 1.4;}
+pre code {overflow-wrap: normal;}
+.table-scroll {overflow-x: auto; margin: 1em 0;}
+table {border-collapse: collapse; font-size: .91em; width: 100%;}
+th,td {padding: 9px 12px; border: 1px solid #c7d0d8; vertical-align: top;}
+th {background: #edf2f6; text-align: left;}
+math[display="block"] {display: block; overflow-x: auto; overflow-y: hidden;
+  padding: 8px 0; margin: 10px 0; max-width: 100%;}
+blockquote {margin-left: 0; padding-left: 18px; border-left: 3px solid #c7d0d8;}
+.document-note {font: .88em/1.5 system-ui,sans-serif; color: #475361;}
+@media print { body {max-width: none; margin: 0; padding: 0; font-size: 11pt;}
+  pre {white-space: pre-wrap;} a {color: inherit;}}
+</style></head><body>
+<p class="document-note">Offline reading view. Mathematics uses native MathML; no external scripts, fonts or rendering services are required.</p>
+<p><a name="heading-replays-sat2024-sat-competition-2024-negative-only-replay"></a></p>
+<h1 id="sat-competition-2024-negative-only-replay">SAT Competition 2024 negative-only replay</h1>
+<p><a name="sat-retained-review"></a></p>
+<p><a href="../README.html">Documentation index</a></p>
+<p><strong>Role:</strong> Complete retained negative-only SAT replay note; the Essential Supplement contains its scientific synopsis and limitations. <strong>Source:</strong> UPPC P61, S11, Antonio Clim. Documentation for companion version 1.2.0. Source prose retains its existing manuscript/supplement rights; moving it to MD grants no additional licence.</p>
+<p><strong>Path convention:</strong> scientific commands and scientific-file paths below start at the frozen companion’s <code>reproduction/</code> root unless a different working directory is expressly stated. In a GitHub source checkout, the equivalent working directory is the repository root; the command paths are identical. Run commands from that software root, not from this <code>docs/</code> directory. Retained results are not a claim of a fresh execution. References to manuscript sections and statements use their scientific identifiers; the separately supplied review documents contain the essential proofs.</p>
+<p><a name="heading-replays-sat2024-s11-4-sat-competition-2024-a-retained-negative-only-replay"></a></p>
+<p><strong>Reading context.</strong> Section and statement identifiers refer to their original research stages. This note preserves the stated arguments, evidence and limitations. The article and Essential Supplement form a separate review package.</p>
+<h3 id="s11.4.-sat-competition-2024-a-retained-negative-only-replay">S11.4. SAT Competition 2024: a retained negative-only replay</h3>
+<p>The official SAT Competition 2024 main-track detailed results provide a second archived-data replay [<a href="../REFERENCES.html#ref-39">39</a>]. The declared protocol retains all 14 solver columns and all 400 rows in the supplied instance-hash order. Every unordered solver triple and every designated candidate is used, giving <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mo stretchy="true" form="prefix">(</mo><mfrac linethickness="0"><mn>14</mn><mn>3</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mo>⋅</mo><mn>3</mn><mo>=</mo><mn>1</mn><mo>,</mo><mn>092</mn></mrow><annotation encoding="application/x-tex">\binom{14}{3}\cdot3=1,092</annotation></semantics></math> tasks, without filtering by the resulting verdict. The 5,600 score cells include 1,827 exact 10,000 penalties for unsolved instances; every other recorded score was checked to lie in <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="true" form="prefix">[</mo><mn>0</mn><mo>,</mo><mn>5000</mn><mo stretchy="true" form="postfix">]</mo></mrow><annotation encoding="application/x-tex">[0,5000]</annotation></semantics></math>. The published aggregate score and solved-count table agrees at its displayed precision with the reconstructed values.</p>
+<p>For each recorded score <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>s</mi><annotation encoding="application/x-tex">s</annotation></semantics></math>, define</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mo stretchy="true" form="prefix">(</mo><mi>c</mi><mo>,</mo><mi>f</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mrow><mo stretchy="true" form="prefix">(</mo><mfrac><mi>s</mi><mn>10000</mn></mfrac><mo>,</mo><mspace width="0.167em"></mspace><mn>𝟏</mn><mo stretchy="false" form="prefix">{</mo><mi>s</mi><mo>=</mo><mn>10000</mn><mo stretchy="false" form="postfix">}</mo><mo stretchy="true" form="postfix">)</mo></mrow><mi>.</mi></mrow><annotation encoding="application/x-tex">
+(c,f)=\left(\frac{s}{10000},\,\mathbf 1\{s=10000\}\right).
+</annotation></semantics></math></p>
+<p>These are normalised PAR-2 penalty and failure objectives, not elapsed CPU time and energy. They satisfy <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0</mn><mo>≤</mo><mi>f</mi><mo>≤</mo><mi>c</mi><mo>≤</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">0\leq f\leq c\leq1</annotation></semantics></math>. The closed independent triangle is declared as a conservative audit completion contract; it is not asserted to be the exact physical image of benchmark outcomes. Public aggregates and alternative public access are intentionally withheld from the simulated client. A certificate guarantee under that declared contract does not identify the cheapest certificate under a tighter physical domain.</p>
+<p>The implemented candidate-census mixture is the retained policy of main Theorem 19, with its exact rational <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>G</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">p(G)</annotation></semantics></math>, rather than the new <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>87</mn><mi>/</mi><mn>80</mn></mrow><annotation encoding="application/x-tex">87/80</annotation></semantics></math> policy. Its northwest-first and southeast-first branches are both executed, with and without the same FALSE wrapper. The candidate gap is available before a branch-dependent decision: whenever the wrapped branch traces diverge, the replay checks that the candidate has been completed. Thus no hidden outcome selects the schedule.</p>
+<p>Table S17. Disclosure totals for the 1,092 SAT replay tasks. The mixture cost is an exact rational expectation; its decimal is rounded for display.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr class="header">
+<th>Fixed policy</th>
+<th style="text-align: right;">Disclosed records</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Full groupwise census</td>
+<td style="text-align: right;">1,310,400</td>
+</tr>
+<tr class="even">
+<td>Census with FALSE stopping</td>
+<td style="text-align: right;">1,050,896</td>
+</tr>
+<tr class="odd">
+<td>Theorem 19 mixture without added wrapper</td>
+<td style="text-align: right;">1,098,086</td>
+</tr>
+<tr class="even">
+<td>Theorem 19 mixture with FALSE stopping</td>
+<td style="text-align: right;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>≃</mo><mn>1</mn><mo>,</mo><mn>012</mn><mo>,</mo><mn>540.2986</mn></mrow><annotation encoding="application/x-tex">\simeq1,012,540.2986</annotation></semantics></math></td>
+</tr>
+<tr class="odd">
+<td>Northwest first with FALSE stopping</td>
+<td style="text-align: right;">1,012,537</td>
+</tr>
+<tr class="even">
+<td>Southeast first with FALSE stopping</td>
+<td style="text-align: right;">1,012,606</td>
+</tr>
+</tbody>
+</table></div>
+<p>None of the 1,092 tasks is GOOD; no candidate is GOOD in the complete 14-solver catalogue either. This adverse result supplies no empirical validation of positive certificates or their competitive ratios. The wrapped mixture uses approximately <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>3.64981</mn><mi>%</mi></mrow><annotation encoding="application/x-tex">3.64981\%</annotation></semantics></math> fewer disclosures than census with the same wrapper, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>22.7304</mn><mi>%</mi></mrow><annotation encoding="application/x-tex">22.7304\%</annotation></semantics></math> fewer than full census, and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>7.79044</mn><mi>%</mi></mrow><annotation encoding="application/x-tex">7.79044\%</annotation></semantics></math> fewer than its own unaugmented version. These are fixed-cohort negative-verdict comparisons, without a cost-optimal negative comparator or a general claim of superiority to every negative-input policy.</p>
+<p>The official archive is available at <a href="https://satcompetition.github.io/2024/downloads/detailed_results.zip" class="uri">https://satcompetition.github.io/2024/downloads/detailed_results.zip</a>. Its SHA-256 is <code>dfdf1d515fc95e95d3b76f907a2ce67932af1f8905f90c3dd7f743ea6c2b751a</code>; the main CSV SHA-256 is <code>a00f623691e3aa4e10adc85ee0d15b63fbaa25a3cef9c5787d81650ea9d821c6</code>. The addendum records the retrieval protocol, exact derived results and independent verification. It excludes the source ZIP and CSV bytes because a redistribution licence has not been established. These replays establish disclosure reductions under their declared simulated access contracts; financial or energy benefits and an operational evidence service remain unmeasured.</p>
+
+</body></html>

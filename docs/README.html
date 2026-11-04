@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; font-src 'none'; base-uri 'none'"><title>UPPC research notes and reproducibility documentation</title><style>
+:root { color-scheme: light; }
+body { max-width: 1060px; margin: 32px auto; padding: 0 32px 72px;
+  color: #18212a; background: white; font: 18px/1.6 Georgia, serif; }
+h1,h2,h3,h4,h5,h6 { color: #162b41; line-height: 1.25;
+  font-family: system-ui, sans-serif; overflow-wrap: anywhere; }
+h1 {font-size: 2rem;} h2 {font-size: 1.5rem; margin-top: 2rem;}
+h3 {font-size: 1.2rem; margin-top: 1.6rem;}
+a {color: #135d9c; text-decoration-thickness: 1px;}
+code {font-size: .88em; overflow-wrap: anywhere;}
+pre {padding: 16px; background: #f2f4f6; overflow-x: auto;
+  white-space: pre; border-radius: 4px; line-height: 1.4;}
+pre code {overflow-wrap: normal;}
+.table-scroll {overflow-x: auto; margin: 1em 0;}
+table {border-collapse: collapse; font-size: .91em; width: 100%;}
+th,td {padding: 9px 12px; border: 1px solid #c7d0d8; vertical-align: top;}
+th {background: #edf2f6; text-align: left;}
+math[display="block"] {display: block; overflow-x: auto; overflow-y: hidden;
+  padding: 8px 0; margin: 10px 0; max-width: 100%;}
+blockquote {margin-left: 0; padding-left: 18px; border-left: 3px solid #c7d0d8;}
+.document-note {font: .88em/1.5 system-ui,sans-serif; color: #475361;}
+@media print { body {max-width: none; margin: 0; padding: 0; font-size: 11pt;}
+  pre {white-space: pre-wrap;} a {color: inherit;}}
+</style></head><body>
+<p class="document-note">Offline reading view. Mathematics uses native MathML; no external scripts, fonts or rendering services are required.</p>
+<h1 id="uppc-research-notes-and-reproducibility-documentation">UPPC research notes and reproducibility documentation</h1>
+<p>Antonio Clim. Companion version <strong>1.2.0</strong> for <em>The Price of Finding a Certificate: Unsupported Pareto Points under Prefix Queries</em>.</p>
+<p>The public companion collects the scientific software, retained inputs and outputs, evidence maps and selected research notes. The article, Essential Supplement and their canonical sources form a separate submission package.</p>
+<h2 id="additional-research-and-evidence">Additional research and evidence</h2>
+<ul>
+<li><a href="research_notes/SQUARE_EXTENSIONS_COMPLETE.html">Complete square/comparator research note</a></li>
+<li><a href="research_notes/TRIANGLE_FINITE_EXTENSIONS_COMPLETE.html">Complete finite-triangle classifications</a></li>
+<li><a href="research/MATHEMATICAL_EXTENSIONS_P61.html">Complete earlier many-criterion extensions and controls</a></li>
+<li><a href="research/ACCESS_MODELS_AND_IMPLEMENTATION_BOUNDARIES.html">Secondary access-model and implementation boundaries</a></li>
+<li><a href="research_notes/EXTENDED_METHODS_AND_REPLAYS.html">Extended methods, replay evidence and interpretation</a></li>
+<li><a href="history/TRIANGLE_UPPER_BOUND_CONTROLS.html">Historical triangle bounds and adverse arguments</a></li>
+<li><a href="replays/APEX.html">APEX replay</a> and <a href="replays/SAT2024.html">SAT 2024 replay</a></li>
+<li><a href="applications/SCENARIOS_AND_ASSUMPTIONS.html">Proposed application contracts</a> and <a href="applications/AUDIT_SERVICE_AND_STOPPING.html">extended service interpretation</a></li>
+<li><a href="economics/OVERHEAD_AND_BREAK_EVEN.html">Overhead protocol and conditional accounting</a></li>
+</ul>
+<p>The retained replays do not measure production profit, energy savings or new solver performance. Negative-only SAT tasks, the lack of positive APEX disclosure savings and computation overhead remain visible in the essential scientific synopsis and in the complete notes.</p>
+<p><a name="heading-readme-reproduce-and-inspect-provenance"></a></p>
+<h2 id="reproduce-and-inspect-provenance">Reproduce and inspect provenance</h2>
+<ul>
+<li><a href="reproducibility/BASELINE_REPLAY.html">Baseline commands and coverage</a></li>
+<li><a href="reproducibility/P58_EXTENSIONS.html">P58 extension modes and dependencies</a></li>
+<li><a href="implementation/CONSTRUCTIVE_POLICIES.html">Operational policy walkthrough</a></li>
+<li><a href="implementation/DISCLOSURE_SERVICE.html">Disclosure demonstrators and controls</a></li>
+<li><a href="provenance/SOURCE_DATA_AND_RIGHTS.html">Source data and rights</a></li>
+<li><a href="provenance/RESEARCH_HISTORY.html">Research/control history</a></li>
+<li><a href="REFERENCES.html">Shared bibliography</a></li>
+<li><a href="INTEGRATION_INDEX.html">All modules and their roles</a></li>
+</ul>
+<h2 id="software-paths-and-offline-reading">Software paths and offline reading</h2>
+<p>In the downloaded release ZIP, run scientific commands from <code>companion/reproduction/</code>. In a GitHub checkout, run the same commands from the repository root. The technical modules give the paths and prerequisites for the frozen programs. Begin with <a href="reproducibility/BASELINE_REPLAY.html">Baseline replay</a> and <a href="reproducibility/P58_EXTENSIONS.html">P58 extensions</a>.</p>
+<p>Each Markdown module has a neighbouring offline HTML view. The HTML uses native MathML and local styles. Open <a href="README.html">the offline index</a> after extracting the ZIP.</p>
+<h2 id="citation-and-component-rights">Citation and component rights</h2>
+<ul>
+<li>Companion version 1.2.0. <a href="https://doi.org/10.5281/zenodo.23936602" class="uri">https://doi.org/10.5281/zenodo.23936602</a></li>
+<li>Frozen software baseline version 1.1.0. <a href="https://doi.org/10.5281/zenodo.23646970" class="uri">https://doi.org/10.5281/zenodo.23646970</a></li>
+</ul>
+<p>The archived baseline commit is <code>1d8c97b0dbb675843894e0644563b99481eb65a3</code>. The baseline DOI cites that earlier snapshot. The v1.2.0 DOI identifies the software and documentation package described here.</p>
+<p>Existing software, documentation and third-party licences apply to their respective components. Manuscript-derived research notes retain their existing rights. See the <a href="../RIGHTS_NOTICE.md">component rights notice</a>.</p>
+
+</body></html>

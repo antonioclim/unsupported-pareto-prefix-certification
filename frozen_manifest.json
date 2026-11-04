@@ -1,7 +1,7 @@
 {
   "schema": "p33-review-companion-frozen-v1",
   "created_at_utc": "2026-10-25T00:00:00+00:00",
-  "purpose": "Version 1.1.0 administrative refresh of the legacy member set. Scientific files are unchanged; P58 has its own manifest and is bound by the final package manifest.",
+  "purpose": "Version 1.2.0 GitHub metadata rebind; all scientific input hashes retain their baseline values.",
   "excluded": [
     "results/ (runtime reports)",
     "LICENSE_SCOPE.json (post-freeze rights inventory)",
@@ -12,13 +12,13 @@
   "files": [
     {
       "path": "CITATION.cff",
-      "bytes": 1324,
-      "sha256": "35b9da5a6bab46e121e5f40b1c513d2cc657118cb850fa2903bcdd67aafd2d20"
+      "bytes": 654,
+      "sha256": "91cd9ae27e4d0167f6d0bd3200f5d778632928c435e903eb4bd5fa8b09da5a17"
     },
     {
       "path": "CURRENT_RELEASE_METADATA.json",
-      "bytes": 4864,
-      "sha256": "621b6ef13da8b28dd9b30a188a5fa63a04a7907ee2f0b31460f361cf65a70c56"
+      "bytes": 1284,
+      "sha256": "4e28d68a882b37d753f60996bb11a2f8c4d4928884994ebe73a80be24cebd9d0"
     },
     {
       "path": "LICENSE",
@@ -42,18 +42,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 6231,
-      "sha256": "7a0e9b76672bd524a3fb1a59269f52ca0908d888237f9f1458f8cabaa0c1460b"
+      "bytes": 1536,
+      "sha256": "1e612675b7afa5b2567293032d0b340fdbeceef993cb6c34ff206e3e8cc12b69"
     },
     {
       "path": "README.txt",
-      "bytes": 6231,
-      "sha256": "7a0e9b76672bd524a3fb1a59269f52ca0908d888237f9f1458f8cabaa0c1460b"
+      "bytes": 1536,
+      "sha256": "1e612675b7afa5b2567293032d0b340fdbeceef993cb6c34ff206e3e8cc12b69"
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 11478,
-      "sha256": "9ed2d4a424cb1e37cc2df628908055f8a8c9e7a184b7c2bc5c0c257af143e039"
+      "bytes": 609,
+      "sha256": "75fa0d2427564576a5d00cbc5ae3a935849c5e1dc4eed075663d4ee3e75af4a1"
     },
     {
       "path": "RESULTS_MAP.json",
@@ -1877,6 +1877,56 @@
     }
   ],
   "administrative_update": {
+    "revision": "UPPC-v1.2.0",
+    "changed_administrative_paths": [
+      "CITATION.cff",
+      "CURRENT_RELEASE_METADATA.json",
+      "README.md",
+      "README.txt",
+      "RELEASE_NOTES.md"
+    ],
+    "original_1_1_0_manifest_sha256": "7f12733efff15881ab4055d12d3dff1291b5475f7e58e1015e9ea211d560681f",
+    "original_1_1_0_manifest_path": "provenance/frozen_1_1_0/frozen_manifest.json",
+    "rebound_rows": [
+      {
+        "path": "CITATION.cff",
+        "before_bytes": 1324,
+        "before_sha256": "35b9da5a6bab46e121e5f40b1c513d2cc657118cb850fa2903bcdd67aafd2d20",
+        "after_bytes": 654,
+        "after_sha256": "91cd9ae27e4d0167f6d0bd3200f5d778632928c435e903eb4bd5fa8b09da5a17"
+      },
+      {
+        "path": "CURRENT_RELEASE_METADATA.json",
+        "before_bytes": 4864,
+        "before_sha256": "621b6ef13da8b28dd9b30a188a5fa63a04a7907ee2f0b31460f361cf65a70c56",
+        "after_bytes": 1284,
+        "after_sha256": "4e28d68a882b37d753f60996bb11a2f8c4d4928884994ebe73a80be24cebd9d0"
+      },
+      {
+        "path": "README.md",
+        "before_bytes": 6231,
+        "before_sha256": "7a0e9b76672bd524a3fb1a59269f52ca0908d888237f9f1458f8cabaa0c1460b",
+        "after_bytes": 1536,
+        "after_sha256": "1e612675b7afa5b2567293032d0b340fdbeceef993cb6c34ff206e3e8cc12b69"
+      },
+      {
+        "path": "README.txt",
+        "before_bytes": 6231,
+        "before_sha256": "7a0e9b76672bd524a3fb1a59269f52ca0908d888237f9f1458f8cabaa0c1460b",
+        "after_bytes": 1536,
+        "after_sha256": "1e612675b7afa5b2567293032d0b340fdbeceef993cb6c34ff206e3e8cc12b69"
+      },
+      {
+        "path": "RELEASE_NOTES.md",
+        "before_bytes": 11478,
+        "before_sha256": "9ed2d4a424cb1e37cc2df628908055f8a8c9e7a184b7c2bc5c0c257af143e039",
+        "after_bytes": 609,
+        "after_sha256": "75fa0d2427564576a5d00cbc5ae3a935849c5e1dc4eed075663d4ee3e75af4a1"
+      }
+    ]
+  },
+  "timestamp_semantics": "Nominal release-date stamp for reproducible packaging, not execution time.",
+  "previous_administrative_update": {
     "revision": "P53",
     "reason": "Confirmed publication metadata only; all scientific code/data/retained output bytes unchanged.",
     "original_P52_manifest_sha256": "c98a77cc72326a882ee36de721efcfafaa8760a8a71387100ecd4bfe0a32d7a6",
@@ -1892,6 +1942,5 @@
       "release_preparation/CITATION.cff",
       "release_preparation/Release_Metadata_Draft.json"
     ]
-  },
-  "timestamp_semantics": "Nominal release-date stamp for reproducible packaging, not execution time."
+  }
 }

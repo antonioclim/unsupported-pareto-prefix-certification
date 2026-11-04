@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; font-src 'none'; base-uri 'none'"><title>Source data, provenance and component rights</title><style>
+:root { color-scheme: light; }
+body { max-width: 1060px; margin: 32px auto; padding: 0 32px 72px;
+  color: #18212a; background: white; font: 18px/1.6 Georgia, serif; }
+h1,h2,h3,h4,h5,h6 { color: #162b41; line-height: 1.25;
+  font-family: system-ui, sans-serif; overflow-wrap: anywhere; }
+h1 {font-size: 2rem;} h2 {font-size: 1.5rem; margin-top: 2rem;}
+h3 {font-size: 1.2rem; margin-top: 1.6rem;}
+a {color: #135d9c; text-decoration-thickness: 1px;}
+code {font-size: .88em; overflow-wrap: anywhere;}
+pre {padding: 16px; background: #f2f4f6; overflow-x: auto;
+  white-space: pre; border-radius: 4px; line-height: 1.4;}
+pre code {overflow-wrap: normal;}
+.table-scroll {overflow-x: auto; margin: 1em 0;}
+table {border-collapse: collapse; font-size: .91em; width: 100%;}
+th,td {padding: 9px 12px; border: 1px solid #c7d0d8; vertical-align: top;}
+th {background: #edf2f6; text-align: left;}
+math[display="block"] {display: block; overflow-x: auto; overflow-y: hidden;
+  padding: 8px 0; margin: 10px 0; max-width: 100%;}
+blockquote {margin-left: 0; padding-left: 18px; border-left: 3px solid #c7d0d8;}
+.document-note {font: .88em/1.5 system-ui,sans-serif; color: #475361;}
+@media print { body {max-width: none; margin: 0; padding: 0; font-size: 11pt;}
+  pre {white-space: pre-wrap;} a {color: inherit;}}
+</style></head><body>
+<p class="document-note">Offline reading view. Mathematics uses native MathML; no external scripts, fonts or rendering services are required.</p>
+<p><a name="heading-provenance-source_data_and_rights-source-data-provenance-and-component-rights"></a></p>
+<h1 id="source-data-provenance-and-component-rights">Source data, provenance and component rights</h1>
+<p><a name="s9-3-data-rights"></a></p>
+<p><a href="../README.html">Documentation index</a></p>
+<p><strong>Role:</strong> Detailed source-data provenance, transformations and component-specific rights. <strong>Source:</strong> UPPC P61, S9.3, Antonio Clim. Documentation for companion version 1.2.0. Source prose retains its existing manuscript/supplement rights; moving it to MD grants no additional licence.</p>
+<p><strong>Path convention:</strong> scientific commands and scientific-file paths below start at the frozen companion’s <code>reproduction/</code> root unless a different working directory is expressly stated. In a GitHub source checkout, the equivalent working directory is the repository root; the command paths are identical. Run commands from that software root, not from this <code>docs/</code> directory. Retained results are not a claim of a fresh execution. References to manuscript sections and statements use their scientific identifiers; the separately supplied review documents contain the essential proofs.</p>
+<p><a name="heading-provenance-source_data_and_rights-s9-3-source-data-and-component-specific-rights"></a></p>
+<p><strong>Reading context.</strong> Section and statement identifiers refer to their original research stages. This note preserves the stated arguments, evidence and limitations. The article and Essential Supplement form a separate review package.</p>
+<h3 id="s9.3.-source-data-and-component-specific-rights">S9.3. Source data and component-specific rights</h3>
+<p>The APEX dataset attribution and licence notice are retained in <code>legacy/p9/licence/THIRD_PARTY_APEX.txt</code>; the licence text is <code>legacy/p9/licence/ccby4_legalcode.txt</code>. The source is M. H. Mohamed Hydher, <em>APEX Dataset: Testbed Traces and Evaluation Results</em>, version 1.0, DOI <code>10.3217/3dhx0-2k125</code>, licensed under Creative Commons Attribution 4.0 International. Original files are retained under <code>legacy/p9/licence/apex_dataset/</code>: <code>Crystal_results.json</code>, <code>RPL_results.json</code> and <code>README.md</code>.</p>
+<p>The secondary analysis sorts configurations and rows, derives failure from reliability, forms exact finite means and partial-sum bounds, transforms the declared latency objective and constructs simulated disclosure transcripts. These changes are identified; no new radio experiment is represented. Attribution, the dataset DOI, the licence link and the description of changes accompany the retained data.</p>
+<p>The <a href="https://www.carloalbertoboano.com/documents/hydher25tosn_errata.pdf">APEX authors’ erratum</a> corrects the article’s RPL rank-threshold values from <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">{</mo><mn>4</mn><mo>,</mo><mn>8</mn><mo>,</mo><mn>12</mn><mo>,</mo><mn>16</mn><mo stretchy="false" form="postfix">}</mo></mrow><annotation encoding="application/x-tex">\{4,8,12,16\}</annotation></semantics></math> to <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">{</mo><mn>1.5</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>6</mn><mo stretchy="false" form="postfix">}</mo></mrow><annotation encoding="application/x-tex">\{1.5,3,6\}</annotation></semantics></math>. The frozen data already store <code>_RANK_THRESHOLD</code> as <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">{</mo><mn>192</mn><mo>,</mo><mn>384</mn><mo>,</mo><mn>768</mn><mo stretchy="false" form="postfix">}</mo></mrow><annotation encoding="application/x-tex">\{192,384,768\}</annotation></semantics></math>, which gives the corrected set after division by 128. The separate <code>_RPL_DIO_INTERVAL_MIN</code> parameter has values <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">{</mo><mn>4</mn><mo>,</mo><mn>8</mn><mo>,</mo><mn>12</mn><mo>,</mo><mn>16</mn><mo stretchy="false" form="postfix">}</mo></mrow><annotation encoding="application/x-tex">\{4,8,12,16\}</annotation></semantics></math>. Inspection of the retained replay loader confirms that it groups actual parameter dictionaries and does not hard-code the erroneous article table. This provenance correction requires no change to the frozen input bytes or to the replay calculation. The static inspection is distinct from a new execution of that calculation.</p>
+<p>The associated APEX software record, DOI <code>10.3217/ckwaw-z8h92</code>, has a separate MIT licence. Its firmware and framework software were not executed by this work and are not the source of a blanket licence for this companion. The APEX article, DOI <code>10.1145/3770918</code>, is a separate cited work. Dataset reuse permission is not inferred from article access.</p>
+<p>The author’s new code is licensed under BSD-3-Clause and the author’s new documentation, tables and figures under CC BY 4.0, to the extent of the author’s rights. Third-party components retain their own licences and attributions; the dataset’s CC BY 4.0 licence does not supply rights to other components. The companion repository is <a href="https://github.com/antonioclim/unsupported-pareto-prefix-certification" class="uri">https://github.com/antonioclim/unsupported-pareto-prefix-certification</a>. Version 1.1.0 is archived at <a href="https://doi.org/10.5281/zenodo.23646970" class="uri">https://doi.org/10.5281/zenodo.23646970</a>; the earlier version 1.0.0 remains at <a href="https://doi.org/10.5281/zenodo.23632859" class="uri">https://doi.org/10.5281/zenodo.23632859</a>. The source versions and reading limits remain explicit; bibliography verification and internal computational checks do not establish historical priority or substitute for external peer review.</p>
+
+</body></html>
